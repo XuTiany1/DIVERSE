@@ -1,19 +1,9 @@
-# coding=utf-8
-# Copyright 2018 The Google AI Language Team Authors and The HuggingFace Inc. team.
-# Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+
 """ Fine-tuning the library models for named entity recognition on CoNLL-2003. """
+
+#########################
+# IMPORT LIBRARIES
+#########################
 import sys
 import logging
 import os
@@ -49,6 +39,10 @@ import pdb
 logger = logging.getLogger(__name__)
 
 
+
+#########################
+# ARGUMENT PARSING: ModelArguments
+#########################
 @dataclass
 class ModelArguments:
     """
@@ -84,6 +78,10 @@ class ModelArguments:
     )
 
 
+
+#########################
+# ARGUMENT PARSING: DataTrainingArguments
+#########################
 @dataclass
 class DataTrainingArguments:
     """
@@ -115,19 +113,37 @@ class DataTrainingArguments:
 
 
 
-def main():
-    # See all possible arguments in src/transformers/training_args.py
-    # or by passing the --help flag to this script.
-    # We now keep distinct sets of args, for a cleaner separation of concerns.
+'''
 
+RECAP:
+ModelArguments:
+    - Purpose: Stores model/tokenizer-related settings	
+    - What it does: Passed to AutoModelForTokenClassification and AutoTokenizer
+
+DataTrainingArguments:
+    - Purpose: Stores dataset paths and preprocessing settings	
+    - What it does: Used to load and preprocess dataset (TokenClassificationDataset)
+
+Trainer:
+    - Handles training & evaluation	
+    - Uses these arguments to set up training loops
+
+'''
+
+
+
+def main():
+
+    # handle command-line arguments.
     parser = HfArgumentParser((ModelArguments, DataTrainingArguments, TrainingArguments))
+
+    # parses arguments either json file or commandline
     if len(sys.argv) == 2 and sys.argv[1].endswith(".json"):
-        # If we pass only one argument to the script and it's the path to a json file,
-        # let's parse it to get our arguments.
         model_args, data_args, training_args = parser.parse_json_file(json_file=os.path.abspath(sys.argv[1]))
     else:
         model_args, data_args, training_args = parser.parse_args_into_dataclasses()
 
+    # Prevents overwriting an existing model unless --overwrite_output_dir is set.
     if (
         os.path.exists(training_args.output_dir)
         and os.listdir(training_args.output_dir)
@@ -138,6 +154,7 @@ def main():
             f"Output directory ({training_args.output_dir}) already exists and is not empty. Use --overwrite_output_dir to overcome."
         )
 
+    # Dynamically imports the task module
     module = import_module("tasks")
     try:
         token_classification_task_clazz = getattr(module, model_args.task_type)
@@ -162,7 +179,7 @@ def main():
         bool(training_args.local_rank != -1),
         training_args.fp16,
     )
-    # Set the verbosity to info of the Transformers logger (on main process only):
+    # Configure huggingface logger
     if is_main_process(training_args.local_rank):
         transformers.utils.logging.set_verbosity_info()
         transformers.utils.logging.enable_default_handler()
@@ -172,12 +189,12 @@ def main():
     # Set seed
     set_seed(training_args.seed)
 
-    # Prepare CONLL-2003 task
+    # Prepare CONLL-2003 task, load the dataset 
     labels = token_classification_task.get_labels(data_args.data_labels)
     label_map: Dict[int, str] = {i: label for i, label in enumerate(labels)}
     num_labels = len(labels)
 
-    # Load pretrained model and tokenizer
+    # Load pretrained model and tokenizer from checkpoints
     #
     # Distributed training:
     # The .from_pretrained methods guarantee that only one local process can concurrently
@@ -188,7 +205,7 @@ def main():
         ckpt_path_list = sorted(ckpt_path_list, key=lambda x : int(x.split("-")[1]))
         load_model_dir = ckpt_path_list[model_args.previous_run_epoch - 1]  # index starts from 0
         model_args.model_name_or_path = os.path.join(model_args.previous_run_dir, load_model_dir)
-
+    # Loading model configuration
     config = AutoConfig.from_pretrained(
         model_args.config_name if model_args.config_name else model_args.model_name_or_path,
         num_labels=num_labels,
@@ -198,23 +215,24 @@ def main():
     )
     # pdb.set_trace()
 
-    # code change begin
+    # Configure task-specific parameters
     config.task_specific_params = {}
     config.task_specific_params["solution_correct_loss_weight"] = 1.0
     config.task_specific_params["solution_incorrect_loss_weight"] = 1.0
     config.task_specific_params["step_correct_loss_weight"] = data_args.alpha
     config.task_specific_params["step_incorrect_loss_weight"] = data_args.alpha
     config.task_specific_params["other_label_loss_weight"] = 0.0
-    # code change end
 
     print("alpha:", data_args.alpha)
     print("alpha:", config.task_specific_params["step_correct_loss_weight"])
 
+    # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(
         model_args.tokenizer_name if model_args.tokenizer_name else model_args.model_name_or_path,
         cache_dir=model_args.cache_dir,
         use_fast=model_args.use_fast,
     )
+    # Load pre-trained model
     model = DebertaV2ForTokenClassification.from_pretrained(
         model_args.model_name_or_path,
         from_tf=bool(".ckpt" in model_args.model_name_or_path),
@@ -223,6 +241,7 @@ def main():
     )
     
     # data_dir = data_args.train_data.replace("train.txt", "")  # for debug use
+    # Load dataset
     data_dir = os.path.join(training_args.output_dir, "data/")
     print("[data_dir]:", data_dir)
     os.makedirs(data_dir, exist_ok=True)
@@ -236,7 +255,7 @@ def main():
     shutil.copy(utils_io.get_file(data_args.data_labels), data_dir)
     print(f"labels file copied to: {data_dir}")
 
-    # Get datasets
+    # Load the datasets
     train_dataset = (
         TokenClassificationDataset(
             token_classification_task=token_classification_task,

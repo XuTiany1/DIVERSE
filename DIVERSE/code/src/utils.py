@@ -1,3 +1,6 @@
+#######################
+# IMPORT LIBRARIES
+#######################
 import re
 from tqdm import tqdm
 from multiset import Multiset
@@ -16,6 +19,13 @@ from transformers import (
 import time
 
 
+"""
+A BaseCase object represents one complete question, including:
+    - The question itself
+    - The correct ground-truth answer
+    - A list of predicted answers (from the model)
+    - Methods to assign correctness labels to predictions
+"""
 class BaseCase:
     def __init__(self, ground_truth, preds):
         self.question = ""
@@ -29,33 +39,37 @@ class GSM8KCase(BaseCase):
         super().__init__(ground_truth, preds)
         self.entailment_batch_size = 512
 
+    #######################
+    # Step Labeling for GSM8K
+    #######################
     def do_step_labeling(self, model=None, tokenizer=None):
-        # 将ground_truth标记为true
+        
+        # Mark ground truth label to be true
         self.ground_truth.is_correct = True
         for step in self.ground_truth.steps:
             self.ground_truth.step_labels[step] = 1
 
-        # 先预存正样本集合
+        # Store correct predictions (exact match)
         positive_preds = [self.ground_truth]
         for i, pred in enumerate(self.preds):
             if pred.get_final_answer() != BaseExample.inf and pred.get_final_answer() == self.ground_truth.get_final_answer():
                 positive_preds.append(pred)
 
-        # 再对所有样本的所有step打标签
+        # Compare all steps
         for i, pred in enumerate(self.preds):
             if pred.get_final_answer() != BaseExample.inf and pred.get_final_answer() == self.ground_truth.get_final_answer():
                 pred.is_correct = True
                 for step in pred.steps:
-                    pred.step_labels[step] = 1
+                    pred.step_labels[step] = 1  # Mark correct steps
             else:
                 for k, step in enumerate(pred.steps):
                     ans = GSM8KExample.match(
-                        pred.steps[:k+1],
-                        positive_preds,
+                        pred.steps[:k+1],   # Steps so far
+                        positive_preds,     # Ground truth steps
                         model=model,
                         tokenizer=tokenizer,
                     )
-                    pred.step_labels[step] = ans
+                    pred.step_labels[step] = ans    # Assign a correctness label
 
 
 class TextEntailmentCase(BaseCase):
@@ -128,45 +142,64 @@ class TextEntailmentCase(BaseCase):
             self.entailment_results[text] = 1 if result else 0
 
 
+"""
+A BaseExample object represents one possible answer (either correct or predicted) to a given question.
+It breaks the answer into steps and assigns correctness labels.
+
+- Stores the solution content (content) and extracts step-by-step reasoning (steps).
+- Keeps labels (step_labels) to indicate which steps are correct (1) or incorrect (0).
+- Extracts the final answer (get_final_answer()) from a solution.
+"""
 class BaseExample:
     inf = "-99999999"
     
     def __init__(self, content):
-        self.content = content.strip()
-        self.steps = self.get_steps()
-        self.step_labels = {}
-        self.sequence_labels = []
-        self.is_correct= False
+        self.content = content.strip()      # Stores the solution text
+        self.steps = self.get_steps()       # Extracts step-by-step reasoning
+        self.step_labels = {}               # Stores labels for each step (1 = correct, 0 = incorrect)
+        self.sequence_labels = []           # Stores labeled tokens for sequence labeling
+        self.is_correct= False              # Whether the solution is correct
 
     # Only for GSM8K dataset use
     def init_equations(self):
         raise NotImplementedError
 
+    # Extract steps from a solution
     def get_steps(self):
         return [x+"%%" if x != self.content.split("%%")[-1] else x for i, x in enumerate(self.content.split("%%"))]
 
+    # Extract final answer from the solution
     def get_final_answer(self):
         ans = ""
         if "####" in self.content:
             ans = self.content.split("####")[-1].strip().replace("%%", "").replace(" ", "")
         else:
-            ans = BaseExample.inf
+            ans = BaseExample.inf            # If no answer is found, return "-999999.."
         return clean_ans(ans)
 
     def label_to_string(self):
         return "".join(str(self.labels[k]) for k in self.labels.keys())
 
 
+"""
+Extend BaseExample to support mathematical problem-solving
+
+- Extracts equations (init_equations()) from the solution.
+- Checks correctness of individual steps (match()) by comparing against correct examples.
+- Extracts final answers (get_answer()) using regex patterns.
+- Generates labeled token sequences (get_sequence_labels()) for Named Entity Recognition (NER) tasks.
+"""
 class GSM8KExample(BaseExample):
     def __init__(self, content):
         super().__init__(content)
-        self.equations = self.init_equations()
-        self.verifier_score = 0.0
+        self.equations = self.init_equations()      # Extract mathemtical equations
+        self.verifier_score = 0.0 
 
-    # 按'<<xxx>>'的格式将公式提取出来
+    # Extract equations from the content
     def init_equations(self):
         return [x for x in re.findall("<<.+>>[0-9\.]+", self.content) if "=" in x]
 
+    # Extract the answer from a solution step
     def get_step_answer(step):
         expression = re.findall("<<.+>>[0-9\.]+", step)
         if len(expression == 0):
@@ -175,6 +208,7 @@ class GSM8KExample(BaseExample):
             ans = expression[-1].split(">>")[-1].strip()
         return clean_ans(ans)
     
+    # Extract the final answer from a solution
     @staticmethod
     @lru_cache(maxsize=4096)
     def get_answer(s):
@@ -189,29 +223,80 @@ class GSM8KExample(BaseExample):
                 ans = expression[-1].split(">>")[-1].strip()
         return clean_ans(ans)
     
+    # Checks if a predicted step sequence matches any known correct example
+        # If all numbers extracted from the predicted steps are found in a correct example, it is marked correct (returns 1).
+        # If not, it is incorrect (returns 0).
     @staticmethod
     def match(steps, positive_examples, model=None, tokenizer=None):
         curr_set = Multiset([GSM8KExample.get_answer(x) for x in steps])
         for positive_example in positive_examples:
             golden_set = Multiset([GSM8KExample.get_answer(x) for x in positive_example.steps])
+            
+            # Remove invalude values
             if GSM8KExample.inf in curr_set:
                 curr_set.remove(GSM8KExample.inf)
             if GSM8KExample.inf in golden_set:
                 golden_set.remove(GSM8KExample.inf)
+
+            # If there are no valid steps, assume incorrect
             if len(curr_set) == 0:
                 return 0
+
+            # If all steps are in the correct set, mark as correct
             if curr_set.issubset(golden_set):
                 return 1
+        # 0 if no match is found
         return 0
+    """
+    EXAMPLE to make the above function more clear
+
+    Question:
+    “Lisa has 3 apples. She buys 2 more. How many does she have now?”
+
+
+    Correct Solution (ground truth):
+    Step 1: Lisa has 3 apples.  # No computation yet
+    Step 2: She buys 2 more.  # Still no computation
+    Step 3: <<3 + 2>> 5  # Computation + final answer
+    Final Answer: #### 5
+
+
+    Incorrect Student Attempt:
+    Step 1: Lisa starts with 3 apples.  
+    Step 2: She buys <<2>> more.  
+    Step 3: She now has <<3+2>> 4.  
+    Final Answer: #### 4
+
+    - Extracted numbers: {3, 2, 4}
+    - Correct numbers: {3, 2, 5}
+    - Since {3, 2, 4} is not a subset of {3, 2, 5}, match() returns 0.
+
     
+    Correct Student Attempt:
+    Step 1: She starts with 3 apples.  
+    Step 2: She gets <<2>> more.  
+    Step 3: She now has <<3 + 2>> 5.  
+    Final Answer: #### 5
+
+    - Extracted numbers: {3, 2, 5}
+    - Correct numbers: {3, 2, 5}
+    - {3, 2, 5} matches the correct answer, so match() returns 1.
+    """
+
+
+    
+    # Create token-level sequence labels for NER training
+    # Labels whether a step or answer is correct or not
     def get_sequence_labels(question, pred):
         sequence_labels = []
+
+        # Label the CLS token (solution correctness)
         if pred.is_correct:
             sequence_labels.append(("[CLS]", "SOLUTION-CORRECT"))
         else:
             sequence_labels.append(("[CLS]", "SOLUTION-INCORRECT"))
 
-        # add step tokens
+        # Label step tokens
         for s in pred.steps:
             token_list = [x for x in re.split("(>>| )", s) if x != ' ']
             for token in token_list:
@@ -226,12 +311,91 @@ class GSM8KExample(BaseExample):
         # add a split symbol
         sequence_labels.append(("&&", "O"))
 
-        # add question tokens
+        # Label question tokens
         for token in question.split(" "):
             sequence_labels.append((token, "O"))
 
         return sequence_labels
     
+    """
+    EXAMPLE TO UNDERSTAND BETTER the function above
+
+    Let’s say we are training a machine learning model to learn which steps are correct or incorrect in problem-solving.
+
+    Correct Solution:
+    Step 1: Lisa has 3 apples.  
+    Step 2: She buys <<2>> more.  
+    Step 3: She now has <<3 + 2>> 5.  
+    Final Answer: #### 5
+    
+    Labeled Output (for NER training):
+    [CLS] SOLUTION-CORRECT
+    Lisa O
+    has O
+    3 O
+    apples O
+    She O
+    buys O
+    << O
+    2 STEP-CORRECT
+    >> STEP-CORRECT
+    more O
+    She O
+    now O
+    has O
+    << O
+    3 STEP-CORRECT
+    + STEP-CORRECT
+    2 STEP-CORRECT
+    >> STEP-CORRECT
+    5 STEP-CORRECT
+    #### SOLUTION-CORRECT
+    && O
+    Lisa O
+    has O
+    how O
+    many O
+    ? O
+
+    
+
+    INCORRECT SOLUTION
+    Step 1: Lisa has 3 apples.  
+    Step 2: She buys <<2>> more.  
+    Step 3: She now has <<3 + 2>> 4.  
+    Final Answer: #### 4
+
+    Labeled Output:
+    [CLS] SOLUTION-INCORRECT
+    Lisa O
+    has O
+    3 O
+    apples O
+    She O
+    buys O
+    << O
+    2 STEP-CORRECT
+    >> STEP-CORRECT
+    more O
+    She O
+    now O
+    has O
+    << O
+    3 STEP-CORRECT
+    + STEP-CORRECT
+    2 STEP-CORRECT
+    >> STEP-CORRECT
+    4 STEP-INCORRECT
+    #### SOLUTION-INCORRECT
+    && O
+    Lisa O
+    has O
+    how O
+    many O
+    ? O
+    """
+
+
 
 class TextEntailmentExample(BaseExample):
     def __init__(self, content):

@@ -13,6 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """ PyTorch DeBERTa-v2 model. """
+
+#######################
+# LOAD LIBRARIES
+#######################
 import pdb
 import math
 from collections.abc import Sequence
@@ -38,10 +42,14 @@ from transformers.models.deberta_v2.configuration_deberta_v2 import DebertaV2Con
 
 logger = logging.get_logger(__name__)
 
+#######################
+# Model configuration and pretrained model list
+#######################
 _CONFIG_FOR_DOC = "DebertaV2Config"
 _TOKENIZER_FOR_DOC = "DebertaV2Tokenizer"
 _CHECKPOINT_FOR_DOC = "microsoft/deberta-v2-xlarge"
 
+# A bunch of available pretrained DeBERTa-V2 models
 DEBERTA_V2_PRETRAINED_MODEL_ARCHIVE_LIST = [
     "microsoft/deberta-v2-xlarge",
     "microsoft/deberta-v2-xxlarge",
@@ -50,7 +58,9 @@ DEBERTA_V2_PRETRAINED_MODEL_ARCHIVE_LIST = [
 ]
 
 
-# Copied from transformers.models.deberta.modeling_deberta.ContextPooler
+#######################
+# CUSTOM ATTENTION and Dropout implementation
+#######################
 class ContextPooler(nn.Module):
     def __init__(self, config):
         super().__init__()
@@ -58,6 +68,8 @@ class ContextPooler(nn.Module):
         self.dropout = StableDropout(config.pooler_dropout)
         self.config = config
 
+    # Extracts the representation of the [CLS] token (first token).
+    # Applies dropout (StableDropout) and a linear transformation (nn.Linear).
     def forward(self, hidden_states):
         # We "pool" the model by simply taking the hidden state corresponding
         # to the first token.
