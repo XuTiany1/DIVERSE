@@ -1,3 +1,7 @@
+####################
+# IMPORT LIBRARIES
+####################
+
 import absl  # Here to have a nice missing dependency error message early on
 import nltk  # Here to have a nice missing dependency error message early on
 import numpy  # Here to have a nice missing dependency error message early on
@@ -20,12 +24,14 @@ from utils import (
 )
 
 
+####################
+# DATASET SPECIFIC MAPPINGS
+####################
 case_class_map = {
     "GSM8K": GSM8KCase,
     "CLUTRR": TextEntailmentCase,
     "strategyQA": TextEntailmentCase,
 }
-
 example_class_map = {
     "GSM8K": GSM8KExample,
     "CLUTRR": TextEntailmentExample,

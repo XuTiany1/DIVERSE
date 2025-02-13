@@ -1,3 +1,6 @@
+####################
+# IMPORT LIBRARIES
+####################
 import os
 import json
 import random
@@ -25,6 +28,9 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+####################
+# DATASET RELATED MAPPING
+####################
 case_class_map = {
     "GSM8K": GSM8KCase,
     "CLUTRR": TextEntailmentCase,
@@ -37,6 +43,7 @@ example_class_map = {
     "strategyQA": TextEntailmentExample,
 }
 
+# This is specifically related to CLUTRR
 relation_reverse_map = {
     'sister': ['brother'],
     'son': ['father', 'mother'],
@@ -63,6 +70,8 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
 def main():
+
+    # Parse command line arguments:
     parser = argparse.ArgumentParser()
     parser.add_argument("--generator_result_file", type=str, default=None, help="generator output file in .jsonl format")
     parser.add_argument("--output_dir", type=str, default=None, help="output dir")
@@ -75,6 +84,7 @@ def main():
 
     random.seed(args.random_seed)
 
+    # Only load textual entail model if dataset is NOT GSM8K
     if args.dataset_name != "GSM8K":
         logger.info("Loading textual entailment models...")
         model = AutoModelForSequenceClassification.from_pretrained(args.text_entailment_model_name).to(device)
@@ -91,10 +101,12 @@ def main():
     # prompt data make up
     prompt_data = []
     for generator_output in generator_outputs:
-        context = generator_output["context"]
-        samples = generator_output["samples"]
+
+        # Extract structured fields from JSONL
+        context = generator_output["context"]       # Problem text
+        samples = generator_output["samples"]       # Model-generated answers
         for sample in samples:
-            metadata = generator_output["metadata"]
+            metadata = generator_output["metadata"] # Model-generated answers
             prompt_data.append({"context": context, "sample": sample, "metadata": metadata})
 
     prompt_data_dict = {}
@@ -102,6 +114,8 @@ def main():
     # some pre-processing about formulas and answers for GSM8K and other datasets
     for obj in tqdm(prompt_data):
         question = obj["metadata"]["question"].strip().replace("\n", "")
+        
+        # Find the final answere in the sample
         def extract_solution(sample):
             sample = sample.strip()
             if '####' in sample:
@@ -111,6 +125,8 @@ def main():
             sample = sample.replace('\n\n', '\n')
             return sample
         sample = extract_solution(obj["sample"])
+        
+        # In whatever code that's in this for loop, store question, ground truth, and predictions
         sample = sample.strip().replace("\n", "%%")  # for sequence labeling
         ground_truth = obj["metadata"]["ground_truth"].strip().replace("\n\n", "\n").replace("\n", "%%")  # for sequence labeling
         if args.dataset_name == "GSM8K":
@@ -144,22 +160,14 @@ def main():
         question_to_ground_truth[question] = ground_truth
         prompt_data_dict[question].append(sample)
 
-        # # code change
-        # if args.dataset_name == "CLUTRR":
-        #     if "####" not in sample:
-        #         continue
-        #     sample_body, sample_answer = sample.split("####")[0].strip(), sample.split("####")[-1].strip()
-        #     # pdb.set_trace()
-        #     if sample_answer in relation_reverse_map:
-        #         for reverse in relation_reverse_map[sample_answer]:
-        #             prompt_data_dict[question].append(sample_body + "####" + reverse)
-    
     # check the least sample num among all the cases
     min_sample_num_per_case  = 99999999
     for k in prompt_data_dict:
         min_sample_num_per_case = min(min_sample_num_per_case, len(prompt_data_dict[k]))
 
-    # converting data into Case
+    #########################
+    # convert Data to Case objects
+    #########################
     prompt_cases = []
     for k in prompt_data_dict:
         case = case_class_map[args.dataset_name]("", [])
@@ -177,7 +185,9 @@ def main():
     print(f"Case 0's ground truth: {prompt_cases[0].ground_truth.content}".replace("\n", "\\n"))
     print(f"Case 0's sample0: {prompt_cases[0].preds[0].content}".replace("\n", "\\n"))
 
-    # print the random top1 and recall of the data
+    #########################
+    # Compute data statistics
+    #########################
     print("*********** Data statistics ***********")
     res = compute_top1_and_recall(data=prompt_cases)
     for k in res:
@@ -197,26 +207,24 @@ def main():
     for j, case in enumerate(tqdm(prompt_cases)):
         case.do_step_labeling(model=model, tokenizer=tokenizer)
         
-    # pdb.set_trace()
-    
     for case_idx, case in enumerate(tqdm(prompt_cases)):
         case.ground_truth.sequence_labels = example_class_map[args.dataset_name].get_sequence_labels(case.question, case.ground_truth)      
         for pred_idx, pred in enumerate(case.preds):
             pred.sequence_labels = example_class_map[args.dataset_name].get_sequence_labels(case.question, pred)
-            # pdb.set_trace()
-    # pdb.set_trace()
     
     sequence_data = []
     for case_idx, case in enumerate(tqdm(prompt_cases)):
         sequence_data.append(case.ground_truth.sequence_labels)
         for pred_idx, pred in enumerate(case.preds):
             sequence_data.append(pred.sequence_labels)
-    # pdb.set_trace()
 
     # Train file is shuffled, but test file is not
     if args.split == "train":
         random.shuffle(sequence_data)
     
+    #########################
+    # SAVE processed data
+    #########################
     with open(os.path.join(args.output_dir, '{}.txt'.format(args.split)), "w") as f:
         for i, arr in enumerate(tqdm(sequence_data)):
             for lhs, rhs in arr:
