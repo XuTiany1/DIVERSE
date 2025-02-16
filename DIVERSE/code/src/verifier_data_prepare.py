@@ -1,3 +1,49 @@
+
+"""
+Prepares the training and testing data for the verifier by processing generator outputs 
+and creating labeled sequences for training a sequence-labeling model
+"""
+
+
+
+"""
+QUESTION: 
+1. What generator outputs? like from what model? is it just datasets downloaded from GSM8K?
+
+These are the outputs produced by a language model (or generator) that has generated reasoning paths for each GSM8K problem. 
+They aren't simply the raw GSM8K dataset; instead, they are the processed results—containing the problem text ("context"), the 
+generated reasoning paths ("samples"), and additional information like the question and the correct answer ("metadata")—from a 
+model that was run on the GSM8K data.
+
+
+----
+
+
+2. What does prompt_data_dict store? and how does it differ from prompt_data? 
+
+prompt_data:
+This is a list where each element is a dictionary holding a single sample. Each dictionary contains:
+    - "context": The problem text.
+    - "sample": One generated reasoning path.
+    - "metadata": Information about the question and ground truth.
+
+    
+
+prompt_data_dict:
+This is a dictionary that organizes the data by the question. Here, each key is a question, and 
+the corresponding value is a list of all the processed samples (i.e., reasoning paths) associated with that question.
+
+
+Essentially, while prompt_data is a flat list of all samples, prompt_data_dict groups these samples by question, making 
+it easier to handle multiple reasoning paths per question.
+
+
+---
+
+"""
+
+
+
 ####################
 # IMPORT LIBRARIES
 ####################
@@ -71,7 +117,9 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 def main():
 
-    # Parse command line arguments:
+    ####################
+    # Argument Parsing and Model Loading(model loaded if not GSM8k, so no worry for me)
+    ####################
     parser = argparse.ArgumentParser()
     parser.add_argument("--generator_result_file", type=str, default=None, help="generator output file in .jsonl format")
     parser.add_argument("--output_dir", type=str, default=None, help="output dir")
@@ -94,12 +142,28 @@ def main():
         model = None
         tokenizer = None
     
-    # loading data from generator output result file
+
+
+
+    ####################
+    # Loading and Preprocessing Generator Outputs
+    ####################
+
+    # read generator output file. 
+    """
+    Note: Each line corresponds to a generator output which includes:
+        A context (problem text)
+        A list of samples (model-generated answers)
+        meta data that contains additional information like the question and the ground truth.
+    """
     generator_outputs = [json.loads(line) for line in open(utils_io.get_file(args.generator_result_file))]
     question_to_ground_truth = {}
 
-    # prompt data make up
+    # building prompt_data
     prompt_data = []
+
+    # Loop through the generator outputs, and for each sample in an output, it stores a dictionary 
+    # with the context, sample, and metadata
     for generator_output in generator_outputs:
 
         # Extract structured fields from JSONL
@@ -109,6 +173,9 @@ def main():
             metadata = generator_output["metadata"] # Model-generated answers
             prompt_data.append({"context": context, "sample": sample, "metadata": metadata})
 
+
+    # Key: Question
+    # Value: 
     prompt_data_dict = {}
 
     # some pre-processing about formulas and answers for GSM8K and other datasets
@@ -141,6 +208,9 @@ def main():
                         sample = sample + "####" + final_answer
                     else:
                         sample = sample + "%%####" + final_answer
+
+
+
         elif args.dataset_name == "CLUTRR":
             pass
             if "####" not in sample:
@@ -160,14 +230,24 @@ def main():
         question_to_ground_truth[question] = ground_truth
         prompt_data_dict[question].append(sample)
 
-    # check the least sample num among all the cases
-    min_sample_num_per_case  = 99999999
-    for k in prompt_data_dict:
-        min_sample_num_per_case = min(min_sample_num_per_case, len(prompt_data_dict[k]))
 
     #########################
     # convert Data to Case objects
     #########################
+
+
+    # determine the min number of samples available across questions to ensure uniformity
+    min_sample_num_per_case  = 99999999
+    for k in prompt_data_dict:
+        min_sample_num_per_case = min(min_sample_num_per_case, len(prompt_data_dict[k]))
+
+    # Constructing cases
+    """
+    For each question, a case object is created using the corresponding class (e.g., GSM8KCase), setting:
+        - The question text.
+        - The ground truth wrapped in an example object.
+        - The list of predictions (each wrapped in an example object) limited to the minimum sample count.
+    """
     prompt_cases = []
     for k in prompt_data_dict:
         case = case_class_map[args.dataset_name]("", [])
@@ -203,7 +283,9 @@ def main():
             print(f"{k}: {res[k]}")
         print("")
 
-    # Step-wise Labeling
+    #########################
+    # Step-wise labeling
+    #########################
     for j, case in enumerate(tqdm(prompt_cases)):
         case.do_step_labeling(model=model, tokenizer=tokenizer)
         
@@ -218,13 +300,12 @@ def main():
         for pred_idx, pred in enumerate(case.preds):
             sequence_data.append(pred.sequence_labels)
 
-    # Train file is shuffled, but test file is not
+    #########################
+    # Shuffle and save data
+    #########################
     if args.split == "train":
         random.shuffle(sequence_data)
     
-    #########################
-    # SAVE processed data
-    #########################
     with open(os.path.join(args.output_dir, '{}.txt'.format(args.split)), "w") as f:
         for i, arr in enumerate(tqdm(sequence_data)):
             for lhs, rhs in arr:
