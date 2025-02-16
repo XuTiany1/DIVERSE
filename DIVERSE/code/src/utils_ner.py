@@ -1,21 +1,149 @@
-# coding=utf-8
-# Copyright 2018 The Google AI Language Team Authors and The HuggingFace Inc. team.
-# Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 """ Named entity recognition fine-tuning: utilities to work with CoNLL-2003 task. """
 
 
+"""
+
+Question:
+
+1. I don't understand what the InputFeatures dataclass is?
+
+The InputFeatures dataclass is essentially a container for all the numerical data that a transformer model needs to process an example.
+ When you work with textual data, models like BERT or RoBERTa cannot operate directly on strings—they need numbers. 
+ InputFeatures stores these numbers along with other necessary information.
+
+For each example (or reasoning path), InputFeatures typically contains:
+    - input_ids: A list of integers that represent the tokens of your input text, 
+    obtained by converting each token (like a word or subword) to its corresponding 
+    numerical ID from the tokenizer’s vocabulary.
+
+    - attention_mask: A list (of the same length as input_ids) where each element is 1 
+    if the token is a real token and 0 if it is padding. This tells the model which tokens 
+    to pay attention to.
+
+    - token_type_ids (optional): For models that use them (like BERT), this indicates the 
+    segment of the input (e.g., first sentence vs. second sentence). It’s not always needed.
+
+    - label_ids (optional): A list of integers representing the label assigned to each token 
+    (for token classification tasks). 
+    In our GSM8K context, these labels indicate whether a token 
+    (or more precisely, its associated reasoning step) is correct (e.g., "STEP-CORRECT") or incorrect (e.g., "STEP-INCORRECT") or not applicable ("O").
+
+
+
+    
+
+ 2. What Does convert_examples_to_features Do?
+
+ This function transforms raw input examples (which are instances of InputExample) 
+ into model-ready numerical representations (instances of InputFeatures). 
+ Let’s break it down with a GSM8K example.
+
+ 
+
+    Step 1: Start with an InputExample:
+
+        # Example content produced for a GSM8K reasoning path:
+        example = InputExample(
+            guid="1",
+            words=["[CLS]", "Lisa", "has", "3", "apples", "She", "buys", "<<", "2", ">>", "more", "####", "5", "&&", "Lisa", "has", "how", "many", "?" ],
+            labels=["SOLUTION-CORRECT", "O", "O", "O", "O", "O", "O", "STEP-CORRECT", "STEP-CORRECT", "STEP-CORRECT", "O", "SOLUTION-CORRECT", "STEP-CORRECT", "O", "O", "O", "O", "O", "O"]
+        )
+
+
+    Step 2: Tokenization and Label Alignment:
+
+        The function loops through each word and:
+            Tokenizes the word:
+                Some words might be split into multiple sub-tokens 
+                (e.g., "apples" might remain as "apples", but a complex word might be split into "app" and "##les").
+
+            Assigns labels:
+                The original label is kept for the first sub-token, and all additional sub-tokens get a placeholder label 
+                (usually a padding label, e.g., -100), so that only the first token of each original word contributes to the loss during training.
+
+
+            Adding Special Tokens:
+                The function then adds special tokens required by the model:
+                    [CLS] token: Added at the beginning (or at the end for some models) to represent the whole sequence.
+                    [SEP] token: Added to mark the end of a sentence (or to separate segments).
+
+                    
+            Converting Tokens to Input IDs:
+                Using the tokenizer’s vocabulary, the list of tokens is converted into input_ids. 
+                For example, "[CLS]" might be converted to an ID like 101, "Lisa" might become 1234, and so on.
+
+                         
+            Creating the Attention Mask:
+                The function creates an attention_mask that has a value of 1 for every real token (from your text) 
+                and 0 for any padding that is added to reach a fixed sequence length.
+     
+                                      
+            Padding or Truncating:
+                The function ensures that the final sequences (input_ids, attention_mask, token_type_ids, and label_ids) 
+                are all exactly of length max_seq_length by padding (adding zeros or a pad token) or truncating (cutting off extra tokens).
+
+                
+            Returning InputFeatures:
+                Finally, it packages these lists into an InputFeatures object.
+                    
+                
+A Concrete Example
+Suppose our GSM8K example above after tokenization (assuming no word is split further for simplicity) and adding special tokens becomes:
+
+Tokens:
+["[CLS]", "Lisa", "has", "3", "apples", "She", "buys", "<<", "2", ">>", "more", "####", "5", "&&", "Lisa", "has", "how", "many", "?", "[SEP]"]
+
+input_ids:
+A corresponding list of integers (e.g., [101, 1234, 2005, ...])
+
+attention_mask:
+A list of 1’s with a length equal to the tokens (e.g., [1, 1, 1, 1, ..., 1])
+
+label_ids:
+For each token, numerical labels might be assigned based on a mapping, for example:
+    "SOLUTION-CORRECT" → 1
+    "STEP-CORRECT" → 2
+    "O" → 0
+    Padding tokens → -100
+
+So you might have something like [1, -100, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 1, 2, 0, 0, 0, 0, 0, 0, -100]
+                
+
+
+"""
+
+
+
+
+"""
+
+
+Summary for GSM8K Applications
+Even though utils_ner.py was designed with CoNLL-2003 in mind, its structure is directly applicable if you want to fine-tune a model on the sequence-labeling task derived from GSM8K reasoning steps:
+
+Data Structures:
+- Use InputExample and InputFeatures to represent the tokenized reasoning paths and their labels.
+
+Conversion and Labeling:
+- The abstract methods and convert_examples_to_features function help convert your GSM8K output (formatted as sequences with labels from utils.py) into the right format for model training.
+
+Dataset Integration:
+- The provided dataset classes allow you to integrate this processed data into your model training pipeline.
+
+In short, these utilities help transform your GSM8K reasoning step labels into a form suitable for training NER models, which in turn can be used to further refine or evaluate the step-level correctness of your reasoning paths.
+
+
+"""
+
+
+
+
+
+
+
+####################
+# IMPORT Libraries
+####################
 import logging
 import os
 from dataclasses import dataclass
@@ -66,15 +194,29 @@ class Split(Enum):
     test = "test"
 
 
+"""
+This class acts as a blueprint (abstract class) for token classification tasks, defining methods for:
+	1.	Reading data from files.
+	2.	Mapping labels to tokens.
+	3.	Converting examples into features for training.
+	4.	Filtering out placeholder data.
+
+It does not provide specific implementations but sets the expected structure for subclasses.
+
+"""
 class TokenClassificationTask:
+
+    # Reads dataset files from data_dir and returns a list of InputExample objects (word-label pairs).
     @staticmethod
     def read_examples_from_file(data_dir, mode: Union[Split, str]) -> List[InputExample]:
         raise NotImplementedError
 
+    # Reads the possible entity labels from a file.
     @staticmethod
     def get_labels(path: str) -> List[str]:
         raise NotImplementedError
 
+    # Filters out invalid/placeholder examples from the training dataset.
     @staticmethod
     def check_placeholder_pattern(example):
         placeholder_patterns = [
@@ -86,6 +228,7 @@ class TokenClassificationTask:
                 return True
         return False
 
+    # Converts raw words + labels into model-friendly tokenized inputs.
     @staticmethod
     def convert_examples_to_features(
         examples: List[InputExample],

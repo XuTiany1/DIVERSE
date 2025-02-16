@@ -1,3 +1,131 @@
+
+"""
+Question: I don't understand get_sequence_labels
+
+
+
+
+"""
+
+
+
+
+
+
+"""
+
+OVERVIEW
+Defines base classes and helper functions to process, label, and evaluate reasoning steps for problems
+
+Concerning GSM8K arithmetic tasks, it contains two main object types:
+
+1. BaseCase and GSM8KCase
+        - These represent a complete question instance, including:
+            the question text
+            the ground truth answer
+            multiple model-generated predicted answers
+
+2. BaseExample and GSM8KExample
+        - These encapsulate a single answer (or reasoning path) and extract details like individual reasoning steps and the final answer.
+
+"""
+
+
+
+"""
+
+GSM8KCase
+    - GSM8KCase extends BaseCase with GSM8K-specific logic for step labeling:
+
+    - do_step_labeling:
+        This method assigns correctness labels to each step in both the ground truth and predictions.
+            - For the ground truth, it marks every step as correct.
+            - For predictions that exactly match the final answer of the ground truth, all steps are labeled as correct.
+            - For others, it calls the GSM8KExample.match() method to compare the sequence of steps against those from correct examples.
+"""
+
+
+
+
+"""
+
+GSM8KExample
+    - GSM8KExample extends BaseExample with methods specific to mathematical problem solving:
+        
+    - init_equations:
+        This method uses a regular expression to extract equations from the solution text. 
+        It looks for patterns like <<...>> followed by a numerical value and expects an equals sign (=) to identify valid equations.
+
+
+    - get_final_answer:
+        It extracts the final answer from the solution text.
+
+        The answer is expected to appear after the marker "####".
+        If the marker is missing, it returns a default value (stored in BaseExample.inf).
+
+        
+    - match:
+        This static method compares a sequence of steps from a prediction with those from correct (positive) examples.
+
+        It extracts numbers from each step (using get_answer) and uses a multiset to compare whether the set of numbers in the prediction is a subset of those in a correct example.
+        If all extracted numbers from the predicted steps match a correct example’s numbers, the method returns 1 (indicating the steps are correct); otherwise, it returns 0.
+
+        
+    - get_sequence_labels:
+        This function generates token-level labels for training a Named Entity Recognition (NER) model:
+
+        1. It first labels the special [CLS] token based on whether the overall solution is correct.
+        2. Then, it tokenizes each step by splitting on delimiters like >> and spaces.
+        3. Tokens corresponding to the delimiters (like >>) are labeled as either "STEP-CORRECT" or "STEP-INCORRECT", depending on the step’s correctness.
+        4. Other tokens are marked with "O".
+        It then adds a separator token ("&&") and finally labels the question tokens with "O".
+
+
+"""
+
+
+"""
+Helper Functions and Evaluation Metrics
+clean_ans(s):
+    - Cleans up the final answer by removing a trailing period and converting it to lowercase, ensuring consistency in answer matching.
+
+Evaluation Functions (random_1_hit, recall_hit, voting_hit, weighted_voting_hit, verification_hit):
+These functions compute different metrics to assess the quality of predictions:
+
+    - Random 1-hit: Checks if a random prediction matches the ground truth.
+    - Recall: Checks if at least one prediction among many matches the ground truth.
+    - Voting & Weighted Voting: Simulate majority voting (or weighted voting by verifier score) among predictions.
+    - Verification Hit: Uses the verifier's ranking to choose the best answer.
+
+
+compute_top1_and_recall and compute_results:
+These functions aggregate the evaluation metrics over all cases in the dataset, allowing you to assess how well your system is performing on GSM8K.
+
+dedup and print_stat:
+Utility functions for deduplication and printing statistics.
+
+"""
+
+
+"""
+
+Summary for GSM8K
+For GSM8K, this file:
+    - Represents each question (GSM8KCase) and its answers (GSM8KExample):
+        - Extracts step-by-step reasoning.
+        - Marks correct steps when predictions match the ground truth.
+        - Uses pattern matching on equations and final answer markers to decide correctness.
+
+    - Provides methods for generating token-level labels (get_sequence_labels):
+        - This is useful for training models (e.g., a verifier) to predict the correctness of each reasoning step.
+
+    - Includes evaluation functions:
+        - These functions help compute metrics like top-1 accuracy and recall to measure performance on GSM8K.
+
+"""
+
+
+
 #######################
 # IMPORT LIBRARIES
 #######################

@@ -39,7 +39,6 @@ import pdb
 logger = logging.getLogger(__name__)
 
 
-
 #########################
 # ARGUMENT PARSING: ModelArguments
 #########################
@@ -142,6 +141,13 @@ def main():
         model_args, data_args, training_args = parser.parse_json_file(json_file=os.path.abspath(sys.argv[1]))
     else:
         model_args, data_args, training_args = parser.parse_args_into_dataclasses()
+
+
+    #import torch
+    #import torch.distributed as dist
+    #if training_args.local_rank != -1 and not dist.is_initialized():
+    #    dist.init_process_group(backend="nccl", init_method="env://")
+
 
     # Prevents overwriting an existing model unless --overwrite_output_dir is set.
     if (
