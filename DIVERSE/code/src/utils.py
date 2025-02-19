@@ -2,9 +2,6 @@
 """
 Question: I don't understand get_sequence_labels
 
-
-
-
 """
 
 

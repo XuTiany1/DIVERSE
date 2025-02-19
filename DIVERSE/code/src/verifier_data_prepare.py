@@ -42,7 +42,18 @@ it easier to handle multiple reasoning paths per question.
 
 """
 
+import sys
+import os
 
+# FORCE working directory change
+correct_working_directory = "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src"
+if os.getcwd() != correct_working_directory:
+    print(f"DEBUG: Changing working directory from {os.getcwd()} to {correct_working_directory}")
+    os.chdir(correct_working_directory)
+
+# Confirm it's working
+print("DEBUG: Final working directory:", os.getcwd())
+print("DEBUG: Python interpreter:", sys.executable)
 
 ####################
 # IMPORT LIBRARIES
@@ -265,9 +276,19 @@ def main():
     print(f"Case 0's ground truth: {prompt_cases[0].ground_truth.content}".replace("\n", "\\n"))
     print(f"Case 0's sample0: {prompt_cases[0].preds[0].content}".replace("\n", "\\n"))
 
+
+    print(f"Case 1's question: {prompt_cases[1].question}".replace("\n", "\\n"))
+    print(f"Case 1's ground truth: {prompt_cases[1].ground_truth.content}".replace("\n", "\\n"))
+    print(f"Case 1's sample0: {prompt_cases[1].preds[1].content}".replace("\n", "\\n"))
+
+
+
     #########################
     # Compute data statistics
     #########################
+
+    # This evaluates how well the generated reasoning paths match the correct answer.
+
     print("*********** Data statistics ***********")
     res = compute_top1_and_recall(data=prompt_cases)
     for k in res:
