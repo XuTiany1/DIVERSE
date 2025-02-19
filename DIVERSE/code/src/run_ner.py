@@ -1,6 +1,24 @@
 
 """ Fine-tuning the library models for named entity recognition on CoNLL-2003. """
 
+
+import sys
+import os
+
+# FORCE working directory change
+correct_working_directory = "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src"
+if os.getcwd() != correct_working_directory:
+    print(f"DEBUG: Changing working directory from {os.getcwd()} to {correct_working_directory}")
+    os.chdir(correct_working_directory)
+
+# Confirm it's working
+print("DEBUG: Final working directory:", os.getcwd())
+print("DEBUG: Python interpreter:", sys.executable)
+import torch
+from torch.utils.data import Subset  # Import Subset for selecting part of dataset
+
+
+
 #########################
 # IMPORT LIBRARIES
 #########################
@@ -317,6 +335,9 @@ def main():
                 # if label_ids[i, j] != nn.CrossEntropyLoss().ignore_index:
                     out_label_list[i].append(label_map[label_ids[i][j]])
                     preds_list[i].append(label_map[preds[i][j]])
+
+        # preds_list: Model-predicted labels
+        # out_label_list: True labels
         return preds_list, out_label_list
 
     def get_solution_logits(predictions: np.ndarray):
