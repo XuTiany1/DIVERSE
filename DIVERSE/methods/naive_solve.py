@@ -2,7 +2,7 @@ import itertools
 import re
 import numpy as np
 from functools import partial
-from model.gpt import gpt 
+from model.gpt.gpt_utils import gpt
 
 
 

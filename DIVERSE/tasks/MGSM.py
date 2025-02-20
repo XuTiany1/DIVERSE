@@ -3,7 +3,7 @@ import os
 import sympy
 import pandas as pd
 from tasks.task import Task, DATA_PATH
-from prompts import *
+from prompts.MGSM_EN import *
 from datasets import load_dataset
 
 
@@ -120,15 +120,12 @@ class MgsmTask(Task):
     ##################
 
     @staticmethod
-    def standard_prompt_wrap(self, x: str, lang: str) -> str:
-        mgsm = load_mgsm_module(lang)
+    def standard_prompt_wrap(x: str, lang: str) -> str:
 
-        prompt = mgsm.standard_prompt.format(
+        prompt = standard_prompt.format(
             question = x
         )
         return prompt
-
-
 
 
 

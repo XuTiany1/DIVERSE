@@ -10,13 +10,8 @@ args = argparse.Namespace(
     task='MGSM', 
     lang='en',
     naive_run=False, 
-    prompt_sample='cot', 
-    method_generate='sample', 
-    method_evaluate='value', 
-    method_select='greedy', 
+    generate_method='standard', 
     n_generate_sample=2, 
-    n_evaluate_sample=3, 
-    n_select_sample=5
 )
 
 # Define test range
@@ -46,7 +41,7 @@ for lang in languages:
     os.makedirs(log_dir, exist_ok=True)
 
     # log_file = os.path.join(log_dir, f"7 steps --50 -- generate: {args.n_generate_sample} -- select:{args.n_select_sample}")
-    log_file = os.path.join(log_dir, f"native_cot_result")
+    log_file = os.path.join(log_dir, f"naive_result")
 
 
     # Run test loop
