@@ -8,7 +8,6 @@ from model.gpt.gpt_utils import gpt
 
 def get_answer (task, 
                 x, 
-                n_generate_sample, 
                 generate_method, 
                 language):
     """
@@ -20,9 +19,9 @@ def get_answer (task,
     """
 
     if generate_method == 'standard':
-        prompt = task.standard_prompt_wrap(x=x, lang=language)
+        prompt = task.standard_prompt_wrap(task, x=x)
     elif generate_method == 'cot':
-        prompt = task.cot_prompt_wrap(task, x=x, lang=language)
+        prompt = task.cot_prompt_wrap(task, x=x)
     else:
         raise ValueError(f'prompt_sample {generate_method} not recognized')
     
@@ -52,11 +51,10 @@ def naive_solve(args, task, idx, to_print=True):
     # Generate samples using GPT
     ys = get_answer(task, 
                     x, 
-                    args.n_generate_sample, 
                     args.generate_method, 
                     language=args.lang)
 
     if to_print:
         print(f"Generated response: {ys}")
 
-    return ys, {}
+    return ys

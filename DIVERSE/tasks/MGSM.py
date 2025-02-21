@@ -4,8 +4,18 @@ import sympy
 import pandas as pd
 from tasks.task import Task, DATA_PATH
 from prompts.MGSM_EN import *
+import importlib
 from datasets import load_dataset
 
+
+    # Dynamically import the correct prompt file based on chosen_lang
+def load_prompt_module(lang):
+    try:
+        module_name = f"prompts.MGSM_{lang.upper()}"  # Ensure correct casing
+        prompt_module = importlib.import_module(module_name)  # Dynamically import
+        return prompt_module
+    except ModuleNotFoundError:
+        raise ValueError(f"Prompt module for language '{lang}' not found.")
 
 class MgsmTask(Task):
 
@@ -52,11 +62,15 @@ class MgsmTask(Task):
         # Set current data into either train or test
         self.data = self.test_data
 
+        self.prompt_module = load_prompt_module(args.lang)
+
+
         ################################
         # Other variable initialization
         self.stops = ['\n'] * 4
         self.steps = 7
         self.value_cache = {}
+
 
 
     ##################
@@ -99,9 +113,33 @@ class MgsmTask(Task):
         """
         output answer
         """
-        print(self.data.iloc[idx])
-        print(self.data.iloc[idx]["answer_number"])
+        #print(self.data.iloc[idx])
+        #print(self.data.iloc[idx]["answer_number"])
         return self.data.iloc[idx]["answer_number"]
+    
+
+    def extract_steps(self, response: str):
+        """
+        Extracts the full step-by-step reasoning from the response, including the final answer.
+        """
+        if isinstance(response, list):
+            response = response[0]
+        
+        return response.strip()
+
+    def extract_final_answer(self, response: str):
+        """
+        Extracts only the final numerical answer from the response.
+        """
+        if isinstance(response, list):
+            response = response[0]
+
+        match = re.search(r"####\s*(-?\d+(\.\d+)?)", response)
+        return match.group(1) if match else None
+        
+
+
+
     
     # Normalize the outputs by removing non-numeric characters and extra spaces
     def model_answer(self, answer):
@@ -120,9 +158,19 @@ class MgsmTask(Task):
     ##################
 
     @staticmethod
-    def standard_prompt_wrap(x: str, lang: str) -> str:
+    def standard_prompt_wrap(self, x: str) -> str:
 
-        prompt = standard_prompt.format(
+        prompt = self.prompt_module.standard_prompt.format(
+            question = x
+        )
+        return prompt
+    
+
+
+    @staticmethod
+    def cot_prompt_wrap(self, x: str) -> str:
+
+        prompt = self.prompt_module.cot_prompt.format(
             question = x
         )
         return prompt
