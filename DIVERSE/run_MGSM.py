@@ -6,6 +6,7 @@ from tasks.MGSM import MgsmTask
 import re
 import sys
 import os
+from model.deberta_v3.deberta_verifier import Verifier
 
 # Define argparse namespace
 args = argparse.Namespace( 
@@ -14,6 +15,8 @@ args = argparse.Namespace(
     naive_run=False, 
     generate_method='cot', 
     n_generate_sample=2, 
+    checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565',
+    tokenizer_name='microsoft/deberta-v3-large'
 )
 
 # Define test range
@@ -24,7 +27,14 @@ correct_count = 0
 log_dir = f"logs/MGSM/{args.lang}"
 os.makedirs(log_dir, exist_ok=True)
 
-#languages = ['en', 'es', 'fr', 'de', 'ru', 'zh', 'ja', 'th', 'sw', 'bn', 'te']
+
+# Load verifier
+verifier = Verifier(args)
+    
+    #"/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565")
+
+
+
 
 languages = ['en', 'es', 'fr', 'de', 'ru', 'zh', 'ja', 'th', 'sw', 'bn', 'te']
 
@@ -55,6 +65,10 @@ for lang in languages:
         # ys, infos, final_answers, model_output = solve(args, task, idx, to_print=False)
         model_output = naive_solve(args, task, idx, to_print=False)
 
+        # After obtaining GPT output:
+        probability = verifier.get_verifier_probability(model_output)
+        print("Probability that the reasoning is correct:", probability)
+
         # Extract ground truth and model answer
         ground_truth_answer = task.ground_truth_answer(idx)
 
@@ -74,6 +88,7 @@ for lang in languages:
             f"Problem {idx}: {task.get_input(idx)}\n"
             f"Model Prediction / Ground Truth: {final_answer} / {ground_truth_answer}\n"
             f"Correct Predictions / Total Tests: {correct_count} / {idx}\n"
+            f"Verifier Probability: {probability:.2%}\n"
             f"Current Accuracy: {accuracy:.2%}\n"
             "----------------------\n"
         )

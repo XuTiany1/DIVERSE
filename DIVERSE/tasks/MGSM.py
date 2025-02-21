@@ -127,6 +127,7 @@ class MgsmTask(Task):
         
         return response.strip()
 
+
     def extract_final_answer(self, response: str):
         """
         Extracts only the final numerical answer from the response.
@@ -138,9 +139,6 @@ class MgsmTask(Task):
         return match.group(1) if match else None
         
 
-
-
-    
     # Normalize the outputs by removing non-numeric characters and extra spaces
     def model_answer(self, answer):
         answer = str(answer).strip().lower()  # Ensure it's a string and normalize case
@@ -165,7 +163,6 @@ class MgsmTask(Task):
         )
         return prompt
     
-
 
     @staticmethod
     def cot_prompt_wrap(self, x: str) -> str:

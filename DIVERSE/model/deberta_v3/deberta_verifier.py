@@ -74,7 +74,7 @@ class Verifier:
 
 # Optional convenience function:
 def get_verifier_probability_from_checkpoint(checkpoint_path, text, tokenizer_name=None):
-    # Create a dummy namespace with required fields.
+   
     from argparse import Namespace
     args = Namespace(checkpoint_path=checkpoint_path, tokenizer_name=tokenizer_name)
     verifier = Verifier(args)
