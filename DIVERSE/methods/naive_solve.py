@@ -9,6 +9,8 @@ from model.gpt.gpt_utils import gpt
 def get_answer (task, 
                 x, 
                 generate_method, 
+                prompt_used,
+                number_generate_sample,
                 language):
     """
     task - task object
@@ -21,14 +23,17 @@ def get_answer (task,
     if generate_method == 'standard':
         prompt = task.standard_prompt_wrap(task, x=x)
     elif generate_method == 'cot':
-        prompt = task.cot_prompt_wrap(task, x=x)
+        list_of_prompt = task.cot_prompt_wrap(task, x=x, prompt=prompt_used)
     else:
         raise ValueError(f'prompt_sample {generate_method} not recognized')
     
     # Generate samples using Gemma
-    answer = gpt(prompt=prompt, max_tokens=500)
+    list_of_answer = []
+    for curr_prompt in list_of_prompt:
+        curr_answer = gpt(prompt=curr_prompt, max_tokens=500, n=number_generate_sample)
+        list_of_answer.append(curr_answer)
 
-    return answer
+    return list_of_answer
 
 
 
@@ -51,7 +56,9 @@ def naive_solve(args, task, idx, to_print=True):
     # Generate samples using GPT
     ys = get_answer(task, 
                     x, 
-                    args.generate_method, 
+                    args.generate_method,
+                    args.prompt_used,
+                    args.number_generate_sample, 
                     language=args.lang)
 
     if to_print:

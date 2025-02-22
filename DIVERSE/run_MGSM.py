@@ -14,7 +14,8 @@ args = argparse.Namespace(
     lang='en',
     naive_run=False, 
     generate_method='cot', 
-    n_generate_sample=2, 
+    number_generate_sample=1, 
+    prompt_used=[1,2,3,4,5],
     checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565',
     tokenizer_name='microsoft/deberta-v3-large'
 )
@@ -30,10 +31,6 @@ os.makedirs(log_dir, exist_ok=True)
 
 # Load verifier
 verifier = Verifier(args)
-    
-    #"/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565")
-
-
 
 
 languages = ['en', 'es', 'fr', 'de', 'ru', 'zh', 'ja', 'th', 'sw', 'bn', 'te']
@@ -44,7 +41,7 @@ for lang in languages:
     correct_count = 0
 
     args.lang = lang
-    
+
     # Create task instance
     task = MgsmTask(args)
 
@@ -65,15 +62,12 @@ for lang in languages:
         # ys, infos, final_answers, model_output = solve(args, task, idx, to_print=False)
         model_output = naive_solve(args, task, idx, to_print=False)
 
-        # After obtaining GPT output:
-        probability = verifier.get_verifier_probability(model_output)
-        print("Probability that the reasoning is correct:", probability)
+        model_question = task.get_input(idx)
+        
+        final_answer, weighted_probs = task.compute_final_answer(task, model_output, model_question, verifier)
 
         # Extract ground truth and model answer
         ground_truth_answer = task.ground_truth_answer(idx)
-
-        steps = task.extract_steps(model_output)
-        final_answer = task.extract_final_answer(model_output)
 
         # Determine correctness
         is_correct = (int(final_answer) == ground_truth_answer)
@@ -82,13 +76,15 @@ for lang in languages:
         # Compute accuracy
         accuracy = correct_count / idx
 
+        weighted_probs = [float(w) for w in weighted_probs]  # Convert all to floats
+
         # Construct log entry
         log_entry = (
             "----------------------\n"
             f"Problem {idx}: {task.get_input(idx)}\n"
             f"Model Prediction / Ground Truth: {final_answer} / {ground_truth_answer}\n"
             f"Correct Predictions / Total Tests: {correct_count} / {idx}\n"
-            f"Verifier Probability: {probability:.2%}\n"
+            f"Verifier Probability: {max(weighted_probs):.2%}\n"
             f"Current Accuracy: {accuracy:.2%}\n"
             "----------------------\n"
         )

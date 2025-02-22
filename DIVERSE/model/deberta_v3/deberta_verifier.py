@@ -57,6 +57,7 @@ class Verifier:
             Output: 0.87 (example probability)
         """
         # Tokenize the input text; adjust max_length to match training settings.
+            # Converts the text input into tokenized numerical representations that the model can process.
         inputs = self.tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=512)
         inputs = {k: v.to(device) for k, v in inputs.items()}
 
@@ -67,7 +68,8 @@ class Verifier:
         # Assume the second token (index 1) represents the [CLS] token output for overall classification.
         cls_logits = logits[0][1]  # shape: [num_labels]
         probabilities = torch.softmax(cls_logits, dim=-1)
-        # Retrieve the index corresponding to "SOLUTION-CORRECT". Adjust if necessary.
+
+        # Retrieve the index corresponding to "SOLUTION-CORRECT". 
         solution_correct_index = self.config.label2id.get("SOLUTION-CORRECT", 0)
         prob = probabilities[solution_correct_index].item()
         return prob
@@ -84,12 +86,7 @@ def get_verifier_probability_from_checkpoint(checkpoint_path, text, tokenizer_na
 if __name__ == "__main__":
     # Replace with the actual checkpoint path and tokenizer if needed.
     checkpoint = "/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565"
-    sample_text = (
-        "Step 1: Identify required fiber amounts...\n"
-        "Step 2: Calculate white fiber required...\n"
-        "2 / 2 = <<2/2=1>>1\n"
-        "Step 3: Total fiber = 2 + 1 = <<2+1=3>>3\n"
-        "Final answer: ####3."
+    sample_text = ( "Janet sells 16 - 3 - 4 = <<16-3-4=9 >> 9 duck eggs a day.\n She makes 9 * 2 = $<<9*2=18 >> 18 every day at the farmer’s market.\n #### 18 \n Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?"
     )
     verifier = Verifier(argparse.Namespace(checkpoint_path=checkpoint, tokenizer_name='microsoft/deberta-v3-large'))
     probability = verifier.get_verifier_probability(sample_text)
