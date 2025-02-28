@@ -1,5 +1,5 @@
 standard_prompt = '''
-Answer the following mathematical question. Just input the final answer as a number and nothing else.
+Answer the following mathematical question. Just input the final answer as a number and no units and nothing else
 Question:
 {question}
 Answer:

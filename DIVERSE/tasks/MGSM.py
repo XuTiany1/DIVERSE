@@ -184,36 +184,46 @@ class MgsmTask(Task):
 
     @staticmethod
     def compute_final_answer(self, model_output, model_question, verifier):
-        # Dictionary to accumulate probability for each unique final answer.
+        # Dictionary to accumulate probability for each unique final answer
         answer_probabilities = {}
+        raw_probability = {}
         
         for curr_answer in model_output:
-            # Concatenate answer with question if needed for verification.
-
+            # Concatenate answer with question if needed for verification
 
             answer = "\n".join(curr_answer)
 
             model_answer_question = answer + "\n" + model_question
             
-            # Get the probability that the reasoning is correct.
+            # Get the probability that the reasoning is correct
             probability = verifier.get_verifier_probability(model_answer_question)
             
             # Extract the final answer using a regex that looks for '####'
-            # e.g., if answer string ends with "####3", it extracts "3"
             match = re.search(r'####\s*(.*)', answer)
             if match:
                 final_ans = match.group(1).strip()
+
+                
+                final_ans = re.sub(r"[.,]+$", "", final_ans) 
+                try:
+                    final_ans = str(int(final_ans)) 
+                except ValueError:
+                    continue 
             else:
-                # Skip if no final answer marker is found.
-                continue
-            
+                continue  
+
+            # Store all probability values for each unique final answer.
+            if final_ans not in raw_probability:
+                raw_probability[final_ans] = []
+            raw_probability[final_ans].append(probability)
+
             # Sum the probability for each unique final answer.
             answer_probabilities[final_ans] = answer_probabilities.get(final_ans, 0) + probability
 
         # Choose the final answer with the highest cumulative probability.
         if answer_probabilities:
             selected_answer = max(answer_probabilities.items(), key=lambda x: x[1])[0]
-            return selected_answer, answer_probabilities
+            return selected_answer, answer_probabilities, raw_probability
         else:
             return None, {}
 
