@@ -21,7 +21,7 @@ def get_answer (task,
     """
 
     if generate_method == 'standard':
-        prompt = task.standard_prompt_wrap(task, x=x)
+        list_of_prompt = [task.standard_prompt_wrap(task, x=x)]
     elif generate_method == 'cot':
         list_of_prompt = task.cot_prompt_wrap(task, x=x, prompt=prompt_used)
     else:
@@ -30,7 +30,7 @@ def get_answer (task,
     # Generate samples using Gemma
     list_of_answer = []
     for curr_prompt in list_of_prompt:
-        curr_answer = gpt(prompt=curr_prompt, max_tokens=500, n=number_generate_sample)
+        curr_answer = gpt(prompt=curr_prompt, max_tokens=1000, n=number_generate_sample)
         list_of_answer.append(curr_answer)
 
     return list_of_answer

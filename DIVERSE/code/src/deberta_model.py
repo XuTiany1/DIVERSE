@@ -51,10 +51,11 @@ _CHECKPOINT_FOR_DOC = "microsoft/deberta-v2-xlarge"
 
 # A bunch of available pretrained DeBERTa-V2 models
 DEBERTA_V2_PRETRAINED_MODEL_ARCHIVE_LIST = [
-    "microsoft/deberta-v2-xlarge",
+    "microsoft/deberta-v2-xzrlarge",
     "microsoft/deberta-v2-xxlarge",
     "microsoft/deberta-v2-xlarge-mnli",
     "microsoft/deberta-v2-xxlarge-mnli",
+    "microsoft/mdeberta-v3-base"
 ]
 
 

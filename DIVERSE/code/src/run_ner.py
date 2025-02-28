@@ -230,6 +230,7 @@ def main():
         load_model_dir = ckpt_path_list[model_args.previous_run_epoch - 1]  # index starts from 0
         model_args.model_name_or_path = os.path.join(model_args.previous_run_dir, load_model_dir)
     # Loading model configuration
+    
     config = AutoConfig.from_pretrained(
         model_args.config_name if model_args.config_name else model_args.model_name_or_path,
         num_labels=num_labels,
@@ -237,6 +238,8 @@ def main():
         label2id={label: i for i, label in enumerate(labels)},
         cache_dir=model_args.cache_dir,
     )
+
+    
     # pdb.set_trace()
 
     # Configure task-specific parameters
@@ -254,8 +257,11 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(
         model_args.tokenizer_name if model_args.tokenizer_name else model_args.model_name_or_path,
         cache_dir=model_args.cache_dir,
-        use_fast=model_args.use_fast,
+        use_fast=model_args.use_fast
+        # additional_special_tokens=["&&"]  # This ensures the "&&" delimiter is preserved.
     )
+    # tokenizer = AutoTokenizer.from_pretrained("microsoft/mdeberta-v3-base", additional_special_tokens=["&&"])
+
     # Load pre-trained model
     model = DebertaV2ForTokenClassification.from_pretrained(
         model_args.model_name_or_path,
@@ -309,8 +315,19 @@ def main():
         else None
     )
 
+    eval_dataset = [eval_dataset[0]]
+
+    train_dataset = [train_dataset[0]]
+
     # save the texual sequences of eval dataset
     eval_sequences = [tokenizer.decode(x.input_ids) for x in eval_dataset]
+
+    # Check if the first sequence contains "&&"
+    if "&&" not in eval_sequences[0]:
+        raise ValueError("The expected '&&' separator was not found in the decoded eval sequence. "
+                        "Ensure your preprocessing step produces the correct delimiter.")
+
+
     first_test_case_question = eval_sequences[0].split("&&")[-1].strip()
     pred_num_per_case = 0
     for i, seq in enumerate(eval_sequences[1:]):

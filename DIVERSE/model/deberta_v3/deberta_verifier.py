@@ -61,6 +61,9 @@ class Verifier:
         inputs = self.tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=512)
         inputs = {k: v.to(device) for k, v in inputs.items()}
 
+        decoded_inputs = [self.tokenizer.decode(ids, skip_special_tokens=True) for ids in inputs["input_ids"]]
+        print(decoded_inputs)
+
         with torch.no_grad():
             outputs = self.model(**inputs)
             logits = outputs.logits  # shape: [batch_size, sequence_length, num_labels]
