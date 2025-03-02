@@ -5,6 +5,11 @@ Question:
 Answer:
 '''
 
+cot_prompt_0='''
+The last number in your response should be the final answer without units.
+Question: {question}\nStep-by-Step Answer:
+'''
+
 
 cot_prompt_1 = '''
 You are tasked with answering math questions.

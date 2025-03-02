@@ -11,7 +11,8 @@ def get_answer (task,
                 generate_method, 
                 prompt_used,
                 number_generate_sample,
-                language):
+                language,
+                model):
     """
     task - task object
     x - input
@@ -30,7 +31,7 @@ def get_answer (task,
     # Generate samples using Gemma
     list_of_answer = []
     for curr_prompt in list_of_prompt:
-        curr_answer = gpt(prompt=curr_prompt, max_tokens=1000, n=number_generate_sample)
+        curr_answer = gpt(prompt=curr_prompt, max_tokens=1000, n=number_generate_sample, model=model)
         list_of_answer.append(curr_answer)
 
     return list_of_answer
@@ -59,7 +60,8 @@ def naive_solve(args, task, idx, to_print=True):
                     args.generate_method,
                     args.prompt_used,
                     args.number_generate_sample, 
-                    language=args.lang)
+                    language=args.lang,
+                    model=args.generator_model)
 
     if to_print:
         print(f"Generated response: {ys}")

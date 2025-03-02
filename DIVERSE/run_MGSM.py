@@ -14,15 +14,15 @@ args = argparse.Namespace(
     task='MGSM', 
     lang='en',
     naive_run=False, 
-    generate_method='standard', 
-    #generate_method='cot', 
+    # generate_method='standard', 
+    generate_method='cot', 
     number_generate_sample=1, 
     prompt_used=[1],
     #prompt_used=[1,2,3,4,5],
-    checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/mderberta/checkpoint-6565',
-    tokenizer_name='microsoft/mdeberta-v3-base'
-    # checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565',
-    # tokenizer_name='microsoft/deberta-v3-large'
+    # checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/mderberta/checkpoint-6565',
+    # tokenizer_name='microsoft/mdeberta-v3-base'
+    checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565',
+    tokenizer_name='microsoft/deberta-v3-large'
 )
 
 # Define test range
@@ -36,9 +36,8 @@ os.makedirs(log_dir, exist_ok=True)
 
 # Load evaluation metrics
 exact_match_metric = evaluate.load("exact_match")
-f1_metric = evaluate.load("f1")
 
-# Load verifier
+# Load verifier only if using chain of thought
 if args.generate_method == "cot":
     verifier = Verifier(args)
 
@@ -65,7 +64,7 @@ for lang in languages:
     log_dir = f"logs/MGSM/{args.lang}"
     os.makedirs(log_dir, exist_ok=True)
 
-    log_file = os.path.join(log_dir, f"Debug_testing_two")
+    log_file = os.path.join(log_dir, f"gpt_4o-mini_cot")
 
     # Run test loop
     with open(log_file, "w") as f:
@@ -78,32 +77,36 @@ for lang in languages:
         model_output = naive_solve(args, task, idx, to_print=False)
         model_question = task.get_input(idx)
 
+
+
+        # Extract ground truth and model answer
+        ground_truth_answer = task.ground_truth_answer(idx)
+
         if args.generate_method == "standard":
             answer = model_output[0][0]
             final_answer = re.search(r"\d+(\.\d+)?", answer).group()  # Find number (integer or decimal)
 
         if args.generate_method == "cot":
             final_answer, weighted_probs, raw_probability = task.compute_final_answer(task, model_output, model_question, verifier)
-            print(f"weighted_probs{weighted_probs}")
+            
+            if final_answer != None:
+                print(f"weighted_probs{weighted_probs}")
 
-            # Compute weighted probability across all answers
-            total_prob = sum(weighted_probs.values())
-            if total_prob > 0:
-                weighted_probs = {k: v / total_prob for k, v in weighted_probs.items()}
-            else:
-                weighted_probs = {k: 0 for k in weighted_probs.keys()}  # Avoid division by zero
+                # Compute weighted probability across all answers
+                total_prob = sum(weighted_probs.values())
+                if total_prob > 0:
+                    weighted_probs = {k: v / total_prob for k, v in weighted_probs.items()}
+                else:
+                    weighted_probs = {k: 0 for k in weighted_probs.keys()}  # Avoid division by zero
 
-            correct_answer_prob = weighted_probs.get(str(ground_truth_answer), 0)
+                correct_answer_prob = weighted_probs.get(str(ground_truth_answer), 0)
 
-            # Format raw probabilities nicely
-            formatted_raw_prob = "; ".join(
-                f"{ans}: [{', '.join(f'{p:.2%}' for p in probs)}]"
-                for ans, probs in raw_probability.items()
-            )
+                # Format raw probabilities nicely
+                formatted_raw_prob = "; ".join(
+                    f"{ans}: [{', '.join(f'{p:.2%}' for p in probs)}]"
+                    for ans, probs in raw_probability.items()
+                )
 
-
-        # Extract ground truth and model answer
-        ground_truth_answer = task.ground_truth_answer(idx)
 
 
         total_count += 1
@@ -122,8 +125,8 @@ for lang in languages:
             f"Problem {idx}: {task.get_input(idx)}\n"
             f"Model Prediction / Ground Truth: {final_answer} / {ground_truth_answer}\n"
             f"Correct Predictions / Total Tests: {correct_count} / {total_count}\n"
-            # f"Weighted Verifier Probability: {correct_answer_prob:.2%}\n"  
-            # f"Verifier Raw Probability: {formatted_raw_prob}\n"
+            f"Weighted Verifier Probability: {correct_answer_prob:.2%}\n"  
+            f"Verifier Raw Probability: {formatted_raw_prob}\n"
             f"Current Accuracy: {accuracy:.2%}\n"
             "----------------------\n"
         )

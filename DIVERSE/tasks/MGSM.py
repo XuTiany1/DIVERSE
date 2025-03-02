@@ -71,6 +71,18 @@ class MgsmTask(Task):
         self.steps = 7
         self.value_cache = {}
 
+        self. LANGUAGE_PATTERNS = {
+            "en": {
+                "primary": r"####\s*([-+]?\d+(?:\.\d+)?)",
+                "fallback": r"The answer is ([-+]?\d+(?:\.\d+)?)",
+            },
+            "de": {
+                "primary": r"####\s*([-+]?\d+(?:[\.,]\d+)?)",
+                "fallback": r"Die Antwort lautet ([-+]?\d+(?:[\.,]\d+)?)",
+            }
+            # ... add other languages as needed.
+        }
+
 
 
     ##################
@@ -181,62 +193,103 @@ class MgsmTask(Task):
 
 
 
+    ############
+    # Extract the final answer
+    ############
 
     @staticmethod
-    def compute_final_answer(self, model_output, model_question, verifier):
-        # Dictionary to accumulate probability for each unique final answer
+    def compute_final_answer(self, model_output, model_question, verifier, error_log_path=None):
+        """
+        For each generated answer (which may be a multi-line chain-of-thought),
+        compute its verifier probability and then choose the final answer that has the highest
+        cumulative probability. If no answer can be extracted via the primary marker, a fallback
+        mechanism is used.
+        """
         answer_probabilities = {}
         raw_probability = {}
         
-        for curr_answer in model_output:
-            # Concatenate answer with question if needed for verification
-
-            answer = "\n".join(curr_answer)
-
-            model_answer_question = answer + "\n" + model_question
-            
-            # Get the probability that the reasoning is correct
-            probability = verifier.get_verifier_probability(model_answer_question)
-            
-            # Extract the final answer using a regex that looks for '####'
-            match = re.search(r'####\s*(.*)', answer)
-            if match:
-                final_ans = match.group(1).strip()
-
+        # Loop over each group of answers in model_output
+        for answer_group in model_output:
+            # Loop over every answer variant in the group
+            for answer_text in answer_group:
+                # Combine with the question for the verifier.
+                model_answer_question = answer_text + "\n" + model_question
                 
-                final_ans = re.sub(r"[.,]+$", "", final_ans) 
+                # Get the probability that the reasoning is correct.
+                probability = verifier.get_verifier_probability(model_answer_question)
+
+                # Extract the final answer using our extraction function.
+                extracted = self.extract_final_answer(self, answer_text, lang='en')
+                if extracted is None:
+                    error_message = (
+                        "-------------------\n ERROR: Failed to extract final answer from response:\n"
+                        f"{answer_text}\n -------------------\n"
+                    )
+                    if error_log_path is not None:
+                        with open(error_log_path, "a") as ef:
+                            ef.write(error_message)
+                    continue  # Skip this answer
+
                 try:
-                    final_ans = str(int(final_ans)) 
+                    rounded_answer = str(int(round(float(extracted))))
                 except ValueError:
-                    continue 
-            else:
-                continue  
+                    error_message = (
+                        "-------------------\n ERROR: Failed to round the answer from extracted answer:\n"
+                        f"{extracted}\n Response Text is response:\n{answer_text}\n -------------------\n"
+                    )
+                    if error_log_path is not None:
+                        with open(error_log_path, "a") as ef:
+                            ef.write(error_message)
+                    continue  # Skip this answer
 
-            # Store all probability values for each unique final answer.
-            if final_ans not in raw_probability:
-                raw_probability[final_ans] = []
-            raw_probability[final_ans].append(probability)
+                final_ans = rounded_answer
 
-            # Sum the probability for each unique final answer.
-            answer_probabilities[final_ans] = answer_probabilities.get(final_ans, 0) + probability
+                # Record the probability values for this final answer.
+                if final_ans not in raw_probability:
+                    raw_probability[final_ans] = []
+                raw_probability[final_ans].append(probability)
+                answer_probabilities[final_ans] = answer_probabilities.get(final_ans, 0) + probability
 
-        # Choose the final answer with the highest cumulative probability.
         if answer_probabilities:
             selected_answer = max(answer_probabilities.items(), key=lambda x: x[1])[0]
             return selected_answer, answer_probabilities, raw_probability
         else:
-            return None, {}
+            return None, None, {}
 
 
+    @staticmethod
+    def extract_final_answer(self, response: str, lang: str = "en"):
+        """
+        Extracts the final numerical answer from the response. It first looks for a marker (e.g. "####").
+        If not found, it uses a language-specific fallback regex. Finally, if that fails, it falls back to 
+        extracting the first number found.
+        
+        Args:
+            response (str): The text generated by the model.
+            lang (str): The language code (e.g. "en", "de", etc.)
+        
+        Returns:
+            str or None: The extracted final answer (as a string) or None if no number could be found.
+        """
+        # 1. Try the primary regex pattern (expected marker).
+        pattern_primary = self.LANGUAGE_PATTERNS.get(lang, {}).get("primary", r"####\s*([-+]?\d+(?:\.\d+)?)")
+        match = re.search(pattern_primary, response)
+        if match:
+            return match.group(1).strip()
+        
+        # 2. Try a fallback language-specific pattern.
+        pattern_fallback = self.LANGUAGE_PATTERNS.get(lang, {}).get("fallback")
+        if pattern_fallback:
+            match = re.search(pattern_fallback, response)
+            if match:
+                return match.group(1).strip()
 
+        # 3. As a final fallback, simply extract the last number in the text.
+        numbers = re.findall(r"([-+]?\d+(?:\.\d+)?)", response)
+        if numbers:
+            return numbers[-1].strip()
 
-
-
-
-
-
-
-
+        return None
 
 
 
