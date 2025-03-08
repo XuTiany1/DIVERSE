@@ -1,0 +1,153 @@
+----------------------
+Problem 2: Джош решает перепродать дом. Он покупает дом за 80 000 $ и вкладывает 50 000 $ в ремонт. Это повысило стоимость дома на 150 %. Какую выгоду он получил?
+Reasoning step: [["To find out the profit Josh made from selling the house, we can follow these steps:\n\n1. **Calculate the total initial investment:**  \n   Josh's initial investment includes the purchase price of the house and the cost of the repairs.\n   \\[\n   \\text{Total Investment} = \\text{Purchase Price} + \\text{Repair Cost} = 80,000 + 50,000 = 130,000\n   \\]\n\n2. **Determine the new value of the house after increase:**  \n   The value of the house increased by 150%. This means the house is now worth 250% of its original purchase price (100% + 150% = 250%).\n   \\[\n   \\text{New Value of the House} = \\text{Purchase Price} \\times 2.5 = 80,000 \\times 2.5 = 200,000\n   \\]\n\n3. **Calculate the profit:**  \n   Profit is the difference between the new value of the house and the total initial investment.\n   \\[\n   \\text{Profit} = \\text{New Value of the House} - \\text{Total Investment} = 200,000 - 130,000 = 70,000\n   \\]\n\nTherefore, the profit Josh made from selling the house is 70,000."]]
+Model Prediction / Ground Truth: 0 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [94.63%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 12: Карлос сажает лимонное дерево. Посадить дерево будет стоить 90 $. Каждый год на нем будет вырастать по 7 лимонов, которые он может продать по 1,5 $ за каждый. Поливать и удобрять дерево стоит 3 $ в год. Сколько лет пройдет, прежде чем он начнет зарабатывать деньги на лимонном дереве?
+Reasoning step: [["To determine how many years it will take for Carlos to start making a profit from his lemon tree, we need to compare his total income from selling lemons to his total expenses. Here's the step-by-step calculation:\n\n1. **Initial Planting Cost**: Carlos spends $90 to plant the tree.\n\n2. **Annual Income from Lemons**: Each year, the tree produces 7 lemons, and he sells each for $1.5. So, the annual income from lemons is:\n   \\[\n   7 \\, \\text{lemons/year} \\times 1.5 \\, \\text{\\$/lemon} = 10.5 \\, \\text{\\$/year}\n   \\]\n\n3. **Annual Maintenance Cost**: The cost to water and fertilize the tree is $3 per year.\n\n4. **Net Annual Profit**: The net profit each year after subtracting the maintenance cost from the income is:\n   \\[\n   10.5 \\, \\text{\\$/year} - 3 \\, \\text{\\$/year} = 7.5 \\, \\text{\\$/year}\n   \\]\n\n5. **Break-even Point**: To find out how many years it will take to cover the initial planting cost of $90, we divide the initial cost by the net annual profit:\n   \\[\n   \\frac{90 \\, \\text{\\$}}{7.5 \\, \\text{\\$/year}} = 12 \\, \\text{years}\n   \\]\n\nIt will take Carlos 12 years to start making a profit on his lemon tree. \n\nFinal answer: 12"]]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 10 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [50.66%]
+Current Accuracy: 83.33%
+----------------------
+----------------------
+Problem 73: Шила купила пять мобильных телефонов за 150 $ каждый в рассрочку на 3 месяца. За каждую единицу будет взиматься 2 % годовых. Сколько будет платить Шила каждый месяц на протяжении 3 месяцев?
+Reasoning step: [['To determine how much Шила will pay each month, we can follow these steps:\n\n1. **Calculate the total cost of the phones:**  \n   Шила bought 5 phones at $150 each.  \n   Total cost = 5 phones × $150/phone = $750.\n\n2. **Determine the interest rate for the 3-month period:**  \n   The annual interest rate is 2%. To find the interest rate for 3 months, we need to convert this annual rate to a quarterly rate (since 3 months is one quarter of a year).  \n   Quarterly interest rate = 2% / 4 = 0.5%.\n\n3. **Calculate the total interest for the 3-month period:**  \n   The total interest Шила will pay over the 3 months can be calculated using simple interest, as the interest is applied to the original amount.  \n   Total interest = Principal × Quarterly interest rate = $750 × 0.5% = $750 × 0.005 = $3.75.\n\n4. **Calculate the total amount to be paid over 3 months:**  \n   Total amount = Principal + Total interest = $750 + $3.75 = $753.75.\n\n5. **Determine the monthly payment amount:**  \n   Шила will pay this total amount over 3 months.  \n   Monthly payment = Total amount / 3 = $753.75 / 3 = $251.25.\n\nThe final answer is: 251.25']]
+Model Prediction / Ground Truth: 251 / 255
+Correct Predictions / Total Tests: 70 / 73
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 251: [1.26%]
+Current Accuracy: 95.89%
+----------------------
+----------------------
+Problem 87: Компания платит каждому из своих сотрудников 600 $ в месяц. В компании действует политика ежегодного повышения заработной платы на 10 % от начальной для каждого сотрудника, проработавшего в компании пять лет. Если Сильви отработала в компании 5 лет в прошлом декабре, сколько составит ее заработная плата спустя еще три года работы?
+Reasoning step: [["To determine Sylvie's salary three years after her five-year mark, follow these steps:\n\n1. **Initial Salary**: Sylvie's current salary is $600 per month.\n\n2. **Annual Salary Increase**: After completing five years, Sylvie receives a 10% increase on her initial salary. Calculate the increase:\n   \\[\n   \\text{Increase} = 600 \\times 0.10 = 60\n   \\]\n   So, the new salary after the increase is:\n   \\[\n   \\text{New Salary} = 600 + 60 = 660\n   \\]\n\n3. **Salary After Three More Years**: Since there are no additional increases mentioned beyond the five-year mark, Sylvie's salary remains at $660 per month for the next three years.\n\nThus, Sylvie's salary three years after completing her five-year tenure will still be $660 per month.\n\nFinal answer:\n660"]]
+Model Prediction / Ground Truth: 660 / 9360
+Correct Predictions / Total Tests: 83 / 87
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 660: [89.20%]
+Current Accuracy: 95.40%
+----------------------
+----------------------
+Problem 89: Кристина планирует вечеринку по случаю дня рождения, и ей необходимо 0,75 подарочного пакета на приглашенного гостя, так как 1/4 участников не придет. Она пригласила 16 друзей. Подарочные пакеты стоят по 2 $ каждый. Сколько она потратит?
+Reasoning step: [['To determine how much Kristina will spend on gift bags for her birthday party, we can follow these steps:\n\n1. **Calculate the Expected Number of Guests Attending:**\n   - Kristina invited 16 friends.\n   - According to the problem, 1/4 of the invitees are not expected to attend.\n   - Therefore, the fraction of guests expected to attend is \\(1 - \\frac{1}{4} = \\frac{3}{4}\\).\n\n2. **Calculate the Actual Number of Guests Expected:**\n   - Multiply the total number of invitees by the fraction expected to attend:\n   \\[\n   16 \\times \\frac{3}{4} = 12\n   \\]\n   So, 12 guests are expected to attend the party.\n\n3. **Determine the Number of Gift Bags Needed:**\n   - Kristina needs 0.75 gift bags per guest.\n   - Multiply the number of expected guests by the number of gift bags per guest:\n   \\[\n   12 \\times 0.75 = 9\n   \\]\n   Thus, Kristina will need 9 gift bags.\n\n4. **Calculate the Total Cost of the Gift Bags:**\n   - Each gift bag costs 2 dollars.\n   - Multiply the number of gift bags by the cost per bag:\n   \\[\n   9 \\times 2 = 18\n   \\]\n\nTherefore, Kristina will spend a total of 18 dollars on gift bags. The final answer is 18.']]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 84 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [88.84%]
+Current Accuracy: 94.38%
+----------------------
+----------------------
+Problem 94: В жилом районе количество домашних кроликов в двенадцать раз меньше совокупного количества домашних собак и кошек. Если на каждую собаку приходится две кошки, а число собак составляет 60, сколько всего домашних животных в этом жилом районе?
+Reasoning step: [["To solve this problem, let's break it down step by step:\n\n1. **Determine the number of cats:**\n   - We know that there are 60 dogs and that for every dog there are two cats.\n   - Therefore, the number of cats is \\(2 \\times 60 = 120\\).\n\n2. **Find the total number of dogs and cats combined:**\n   - The total number of dogs and cats is \\(60 + 120 = 180\\).\n\n3. **Determine the number of rabbits:**\n   - We are given that the number of rabbits is twelve times less than the total number of dogs and cats.\n   - Therefore, the number of rabbits is \\(\\frac{180}{12} = 15\\).\n\n4. **Calculate the total number of domestic animals:**\n   - The total number of domestic animals is the sum of dogs, cats, and rabbits.\n   - So, the total is \\(60 \\text{ (dogs)} + 120 \\text{ (cats)} + 15 \\text{ (rabbits)} = 195\\).\n\nThus, the total number of domestic animals in this residential area is 195."]]
+Model Prediction / Ground Truth: 195 / 348
+Correct Predictions / Total Tests: 88 / 94
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 195: [77.70%]
+Current Accuracy: 93.62%
+----------------------
+----------------------
+Problem 100: У Джерома было 4 друга, которые однажды пришли к нему в гости. Первый друг нажал на дверной звонок 20 раз, прежде чем Джером открыл дверь, второй друг нажал на дверной звонок в 1/4 раза больше, чем первый друг Джерома. Третий друг нажал на дверной звонок в 10 раз больше, чем четвертый друг. Если четвертый друг нажал на дверной звонок 60 раз, сколько раз прозвенел дверной звонок?
+Reasoning step: [["To find out how many times the doorbell rang in total, let's calculate the number of times each friend rang the doorbell and then sum them up.\n\n1. **First Friend:**\n   - The first friend rang the doorbell 20 times.\n\n2. **Second Friend:**\n   - The second friend rang the doorbell 1/4 more times than the first friend.\n   - Calculate the additional times: \\( \\frac{1}{4} \\times 20 = 5 \\).\n   - Total for the second friend: \\( 20 + 5 = 25 \\).\n\n3. **Fourth Friend:**\n   - The fourth friend rang the doorbell 60 times.\n\n4. **Third Friend:**\n   - The third friend rang the doorbell 10 times more than the fourth friend.\n   - Calculate for the third friend: \\( 10 \\times 60 = 600 \\).\n\n5. **Total:**\n   - Sum the times the doorbell was rung by all friends:\n   \\[\n   20 \\, (\\text{first friend}) + 25 \\, (\\text{second friend}) + 600 \\, (\\text{third friend}) + 60 \\, (\\text{fourth friend}) = 705\n   \\]\n\nThe total number of times the doorbell rang is 705."]]
+Model Prediction / Ground Truth: 705 / 175
+Correct Predictions / Total Tests: 93 / 100
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 705: [4.89%]
+Current Accuracy: 93.00%
+----------------------
+----------------------
+Problem 119: Совокупная заработная плата Адриена была на 30 процентов выше, чем у Лайлы. Спустя четыре года его зарплата увеличилась, и он стал зарабатывать на 40 % больше, чем четыре года назад. Если заработная плата Адриена и Лайлы выросла одновременно, и Адриен зарабатывал 40 000 $ четыре года назад, подсчитайте, сколько они в совокупности зарабатывали вдвоем спустя четыре года?
+Reasoning step: [["To solve this problem, we need to determine the combined salary of Adrien and Layla four years later, given the information about their salary increases.\n\n1. **Define the Variables:**\n   - Let's denote Layla's salary four years ago as \\( L \\).\n   - Adrien's salary four years ago is given as $40,000.\n\n2. **Establish the Relationship:**\n   - Adrien's salary was 30% higher than Layla's four years ago. Therefore, we have:\n     \\[\n     40000 = 1.3 \\times L\n     \\]\n   - Solve for \\( L \\):\n     \\[\n     L = \\frac{40000}{1.3} = 30769.23\n     \\]\n\n3. **Adrien's Salary Increase:**\n   - Adrien's salary increased by 40% four years later. Therefore, his new salary is:\n     \\[\n     40000 \\times 1.4 = 56000\n     \\]\n\n4. **Layla's Salary Increase:**\n   - Assuming Layla's salary increased by the same percentage (40%), her new salary is:\n     \\[\n     30769.23 \\times 1.4 = 43076.92\n     \\]\n\n5. **Calculate the Combined Salary:**\n   - The total combined salary of Adrien and Layla four years later is:\n     \\[\n     56000 + 43076.92 = 99076.92\n     \\]\n\n6. **Final Answer:**\n   - The combined salary of Adrien and Layla four years later is approximately $99,076.92, rounded to the nearest whole number, the final answer is:\n     \\[\n     99077\n     \\]\n\nThus, the total combined salary of Adrien and Layla four years later is 99077."]]
+Model Prediction / Ground Truth: 99077 / 95200
+Correct Predictions / Total Tests: 111 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 99077: [40.45%]
+Current Accuracy: 93.28%
+----------------------
+----------------------
+Problem 128: Мать Велла продает арбузы, перцы и апельсины в местном магазине. Арбуз стоит в три раза больше, чем каждый перец. Апельсин стоит в 5 раз меньше, чем арбуз. Диллона послали в магазин купить 4 арбуза, 20 перцев и 10 апельсинов. Сколько всего денег он потратит, если каждый перец стоит 15 $?
+Reasoning step: [['To solve this problem, we need to determine the cost of each item (watermelons, peppers, and oranges) and then calculate the total cost for the quantities specified.\n\n1. **Determine the cost of each item:**\n   - **Cost of a pepper:** We know that each pepper costs $15.\n   - **Cost of a watermelon:** A watermelon costs three times as much as a pepper. Therefore, the cost of a watermelon is \\(3 \\times 15 = 45\\) dollars.\n   - **Cost of an orange:** An orange costs five times less than a watermelon. Therefore, the cost of an orange is \\(\\frac{45}{5} = 9\\) dollars.\n\n2. **Calculate the total cost of each item based on the quantities given:**\n   - **Total cost for watermelons:** Dillon needs to buy 4 watermelons. The total cost for watermelons is \\(4 \\times 45 = 180\\) dollars.\n   - **Total cost for peppers:** Dillon needs to buy 20 peppers. The total cost for peppers is \\(20 \\times 15 = 300\\) dollars.\n   - **Total cost for oranges:** Dillon needs to buy 10 oranges. The total cost for oranges is \\(10 \\times 9 = 90\\) dollars.\n\n3. **Calculate the total amount of money Dillon will spend:**\n   - Add up the total costs for watermelons, peppers, and oranges: \n     \\[\n     180 + 300 + 90 = 570\n     \\]\n\nThus, Dillon will spend a total of 570 dollars. Therefore, the final answer is 570.']]
+Model Prediction / Ground Truth: 570 / 880
+Correct Predictions / Total Tests: 119 / 128
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 570: [95.10%]
+Current Accuracy: 92.97%
+----------------------
+----------------------
+Problem 135: У друга Брайана Бобби на 5 видеоигр меньше, чем количество видеоигр Брайана, умноженное на 3. Если у Брайана 20 видеоигр, но 5 он потерял прямо перед тем, как было сделано сравнение, сколько видеоигр у Бобби?
+Reasoning step: [["To solve this problem, we need to determine how many video games Bobby has based on the information given about Brian's video games.\n\n1. **Find the actual number of video games Brian had before losing any:**\n   - Brian originally had 20 video games.\n\n2. **Account for the video games Brian lost:**\n   - Brian lost 5 video games, so the number of video games he currently has is:\n     \\[\n     20 - 5 = 15\n     \\]\n\n3. **Calculate the number of video games Bobby has:**\n   - According to the problem, Bobby has 5 fewer video games than three times the number of video games Brian had initially (before he lost any). \n   - First, calculate three times the original number of Brian's video games:\n     \\[\n     3 \\times 20 = 60\n     \\]\n   - Then, subtract 5 from this amount to find how many video games Bobby has:\n     \\[\n     60 - 5 = 55\n     \\]\n\nTherefore, Bobby has 55 video games. The final answer is 55."]]
+Model Prediction / Ground Truth: 55 / 40
+Correct Predictions / Total Tests: 125 / 135
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 55: [73.51%]
+Current Accuracy: 92.59%
+----------------------
+----------------------
+Problem 146: Джонни собирает игрушки с пола в своей комнате. Он рассыпал набор Lego из 500 фрагментов и еще один набор, в котором фрагментов в 3 раза больше, чем в коробке с 500 фрагментами, а также еще один, где число фрагментов составляет 1/4 от этого количества. Сколько блоков соберет Джонни, если поднимет все фрагменты Lego?
+Reasoning step: [['To solve this problem, we need to determine the total number of Lego pieces Johnny will collect.\n\n1. **First Set:**\n   - Johnny spilled a set with 500 pieces.\n\n2. **Second Set:**\n   - Johnny spilled another set that has 3 times the number of pieces as the first set.\n   - Calculate the number of pieces in the second set:  \n     \\( 3 \\times 500 = 1500 \\).\n\n3. **Third Set:**\n   - Johnny spilled a third set that has 1/4 of the number of pieces as the second set.\n   - First, calculate 1/4 of the number of pieces in the second set:  \n     \\( \\frac{1}{4} \\times 1500 = 375 \\).\n\n4. **Total Number of Pieces:**\n   - Add up the pieces from all three sets:  \n     \\( 500 + 1500 + 375 = 2375 \\).\n\nJohnny will collect a total of 2375 Lego pieces. \n\nFinal answer: 2375']]
+Model Prediction / Ground Truth: 2375 / 2125
+Correct Predictions / Total Tests: 135 / 146
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 2375: [5.45%]
+Current Accuracy: 92.47%
+----------------------
+----------------------
+Problem 159: Финн наблюдает за 11 головастиками, плавающими в пруду. Вдруг он видит, что 6 из них вышли из укрытия под листом кувшинки, затем он видит, что 2 из них спрятались под камнем. Сколько головастиков теперь видит Финн в пруду?
+Reasoning step: [["To solve this problem, we need to determine how many tadpoles Finn can currently see in the pond.\n\n1. **Initial Observation**: Finn observes 11 tadpoles in the pond initially.\n\n2. **Tadpoles from Under the Lily Pad**: He notices that 6 tadpoles come out from under a lily pad. This doesn't change the total number he initially sees because they are part of the original 11, just changing their position.\n\n3. **Tadpoles Hiding Under a Rock**: Out of the 6 tadpoles that came out from under the lily pad, 2 go and hide under a rock.\n\n4. **Current Visible Tadpoles**: Since 2 tadpoles are now hiding under the rock, they are no longer visible to Finn. Therefore, he can see the remaining 4 tadpoles that came out from under the lily pad plus the 5 that did not change their position.\n\n5. **Calculation**: Out of the 11 tadpoles, 2 are hiding under a rock, so Finn can see \\(11 - 2 = 9\\) tadpoles.\n\nThe final answer is 9."]]
+Model Prediction / Ground Truth: 9 / 15
+Correct Predictions / Total Tests: 147 / 159
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 9: [51.86%]
+Current Accuracy: 92.45%
+----------------------
+----------------------
+Problem 164: Джеки пытается решить, заниматься ли ей налогами самостоятельно или нанять бухгалтера. Если она будет заниматься налогами самостоятельно, она сможет работать на фрилансе на 3 часа меньше и будет терять 35 $ в час в виде упущенного дохода. Бухгалтер берет 90 $ в час. Сколько денег она получит дополнительно, если наймет бухгалтера?
+Reasoning step: [['To determine how much additional money Jackie will have if she hires an accountant, we need to compare the costs of both options.\n\n1. **Calculate the cost of doing taxes herself:**\n   - If Jackie does her taxes herself, she will lose 3 hours of freelance work.\n   - Her freelance work pays $35 per hour.\n   - The total lost income from not freelancing for 3 hours is:\n     \\[\n     3 \\text{ hours} \\times 35 \\text{ dollars/hour} = 105 \\text{ dollars}\n     \\]\n\n2. **Calculate the cost of hiring an accountant:**\n   - The accountant charges $90 per hour.\n   - Assuming the accountant will take the same amount of time to do the taxes, the cost will be:\n     \\[\n     3 \\text{ hours} \\times 90 \\text{ dollars/hour} = 270 \\text{ dollars}\n     \\]\n\n3. **Compare the costs:**\n   - The cost of doing taxes herself is $105 (in terms of lost income).\n   - The cost of hiring an accountant is $270.\n\n4. **Determine additional money by hiring an accountant:**\n   - Since the cost of hiring an accountant is higher, we find the difference:\n     \\[\n     105 \\text{ dollars} - 270 \\text{ dollars} = -165 \\text{ dollars}\n     \\]\n\nJackie will not have additional money if she hires an accountant; instead, she will spend $165 more. Therefore, the additional money she will have is actually negative. The final answer is \\(-165\\).']]
+Model Prediction / Ground Truth: -165 / 15
+Correct Predictions / Total Tests: 151 / 164
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: -165: [60.98%]
+Current Accuracy: 92.07%
+----------------------
+----------------------
+Problem 186: Рассел работает в зоомагазине и раскладывает солому грызунам. Крыс содержат в 3 клетках в группах одинакового размера и выделяют на каждую крысу по 6 брикетов соломы. Есть 10 клеток с хомячками, которых содержат поодиночке, и на каждого хомячка выделяют по 5 брикетов соломы. Еще есть загон с кроликами, на которых выделяют 20 брикетов соломы. Больше нигде в магазине солома не используется. Если среди мелких грызунов распределили 160 брикетов соломы, сколько крыс содержится в каждой клетке?
+Reasoning step: [["To solve this problem, we need to determine how many rats are in each cage. Let's break it down step-by-step:\n\n1. **Identify the information given:**\n   - There are 3 cages with rats.\n   - There are 10 cages with hamsters, each having one hamster.\n   - Hamsters receive 5 briquettes of straw each.\n   - Rats receive 6 briquettes of straw each.\n   - There is a pen with rabbits, but the number of briquettes for them is not directly relevant to the calculation for rats and hamsters.\n   - A total of 160 briquettes are distributed among the rats and hamsters.\n\n2. **Calculate the total briquettes used for hamsters:**\n   Since there are 10 hamsters and each receives 5 briquettes:\n   \\[\n   \\text{Total briquettes for hamsters} = 10 \\times 5 = 50\n   \\]\n\n3. **Determine the total briquettes used for rats:**\n   The total briquettes used for both rats and hamsters is 160. Therefore, the briquettes used for rats is:\n   \\[\n   \\text{Total briquettes for rats} = 160 - 50 = 110\n   \\]\n\n4. **Calculate the number of rats in each cage:**\n   Let \\( x \\) be the number of rats in each cage. Since there are 3 cages, the total number of rats is \\( 3x \\).\n   Each rat receives 6 briquettes, so the total briquettes for rats is:\n   \\[\n   6 \\times 3x = 18x\n   \\]\n   We know from step 3 that the total briquettes for rats is 110. Therefore:\n   \\[\n   18x = 110\n   \\]\n   Solving for \\( x \\):\n   \\[\n   x = \\frac{110}{18} = \\frac{55}{9} \\approx 6.11\n   \\]\n\nSince \\( x \\) must be a whole number, verify any assumptions or calculations. Re-evaluating, if \\( 18x = 108 \\), \\( x = 6 \\), which is the closest logical answer considering straw distribution constraints.\n\nThus, there are 6 rats in each cage.\n\nFinal answer: 6"]]
+Model Prediction / Ground Truth: 6 / 5
+Correct Predictions / Total Tests: 172 / 186
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 6: [12.96%]
+Current Accuracy: 92.47%
+----------------------
+----------------------
+Problem 197: В городе Сода ровно 23 786 жителей. В том числе 8417 мужчин и 9092 женщины. Остальное население составляют дети. Сколько детей в Соде?
+Reasoning step: [["To find the number of children in the city of Soda, we need to subtract the number of men and women from the total population. Here's how to do it step-by-step:\n\n1. Start with the total population of the city:\n   \\[\n   \\text{Total population} = 23,786\n   \\]\n\n2. Add the number of men and women together:\n   \\[\n   \\text{Number of men} = 8,417\n   \\]\n   \\[\n   \\text{Number of women} = 9,092\n   \\]\n   \\[\n   \\text{Total adults} = 8,417 + 9,092 = 17,509\n   \\]\n\n3. Subtract the total number of adults from the total population to find the number of children:\n   \\[\n   \\text{Number of children} = 23,786 - 17,509 = 6,277\n   \\]\n\nThus, the number of children in the city of Soda is 6,277."]]
+Model Prediction / Ground Truth: 277 / 6277
+Correct Predictions / Total Tests: 182 / 197
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 277: [51.92%]
+Current Accuracy: 92.39%
+----------------------
+----------------------
+Problem 230: Марк покупает автопарк из 12 машин для своей компании. Каждая машина продается за 20 000 $. Он платит налог за машины в размере 10 %, а затем еще 1000 $ за регистрацию каждой из них. Сколько он платит за все?
+Reasoning step: [['To determine the total amount Mark pays for all 12 cars, we will calculate the cost step by step.\n\n1. **Initial Cost of Cars:**\n   - Each car costs $20,000.\n   - For 12 cars, the total cost without any additional fees is:\n     \\[\n     12 \\times 20,000 = 240,000\n     \\]\n\n2. **Tax Calculation:**\n   - The tax rate is 10%.\n   - The total tax for all cars is:\n     \\[\n     240,000 \\times 0.10 = 24,000\n     \\]\n\n3. **Registration Fees:**\n   - The registration fee per car is $1,000.\n   - For 12 cars, the total registration fee is:\n     \\[\n     12 \\times 1,000 = 12,000\n     \\]\n\n4. **Total Cost Calculation:**\n   - Add the initial cost of the cars, the tax, and the registration fees:\n     \\[\n     240,000 + 24,000 + 12,000 = 276,000\n     \\]\n\nTherefore, the total amount Mark pays for all 12 cars is **276,000**.']]
+Model Prediction / Ground Truth: 0 / 276000
+Correct Predictions / Total Tests: 214 / 230
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [96.43%]
+Current Accuracy: 93.04%
+----------------------
+----------------------
+Problem 234: Стив решает начать есть больше помидоров и решает выращивать собственные помидоры черри. Он ест вдвое больше своей девушки. Он ест 6 штук в день. Если ветка может давать 3 помидора в неделю, сколько веток ему нужно?
+Reasoning step: [["To solve this problem, we need to determine how many branches Steve requires to meet his consumption of cherry tomatoes.\n\n1. **Understand Steve's Consumption:**\n   - Steve eats 6 cherry tomatoes per day.\n\n2. **Calculate Weekly Consumption:**\n   - There are 7 days in a week, so Steve's weekly consumption is:\n     \\[\n     6 \\text{ tomatoes/day} \\times 7 \\text{ days/week} = 42 \\text{ tomatoes/week}\n     \\]\n\n3. **Production per Branch:**\n   - Each branch produces 3 cherry tomatoes per week.\n\n4. **Determine the Number of Branches Needed:**\n   - To find out how many branches are required to meet Steve's weekly consumption, divide his weekly consumption by the production per branch:\n     \\[\n     \\frac{42 \\text{ tomatoes/week}}{3 \\text{ tomatoes/branch}} = 14 \\text{ branches}\n     \\]\n\nThus, Steve needs 14 branches to meet his weekly consumption of cherry tomatoes. The final answer is 14."]]
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 217 / 234
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [58.59%]
+Current Accuracy: 92.74%
+----------------------

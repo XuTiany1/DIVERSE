@@ -1,0 +1,225 @@
+----------------------
+Problem 2: Josh decide intentar remodelar y vender una casa. Compra una casa de $80 000 y luego agrega $50 000 para las reparaciones. Esto aumenta un 150 % el valor de la casa. ¿Cuánto obtuvo de ganancia?
+Reasoning step: [['Para determinar la ganancia que obtuvo Josh al vender la casa, podemos seguir estos pasos:\n\n1. **Calcular el costo total de la casa:**\n   - Precio de compra de la casa: $80,000\n   - Costo de las reparaciones: $50,000\n   - Costo total = Precio de compra + Costo de reparaciones = $80,000 + $50,000 = $130,000\n\n2. **Calcular el nuevo valor de la casa después del aumento del 150%:**\n   - Un aumento del 150% significa que el valor de la casa es 250% del valor original (100% + 150% = 250%).\n   - Valor original de la casa = Costo total = $130,000\n   - Valor después del aumento = 250% del valor original = 2.5 × $130,000\n\n3. **Calcular el valor de la casa después del aumento:**\n   - Valor de la casa después del aumento = 2.5 × $130,000 = $325,000\n\n4. **Calcular la ganancia obtenida:**\n   - Ganancia = Valor de la casa después del aumento - Costo total\n   - Ganancia = $325,000 - $130,000 = $195,000\n\nPor lo tanto, la ganancia que obtuvo Josh al vender la casa es $195,000. El último número, que es la respuesta final sin unidades, es:\n\n195000']]
+Model Prediction / Ground Truth: 195000 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 195000: [59.05%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 12: Carlos planta un limonero. Plantar el árbol le costará $90. Cada año dará 7 limones, que puede vender a $1,5 cada uno. Regar y nutrir el árbol cuesta $3 al año. ¿Cuántos años le llevará comenzar a ganar dinero con el limonero?
+Reasoning step: [['Para determinar cuántos años le llevará a Carlos comenzar a ganar dinero con el limonero, debemos calcular cuándo sus ingresos superarán sus costos.\n\n**Paso 1: Calcular los costos iniciales y anuales.**\n\n1. **Costo inicial de plantar el árbol:** $90.\n2. **Costo anual de mantenimiento (regar y nutrir el árbol):** $3 por año.\n\n**Paso 2: Calcular los ingresos anuales por la venta de limones.**\n\n1. **Número de limones que da el árbol cada año:** 7 limones.\n2. **Precio de venta por limón:** $1.5.\n\nIngresos anuales por la venta de limones = 7 limones * $1.5/limón = $10.5 por año.\n\n**Paso 3: Calcular las ganancias anuales.**\n\nGanancias anuales = Ingresos anuales - Costos anuales de mantenimiento.\n\nGanancias anuales = $10.5 - $3 = $7.5 por año.\n\n**Paso 4: Determinar cuántos años se necesitan para recuperar el costo inicial.**\n\nPara recuperar el costo inicial de $90 mediante las ganancias anuales de $7.5, calculamos:\n\nNúmero de años necesarios = Costo inicial / Ganancias anuales.\nNúmero de años necesarios = $90 / $7.5 = 12 años.\n\nPor lo tanto, Carlos comenzará a ganar dinero con el limonero después de 12 años. La respuesta final es:\n\n12']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 10 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [7.20%]
+Current Accuracy: 83.33%
+----------------------
+----------------------
+Problem 2: Josh decide intentar remodelar y vender una casa. Compra una casa de $80 000 y luego agrega $50 000 para las reparaciones. Esto aumenta un 150 % el valor de la casa. ¿Cuánto obtuvo de ganancia?
+Reasoning step: [['Para determinar la ganancia que obtuvo Josh, sigamos los siguientes pasos:\n\n1. **Costo total de inversión**: \n   - Precio de compra de la casa: $80,000\n   - Gastos en reparaciones: $50,000\n   - Costo total de inversión = $80,000 + $50,000 = $130,000\n\n2. **Aumento del valor de la casa**:\n   - El valor de la casa aumenta en un 150%.\n   - Un aumento del 150% significa que el valor final es 250% del valor original, ya que incluye el 100% del valor original más el 150% de aumento.\n   - Valor final de la casa = Valor original × 2.5\n\n3. **Cálculo del valor final de la casa**:\n   - Valor original de la casa (antes de las reparaciones): $80,000\n   - Valor final de la casa = $80,000 × 2.5 = $200,000\n\n4. **Ganancia obtenida**:\n   - La ganancia es la diferencia entre el valor final de la casa y el costo total de inversión.\n   - Ganancia = Valor final de la casa - Costo total de inversión\n   - Ganancia = $200,000 - $130,000 = $70,000\n\nPor lo tanto, Josh obtuvo una ganancia de $70,000.\n\n70,000']]
+Model Prediction / Ground Truth: 0 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [70.03%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 12: Carlos planta un limonero. Plantar el árbol le costará $90. Cada año dará 7 limones, que puede vender a $1,5 cada uno. Regar y nutrir el árbol cuesta $3 al año. ¿Cuántos años le llevará comenzar a ganar dinero con el limonero?
+Reasoning step: [['Para determinar cuántos años le llevará a Carlos comenzar a ganar dinero con el limonero, debemos calcular en qué momento los ingresos por la venta de limones superan los costos totales.\n\n1. **Costo inicial de plantar el limonero:**  \n   Carlos paga $90 para plantar el limonero.\n\n2. **Costos anuales de mantenimiento:**  \n   Cada año, Carlos incurre en un costo de $3 para regar y nutrir el árbol.\n\n3. **Ingresos anuales por la venta de limones:**  \n   El limonero produce 7 limones cada año, y Carlos vende cada limón a $1.5.  \n   Por lo tanto, los ingresos anuales por la venta de limones son:  \n   \\( 7 \\text{ limones} \\times 1.5 \\text{ dólares/limón} = 10.5 \\text{ dólares} \\).\n\n4. **Ganancia neta anual:**  \n   La ganancia neta anual es la diferencia entre los ingresos anuales y el costo anual de mantenimiento:  \n   \\( 10.5 \\text{ dólares} - 3 \\text{ dólares} = 7.5 \\text{ dólares} \\).\n\n5. **Recuperar el costo inicial:**  \n   Carlos necesita recuperar el costo inicial de $90. Dado que gana $7.5 netos al año, el número de años necesarios para recuperar los $90 es:  \n   \\( \\frac{90 \\text{ dólares}}{7.5 \\text{ dólares/año}} = 12 \\text{ años} \\).\n\nPor lo tanto, a Carlos le llevará 12 años comenzar a ganar dinero con el limonero. La respuesta final es:\n\n12']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 10 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [47.60%]
+Current Accuracy: 83.33%
+----------------------
+----------------------
+Problem 17: A Jill le pagan $20 la hora por enseñar y $30 por ser entrenadora de porristas. ¿Cuál es su salario anual si trabaja 50 semanas al año, 35 horas a la semana como maestra y 15 horas a la semana como entrenadora?
+Reasoning step: [['Para calcular el salario anual de Jill, debemos considerar ambos roles que desempeña: maestra y entrenadora de porristas.\n\n1. **Calcular el salario anual como maestra:**\n\n   - Jill gana $20 por hora enseñando.\n   - Trabaja 35 horas a la semana como maestra.\n   - Trabaja 50 semanas al año.\n\n   Primero, calculamos el salario semanal como maestra:\n   \\[\n   35 \\, \\text{horas/semana} \\times 20 \\, \\text{\\$/hora} = 700 \\, \\text{\\$/semana}\n   \\]\n\n   Luego, calculamos el salario anual como maestra:\n   \\[\n   700 \\, \\text{\\$/semana} \\times 50 \\, \\text{semanas/año} = 35,000 \\, \\text{\\$/año}\n   \\]\n\n2. **Calcular el salario anual como entrenadora de porristas:**\n\n   - Jill gana $30 por hora como entrenadora.\n   - Trabaja 15 horas a la semana como entrenadora.\n   - Trabaja 50 semanas al año.\n\n   Primero, calculamos el salario semanal como entrenadora:\n   \\[\n   15 \\, \\text{horas/semana} \\times 30 \\, \\text{\\$/hora} = 450 \\, \\text{\\$/semana}\n   \\]\n\n   Luego, calculamos el salario anual como entrenadora:\n   \\[\n   450 \\, \\text{\\$/semana} \\times 50 \\, \\text{semanas/año} = 22,500 \\, \\text{\\$/año}\n   \\]\n\n3. **Sumar ambos salarios anuales:**\n\n   Finalmente, sumamos el salario anual como maestra y como entrenadora para obtener el salario anual total:\n   \\[\n   35,000 \\, \\text{\\$/año} + 22,500 \\, \\text{\\$/año} = 57,500\n   \\]\n\nEl salario anual total de Jill es 57,500.']]
+Model Prediction / Ground Truth: 500 / 57500
+Correct Predictions / Total Tests: 14 / 17
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 500: [94.60%]
+Current Accuracy: 82.35%
+----------------------
+----------------------
+Problem 38: John corre 60 millas por semana. Corre 3 días a la semana. El primer día corre 3 horas y la mitad de lo que corre los otros dos días. ¿A qué velocidad corre?
+Reasoning step: [['Para resolver este problema, necesitamos encontrar la velocidad a la que corre John. Sabemos que corre un total de 60 millas por semana en 3 días. Vamos a desglosar la información dada y calcular su velocidad.\n\n1. **Definir las variables**:\n   - Sea \\( x \\) la distancia que corre en el segundo y tercer día.\n   - Sabemos que el primer día corre 3 horas y esa distancia es la mitad de lo que corre los otros dos días combinados.\n\n2. **Formular ecuaciones**:\n   - La distancia total en los tres días es de 60 millas.\n   - La distancia que corre el primer día es \\( \\frac{x}{2} \\).\n   - Entonces, la ecuación para la semana sería:\n     \\[\n     \\frac{x}{2} + x + x = 60\n     \\]\n\n3. **Resolver la ecuación**:\n   - Simplificar la ecuación:\n     \\[\n     \\frac{x}{2} + 2x = 60\n     \\]\n   - Multiplica toda la ecuación por 2 para deshacerte del denominador:\n     \\[\n     x + 4x = 120\n     \\]\n   - Combinar términos semejantes:\n     \\[\n     5x = 120\n     \\]\n   - Dividir ambos lados entre 5:\n     \\[\n     x = 24\n     \\]\n\n4. **Calcular distancias diarias**:\n   - El primer día corre \\( \\frac{24}{2} = 12 \\) millas.\n   - El segundo y tercer día corre 24 millas cada día.\n\n5. **Calcular la velocidad**:\n   - El primer día corre 12 millas en 3 horas, así que su velocidad es:\n     \\[\n     \\frac{12 \\text{ millas}}{3 \\text{ horas}} = 4 \\text{ millas por hora}\n     \\]\n\nPor lo tanto, la velocidad a la que corre John es 4.']]
+Model Prediction / Ground Truth: 4 / 10
+Correct Predictions / Total Tests: 34 / 38
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 4: [61.69%]
+Current Accuracy: 89.47%
+----------------------
+----------------------
+Problem 12: Carlos planta un limonero. Plantar el árbol le costará $90. Cada año dará 7 limones, que puede vender a $1,5 cada uno. Regar y nutrir el árbol cuesta $3 al año. ¿Cuántos años le llevará comenzar a ganar dinero con el limonero?
+Reasoning step: [['To determine how many years it will take for Carlos to start making a profit from the lemon tree, we need to calculate when his total income from selling lemons will surpass his initial and ongoing costs.\n\n1. **Initial Cost:**\n   - The cost to plant the tree is $90.\n\n2. **Annual Income:**\n   - Each year the tree produces 7 lemons.\n   - Each lemon is sold for $1.5.\n   - Annual income from selling lemons = 7 lemons * $1.5/lemon = $10.5.\n\n3. **Annual Cost:**\n   - The cost to water and nurture the tree each year is $3.\n\n4. **Annual Net Income:**\n   - Annual net income = Annual income - Annual cost = $10.5 - $3 = $7.5.\n\n5. **Calculating Break-even Point:**\n   - Carlos needs to recover the initial cost of $90 with his annual net income.\n   - Number of years required = Initial cost / Annual net income = $90 / $7.5 = 12.\n\nTherefore, it will take Carlos 12 years to start making a profit from the lemon tree. \n\nFinal Answer: 12']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 11 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [64.45%]
+Current Accuracy: 91.67%
+----------------------
+----------------------
+Problem 2: Josh decide intentar remodelar y vender una casa. Compra una casa de $80 000 y luego agrega $50 000 para las reparaciones. Esto aumenta un 150 % el valor de la casa. ¿Cuánto obtuvo de ganancia?
+Reasoning step: [["To determine Josh's profit from selling the house, let's break down the problem step by step:\n\n1. **Initial Purchase and Repair Costs**: Josh buys the house for $80,000 and spends an additional $50,000 on repairs. \n\n   \\[\n   \\text{Total cost} = \\$80,000 + \\$50,000 = \\$130,000\n   \\]\n\n2. **Increase in Value**: After repairs, the value of the house increases by 150%. This means the house's value becomes 250% of the original purchase price, as the 150% increase is on top of the original 100%.\n\n3. **Calculate New Value of the House**: To find the new value of the house, calculate 250% of the initial purchase price ($80,000).\n\n   \\[\n   \\text{New value} = 2.5 \\times \\$80,000 = \\$200,000\n   \\]\n\n4. **Calculate the Profit**: The profit is the difference between the new value of the house and the total costs incurred (purchase plus repairs).\n\n   \\[\n   \\text{Profit} = \\$200,000 - \\$130,000 = \\$70,000\n   \\]\n\nThus, Josh's profit from the venture is $70,000. The final answer is:\n\n70,000"]]
+Model Prediction / Ground Truth: 0 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [97.82%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 12: Carlos planta un limonero. Plantar el árbol le costará $90. Cada año dará 7 limones, que puede vender a $1,5 cada uno. Regar y nutrir el árbol cuesta $3 al año. ¿Cuántos años le llevará comenzar a ganar dinero con el limonero?
+Reasoning step: [['To determine how many years it will take for Carlos to start making a profit from his lemon tree, we need to calculate the net profit per year and compare it to the initial cost.\n\n1. **Initial Cost:**\n   - Planting the tree costs $90.\n\n2. **Annual Revenue:**\n   - The tree produces 7 lemons per year.\n   - Each lemon is sold for $1.5.\n   - Annual revenue from selling lemons = 7 lemons × $1.5/lemon = $10.5.\n\n3. **Annual Costs:**\n   - Watering and nurturing the tree costs $3 per year.\n\n4. **Net Annual Profit:**\n   - Net annual profit = Annual revenue - Annual costs.\n   - Net annual profit = $10.5 - $3 = $7.5.\n\n5. **Break-even Calculation:**\n   - To find out how many years it takes to cover the initial cost, we divide the initial cost by the net annual profit.\n   - Years to break even = Initial cost / Net annual profit.\n   - Years to break even = $90 / $7.5 = 12.\n\nTherefore, it will take Carlos 12 years to start making a profit from his lemon tree. The final answer is 12.']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 10 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [90.83%]
+Current Accuracy: 83.33%
+----------------------
+----------------------
+Problem 37: John planea vender todos sus juguetes y usar el dinero para comprar videojuegos. Tiene 13 juegos de Lego que vende a $15 cada uno. Termina comprando 8 videojuegos por $20 cada uno y le sobran $5. ¿Cuántos juegos de Lego le quedan todavía?
+Reasoning step: [["To solve the problem, let's break it down step-by-step:\n\n1. **Calculate Total Earnings from Selling Lego Sets:**\n\n   John has 13 Lego sets, and he sells each one for $15. \n   \n   \\[\n   \\text{Total earnings} = 13 \\times 15 = 195\n   \\]\n\n2. **Calculate Total Cost of Video Games:**\n\n   John buys 8 video games, each costing $20.\n   \n   \\[\n   \\text{Total cost of video games} = 8 \\times 20 = 160\n   \\]\n\n3. **Calculate Total Money Spent:**\n\n   He spent $160 on video games and has $5 left over. Therefore, the total amount of money he originally had should be the total spent on video games plus the leftover money.\n   \n   \\[\n   \\text{Total money spent} = 160 + 5 = 165\n   \\]\n\n4. **Determine the Shortfall or Excess:**\n\n   Compare the total earnings from selling the Lego sets to the total amount of money spent:\n   \n   - John earned $195 from selling Legos.\n   - He needed $165 to buy the video games and have $5 left.\n\n   Since $195 (earned) > $165 (spent), this indicates John has sold all the Lego sets and still has some money left over.\n\n5. **Calculate Remaining Money to Determine Remaining Legos:**\n\n   To check if he has any Lego sets left, we see that he still has $30 left after spending $165, because:\n   \n   \\[\n   195 - 165 = 30\n   \\]\n\n   Since he made $30 more than he spent, and each Lego set sells for $15, this means he sold exactly all 13 sets. \n\n6. **Final Answer:**\n\n   John has $30 leftover because he sold all his Lego sets.\n\n   Therefore, John has \\(\\boxed{0}\\) Lego sets remaining."]]
+Model Prediction / Ground Truth: 0 / 2
+Correct Predictions / Total Tests: 34 / 37
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [36.27%]
+Current Accuracy: 91.89%
+----------------------
+----------------------
+Problem 38: John corre 60 millas por semana. Corre 3 días a la semana. El primer día corre 3 horas y la mitad de lo que corre los otros dos días. ¿A qué velocidad corre?
+Reasoning step: [["To determine John's running speed, we need to follow these steps:\n\n1. **Determine the total distance John runs in one week**:  \n   John runs a total of 60 miles per week.\n\n2. **Determine how many days John runs per week**:  \n   John runs 3 days per week.\n\n3. **Determine the distance John runs on the first day**:  \n   Let's denote the distance John runs on the other two days as \\( x \\) miles each.  \n   According to the problem, the distance run on the first day is 3 hours and half of what he runs on the other two days combined.  \n   Therefore, the first day distance is \\( \\frac{1}{2} \\times 2x = x \\) miles.\n\n4. **Set up an equation for the total weekly distance**:  \n   Since he runs \\( x \\) miles on the first day and \\( x \\) miles on each of the other two days, the equation for the total weekly distance is:  \n   \\[\n   x + x + x = 60\n   \\]\n   \\[\n   3x = 60\n   \\]\n\n5. **Solve for \\( x \\)**:  \n   \\[\n   x = \\frac{60}{3} = 20\n   \\]\n\n   Thus, John runs 20 miles on each of the three days.\n\n6. **Determine the speed on the first day**:  \n   On the first day, John runs 20 miles in 3 hours.  \n   Speed is calculated as distance divided by time:  \n   \\[\n   \\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}} = \\frac{20 \\text{ miles}}{3 \\text{ hours}} = \\frac{20}{3} \\text{ miles per hour}\n   \\]\n\nTherefore, the speed at which John runs is \\( \\frac{20}{3} \\) miles per hour. The final answer is 6.67."]]
+Model Prediction / Ground Truth: 7 / 10
+Correct Predictions / Total Tests: 34 / 38
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 7: [4.17%]
+Current Accuracy: 89.47%
+----------------------
+----------------------
+Problem 86: Greg ha configurado una alarma que se activa tres veces al día a modo de recordatorio. Cuando suena la alarma, sigue sonando hasta que Greg la apaga. La primera vez que se activó hoy, sonó cuatro veces. La segunda vez que se activó, sonó tres veces más que la primera vez. La tercera vez, sonó la mitad del tiempo de la segunda vez. ¿Cuántas veces sonó la alarma en total?
+Reasoning step: [["Let's break down the problem step by step:\n\n1. **First Activation:**\n   - The alarm sounded 4 times.\n\n2. **Second Activation:**\n   - The alarm sounded 3 times more than the first activation.\n   - Therefore, it sounded \\(4 + 3 = 7\\) times during the second activation.\n\n3. **Third Activation:**\n   - The alarm sounded half as many times as during the second activation.\n   - Therefore, it sounded \\(\\frac{7}{2} = 3.5\\) times during the third activation.\n\n4. **Total Times Sounded:**\n   - Add the number of times the alarm sounded in each activation:\n   - Total = First activation + Second activation + Third activation\n   - Total = 4 + 7 + 3.5\n\n5. **Final Calculation:**\n   - Total = 14.5\n\nThe final answer, the total number of times the alarm sounded, is 14.5."]]
+Model Prediction / Ground Truth: 14 / 22
+Correct Predictions / Total Tests: 81 / 86
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [5.69%]
+Current Accuracy: 94.19%
+----------------------
+----------------------
+Problem 89: Christina está organizando una fiesta de cumpleaños y necesita 0,75 bolsas de regalo por invitado porque 1/4 de los asistentes no llegan. Invitó a 16 amigos. Las bolsas de regalo cuestan $2 cada una. ¿Cuánto gastará?
+Reasoning step: [['To determine how much Christina will spend on party favor bags, we need to follow these steps:\n\n1. **Determine the Number of Guests Who Will Attend**:  \n   Christina invited 16 friends. However, 1/4 of the invited guests do not attend. Therefore, the number of guests who will actually attend can be calculated as follows:\n   \\[\n   \\text{Guests attending} = 16 \\times \\left(1 - \\frac{1}{4}\\right) = 16 \\times \\frac{3}{4} = 12\n   \\]\n\n2. **Calculate the Total Number of Gift Bags Required**:  \n   Christina needs 0.75 bags per guest who actually attends. Therefore, the total number of gift bags needed is:\n   \\[\n   \\text{Total gift bags} = 12 \\times 0.75 = 9\n   \\]\n\n3. **Calculate the Total Cost of the Gift Bags**:  \n   Each gift bag costs $2. Therefore, the total cost can be calculated as follows:\n   \\[\n   \\text{Total cost} = 9 \\times 2 = 18\n   \\]\n\nThus, the total amount Christina will spend on the gift bags is \\(\\boxed{18}\\).']]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 83 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [90.84%]
+Current Accuracy: 93.26%
+----------------------
+----------------------
+Problem 93: Lee antes podía correr las carreras de obstáculos de 400 metros dos segundos más rápido que Gerald. Pero Gerald cambió su dieta, lo que mejoró un 10 % su velocidad. Si Lee corre la carrera de obstáculos de 400 metros en 38 segundos, ¿cuántos segundos más rápido puede correrla Gerald gracias a su dieta mejorada?
+Reasoning step: [["To determine how much faster Gerald can run the 400-meter hurdles after improving his diet, we'll follow these steps:\n\n1. **Determine Lee's Running Time:**\n   Lee runs the 400-meter hurdles in 38 seconds.\n\n2. **Establish Gerald's Original Running Time:**\n   Given that Lee could previously run 2 seconds faster than Gerald, we find Gerald's original time by adding 2 seconds to Lee's time:\n   \\[\n   \\text{Gerald's original time} = 38 \\text{ seconds} + 2 \\text{ seconds} = 40 \\text{ seconds}\n   \\]\n\n3. **Calculate Gerald's Improved Running Time:**\n   Gerald's diet improved his speed by 10%. This means he can complete the race 10% faster than his original time. To find the improved time, we need to reduce his original time by 10%.\n\n   First, calculate 10% of Gerald's original time:\n   \\[\n   10\\% \\text{ of } 40 = 0.10 \\times 40 = 4 \\text{ seconds}\n   \\]\n\n   Subtract this from his original time to find his new running time:\n   \\[\n   \\text{Gerald's improved time} = 40 \\text{ seconds} - 4 \\text{ seconds} = 36 \\text{ seconds}\n   \\]\n\n4. **Determine How Much Faster Gerald is Now:**\n   Finally, compare Gerald's new time to Lee's time to determine how much faster Gerald can now run:\n   \\[\n   \\text{Difference} = 38 \\text{ seconds} - 36 \\text{ seconds} = 2 \\text{ seconds}\n   \\]\n\nThus, thanks to his improved diet, Gerald can now run the 400-meter hurdles 2 seconds faster than before. The final answer is:\n\\[\n2\n\\]"]]
+Model Prediction / Ground Truth: 2 / 36
+Correct Predictions / Total Tests: 86 / 93
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 2: [97.40%]
+Current Accuracy: 92.47%
+----------------------
+----------------------
+Problem 119: El salario total de Adrien era un 30 por ciento más alto que el de Lylah. Cuatro años después, su salario había aumentado y ganaba un 40 % más que lo que ganaba hace cuatro años. Si el salario de Adrien y el de Lylah aumentaron a la par, y hace cuatro años Adrien ganó $40 000, calcule el salario total que los dos recibían cuatro años después.
+Reasoning step: [["To solve this problem, let's break it down step by step:\n\n1. **Initial Relationship between Adrien's and Lylah's Salaries:**\n   - We know that Adrien's salary was 30% higher than Lylah's salary.\n   - Let Lylah's salary four years ago be \\( L \\).\n   - Hence, Adrien's salary four years ago was \\( 1.3L \\).\n\n2. **Adrien's Salary Four Years Ago:**\n   - It's given that Adrien earned $40,000 four years ago.\n   - So, \\( 1.3L = 40,000 \\).\n\n3. **Solve for Lylah's Salary Four Years Ago:**\n   - To find \\( L \\), we solve the equation \\( 1.3L = 40,000 \\).\n   - Dividing both sides by 1.3 gives us:\n   \\[\n   L = \\frac{40,000}{1.3} = 30,769.23\n   \\]\n\n4. **Salary Increase over Four Years:**\n   - Adrien's salary increased by 40% over four years.\n   - Four years later, Adrien's salary is:\n   \\[\n   40,000 \\times 1.4 = 56,000\n   \\]\n\n5. **Lylah's Salary Increase:**\n   - If Adrien's and Lylah's salaries increased at the same rate, Lylah's salary also increased by 40%.\n   - Lylah's salary four years later is:\n   \\[\n   30,769.23 \\times 1.4 = 43,076.92\n   \\]\n\n6. **Total Salary Four Years Later:**\n   - The total salary that Adrien and Lylah received four years later is:\n   \\[\n   56,000 + 43,076.92 = 99,076.92\n   \\]\n\nThus, the total salary that Adrien and Lylah received four years later is 99,076.92. The final answer is 99,076.92."]]
+Model Prediction / Ground Truth: 77 / 95200
+Correct Predictions / Total Tests: 111 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 77: [84.30%]
+Current Accuracy: 93.28%
+----------------------
+----------------------
+Problem 161: Anakin y Locsin fueron a la playa hoy. Anakin atrapó 10 estrellas de mar, 6 caballitos de mar y 3 peces payaso, mientras que Locsin atrapó 5 estrellas de mar menos que Anakin, 3 caballitos de mar menos que Anakin y 2 peces payaso más que Anakin. ¿Cuántos peces atraparon?
+Reasoning step: [["To determine the total number of fish Anakin and Locsin caught, we need to analyze the information given and perform the necessary calculations step by step.\n\n1. **Anakin's Catch**:\n   - Anakin caught 10 starfish, 6 seahorses, and 3 clownfish.\n\n2. **Locsin's Catch**:\n   - Locsin caught 5 starfish less than Anakin, which means:\n     \\[\n     10 - 5 = 5 \\text{ starfish}\n     \\]\n   - Locsin caught 3 seahorses less than Anakin, which means:\n     \\[\n     6 - 3 = 3 \\text{ seahorses}\n     \\]\n   - Locsin caught 2 clownfish more than Anakin, which means:\n     \\[\n     3 + 2 = 5 \\text{ clownfish}\n     \\]\n\n3. **Total Fish Caught by Anakin and Locsin**:\n   - Fish are seahorses and clownfish. Calculate the total number of fish each caught.\n   - Anakin's total fish:\n     \\[\n     6 \\text{ seahorses} + 3 \\text{ clownfish} = 9 \\text{ fish}\n     \\]\n   - Locsin's total fish:\n     \\[\n     3 \\text{ seahorses} + 5 \\text{ clownfish} = 8 \\text{ fish}\n     \\]\n\n4. **Combined Total Fish**:\n   \\[\n   9 \\text{ fish Anakin} + 8 \\text{ fish Locsin} = 17 \\text{ fish}\n   \\]\n\nThe final answer, representing the total number of fish caught by Anakin and Locsin, is 17."]]
+Model Prediction / Ground Truth: 17 / 32
+Correct Predictions / Total Tests: 152 / 161
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 17: [78.90%]
+Current Accuracy: 94.41%
+----------------------
+----------------------
+Problem 162: Si una bolsa de canicas cuesta $20 y el precio aumenta un 20 % del precio original cada dos meses, ¿cuánto costaría una bolsa de canicas después de 36 meses?
+Reasoning step: [['To determine the cost of a bag of marbles after 36 months with a 20% price increase every two months, we can follow these steps:\n\n1. **Understand the frequency of the increase**: The price increases every two months. Therefore, over 36 months, the price will increase 36 / 2 = 18 times.\n\n2. **Calculate the increase factor**: A 20% increase means the new price is 120% of the original price. In decimal form, this is 1.20.\n\n3. **Apply the increase factor for each period**: Since the price increases 18 times, we raise the increase factor to the power of 18:\n   \\[\n   \\text{New Price Factor} = 1.20^{18}\n   \\]\n\n4. **Calculate the final price**: The original price of the bag of marbles is $20. The final price after 36 months is:\n   \\[\n   \\text{Final Price} = 20 \\times 1.20^{18}\n   \\]\n\n5. **Compute the result**:\n   \\[\n   1.20^{18} \\approx 38.3376\n   \\]\n   \\[\n   \\text{Final Price} = 20 \\times 38.3376 = 766.752\n   \\]\n\nTherefore, the cost of a bag of marbles after 36 months is approximately $766.75. The final answer, without units, is:\n767']]
+Model Prediction / Ground Truth: 767 / 92
+Correct Predictions / Total Tests: 152 / 162
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 767: [1.68%]
+Current Accuracy: 93.83%
+----------------------
+----------------------
+Problem 184: Jerry lanza un dado de seis caras. ¿Cuánto más probable es (expresado como porcentaje) que saque un número mayor que 3 que que saque dos números pares seguidos?
+Reasoning step: [['To solve this problem, we need to calculate the probabilities of two different events and then compare them.\n\n### Step 1: Probability of rolling a number greater than 3\n\nA standard six-sided die has the numbers 1 to 6. The numbers greater than 3 are 4, 5, and 6. Therefore, there are 3 favorable outcomes for rolling a number greater than 3.\n\nThe probability \\( P(\\text{greater than 3}) \\) is given by the number of favorable outcomes divided by the total number of outcomes:\n\n\\[ P(\\text{greater than 3}) = \\frac{3}{6} = \\frac{1}{2} \\]\n\n### Step 2: Probability of rolling two even numbers in a row\n\nThe even numbers on a six-sided die are 2, 4, and 6. Thus, there are 3 even numbers.\n\nThe probability of rolling an even number on one roll is:\n\n\\[ P(\\text{even}) = \\frac{3}{6} = \\frac{1}{2} \\]\n\nSince the rolls are independent, the probability of rolling two even numbers in a row is:\n\n\\[ P(\\text{two evens}) = P(\\text{even}) \\times P(\\text{even}) = \\left(\\frac{1}{2}\\right) \\times \\left(\\frac{1}{2}\\right) = \\frac{1}{4} \\]\n\n### Step 3: Compare the probabilities\n\nNow, we compare the probability of rolling a number greater than 3 to the probability of rolling two even numbers in a row.\n\n- Probability of a number greater than 3: \\( \\frac{1}{2} \\)\n- Probability of two even numbers: \\( \\frac{1}{4} \\)\n\nTo find how much more probable it is to roll a number greater than 3, we calculate the difference and express it as a percentage of the probability of rolling two even numbers:\n\n\\[ \\text{Difference} = \\frac{1}{2} - \\frac{1}{4} = \\frac{2}{4} - \\frac{1}{4} = \\frac{1}{4} \\]\n\nThe percentage increase is calculated as:\n\n\\[ \\text{Percentage Increase} = \\left(\\frac{\\frac{1}{4}}{\\frac{1}{4}}\\right) \\times 100\\% = 100\\% \\]\n\nThus, it is 100% more probable to roll a number greater than 3 than to roll two even numbers in a row.\n\nFinal Answer: 100']]
+Model Prediction / Ground Truth: 100 / 25
+Correct Predictions / Total Tests: 173 / 184
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 100: [46.30%]
+Current Accuracy: 94.02%
+----------------------
+----------------------
+Problem 197: En la ciudad de Soda, hay exactamente 23 786 habitantes. Esto incluye 8417 varones y 9092 mujeres. El resto de la población está formada por niños. ¿Cuántos niños hay en Soda?
+Reasoning step: [['To find out how many children there are in the city of Soda, we need to subtract the number of men and women from the total population.\n\nStep 1: Identify the total population of Soda.\n- Total population = 23,786\n\nStep 2: Identify the number of men in Soda.\n- Number of men = 8,417\n\nStep 3: Identify the number of women in Soda.\n- Number of women = 9,092\n\nStep 4: Add the number of men and women together to find the total number of adults.\n- Total adults = Number of men + Number of women\n- Total adults = 8,417 + 9,092 = 17,509\n\nStep 5: Subtract the total number of adults from the total population to find the number of children.\n- Number of children = Total population - Total adults\n- Number of children = 23,786 - 17,509 = 6,277\n\nFinal Answer: 6,277']]
+Model Prediction / Ground Truth: 277 / 6277
+Correct Predictions / Total Tests: 185 / 197
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 277: [67.38%]
+Current Accuracy: 93.91%
+----------------------
+----------------------
+Problem 198: Al principio, Elaine tenía 20 cartas de Pokémon. Después de un mes, tenía tres veces más. El segundo mes, tenía 20 cartas menos que las que tenía el primer mes. El tercer mes, tenía el doble de la cantidad total de cartas de Pokémon que tenía el primer y el segundo mes. ¿Cuántas cartas de Pokémon tiene ahora en total?
+Reasoning step: [["To solve this problem, we'll break it down step by step based on the information given:\n\n1. **Initial Number of Cards:**\n   Elaine starts with 20 Pokémon cards.\n\n2. **After the First Month:**\n   After the first month, she has three times more than she initially had. \n   \\[\n   \\text{First Month Cards} = 3 \\times 20 = 60\n   \\]\n\n3. **After the Second Month:**\n   She then has 20 cards less than what she had after the first month.\n   \\[\n   \\text{Second Month Cards} = 60 - 20 = 40\n   \\]\n\n4. **After the Third Month:**\n   By the end of the third month, she has double the total number of cards she had during the first and second months.\n   First, calculate the total number of cards from the first and second months:\n   \\[\n   \\text{Total Cards from First and Second Months} = 60 + 40 = 100\n   \\]\n   Then, she has double this amount after the third month:\n   \\[\n   \\text{Third Month Cards} = 2 \\times 100 = 200\n   \\]\n\n5. **Final Total:**\n   Therefore, at the end of the third month, Elaine has a total of 200 Pokémon cards.\n\nThe final answer is \\( \\boxed{200} \\)."]]
+Model Prediction / Ground Truth: 200 / 320
+Correct Predictions / Total Tests: 185 / 198
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 200: [96.22%]
+Current Accuracy: 93.43%
+----------------------
+----------------------
+Problem 201: John gana un premio en el trabajo. El premio consta de una recompensa monetaria por única vez de $5000 y un aumento del 5 % en el salario. Si gana 2000 por semana todas las semanas del año y recibió el premio el primer día del año, ¿cuánto dinero ganó ese año?
+Reasoning step: [["To find out how much money John earned that year, we need to calculate both the monetary reward and his new annual salary after the salary increase.\n\n1. **Monetary Reward**: John receives a one-time monetary reward of $5000.\n\n2. **Weekly Salary and Annual Salary Calculation**:\n   - John's original weekly salary is $2000.\n   - His annual salary without the increase would be calculated by multiplying his weekly salary by the number of weeks in a year:\n     \\[\n     \\text{Annual Salary (original)} = 2000 \\times 52 = 104,000\n     \\]\n\n3. **Salary Increase**:\n   - John receives a 5% increase in his salary. We calculate the increase on his weekly salary first:\n     \\[\n     \\text{Weekly Increase} = 2000 \\times 0.05 = 100\n     \\]\n   - His new weekly salary becomes:\n     \\[\n     \\text{New Weekly Salary} = 2000 + 100 = 2100\n     \\]\n   - His new annual salary with the increase is:\n     \\[\n     \\text{New Annual Salary} = 2100 \\times 52 = 109,200\n     \\]\n\n4. **Total Earnings for the Year**:\n   - Add the one-time monetary reward to his new annual salary:\n     \\[\n     \\text{Total Earnings} = 5000 + 109,200 = 114,200\n     \\]\n\nTherefore, the total amount of money John earned that year is **114,200**."]]
+Model Prediction / Ground Truth: 200 / 114200
+Correct Predictions / Total Tests: 187 / 201
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 200: [94.55%]
+Current Accuracy: 93.03%
+----------------------
+----------------------
+Problem 214: Jerry tiene dos piscinas, ambas con fugas que las van vaciando a una velocidad de 4 galones/minuto. Hace 4 minutos, la piscina grande tenía la misma cantidad de agua que la piscina pequeña. Ahora, la piscina grande tiene cuatro veces la cantidad de agua de la piscina chica. ¿Qué cantidad de agua tiene ahora la piscina chica?
+Reasoning step: [["To solve this problem, let's use algebra to represent the situation and find the current amount of water in the smaller pool.\n\n1. **Define the variables:**\n   - Let \\( G(t) \\) be the amount of water in the large pool at time \\( t \\).\n   - Let \\( S(t) \\) be the amount of water in the small pool at time \\( t \\).\n\n2. **Understand the problem:**\n   - At time \\( t = -4 \\) (4 minutes ago), \\( G(-4) = S(-4) \\).\n   - At time \\( t = 0 \\) (now), \\( G(0) = 4 \\times S(0) \\).\n\n3. **Model the water leak:**\n   - The pools are leaking at 4 gallons per minute, so the change in water over time is linear:\n     \\[\n     G(t) = G(-4) - 4(t + 4)\n     \\]\n     \\[\n     S(t) = S(-4) - 4(t + 4)\n     \\]\n\n4. **Use the given conditions:**\n   - Since \\( G(-4) = S(-4) \\), let's call this initial amount \\( x \\).\n   - Therefore, \\( G(t) = x - 4(t + 4) \\) and \\( S(t) = x - 4(t + 4) \\).\n\n5. **Apply the condition at \\( t = 0 \\):**\n   - Now, we have \\( G(0) = 4 \\times S(0) \\).\n   - Substitute \\( t = 0 \\) into the equations:\n     \\[\n     G(0) = x - 16\n     \\]\n     \\[\n     S(0) = x - 16\n     \\]\n   - But since \\( G(0) = 4 \\times S(0) \\), substitute:\n     \\[\n     x - 16 = 4(x - 16)\n     \\]\n\n6. **Solve the equation:**\n   \\[\n   x - 16 = 4x - 64\n   \\]\n   \\[\n   64 - 16 = 4x - x\n   \\]\n   \\[\n   48 = 3x\n   \\]\n   \\[\n   x = 16\n   \\]\n\n7. **Find the current amount of water in the small pool:**\n   - Substitute \\( x = 16 \\) in \\( S(0) = x - 16 \\):\n     \\[\n     S(0) = 16 - 16 = 0\n     \\]\n\nTherefore, the current amount of water in the small pool is 0 gallons. Since the pools are leaking at the same rate, and they started with equal amounts, the condition \\( G(0) = 4 \\times S(0) \\) implies that the small pool is now empty. The final answer is 0."]]
+Model Prediction / Ground Truth: 0 / 8
+Correct Predictions / Total Tests: 199 / 214
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [17.61%]
+Current Accuracy: 92.99%
+----------------------
+----------------------
+Problem 234: Steve decide comenzar a comer más tomates y decide cultivar sus propios tomates cherry. Come dos veces más que su novia. Come 6 por día. Si una rama puede producir 3 tomates por semana, ¿cuántas ramas necesita?
+Reasoning step: [["To solve this problem, we need to determine how many branches Steve needs to cultivate to meet his tomato consumption.\n\n1. **Determine Steve's Weekly Consumption:**\n   - Steve eats 6 tomatoes per day.\n   - The number of days in a week is 7.\n   - Therefore, Steve's weekly consumption is: \n     \\[\n     6 \\text{ tomatoes/day} \\times 7 \\text{ days/week} = 42 \\text{ tomatoes/week}\n     \\]\n\n2. **Determine the Production per Branch:**\n   - Each branch produces 3 tomatoes per week.\n\n3. **Calculate the Number of Branches Needed:**\n   - To find out how many branches are needed to meet Steve's weekly consumption, we divide the weekly consumption by the production per branch:\n     \\[\n     \\frac{42 \\text{ tomatoes/week}}{3 \\text{ tomatoes/branch/week}} = 14 \\text{ branches}\n     \\]\n\nTherefore, Steve needs 14 branches to satisfy his tomato consumption. The final answer is 14."]]
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 218 / 234
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [78.83%]
+Current Accuracy: 93.16%
+----------------------
+----------------------
+Problem 236: Ram usa muchos bolígrafos. Se dio cuenta de que puede ahorrar dinero si mezcla la tinta de cinco bolígrafos vacíos para llenar un bolígrafo completo. Si compra 25 bolígrafos y luego los usa para hacer bolígrafos nuevos cuando se están quedando sin tinta, ¿cuántos bolígrafos termina teniendo en total?
+Reasoning step: [['To solve this problem, we need to determine how many total pens Ram ends up with by reusing the ink from empty pens.\n\n1. **Initial Pens**: Ram starts with 25 pens.\n\n2. **Using Empty Pens to Make New Pens**: \n   - For every 5 empty pens, Ram can make 1 new pen.\n   - After using the ink from the 25 pens, all of them will be empty.\n   - With 25 empty pens, Ram can make \\( \\frac{25}{5} = 5 \\) new pens.\n\n3. **Total Pens After First Refill**: \n   - Ram initially had 25 pens and he made 5 new pens from the empty ones.\n   - Now, he has \\( 25 + 5 = 30 \\) pens.\n\n4. **Repeat the Process**:\n   - Again, Ram will use these 30 pens until they are empty.\n   - With 30 empty pens, he can make \\( \\frac{30}{5} = 6 \\) new pens.\n\n5. **Total Pens After Second Refill**:\n   - He had 30 pens, and now he makes 6 more.\n   - Thus, he has \\( 30 + 6 = 36 \\) pens.\n\n6. **Repeat the Process Again**:\n   - Use the 36 pens until they are empty.\n   - With 36 empty pens, he can make \\( \\frac{36}{5} = 7 \\) new pens (remainder of 1 pen).\n\n7. **Total Pens After Third Refill**:\n   - He had 36 pens and makes 7 more.\n   - So, he now has \\( 36 + 7 = 43 \\) pens.\n\n8. **Repeat the Process Once More**:\n   - Use the 43 pens until they are empty.\n   - With 43 empty pens, he can make \\( \\frac{43}{5} = 8 \\) new pens (remainder of 3 pens).\n\n9. **Total Pens After Fourth Refill**:\n   - He had 43 pens and makes 8 more.\n   - This results in \\( 43 + 8 = 51 \\) pens.\n\n10. **Final Check**:\n    - Use the 51 pens until they are empty.\n    - With 51 empty pens, he can make \\( \\frac{51}{5} = 10 \\) new pens (remainder of 1 pen).\n\n11. **Total Pens After Fifth Refill**:\n    - He had 51 pens and makes 10 more.\n    - This results in \\( 51 + 10 = 61 \\) pens.\n\nNow, he cannot make a new pen from the remainder of 1 pen.\n\nThe final number of pens Ram ends up with is 61. \n\nThus, the final answer is 61.']]
+Model Prediction / Ground Truth: 61 / 31
+Correct Predictions / Total Tests: 219 / 236
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 61: [77.08%]
+Current Accuracy: 92.80%
+----------------------
+----------------------
+Problem 241: Dolly tiene dos libros. Pandora tiene uno. Si tanto Dolly como pandora leen sus propios libros y los de la otra, ¿cuántos libros terminarán leyendo en conjunto?
+Reasoning step: [["To solve the problem, let's break it down step by step:\n\n1. **Identify the number of books each person has**:\n   - Dolly has 2 books.\n   - Pandora has 1 book.\n\n2. **Calculate the total number of unique books**:\n   - In total, there are 2 (Dolly's books) + 1 (Pandora's book) = 3 unique books.\n\n3. **Determine the reading plan**:\n   - Dolly will read her 2 books and Pandora's 1 book, totaling 3 books.\n   - Pandora will read her 1 book and Dolly's 2 books, also totaling 3 books.\n\n4. **Add the number of books each person reads**:\n   - Dolly reads 3 books.\n   - Pandora reads 3 books.\n\n5. **Calculate the total number of books read by both together**:\n   - Since they are reading all the unique books available, the total number of books they will read collectively is 3 (the total number of unique books).\n\n6. **Final Answer**:\n   - The total number of books read in total is 3.\n\nTherefore, the final answer to the question is 3."]]
+Model Prediction / Ground Truth: 3 / 6
+Correct Predictions / Total Tests: 223 / 241
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [63.67%]
+Current Accuracy: 92.53%
+----------------------

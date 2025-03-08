@@ -1,0 +1,288 @@
+----------------------
+Problem 2: Josh se lance dans la rénovation d'une maison. Il en achète une au prix de 80 000 $ et investit 50 000 $ dans sa restauration. La valeur de la maison augmente alors de 150 %. Quel bénéfice a-t-il réalisé ?
+Reasoning step: [["To determine the profit Josh realized from renovating and selling the house, let's go through the steps:\n\n1. **Initial Purchase and Investment:**\n   - Josh buys the house for $80,000.\n   - He invests an additional $50,000 in restoration.\n   - The total investment in the house is the sum of the purchase price and the restoration costs:\n     \\[\n     \\text{Total Investment} = 80,000 + 50,000 = 130,000\n     \\]\n\n2. **Increase in Value:**\n   - The value of the house increases by 150%.\n   - To find the new value of the house, calculate 150% of the total investment and add it to the original total investment:\n     \\[\n     \\text{Increase in Value} = 130,000 \\times \\frac{150}{100} = 195,000\n     \\]\n   - The new value of the house is the sum of the original total investment and the increase in value:\n     \\[\n     \\text{New Value} = 130,000 + 195,000 = 325,000\n     \\]\n\n3. **Profit Calculation:**\n   - Profit is calculated as the difference between the new value of the house and the total investment:\n     \\[\n     \\text{Profit} = 325,000 - 130,000 = 195,000\n     \\]\n\nThe profit Josh realized from the renovation and sale of the house is \\(\\boxed{195,000}\\)."]]
+Model Prediction / Ground Truth: 0 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [59.93%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 12: Carlos veut planter un citronnier. Le coût de la plantation est de 90 $. Chaque année, l'arbre produira 7 citrons qui seront vendus au prix de 1,5 $ chacun. L'arrosage et la nutrition de l'arbre coûtent 3 $ par an. Combien d'années faudra-t-il à Carlos pour commencer à gagner de l'argent avec son citronnier ?
+Reasoning step: [['To determine how many years it will take for Carlos to start making a profit from his lemon tree, we need to calculate when his total revenue will exceed his total costs.\n\n1. **Initial Cost:**\n   - The initial cost for planting the lemon tree is $90.\n\n2. **Annual Revenue:**\n   - Each year, the tree produces 7 lemons.\n   - Each lemon is sold for $1.5.\n   - Therefore, the annual revenue from selling lemons is:  \n     \\( 7 \\text{ lemons} \\times 1.5 \\text{ dollars/lemon} = 10.5 \\text{ dollars} \\).\n\n3. **Annual Cost:**\n   - The annual cost for watering and nutrition is $3.\n\n4. **Net Annual Profit:**\n   - Net annual profit is calculated as revenue minus the cost:  \n     \\( 10.5 \\text{ dollars} - 3 \\text{ dollars} = 7.5 \\text{ dollars} \\).\n\n5. **Break-Even Calculation:**\n   - Carlos needs to recover his initial investment of $90.\n   - To find out how many years it will take to recover this cost, we divide the initial cost by the net annual profit:  \n     \\( \\frac{90 \\text{ dollars}}{7.5 \\text{ dollars/year}} = 12 \\text{ years} \\).\n\nTherefore, it will take Carlos 12 years to start making a profit from his lemon tree. The final answer is 12.']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 10 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [80.49%]
+Current Accuracy: 83.33%
+----------------------
+----------------------
+Problem 14: Dans un cours de danse comptant 20 élèves, 20 % d'entre eux sont inscrits en danse contemporaine, 25 % en danse jazz et le reste en danse hip-hop. Quel est le pourcentage des élèves inscrits en danse hip-hop ?
+Reasoning step: [['To determine the percentage of students enrolled in hip-hop dance, we need to find out how many students are enrolled in contemporary and jazz dance, and then subtract that from the total to find the number of students in hip-hop.\n\n1. **Total number of students**: 20 students.\n\n2. **Students in contemporary dance**: \n   - 20% of 20 students = 0.20 * 20 = 4 students.\n\n3. **Students in jazz dance**: \n   - 25% of 20 students = 0.25 * 20 = 5 students.\n\n4. **Students in hip-hop dance**:\n   - Total students in contemporary and jazz = 4 (contemporary) + 5 (jazz) = 9 students.\n   - Students in hip-hop = Total students - Students in contemporary and jazz\n   - Students in hip-hop = 20 - 9 = 11 students.\n\n5. **Percentage of students in hip-hop dance**:\n   - (Number of students in hip-hop / Total number of students) * 100\n   - (11 / 20) * 100 = 55%.\n\nThe percentage of students enrolled in hip-hop dance is 55.']]
+Model Prediction / Ground Truth: 55 / 60
+Correct Predictions / Total Tests: 11 / 14
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 55: [93.55%]
+Current Accuracy: 78.57%
+----------------------
+----------------------
+Problem 20: J'ai 10 litres de jus d'orange composés aux deux tiers d'eau. En voulant les mélanger à 15 litres de jus d'ananas composés aux trois quarts d'eau, je renverse un litre de jus d'orange. Quelle quantité d'eau y a-t-il dans les 24 litres restants ?
+Reasoning step: [['To find out the amount of water in the 24 liters of mixed juice, follow these steps:\n\n1. **Determine the original amount of water in the orange juice:**\n   - The orange juice is 10 liters, with two-thirds of it being water.\n   - Amount of water in orange juice = \\( \\frac{2}{3} \\times 10 = \\frac{20}{3} \\approx 6.67 \\) liters.\n\n2. **Account for spillage:**\n   - 1 liter of orange juice is spilled. Since the orange juice is two-thirds water, the amount of water in the spilled juice is \\( \\frac{2}{3} \\) of 1 liter.\n   - Amount of water spilled = \\( \\frac{2}{3} \\times 1 = \\frac{2}{3} \\approx 0.67 \\) liters.\n\n3. **Calculate the remaining amount of water in the orange juice:**\n   - Remaining water in the orange juice = \\( 6.67 - 0.67 = 6 \\) liters.\n\n4. **Determine the amount of water in the pineapple juice:**\n   - The pineapple juice is 15 liters, with three-quarters of it being water.\n   - Amount of water in pineapple juice = \\( \\frac{3}{4} \\times 15 = \\frac{45}{4} = 11.25 \\) liters.\n\n5. **Calculate the total amount of water in the remaining juice:**\n   - Total water = Water from remaining orange juice + Water from pineapple juice\n   - Total water = \\( 6 + 11.25 = 17.25 \\) liters.\n\nThe final amount of water in the 24 liters of mixed juice is 17.25.']]
+Model Prediction / Ground Truth: 17 / 15
+Correct Predictions / Total Tests: 16 / 20
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 17: [85.35%]
+Current Accuracy: 80.00%
+----------------------
+----------------------
+Problem 62: Si Marcy travaille pour la même entreprise pendant 40 ans, elle reçoit une pension de 50 000 $ par an. À partir de 20 ans de travail, elle a droit à 5 % de ce montant par an. En admettant qu'elle démissionne après 30 ans de service, quelle sera sa pension annuelle ?
+Reasoning step: [["To determine Marcy's annual pension if she resigns after 30 years of service, we can break down the problem as follows:\n\n1. **Understand the Full Pension:** If Marcy works for 40 years, her full pension is $50,000 per year.\n\n2. **Calculate the Pension Accrual Rate:** Marcy starts accruing her pension after 20 years of service. For each year of service beyond 20 years, she earns 5% of the full pension amount.\n\n3. **Determine the Number of Years of Accrual:** Marcy works for 30 years. Therefore, the number of years she accrues pension benefits is:\n   \\[\n   30 \\text{ years} - 20 \\text{ years} = 10 \\text{ years}\n   \\]\n\n4. **Calculate the Percentage of Full Pension Earned:** For each of those 10 years, she earns 5% of the full pension amount. Therefore, the total percentage of the full pension she earns is:\n   \\[\n   10 \\text{ years} \\times 5\\% = 50\\%\n   \\]\n\n5. **Determine the Pension Amount:** 50% of the full pension amount ($50,000) is:\n   \\[\n   0.5 \\times 50,000 = 25,000\n   \\]\n\nTherefore, Marcy's annual pension if she resigns after 30 years of service will be $25,000. The final answer is:\n\\[\n25,000\n\\]"]]
+Model Prediction / Ground Truth: 0 / 25000
+Correct Predictions / Total Tests: 57 / 62
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [94.08%]
+Current Accuracy: 91.94%
+----------------------
+----------------------
+Problem 66: Un tournoi de basket-ball accueille quatre écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant 5 joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?
+Reasoning step: [["To determine the total number of people sent by the schools, we can break it down as follows:\n\n1. **Teams per School**: Each school sent both a women's team and a men's team. Therefore, each school sent 2 teams.\n\n2. **Players per Team**: Each team has 5 players.\n\n3. **Total Players per School**: Since there are 2 teams per school and each team has 5 players, each school sent \\(2 \\times 5 = 10\\) players.\n\n4. **Coaches per School**: Each school also sent 1 coach.\n\n5. **Total People per School**: The total number of people each school sent is the sum of the players and the coach. Therefore, each school sent \\(10 \\text{ players} + 1 \\text{ coach} = 11\\) people.\n\n6. **Total Schools**: There are 4 schools participating in the tournament.\n\n7. **Total People from All Schools**: To find the total number of people sent by all the schools, multiply the number of people per school by the number of schools: \n\n   \\[ 11 \\text{ people/school} \\times 4 \\text{ schools} = 44 \\text{ people} \\]\n\nThe final answer, which is the total number of people sent by the schools, is 44."]]
+Model Prediction / Ground Truth: 44 / 48
+Correct Predictions / Total Tests: 60 / 66
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 44: [94.55%]
+Current Accuracy: 90.91%
+----------------------
+----------------------
+Problem 73: Shiela a acheté cinq téléphones portables au prix de 150 $ chacun, payable en 3 mensualités. Un intérêt de 2 % sera facturé pour chaque unité. Quel montant Shiela devra-t-elle verser chaque mois pendant 3 mois ?
+Reasoning step: [["To determine the monthly payment Shiela needs to make, let's break down the problem step by step:\n\n1. **Calculate the Total Cost of the Phones:**\n   Shiela bought five phones, each costing $150. Therefore, the total cost for the phones is:\n   \\[\n   5 \\times 150 = 750 \\text{ dollars}\n   \\]\n\n2. **Calculate the Interest for Each Phone:**\n   An interest of 2% is charged on each phone. Therefore, the interest on one phone is:\n   \\[\n   150 \\times 0.02 = 3 \\text{ dollars}\n   \\]\n   For five phones, the total interest is:\n   \\[\n   5 \\times 3 = 15 \\text{ dollars}\n   \\]\n\n3. **Calculate the Total Amount with Interest:**\n   Add the total cost of the phones and the total interest to get the total amount Shiela needs to pay:\n   \\[\n   750 + 15 = 765 \\text{ dollars}\n   \\]\n\n4. **Calculate the Monthly Payment:**\n   Shiela will pay this total amount in 3 monthly installments. Therefore, the monthly payment is:\n   \\[\n   \\frac{765}{3} = 255 \\text{ dollars}\n   \\]\n\nThus, Shiela will need to pay **255** each month for 3 months."]]
+Model Prediction / Ground Truth: 3 / 255
+Correct Predictions / Total Tests: 66 / 73
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [98.05%]
+Current Accuracy: 90.41%
+----------------------
+----------------------
+Problem 84: Une équipe de football a joué 22 matchs. Elle a gagné _ fois plus qu'elle n'a perdu. Combien de fois a-t-elle gagné ?
+Reasoning step: [["Let's denote the number of matches the team won as \\( W \\) and the number of matches it lost as \\( L \\).\n\nAccording to the problem, the total number of matches played is 22:\n\n\\[ W + L = 22 \\]\n\nThe problem also states that the team won \\( x \\) times more than it lost. This can be expressed as:\n\n\\[ W = xL \\]\n\nWe have two equations:\n\n1. \\( W + L = 22 \\)\n2. \\( W = xL \\)\n\nSubstitute the second equation into the first equation:\n\n\\[ xL + L = 22 \\]\n\nFactor out \\( L \\):\n\n\\[ L(x + 1) = 22 \\]\n\nSolve for \\( L \\):\n\n\\[ L = \\frac{22}{x+1} \\]\n\nNow, substitute \\( L = \\frac{22}{x+1} \\) back into the equation \\( W = xL \\):\n\n\\[ W = x \\left(\\frac{22}{x+1}\\right) \\]\n\n\\[ W = \\frac{22x}{x+1} \\]\n\nThe final answer, the number of matches won, is:\n\n\\[ W = \\frac{22x}{x+1} \\]\n\nSince the problem doesn't specify the value of \\( x \\), the final expression for the number of matches won is:\n\n\\[ \\frac{22x}{x+1} \\]"]]
+Model Prediction / Ground Truth: 1 / 15
+Correct Predictions / Total Tests: 76 / 84
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 1: [9.93%]
+Current Accuracy: 90.48%
+----------------------
+----------------------
+Problem 87: Une entreprise verse 600 $ par mois à chaque employé. Elle a pour politique d'ajouter 10 % au salaire initial de chacun de ses employés ayant cinq ans d'ancienneté. Si Sylvie vient de passer 5 ans dans l'entreprise en décembre dernier, quel sera son salaire annuel après trois années supplémentaires de service ?
+Reasoning step: [["To solve this problem, we need to calculate Sylvie's salary after she receives a 10% increase and then determine her annual salary after three additional years of service. Let's break it down step by step:\n\n1. **Initial Monthly Salary:**\n   Sylvie's initial monthly salary is $600.\n\n2. **Salary Increase After Five Years:**\n   After five years of service, Sylvie receives a 10% increase in her salary.\n   \\[\n   \\text{Increase} = 600 \\times 0.10 = 60\n   \\]\n   Her new monthly salary becomes:\n   \\[\n   600 + 60 = 660\n   \\]\n\n3. **Monthly Salary for the Next Three Years:**\n   Sylvie will earn this increased salary of $660 per month for the next three years.\n\n4. **Annual Salary Calculation:**\n   To find her annual salary, we multiply her monthly salary by 12 (the number of months in a year):\n   \\[\n   \\text{Annual Salary} = 660 \\times 12 = 7920\n   \\]\n\nTherefore, Sylvie's annual salary after three additional years of service will be $7920 per year.\n\nThe final answer, without units, is:\n7920"]]
+Model Prediction / Ground Truth: 7920 / 9360
+Correct Predictions / Total Tests: 78 / 87
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 7920: [95.58%]
+Current Accuracy: 89.66%
+----------------------
+----------------------
+Problem 89: Christina organise une fête d'anniversaire et demande 0,75 sac cadeau par invité, vu que 1/4 des invités ne se présentent pas. Sachant qu'elle a invité 16 amis et que les sacs cadeaux coûtent 2 $ chacun, combien va-t-elle dépenser ?
+Reasoning step: [['To solve this problem, we need to determine how many gift bags Christina needs to buy and then calculate the total cost.\n\n1. **Determine the number of guests who will attend:**\n\n   Christina invited 16 friends. Given that 1/4 of the invited guests do not show up, we need to calculate the number of guests who will actually attend:\n\n   \\[\n   \\text{Guests attending} = 16 - \\left(\\frac{1}{4} \\times 16\\right)\n   \\]\n\n   \\[\n   \\text{Guests attending} = 16 - 4 = 12\n   \\]\n\n2. **Calculate the number of gift bags needed:**\n\n   Christina needs 0.75 gift bags per guest who attends. Therefore, the total number of gift bags she needs is:\n\n   \\[\n   \\text{Gift bags needed} = 0.75 \\times 12\n   \\]\n\n   \\[\n   \\text{Gift bags needed} = 9\n   \\]\n\n3. **Calculate the total cost:**\n\n   Each gift bag costs 2 dollars. Thus, the total cost for the gift bags is:\n\n   \\[\n   \\text{Total cost} = 9 \\times 2\n   \\]\n\n   \\[\n   \\text{Total cost} = 18\n   \\]\n\nSo, Christina will spend a total of 18 dollars on the gift bags. The final answer is:\n\n18']]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 79 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [34.50%]
+Current Accuracy: 88.76%
+----------------------
+----------------------
+Problem 90: Ted le tyrannosaure a prévu d'apporter une salade de pommes de terre au pique-nique des dinosaures. Il sait qu'il en faudra 10 livres pour un dinosaure adulte et la moitié de cette quantité pour un enfant. Si 20 adultes et 5 enfants sont présents au pique-nique, combien de kilos de salade de pommes de terre Ted devra-t-il apporter pour espérer nourrir tout le monde ?
+Reasoning step: [['To solve the problem, we need to calculate the total amount of potato salad required for both the adult and child dinosaurs and then convert that amount from pounds to kilograms.\n\n1. **Calculate the amount needed for adults:**\n   - Each adult requires 10 pounds of potato salad.\n   - There are 20 adults.\n   - Total for adults = 20 adults * 10 pounds/adult = 200 pounds\n\n2. **Calculate the amount needed for children:**\n   - Each child requires half of what an adult needs, which is 10 pounds / 2 = 5 pounds.\n   - There are 5 children.\n   - Total for children = 5 children * 5 pounds/child = 25 pounds\n\n3. **Calculate the total amount needed:**\n   - Total for all dinosaurs = Total for adults + Total for children\n   - Total for all dinosaurs = 200 pounds + 25 pounds = 225 pounds\n\n4. **Convert pounds to kilograms:**\n   - 1 pound is approximately 0.453592 kilograms.\n   - Total in kilograms = 225 pounds * 0.453592 kg/pound\n\n5. **Calculate the final answer:**\n   - Total in kilograms = 102.0582 kg\n\nRounding to the nearest whole number, Ted should bring approximately 102 kilograms of potato salad.\n\nFinal answer: 102']]
+Model Prediction / Ground Truth: 102 / 225
+Correct Predictions / Total Tests: 79 / 90
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 102: [19.45%]
+Current Accuracy: 87.78%
+----------------------
+----------------------
+Problem 98: Des voitures sont coincées dans une file sur l'autoroute. Certaines voitures parviennent à avancer durant les 15 premières minutes de l'embouteillage, puis 20 autres voitures durant les 15 dernières. 5 voitures sortent de la file pour ne pas avoir à traverser l'embouteillage. Sachant qu'il y avait initialement 30 voitures sur l'autoroute, combien de voitures ont traversé l'embouteillage au cours des 15 premières minutes ?
+Reasoning step: [["To solve the problem, let's break it down step-by-step:\n\n1. **Initial Situation**: There are initially 30 cars in the traffic jam on the highway.\n\n2. **Cars Exiting the Line**: 5 cars leave the line to avoid the traffic jam. Therefore, the number of cars remaining in the line is:\n\n   \\[\n   30 \\text{ initial cars} - 5 \\text{ cars exiting} = 25 \\text{ cars remaining}\n   \\]\n\n3. **Cars Advancing During the Last 15 Minutes**: We know that 20 cars manage to advance during the last 15 minutes of the traffic jam.\n\n4. **Remaining Cars After the Last 15 Minutes**: If 20 cars advance during the last 15 minutes, then the number of cars left in the line after these 15 minutes is:\n\n   \\[\n   25 \\text{ cars remaining} - 20 \\text{ cars advancing} = 5 \\text{ cars left}\n   \\]\n\n5. **Cars Advancing During the First 15 Minutes**: The problem asks us to find out how many cars advanced during the first 15 minutes. Since there are 5 cars left after the last 15 minutes, it implies that these 5 cars did not advance during the first 15 minutes.\n\n   Thus, the number of cars that advanced during the first 15 minutes is:\n\n   \\[\n   25 \\text{ cars before the last 15 minutes} - 5 \\text{ cars left} = 20 \\text{ cars advanced}\n   \\]\n\nTherefore, the number of cars that advanced during the first 15 minutes is 20. The final answer is:\n\n20"]]
+Model Prediction / Ground Truth: 20 / 5
+Correct Predictions / Total Tests: 86 / 98
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 20: [12.53%]
+Current Accuracy: 87.76%
+----------------------
+----------------------
+Problem 100: Un jour, 4 amis ont rendu visite à Jérôme. Le premier a appuyé sur la sonnette 20 fois avant que Jérôme n'ouvre, le deuxième 1/4 de fois plus que le premier, et le troisième 10 fois plus que le quatrième. Sachant que le quatrième ami a appuyé 60 fois, combien de fois au total la sonnette a-t-elle retenti ?
+Reasoning step: [["To solve this problem, we need to determine how many times each of Jérôme's four friends rang the doorbell and then sum these values.\n\n1. **First friend**: According to the problem, the first friend rang the doorbell 20 times.\n\n2. **Second friend**: The second friend rang the doorbell 1/4 times more than the first friend. \n   \\[\n   \\text{Times second friend rang} = 20 + \\frac{1}{4} \\times 20\n   \\]\n   \\[\n   = 20 + 5 = 25\n   \\]\n\n3. **Fourth friend**: We are given that the fourth friend rang the doorbell 60 times.\n\n4. **Third friend**: The problem states that the third friend rang the doorbell 10 times more than the fourth friend.\n   \\[\n   \\text{Times third friend rang} = 10 \\times 60 = 600\n   \\]\n\nNow, we can find the total number of times the doorbell rang by summing the values for all four friends.\n\n\\[\n\\text{Total} = \\text{Times first friend rang} + \\text{Times second friend rang} + \\text{Times third friend rang} + \\text{Times fourth friend rang}\n\\]\n\\[\n= 20 + 25 + 600 + 60\n\\]\n\\[\n= 705\n\\]\n\nThus, the total number of times the doorbell rang is 705. The final answer is 705."]]
+Model Prediction / Ground Truth: 705 / 175
+Correct Predictions / Total Tests: 87 / 100
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 705: [12.01%]
+Current Accuracy: 87.00%
+----------------------
+----------------------
+Problem 110: Marcell et Béatrice s'affrontent pour savoir qui des deux mange le plus de roulés aux fruits. Ils en déroulent donc autant qu'ils en trouvent. Malheureusement, à cause d'une erreur, Béatrice se retrouve avec deux roulés larges et 24 roulés longs, tandis que Marcell obtient trois roulés larges et 14 roulés longs. Si chacun des deux a entièrement mangé ses roulés, combien en ont-ils mangé en moyenne ?
+Reasoning step: [['To find out how many fruit rolls Marcell and Béatrice ate in total and the average number of fruit rolls they ate, we need to perform the following steps:\n\n1. **Identify the number of rolls each person has:**\n   - Béatrice has 2 wide rolls and 24 long rolls.\n   - Marcell has 3 wide rolls and 14 long rolls.\n\n2. **Calculate the total number of rolls each person ate:**\n   - Total rolls eaten by Béatrice = 2 (wide) + 24 (long) = 26 rolls.\n   - Total rolls eaten by Marcell = 3 (wide) + 14 (long) = 17 rolls.\n\n3. **Calculate the combined total of rolls eaten by both:**\n   - Combined total = 26 (Béatrice) + 17 (Marcell) = 43 rolls.\n\n4. **Calculate the average number of rolls eaten:**\n   - Since there are two people, we divide the combined total by 2.\n   - Average = 43 rolls / 2 = 21.5 rolls.\n\nTherefore, the average number of fruit rolls eaten by Marcell and Béatrice is 21.5. The final answer, without units, is:\n21.5']]
+Model Prediction / Ground Truth: 22 / 45
+Correct Predictions / Total Tests: 96 / 110
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 22: [0.71%]
+Current Accuracy: 87.27%
+----------------------
+----------------------
+Problem 119: Le salaire total d'Adrien était de 30 % supérieur à celui de Lylah. Quatre ans plus tard, ce salaire avait augmenté et était de 40 % plus élevé que celui qu'il gagnait au départ. Si les salaires d'Adrien et de Lylah ont augmenté simultanément, et qu'Adrien gagnait 40 000 $ il y a quatre ans, calculez le montant total de leurs deux salaires quatre ans plus tard.
+Reasoning step: [["To solve this problem, we need to calculate the salaries of Adrien and Lylah both initially and after four years, then find the total of their salaries after those four years.\n\n**Step 1: Determine Adrien's initial salary.**\n\nAdrien's salary four years ago was $40,000.\n\n**Step 2: Determine Lylah's initial salary.**\n\nAccording to the problem, Adrien's initial salary was 30% higher than Lylah's. We can express Lylah's initial salary as \\( L \\).\n\n\\[ 40,000 = L \\times 1.30 \\]\n\nSolving for \\( L \\):\n\n\\[ L = \\frac{40,000}{1.30} = 30,769.23 \\]\n\nSo, Lylah's initial salary was approximately $30,769.23.\n\n**Step 3: Calculate Adrien's salary four years later.**\n\nAdrien's salary increased by 40% over the four years. Therefore, Adrien's salary after four years is:\n\n\\[ 40,000 \\times 1.40 = 56,000 \\]\n\n**Step 4: Calculate Lylah's salary four years later.**\n\nSince both Adrien's and Lylah's salaries increased simultaneously, we assume that Lylah's salary also increased by the same 40%. Therefore, Lylah's salary after four years is:\n\n\\[ 30,769.23 \\times 1.40 = 43,076.92 \\]\n\n**Step 5: Calculate the total of their salaries after four years.**\n\nAdd Adrien's and Lylah's salaries after the four years:\n\n\\[ 56,000 + 43,076.92 = 99,076.92 \\]\n\nThe total of Adrien's and Lylah's salaries four years later is approximately $99,076.92.\n\nThe final answer is: 99,076.92"]]
+Model Prediction / Ground Truth: 77 / 95200
+Correct Predictions / Total Tests: 104 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 77: [57.13%]
+Current Accuracy: 87.39%
+----------------------
+----------------------
+Problem 128: La mère de Well vend des pastèques, des poivrons et des oranges au magasin du quartier. Une pastèque coûte trois fois plus cher qu'un poivron et une orange 5 fois moins qu'une pastèque. Dillon est envoyé au magasin pour acheter 4pastèques, 20 poivrons et 10 oranges. Quelle somme totale dépensera-t-il si chaque poivron coûte 15 $ ?
+Reasoning step: [["To solve this problem, we need to determine the prices of each item and then calculate the total cost based on the quantities Dillon is purchasing. Let's break it down step by step:\n\n1. **Determine the price of each item:**\n   - The cost of one poivron (pepper) is given as $15.\n   - A pastèque (watermelon) costs three times as much as a poivron. Therefore, the cost of one watermelon is:\n     \\[\n     3 \\times 15 = 45 \\text{ dollars}\n     \\]\n   - An orange costs 5 times less than a pastèque, which means it costs:\n     \\[\n     \\frac{45}{5} = 9 \\text{ dollars}\n     \\]\n\n2. **Calculate the total cost for each type of item:**\n   - For 4 watermelons, the total cost is:\n     \\[\n     4 \\times 45 = 180 \\text{ dollars}\n     \\]\n   - For 20 poivrons, the total cost is:\n     \\[\n     20 \\times 15 = 300 \\text{ dollars}\n     \\]\n   - For 10 oranges, the total cost is:\n     \\[\n     10 \\times 9 = 90 \\text{ dollars}\n     \\]\n\n3. **Calculate the total amount Dillon will spend:**\n   - Add the costs of all the items together:\n     \\[\n     180 + 300 + 90 = 570 \\text{ dollars}\n     \\]\n\nTherefore, the total amount Dillon will spend is 570."]]
+Model Prediction / Ground Truth: 570 / 880
+Correct Predictions / Total Tests: 112 / 128
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 570: [98.12%]
+Current Accuracy: 87.50%
+----------------------
+----------------------
+Problem 136: Il ne reste que 27 licornes dans le monde. Un tiers d'entre elles se trouvent dans les Highlands, en Écosse. Deux tiers des licornes écossaises sont des femmes. Combien y a-t-il de licornes écossaises ?
+Reasoning step: [['To determine the number of Scottish unicorns, we need to perform a series of calculations based on the information provided:\n\n1. **Total Number of Unicorns**: We start with a total of 27 unicorns in the world.\n\n2. **Unicorns in the Highlands, Scotland**: According to the problem, one-third of all unicorns are located in the Highlands, Scotland. Therefore, we calculate the number of Scottish unicorns as follows:\n   \\[\n   \\text{Number of Scottish unicorns} = \\frac{1}{3} \\times 27 = 9\n   \\]\n\n3. **Final Answer**: The number of Scottish unicorns is 9.\n\nThus, the number of unicorns in the Highlands, Scotland, is 9.']]
+Model Prediction / Ground Truth: 9 / 6
+Correct Predictions / Total Tests: 119 / 136
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 9: [46.17%]
+Current Accuracy: 87.50%
+----------------------
+----------------------
+Problem 139: Dans un distributeur de bonbons, il y a 22 fois plus de boules de gommes bleues que quatre fois la quantité de boules de gommes roses. S'il y a 12 boules de gommes de bleues, combien y en a-t-il de roses ?
+Reasoning step: [["To solve this problem, we need to establish a relationship between the number of blue gumballs and the number of pink gumballs.\n\n1. Let's denote the number of pink gumballs as \\( x \\).\n\n2. According to the problem, the number of blue gumballs is 22 times more than four times the number of pink gumballs. This can be expressed as:\n   \\[\n   \\text{Number of blue gumballs} = 22 \\times (4 \\times x)\n   \\]\n\n3. We are given that there are 12 blue gumballs. Therefore, we can set up the equation:\n   \\[\n   12 = 22 \\times (4 \\times x)\n   \\]\n\n4. Simplify the expression on the right side:\n   \\[\n   12 = 22 \\times 4x\n   \\]\n   \\[\n   12 = 88x\n   \\]\n\n5. Solve for \\( x \\) by dividing both sides of the equation by 88:\n   \\[\n   x = \\frac{12}{88}\n   \\]\n   \\[\n   x = \\frac{3}{22}\n   \\]\n\nTherefore, the number of pink gumballs is \\( \\frac{3}{22} \\).\n\nSo, the final answer is 0.1363 when rounded to four decimal places."]]
+Model Prediction / Ground Truth: 0 / 70
+Correct Predictions / Total Tests: 121 / 139
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [4.95%]
+Current Accuracy: 87.05%
+----------------------
+----------------------
+Problem 151: Shawnda pense qu'un service de gonflage de vélos serait très utile aux enfants de son quartier. Elle choisit de facturer au pneu. Le gonflage de chaque pneu coûte 25 cents. Le premier jour, 5 personnes sont venues faire gonfler les deux pneus de chacun de leurs vélos. 3 personnes sont venues faire gonfler tous les pneus de leurs tricycles. Enfin, une personne est venue en monocycle. Combien d'argent a-t-elle gagné ce jour-là ?
+Reasoning step: [['To determine how much money Shawnda earned on the first day, we need to calculate the total number of tires inflated and then multiply by the cost per tire.\n\n1. **Bicycles:**\n   - Each bicycle has 2 tires.\n   - 5 people came with bicycles.\n   - Total tires from bicycles = 5 people * 2 tires/person = 10 tires.\n\n2. **Tricycles:**\n   - Each tricycle has 3 tires.\n   - 3 people came with tricycles.\n   - Total tires from tricycles = 3 people * 3 tires/person = 9 tires.\n\n3. **Unicycle:**\n   - A unicycle has 1 tire.\n   - 1 person came with a unicycle.\n   - Total tires from the unicycle = 1 tire.\n\n4. **Total Tires:**\n   - Total tires = Tires from bicycles + Tires from tricycles + Tires from unicycle \n   - Total tires = 10 + 9 + 1 = 20 tires.\n\n5. **Cost Calculation:**\n   - Cost per tire = 25 cents.\n   - Total cost = 20 tires * 25 cents/tire = 500 cents.\n\nConvert cents to dollars:\n- 500 cents = $5.00.\n\nThus, Shawnda earned a total of 500 cents or $5.00 that day. The final answer, without units, is:\n\n500']]
+Model Prediction / Ground Truth: 500 / 5
+Correct Predictions / Total Tests: 132 / 151
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 500: [90.04%]
+Current Accuracy: 87.42%
+----------------------
+----------------------
+Problem 156: Pour nourrir les singes du zoo, le gardien commande des bananes à une ferme locale tous les 2 mois. S'il faut 200 bananes pour les macaques, 400 pour les gorilles et 100 pour les babouins, combien doit-il en commander pour tenir durant les 2 mois ?
+Reasoning step: [['To determine the total number of bananas the zookeeper needs to order for the monkeys at the zoo, we will follow these steps:\n\n1. Identify the number of bananas needed for each type of monkey:\n   - Macaques require 200 bananas.\n   - Gorillas require 400 bananas.\n   - Baboons require 100 bananas.\n\n2. Add the number of bananas needed for all the monkeys to find the total requirement:\n   - Total bananas = Bananas for macaques + Bananas for gorillas + Bananas for baboons\n   - Total bananas = 200 + 400 + 100\n\n3. Perform the addition:\n   - Total bananas = 700\n\nTherefore, the zookeeper needs to order a total of 700 bananas to last for the 2 months. The final answer is 700.']]
+Model Prediction / Ground Truth: 700 / 1400
+Correct Predictions / Total Tests: 136 / 156
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 700: [44.50%]
+Current Accuracy: 87.18%
+----------------------
+----------------------
+Problem 161: Anakin et Locsin sont allés à la plage aujourd'hui. Anakin a attrapé 10 étoiles de mer, 6 hippocampes et 3 poissons-clowns. Locsin a attrapé 5 étoiles de mer de moins qu'Anakin, 3 hippocampes de moins qu'Anakin et 2 poissons-clowns de plus qu'Anakin. Combien de poissons ont-ils attrapé tous les deux ?
+Reasoning step: [['To solve this problem, we will first determine how many of each type of creature Locsin caught and then sum up all the creatures caught by both Anakin and Locsin.\n\n1. **Anakin\'s Catch:**\n   - Starfish: 10\n   - Seahorses: 6\n   - Clownfish: 3\n\n2. **Locsin\'s Catch:**\n   - Starfish: Anakin caught 10, so Locsin caught 5 less: \\(10 - 5 = 5\\)\n   - Seahorses: Anakin caught 6, so Locsin caught 3 less: \\(6 - 3 = 3\\)\n   - Clownfish: Anakin caught 3, so Locsin caught 2 more: \\(3 + 2 = 5\\)\n\n3. **Total Catches for Both:**\n   - Total Starfish: \\(10 + 5 = 15\\)\n   - Total Seahorses: \\(6 + 3 = 9\\)\n   - Total Clownfish: \\(3 + 5 = 8\\)\n\n4. **Total Fish:**\n   - In this context, "fish" refer to the seahorses and clownfish. So we add up the total seahorses and clownfish caught by both.\n   - Total Seahorses = 9\n   - Total Clownfish = 8\n   - Total Fish = Seahorses + Clownfish: \\(9 + 8 = 17\\)\n\nTherefore, Anakin and Locsin caught a total of 17 fish. The final answer is 17.']]
+Model Prediction / Ground Truth: 17 / 32
+Correct Predictions / Total Tests: 140 / 161
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 17: [49.28%]
+Current Accuracy: 86.96%
+----------------------
+----------------------
+Problem 162: Si un sac de billes coûte 20 $ et que le prix de départ augmente de 20 % tous les deux mois, combien coûtera un sac de billes après 36 mois ?
+Reasoning step: [['To determine the cost of a bag of marbles after 36 months given a starting price of $20 and a 20% increase every two months, follow these steps:\n\n1. **Identify the initial conditions:**\n   - Initial price of the bag: $20\n   - Percentage increase every two months: 20%\n   - Total time period: 36 months\n\n2. **Calculate the number of two-month periods in 36 months:**\n   - Since the price increases every two months, divide the total months by 2.\n   \\[\n   \\text{Number of periods} = \\frac{36}{2} = 18\n   \\]\n\n3. **Determine the multiplication factor for each increase:**\n   - A 20% increase corresponds to multiplying the price by 1.20 for each period.\n\n4. **Calculate the final price after 18 periods:**\n   - Use the formula for compound interest, which is similar to repeated percentage increases:\n   \\[\n   \\text{Final Price} = \\text{Initial Price} \\times (1 + \\text{Rate})^{\\text{Number of Periods}}\n   \\]\n   \\[\n   \\text{Final Price} = 20 \\times (1.20)^{18}\n   \\]\n\n5. **Calculate the number:**\n   - Compute \\( (1.20)^{18} \\) and multiply by 20.\n   \\[\n   (1.20)^{18} \\approx 38.3376\n   \\]\n   \\[\n   \\text{Final Price} = 20 \\times 38.3376 \\approx 766.752\n   \\]\n\n6. **Round the result to the nearest cent if necessary:**\n   - The final price of the bag of marbles after 36 months is approximately $766.75.\n\nThe final answer is 766.75.']]
+Model Prediction / Ground Truth: 767 / 92
+Correct Predictions / Total Tests: 140 / 162
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 767: [3.90%]
+Current Accuracy: 86.42%
+----------------------
+----------------------
+Problem 169: En dehors du weekend où il marche 10 miles, Pancho fait 20 miles tous les jours. Combien de miles parcourt-il à la marche en une semaine ?
+Reasoning step: [['To find out how many miles Pancho walks in a week, we need to consider both his weekday and weekend walking routines separately.\n\n1. **Weekdays Walking Routine:**\n   - Pancho walks 20 miles each weekday.\n   - There are 5 weekdays in a week (Monday to Friday).\n   - Therefore, the total miles walked during weekdays is: \n     \\[\n     20 \\text{ miles/day} \\times 5 \\text{ days} = 100 \\text{ miles}\n     \\]\n\n2. **Weekend Walking Routine:**\n   - Pancho walks 10 miles during the weekend.\n   - The weekend includes Saturday and Sunday, but he walks a total of 10 miles over these two days combined.\n   - Therefore, the total miles walked during the weekend is 10 miles.\n\n3. **Total Miles Walked in a Week:**\n   - To find the total miles walked in a week, we add the miles walked during weekdays and the weekend:\n     \\[\n     100 \\text{ miles (weekdays)} + 10 \\text{ miles (weekend)} = 110 \\text{ miles}\n     \\]\n\nThus, Pancho walks a total of 110 miles in one week. The final answer is 110.']]
+Model Prediction / Ground Truth: 110 / 120
+Correct Predictions / Total Tests: 146 / 169
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 110: [89.76%]
+Current Accuracy: 86.39%
+----------------------
+----------------------
+Problem 182: Jean a deux ans de plus que Marc. Il y a deux ans, Marc avait 5 ans de plus que la moitié de l'âge de Jan. Si Jan a 30 ans, quel âge a Jean ?
+Reasoning step: [["To solve the problem, let's define the variables and use the information given step-by-step:\n\n1. Define Variables:\n   - Let Marc's current age be \\( M \\).\n   - Jean's current age is \\( J \\).\n\n2. Relationship between Jean and Marc:\n   - Jean is 2 years older than Marc.\n   \\[\n   J = M + 2\n   \\]\n\n3. Information about Marc's age two years ago:\n   - Two years ago, Marc's age was \\( M - 2 \\).\n   - Two years ago, Marc's age was 5 years more than half of Jan's age.\n   - Jan's current age is 30 years, so two years ago:\n   \\[\n   M - 2 = \\frac{30}{2} + 5\n   \\]\n\n4. Simplify the equation:\n   \\[\n   M - 2 = 15 + 5\n   \\]\n   \\[\n   M - 2 = 20\n   \\]\n\n5. Solve for Marc's current age:\n   \\[\n   M = 20 + 2\n   \\]\n   \\[\n   M = 22\n   \\]\n\n6. Find Jean's age using the relationship:\n   \\[\n   J = M + 2\n   \\]\n   \\[\n   J = 22 + 2\n   \\]\n   \\[\n   J = 24\n   \\]\n\nTherefore, Jean is 24 years old. The final answer is: 24"]]
+Model Prediction / Ground Truth: 24 / 23
+Correct Predictions / Total Tests: 158 / 182
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 24: [81.33%]
+Current Accuracy: 86.81%
+----------------------
+----------------------
+Problem 184: Jerry lance un dé à six faces. Quelle est la probabilité (en pourcentage) qu'il obtienne un nombre supérieur à 3 plutôt qu'un nombre pair deux fois de suite ?
+Reasoning step: [['To solve this problem, we need to calculate two probabilities and compare them. \n\n1. **Probability of rolling a number greater than 3 on a six-sided die:**\n\n   The numbers greater than 3 on a six-sided die are 4, 5, and 6. So, there are 3 favorable outcomes.\n\n   Total possible outcomes when rolling a die are 6 (since the die has six faces).\n\n   Probability of rolling a number greater than 3:\n   \\[\n   P(\\text{greater than 3}) = \\frac{\\text{Number of favorable outcomes}}{\\text{Total possible outcomes}} = \\frac{3}{6} = \\frac{1}{2}\n   \\]\n\n   In percentage terms:\n   \\[\n   P(\\text{greater than 3}) = \\frac{1}{2} \\times 100\\% = 50\\%\n   \\]\n\n2. **Probability of rolling an even number two times in a row:**\n\n   The even numbers on a six-sided die are 2, 4, and 6. So, there are 3 favorable outcomes for each roll.\n\n   Probability of rolling an even number once:\n   \\[\n   P(\\text{even}) = \\frac{3}{6} = \\frac{1}{2}\n   \\]\n\n   Since each roll of the die is independent, the probability of rolling an even number two times in a row is:\n   \\[\n   P(\\text{even twice}) = P(\\text{even}) \\times P(\\text{even}) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}\n   \\]\n\n   In percentage terms:\n   \\[\n   P(\\text{even twice}) = \\frac{1}{4} \\times 100\\% = 25\\%\n   \\]\n\n3. **Comparing the probabilities:**\n\n   - Probability of rolling a number greater than 3: 50%\n   - Probability of rolling an even number two times in a row: 25%\n\n   The probability of rolling a number greater than 3 is higher.\n\nThus, the final answer is the probability of obtaining a number greater than 3, which is 50.']]
+Model Prediction / Ground Truth: 50 / 25
+Correct Predictions / Total Tests: 159 / 184
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 50: [48.94%]
+Current Accuracy: 86.41%
+----------------------
+----------------------
+Problem 197: Dans la ville de Soda, il y a exactement 23 786 habitants. 8 417 d'entre eux sont des hommes et 9 092 des femmes. Le reste de la population est composé d'enfants. Combien d'enfants y a-t-il à Soda ?
+Reasoning step: [['To find out how many children are in the city of Soda, we need to subtract the number of men and women from the total population. \n\n1. Start with the total population of Soda:  \n   Total population = 23,786\n\n2. Add the number of men and women to get the total number of adults:  \n   Number of men = 8,417  \n   Number of women = 9,092\n\n3. Calculate the total number of adults by adding the number of men and women:  \n   Total number of adults = Number of men + Number of women  \n   Total number of adults = 8,417 + 9,092  \n   Total number of adults = 17,509\n\n4. Subtract the total number of adults from the total population to find the number of children:  \n   Number of children = Total population - Total number of adults  \n   Number of children = 23,786 - 17,509  \n   Number of children = 6,277\n\nThe final answer is 6,277.']]
+Model Prediction / Ground Truth: 277 / 6277
+Correct Predictions / Total Tests: 171 / 197
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 277: [96.14%]
+Current Accuracy: 86.80%
+----------------------
+----------------------
+Problem 201: Jean reçoit un prix au travail. Ce prix consiste en une prime unique de 5 000 $ et une augmentation de salaire de 5 %. S'il gagne 2 000 $ par semaine, chaque semaine de l'année, et qu'il a reçu le prix le premier jour de l'année, combien d'argent a-t-il gagné cette année-là ?
+Reasoning step: [["To determine how much money Jean has earned over the year after receiving the award, we need to consider both the one-time bonus and the increase in his weekly salary. Let's break it down step by step:\n\n1. **Calculate the weekly salary increase:**\n   Jean's current weekly salary is $2,000. With a 5% increase:\n   \\[\n   \\text{Increase} = 2,000 \\times 0.05 = 100\n   \\]\n   New weekly salary = 2,000 + 100 = 2,100\n\n2. **Calculate the annual salary with the new weekly salary:**\n   Since Jean earns this new salary each week for the entire year (52 weeks):\n   \\[\n   \\text{Annual salary} = 2,100 \\times 52 = 109,200\n   \\]\n\n3. **Add the one-time bonus:**\n   Jean also receives a one-time bonus of $5,000:\n   \\[\n   \\text{Total earnings for the year} = 109,200 + 5,000 = 114,200\n   \\]\n\nTherefore, the total amount of money Jean earned this year is 114,200."]]
+Model Prediction / Ground Truth: 200 / 114200
+Correct Predictions / Total Tests: 174 / 201
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 200: [95.69%]
+Current Accuracy: 86.57%
+----------------------
+----------------------
+Problem 216: Janeth a emprunté 2 000 $ et a promis de les rendre avec un supplément de 10 % du montant. Si elle doit payer 165 $ par mois pendant 12 mois, combien d'argent restera-t-il à Janeth d'ici là ?
+Reasoning step: [['To determine how much money Janeth will have left after making her monthly payments, we can follow these steps:\n\n1. **Calculate the total amount to be repaid including the interest:**\n   - Janeth borrowed $2,000 and agreed to pay back an additional 10% of the borrowed amount.\n   - The additional amount to be paid as interest is: \\(0.10 \\times 2,000 = 200\\) dollars.\n   - Therefore, the total amount to be repaid is: \\(2,000 + 200 = 2,200\\) dollars.\n\n2. **Calculate the total amount paid over 12 months:**\n   - Janeth pays $165 per month for 12 months.\n   - The total amount paid over 12 months is: \\(165 \\times 12 = 1,980\\) dollars.\n\n3. **Determine any remaining balance or surplus:**\n   - Since the total repayment amount is $2,200, and Janeth has paid $1,980, she still owes: \\(2,200 - 1,980 = 220\\) dollars.\n\n4. **Calculate how much money Janeth will have left:**\n   - If Janeth was supposed to pay back the full $2,200 but only paid $1,980, she is left with a debt of $220.\n   - Since the question asks how much money she will have left after paying, considering she falls short of the full repayment by $220, we note that she will not have any surplus money after repaying, as she still owes $220.\n\nTherefore, the amount of money Janeth will have left, after making the planned payments, is effectively a shortfall (or debt) of 220 dollars. However, since the question seems to inquire about money left after repayment, which would mean she has no surplus funds, we interpret the final amount as: \n\n-220']]
+Model Prediction / Ground Truth: -220 / 220
+Correct Predictions / Total Tests: 188 / 216
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: -220: [19.25%]
+Current Accuracy: 87.04%
+----------------------
+----------------------
+Problem 223: Une entreprise dépense 15 000 dollars en publicité pendant un an, puis dépense un tiers de cette somme en publicité pendant une autre année. Quel est le montant total que l'entreprise a dépensé en publicité au cours de ces deux années ?
+Reasoning step: [['To find the total amount spent by the company on advertising over the two years, we can break down the problem into steps:\n\n1. **First Year Spending:**  \n   The company spends $15,000 on advertising during the first year.\n\n2. **Second Year Spending:**  \n   In the second year, the company spends one-third of the amount spent in the first year.  \n   Therefore, the spending for the second year is \\(\\frac{1}{3} \\times 15,000\\).\n\n3. **Calculate Second Year Spending:**  \n   \\(\\frac{1}{3} \\times 15,000 = 5,000\\).\n\n4. **Total Spending Over Two Years:**  \n   To find the total spending over the two years, add the spending from each year together:  \n   \\(15,000 + 5,000\\).\n\n5. **Calculate Total Spending:**  \n   \\(15,000 + 5,000 = 20,000\\).\n\nThe total amount the company spent on advertising over the two years is 20,000.']]
+Model Prediction / Ground Truth: 0 / 20000
+Correct Predictions / Total Tests: 194 / 223
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [84.72%]
+Current Accuracy: 87.00%
+----------------------
+----------------------
+Problem 230: Marc achète une flotte de 12 voitures pour son entreprise. Chaque voiture se vend 20 000 $. Il paie 10 % de taxe sur les voitures, puis 1 000 $ de plus pour l'immatriculation de chacune d'elles. Combien dépense-t-il en tout ?
+Reasoning step: [['To calculate the total amount Marc spends on the fleet of 12 cars, follow these steps:\n\n1. **Calculate the cost of the cars without tax:**\n   - Each car costs $20,000.\n   - For 12 cars: \\( 12 \\times 20,000 = 240,000 \\).\n\n2. **Calculate the tax:**\n   - The tax rate is 10%.\n   - Total tax on 12 cars: \\( 240,000 \\times 0.10 = 24,000 \\).\n\n3. **Calculate the registration fees:**\n   - The registration fee for each car is $1,000.\n   - For 12 cars: \\( 12 \\times 1,000 = 12,000 \\).\n\n4. **Calculate the total cost:**\n   - Total cost = Cost of cars + Tax + Registration fees.\n   - Total cost = \\( 240,000 + 24,000 + 12,000 = 276,000 \\).\n\nTherefore, the total amount Marc spends is 276,000.']]
+Model Prediction / Ground Truth: 0 / 276000
+Correct Predictions / Total Tests: 200 / 230
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [97.38%]
+Current Accuracy: 86.96%
+----------------------
+----------------------
+Problem 239: Le bâtiment d'une école abrite 1 000 élèves. Ce bâtiment a 3 entrées A, B et C, qui servent également de sorties. Si, après une réunion, 30 % des élèves sortent du bâtiment par la sortie A, 3/5 par la sortie B et le reste par la sortie C, calculez le nombre d'élèves qui ont emprunté la sortie C.
+Reasoning step: [['To determine the number of students who used exit C, we can follow these steps:\n\n1. **Calculate the number of students using exit A:**\n   - 30% of the students use exit A.\n   - Number of students using exit A = 30% of 1,000 = 0.30 × 1,000 = 300.\n\n2. **Calculate the number of students using exit B:**\n   - 3/5 of the students use exit B.\n   - Number of students using exit B = (3/5) × 1,000 = 600.\n\n3. **Calculate the number of students using exit C:**\n   - The total number of students is 1,000.\n   - Students using either exit A or B = 300 (exit A) + 600 (exit B) = 900.\n   - Students using exit C = Total students - Students using exits A and B = 1,000 - 900 = 100.\n\nTherefore, the number of students who used exit C is 100.']]
+Model Prediction / Ground Truth: 100 / 280
+Correct Predictions / Total Tests: 208 / 239
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 100: [80.28%]
+Current Accuracy: 87.03%
+----------------------
+----------------------
+Problem 241: Dolly a deux livres. Pandore n'en a qu'un. Si Dolly et Pandore lisent les livres les unes des autres ainsi que les leurs, combien de livres auront-elles lu en tout à la fin ?
+Reasoning step: [["To solve the problem, we need to determine the total number of unique books that Dolly and Pandore will have read if they read each other's books as well as their own.\n\nStep 1: Identify the books owned by each person.\n- Dolly owns 2 books.\n- Pandore owns 1 book.\n\nStep 2: Determine the total unique books.\n- Dolly has 2 unique books.\n- Pandore has 1 unique book.\n\nStep 3: Combine the books to find the total number of unique books.\n- Since Dolly and Pandore read each other's books and their own, we need to consider all the books together.\n- The total number of unique books is the sum of Dolly's and Pandore's books: 2 (Dolly's books) + 1 (Pandore's book) = 3 books.\n\nStep 4: Conclude with the final answer.\n- Dolly and Pandore will have read a total of 3 unique books.\n\nFinal answer: 3"]]
+Model Prediction / Ground Truth: 3 / 6
+Correct Predictions / Total Tests: 209 / 241
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [78.53%]
+Current Accuracy: 86.72%
+----------------------

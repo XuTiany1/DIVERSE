@@ -1,0 +1,315 @@
+----------------------
+Problem 12: కార్లోస్ ఒక నిమ్మ చెట్టును నాటుతున్నాడు. చెట్టును నాటడానికి $90 అవుతుంది. ప్రతి సంవత్సరం దానికి 7 నిమ్మకాయలు కాస్తాయి, అతడు వాటిని ఒక్కొక్కటి $1.5 చొప్పున విక్రయిస్తాడు. చెట్టుకు నీళ్లు పెట్టడానికి మరియు ఎరువు వేయడానికి సంవత్సరానికి $3 ఖర్చు అవుతుంది. నిమ్మ చెట్టుపై అతడు సంపాదించడం ప్రారంభించడానికి ఎన్ని సంవత్సరాలు పడుతుంది?
+Reasoning step: [['To determine how many years it will take for Carlos to start making a profit from his lemon tree, we need to calculate the costs and revenues each year and find out when the revenues surpass the total costs.\n\n1. **Initial Cost:**\n   - Planting the tree costs $90.\n\n2. **Annual Costs:**\n   - Watering and fertilizing the tree costs $3 per year.\n\n3. **Annual Revenue:**\n   - The tree produces 7 lemons per year.\n   - Each lemon is sold for $1.5.\n   - Therefore, annual revenue = 7 lemons * $1.5/lemons = $10.5 per year.\n\n4. **Net Annual Profit:**\n   - Annual profit (revenue - cost for maintenance) = $10.5 - $3 = $7.5 per year.\n\n5. **Break-even Point:**\n   - Carlos needs to cover the initial planting cost of $90.\n   - To find out how many years it will take to cover this initial cost, we divide the initial cost by the net annual profit: \n     \\[\n     \\frac{90}{7.5} = 12\n     \\]\n   - Therefore, it will take 12 years for Carlos to start making a profit.\n\nFinal answer: 12']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 11 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [19.45%]
+Current Accuracy: 91.67%
+----------------------
+----------------------
+Problem 16: రెండు రైళ్లు ఒకే సమయంలో శాన్ రాఫెల్ నుంచి బయలుదేరతాయి. అవి పశ్చిమంగా ప్రయాణించడం ప్రారంభించాయి, రెండూ కూడా 80 మైళ్ల వేగంతో ప్రయాణిస్తున్నాయి. తరువాత రోజు, అవి ఉత్తర దిశగా ప్రయాణించి, 150 మైళ్లు కవర్ చేశాయి. రెండు రోజుల్లో ప్రతిరైలు ప్రయాణించిన దూరం ఎంత?
+Reasoning step: [["To determine the total distance traveled by each train over the two days, we can break down the journey into two parts: the distance traveled on the first day and the distance traveled on the second day.\n\n**Day 1:**\n- Both trains travel west at a speed of 80 miles per hour.\n- Since the duration or time of travel is not provided, we assume they travel for a certain number of hours that results in a measurable distance. However, since the question asks for the total distance, we will focus on the given distance for the second day.\n\n**Day 2:**\n- On the second day, both trains travel north and cover a distance of 150 miles.\n\nThe problem states that the trains start at the same time and travel at the same speed on the first day and cover a fixed distance on the second day.\n\nSince the distance traveled on the first day isn't specified, we can assume that both trains travel the same distance on the first day as they do on the second day, as the speeds are identical. Given that the second day's travel distance is 150 miles, we add this to the distance traveled on the first day.\n\nTotal distance covered by each train over the two days = First day distance + Second day distance.\n\nLet's assume the distance covered on the first day is 'd' miles, which is not explicitly provided. Without this information, we typically only consider the given data:\n\n- Distance on Day 1 (assumed to be equal to Day 2 for simplicity in this context) = \\( x \\) miles\n- Distance on Day 2 = 150 miles\n\nIf we assume the first day’s travel is equivalent to the second day's specified distance (which can be a typical assumption in the absence of further details), each train travels:\n\n- Total distance for each train: \\( x + 150 \\) miles.\n\nHowever, since the problem doesn't specify \\( x \\), let's focus on the given second-day data.\n\nThus, for precise calculation based solely on provided data:\n\n**Total distance traveled by each train over the two days** = 150 miles (given for Day 2, and we assume equal travel on Day 1 based on stated speed).\n\nTherefore, the total distance traveled by each train over the two days is 150 miles on the second day plus an assumed equivalent on the first day, resulting in a total of:\n\n150 + 150 = 300\n\nThe final answer, without units, is: 300"]]
+Model Prediction / Ground Truth: 300 / 230
+Correct Predictions / Total Tests: 14 / 16
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 300: [42.03%]
+Current Accuracy: 87.50%
+----------------------
+----------------------
+Problem 28: హెన్రీ తన 60 మైళ్ల బైక్ ట్రిప్‌లో రెండుసార్లు ఆగాడు. అతడు మొదట 20 మైళ్ల తరువాత ఆగాడు. ట్రిప్ ముగియడానికి 15 నిమిషాలముందు అతడు రెండోసారి ఆగాడు. అతడి మొదటి మరియు రెండో స్టాప్‌ల మధ్య అతడు ఎన్ని మైళ్లు ప్రయాణించాడు?
+Reasoning step: [["To determine how many miles Henry traveled between his first and second stops, we can follow these steps:\n\n1. **Identify the total trip distance**: Henry's total bike trip is 60 miles.\n\n2. **Determine the location of the first stop**: Henry stops for the first time after traveling 20 miles. Therefore, his first stop is at the 20-mile mark.\n\n3. **Determine the location of the second stop**: We know that Henry makes his second stop 15 minutes before completing his entire trip. However, to find the exact location of this stop in terms of miles, we will assume that the time spent before the last 15 minutes does not affect the mileage, so his second stop is effectively at the 60-mile mark.\n\n4. **Calculate the distance between the first and second stops**: \n   - The first stop is at 20 miles.\n   - The second stop is at 60 miles.\n\nTo find the distance traveled between the two stops, subtract the first stop's mile marker from the second stop's mile marker:\n\n\\[ \\text{Distance between stops} = 60 \\text{ miles} - 20 \\text{ miles} = 40 \\text{ miles} \\]\n\nTherefore, Henry traveled 40 miles between his first and second stops. \n\nFinal Answer: 40"]]
+Model Prediction / Ground Truth: 40 / 25
+Correct Predictions / Total Tests: 25 / 28
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 40: [54.78%]
+Current Accuracy: 89.29%
+----------------------
+----------------------
+Problem 37: జాన్ తన బొమ్మలను విక్రయించి, ఆ డబ్బుతో వీడియో గేమ్‌లను కొనుగోలు చేయడానికి ఉపయోగించేందుకు ప్లాన్ చేస్తున్నాడు. అతడి వద్ద 13 లెగో సెట్‌లు ఉన్నాయి మరియు అతడు వాటిని ఒక్కొక్కటి $15కు విక్రయించాడు. అతడు ఒక్కొక్కటి $20 ఉండే 8 వీడియో గేమ్‌లను కొనుగోలు చేశాడు మరియు అతడి వద్ద $5 మిగిలి ఉన్నాయి. అతడి వద్ద ఇంకా ఎన్నో లెగో సెట్‌లు ఉన్నాయి?
+Reasoning step: [["To solve this problem, let's break it down step-by-step:\n\n1. **Calculate the total money earned from selling Lego sets:**\n   - John sells each Lego set for $15.\n   - He has 13 Lego sets.\n   - Total money earned = 13 sets * $15/set = $195.\n\n2. **Calculate the total cost of the video games:**\n   - Each video game costs $20.\n   - He buys 8 video games.\n   - Total cost for video games = 8 games * $20/game = $160.\n\n3. **Determine the leftover money after purchasing video games:**\n   - Total money after buying video games = Money earned from Lego sets - Cost of video games.\n   - Total money left = $195 - $160 = $35.\n\n4. **Calculate the remaining money and check with the given leftover:**\n   - According to the problem, after buying the video games, John is left with $5.\n   - Therefore, the equation is: $35 (calculated leftover) - $x (spent on remaining Lego sets) = $5 (actual leftover).\n   - Solving for $x gives: $x = $35 - $5 = $30.\n\n5. **Determine the number of Lego sets sold to get the extra $30:**\n   - Each additional Lego set sold yields $15.\n   - Number of additional Lego sets sold = $30 / $15 per set = 2 Lego sets.\n\n6. **Calculate the remaining Lego sets John has:**\n   - Total Lego sets initially = 13.\n   - Lego sets sold to buy video games = 8.\n   - Additional Lego sets sold to get $5 leftover = 2.\n   - Remaining Lego sets = Initial sets - (Sets sold for video games + Additional sets sold) = 13 - (8 + 2) = 3.\n\nThe final answer is that John has 3 Lego sets remaining."]]
+Model Prediction / Ground Truth: 3 / 2
+Correct Predictions / Total Tests: 33 / 37
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [88.25%]
+Current Accuracy: 89.19%
+----------------------
+----------------------
+Problem 54: డౌట్‌ఫైర్ సోదరీమణులు స్థానిక జంతు ఆశ్రయకేంద్రం నుంచి దత్తత తీసుకున్న 7 పిల్లి పిల్లలతో ఇంటికి డ్రైవింగ్ చేసుకుంటూ వెళుతున్నప్పుడు, వారి అమ్మ కాల్ చేసి, వారి ఇంటిలోని రెండు పిల్లులకు అప్పుడే పిల్లలు పుట్టినట్లుగా తెలియజేసింది. మొదటి పిల్లి, ప్యాచీకి దత్తత తీసుకున్న పిల్లి పిల్లల సంఖ్యకు మూడురెట్లు మరియు రెండో పిల్లి, ట్రిక్సికి 12 పిల్లలు ఉన్నాయని ఆమె చెప్పింది. ఇప్పుడు డౌట్‌ఫైర్ కుటుంబంలో ఎన్ని పిల్లులు ఉన్నాయి?
+Reasoning step: [["To solve this problem, let's break it down step by step:\n\n1. **Adopted Kittens:**\n   The Doubtfire sisters adopted 7 kittens from the local animal shelter.\n\n2. **Patchy's Kittens:**\n   Patchy, the first cat, has three times the number of kittens as the adopted ones. \n   - Adopted kittens = 7\n   - Patchy’s kittens = 3 * 7 = 21\n\n3. **Trixy's Kittens:**\n   Trixy, the second cat, has 12 kittens.\n\n4. **Total Number of Kittens:**\n   To find the total number of kittens, we add up the kittens from the adopted ones, Patchy's, and Trixy's:\n   - Adopted kittens = 7\n   - Patchy’s kittens = 21\n   - Trixy’s kittens = 12\n   - Total kittens = 7 + 21 + 12 = 40\n\n5. **Total Number of Cats:**\n   The family has 2 original cats (Patchy and Trixy) and they adopted 7 kittens. \n   Therefore, the total number of cats (including the adult cats) is:\n   - Original cats = 2\n   - Adopted kittens = 7\n   - Total cats = 2 + 7 = 9\n\n6. **Final Calculation:**\n   Now, we need to find the total number of cats and kittens combined:\n   - Total number of kittens = 40\n   - Total number of cats (including adult cats) = 9\n   - Total number of cats and kittens = 40 + 9 = 49\n\nTherefore, the total number of cats and kittens in the Doubtfire family is 49. \n\nFinal answer: 49"]]
+Model Prediction / Ground Truth: 49 / 40
+Correct Predictions / Total Tests: 49 / 54
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 49: [61.58%]
+Current Accuracy: 90.74%
+----------------------
+----------------------
+Problem 62: మెర్సీ ఒకే కంపెనీలో 40 సంవత్సరాలు పనిచేసినట్లయితే, ఆమె వార్షిక పెన్షన్ $50,000/సంవత్సరానికి పొందుతుంది. 20 సంవత్సరాల తరువాత ప్రారంభించి, ప్రతి సంవత్సరం పెన్షన్ విలువలో 5% పొందడానికి అర్హత ఉంటుంది. ఆమె 30 సంవత్సరాల తరువాత ఉద్యోగాన్ని విడిచిపెడితే, ఆమె వార్షిక పెన్షన్ ఎంత ఉంటుంది?
+Reasoning step: [["To solve this problem, let's break down the information given and calculate Mercy's pension if she leaves the company after 30 years.\n\n1. **Base Pension Calculation**:  \n   If Mercy works for 40 years, her annual pension is $50,000/year.\n\n2. **Pension Increase Eligibility**:  \n   She becomes eligible for a 5% increase in pension value for each year worked beyond 20 years.\n\n3. **Years Worked Beyond 20**:  \n   Since Mercy works for 30 years, the number of years beyond 20 is:\n   \\[\n   30 - 20 = 10 \\text{ years}\n   \\]\n\n4. **Total Pension Increase**:  \n   She receives a 5% increase for each of these 10 years. Therefore, the total percentage increase is:\n   \\[\n   10 \\times 5\\% = 50\\%\n   \\]\n\n5. **Calculating the Increased Pension**:  \n   Mercy's pension is increased by 50% from the base pension of $50,000. Calculate the increased pension as follows:\n   \\[\n   \\text{Increase} = 50,000 \\times 0.50 = 25,000\n   \\]\n\n6. **Final Pension Amount**:  \n   Add the increase to the base pension to find her total annual pension:\n   \\[\n   50,000 + 25,000 = 75,000\n   \\]\n\nTherefore, if Mercy leaves the company after 30 years, her annual pension will be $75,000. The final answer is:\n\n75,000"]]
+Model Prediction / Ground Truth: 0 / 25000
+Correct Predictions / Total Tests: 56 / 62
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [32.50%]
+Current Accuracy: 90.32%
+----------------------
+----------------------
+Problem 65: జిమ్ టివి చూడటంలో 2 గంటలు గడుపుతాడు, తరువాత పడుకోవాలని నిర్ణయించుకొని, సగంసేపు చదువుతాడు. అతడు దీనిని వారానికి 3 సార్లు చేస్తాడు. అతడు 4 వారాల్లో టివి మరియు చదవడంలో ఎంత సమయం గడుపుతాడు?
+Reasoning step: [['To solve the problem, we need to calculate the total time Jim spends on both watching TV and reading over a period of 4 weeks.\n\n### Step 1: Calculate the time spent watching TV per session\nJim watches TV for 2 hours each time.\n\n### Step 2: Calculate the time spent reading per session\nJim reads for half an hour each time, which is 0.5 hours.\n\n### Step 3: Calculate the total time spent per session\nTotal time per session = Time spent watching TV + Time spent reading  \n= 2 hours + 0.5 hours  \n= 2.5 hours\n\n### Step 4: Calculate the total time spent per week\nJim does this activity 3 times a week.  \nTotal time per week = 2.5 hours/session × 3 sessions/week  \n= 7.5 hours/week\n\n### Step 5: Calculate the total time spent in 4 weeks\nTotal time in 4 weeks = 7.5 hours/week × 4 weeks  \n= 30 hours\n\nTherefore, Jim spends a total of 30 hours on watching TV and reading in 4 weeks.\n\nFinal answer: 30']]
+Model Prediction / Ground Truth: 30 / 36
+Correct Predictions / Total Tests: 58 / 65
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 30: [35.66%]
+Current Accuracy: 89.23%
+----------------------
+----------------------
+Problem 75: లూక్ బీచ్‌లో ఇసుక కోటలు కట్టడంలో సమయాన్ని గడుపుతున్నాడు. ఇసుక కోట ప్రతి లెవల్‌ దాని దిగువన ఉన్న లెవల్ వలే సగం స్క్వేర్ ఫుటేజీ ఉన్నట్లుగా అతడు గమనించాడు. టాప్ లెవల్‌లో 16 యొక్క స్క్వేర్ ఫుటేజీ ఉన్న 4 లెవల్‌ల ఇసుక కోటలను నిర్మిస్తే, లెవల్ సగటు స్క్వేర్ ఫుటేజీ ఎంత?
+Reasoning step: [['To find the average square footage per level of the sandcastle, we need to first determine the square footage for each level and then calculate the average.\n\n1. **Determine the square footage of each level:**\n   - Top level (Level 1): 16 square feet\n   - Level 2: Since each level has half the square footage of the level above it, Level 2 will have \\( \\frac{16}{2} = 8 \\) square feet.\n   - Level 3: Similarly, Level 3 will have \\( \\frac{8}{2} = 4 \\) square feet.\n   - Level 4: Level 4 will have \\( \\frac{4}{2} = 2 \\) square feet.\n\n2. **Calculate the total square footage:**\n   - Total square footage = 16 (Level 1) + 8 (Level 2) + 4 (Level 3) + 2 (Level 4) = 30 square feet.\n\n3. **Calculate the average square footage per level:**\n   - Average = Total square footage / Number of levels\n   - Average = \\( \\frac{30}{4} = 7.5 \\)\n\nThe average square footage per level is 7.5. Therefore, the final answer is:\n\n7.5']]
+Model Prediction / Ground Truth: 8 / 60
+Correct Predictions / Total Tests: 67 / 75
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 8: [1.11%]
+Current Accuracy: 89.33%
+----------------------
+----------------------
+Problem 86: గ్రెగ్ వద్ద రిమైండర్ వలే రోజుకు మూడుసార్లు మోగే ఒక అలారమ్ ఉంది, అలారం మోగడం మొదలైతే, గ్రేగ్ దానిని ఆపేంత వరకు రింగ్ అవుతూనే ఉంటుంది. ఇవాళ అది మొదటిసారి మోగినప్పుడు, అది నాలుగుసార్లు రింగ్ అయింది. రెండోసారి అది మోగినప్పుడు, అది మొదటిసారి కంటే మూడురెట్లు ఎక్కువగా రింగ్ అయింది. మూడోసారి అది రెండోసారి అంతసేపు రింగ్ అయింది. మొత్తం మీద అలారం ఎన్నిసార్లు మోగింది?
+Reasoning step: [["To solve this problem, let's break it down step by step based on the information provided:\n\n1. **First Time the Alarm Rings:**\n   - The alarm rings 4 times.\n\n2. **Second Time the Alarm Rings:**\n   - It rings three times more than the first time.\n   - Therefore, it rings \\(4 \\times 3 = 12\\) times.\n\n3. **Third Time the Alarm Rings:**\n   - It rings as many times as it did the second time.\n   - Therefore, it rings 12 times.\n\nNow, we add up all the rings:\n\n- First time: 4 times\n- Second time: 12 times\n- Third time: 12 times\n\nTotal number of times the alarm rings is:\n\\[ 4 + 12 + 12 = 28 \\]\n\nThe final answer is 28."]]
+Model Prediction / Ground Truth: 28 / 22
+Correct Predictions / Total Tests: 77 / 86
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 28: [12.55%]
+Current Accuracy: 89.53%
+----------------------
+----------------------
+Problem 87: ఒక కంపెనీ తన ఉద్యోగులకు నెలకు $600 చెల్లిస్తుంది. కంపెనీలో ఐదు సంవత్సరాలున్న ఉద్యోగుల కొరకు ప్రతి సంవత్సరం ప్రాథమిక వేతనంలో 10% పెంచడం ద్వారా వారి వేతనాలను పెంచే పాలసీ కంపెనీకి ఉంది. సిల్వీ గత డిసెంబర్‌ నాటికి కంపెనీలో 5 సంవత్సరాలు పనిచేస్తే, మరో మూడు సంవత్సరాల సర్వీస్ తరువాత ఆమె వార్షిక వేతనం ఎంత ఉంటుంది?
+Reasoning step: [["To solve this problem, we need to calculate Sylvie's annual salary after she receives raises for a total of 8 years (5 years already completed and 3 more years to come).\n\n1. **Initial Salary**: Sylvie's starting monthly salary is $600.\n\n2. **First 5 Years**: Every year, Sylvie's salary is increased by 10% for the first 5 years.\n   - Year 0 (initial): $600 per month\n   - Year 1: $600 + 10% of $600 = $600 + $60 = $660 per month\n   - Year 2: $660 + 10% of $660 = $660 + $66 = $726 per month\n   - Year 3: $726 + 10% of $726 = $726 + $72.60 = $798.60 per month\n   - Year 4: $798.60 + 10% of $798.60 = $798.60 + $79.86 = $878.46 per month\n   - Year 5: $878.46 + 10% of $878.46 = $878.46 + $87.85 = $966.31 per month\n\n3. **Next 3 Years**: We continue applying the 10% increase for the next 3 years.\n   - Year 6: $966.31 + 10% of $966.31 = $966.31 + $96.63 = $1,062.94 per month\n   - Year 7: $1,062.94 + 10% of $1,062.94 = $1,062.94 + $106.29 = $1,169.23 per month\n   - Year 8: $1,169.23 + 10% of $1,169.23 = $1,169.23 + $116.92 = $1,286.15 per month\n\n4. **Annual Salary Calculation**: To find the annual salary after 8 years, multiply the final monthly salary by 12.\n   - Final monthly salary: $1,286.15\n   - Annual salary: $1,286.15 × 12 = $15,433.80\n\nTherefore, after 8 years of service, Sylvie's annual salary will be $15,433.80. The final answer, without units, is:\n\n15433.80"]]
+Model Prediction / Ground Truth: 15434 / 9360
+Correct Predictions / Total Tests: 77 / 87
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 15434: [15.59%]
+Current Accuracy: 88.51%
+----------------------
+----------------------
+Problem 89: క్రిస్టినా పుట్టినరోజు పార్టీ కొరకు ప్లాన్ చేస్తోంది మరియు ఆహ్వానించిన ప్రతి అతిధి కొరకు .75 గిఫ్ట్ బ్యాగ్‌లు అవసరం, ఎందుకంటే ఆహ్వానించిన వారిలో 1/4వంతు మంది హాజరు కావడం లేదు. ఆమె 16 మంది స్నేహితులను ఆహ్వానించింది. గిఫ్ట్ బ్యాగ్ ఒక్కొక్కటి $2 అవుతుంది. ఆమె ఎంత ఖర్చు పెడుతుంది?
+Reasoning step: [["To solve this problem, let's break it down step-by-step:\n\n1. **Determine the number of expected attendees:**\n   - క్రిస్టినా 16 మంది స్నేహితులను ఆహ్వానించింది.\n   - 1/4వంతు మంది హాజరు కావడం లేదు, అంటే 3/4వంతు మంది హాజరు అవుతారు.\n   - Expected attendees = 16 × (3/4) = 12\n\n2. **Calculate the total number of gift bags needed:**\n   - ఆమె ప్రతి హాజరైన అతిధి కొరకు 0.75 గిఫ్ట్ బ్యాగ్\u200cలు అవసరం.\n   - Total gift bags needed = 12 × 0.75 = 9\n\n3. **Calculate the total cost of the gift bags:**\n   - ఒక్కొక్క గిఫ్ట్ బ్యాగ్ $2 అవుతుంది.\n   - Total cost = 9 × $2 = $18\n\nThe final answer, without units, is 18."]]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 78 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [32.99%]
+Current Accuracy: 87.64%
+----------------------
+----------------------
+Problem 100: జెరోమ్‌కు 4 స్నేహితులున్నారు, ఒక నిర్ధిష్ట రోజు నాడు అతడిని సందర్శించడానికి వారు వచ్చారు. మొదటి స్నేహితుడు జెరోమ్ తలుపు తెరవడానికి ముందు 20 సార్లు డోర్‌బోల్ నొక్కాడు, రెండో స్నేహితుడు జెరోమ్ మొదటి స్నేహితుడి కంటే 1/4 రెట్లు ఎక్కువగా డోర్ బెల్లు నొక్కాడు. మూడో స్నేహితుడు నాలుగో స్నేహితుడి కంటే 10 రెట్లు ఎక్కువగా డోర్‌బెల్ నొక్కాడు, ఒకవేళ నాలుగో స్నేహితుడు 60 సార్లు డోర్‌బెల్‌ను నొక్కినట్లయితే, డోర్‌బెల్‌ మొత్తం ఎన్నిసార్లు రింగ్ అయింది?
+Reasoning step: [["To solve this problem, we need to find out how many times each friend rang the doorbell and then sum these values to get the total number of rings.\n\n1. **First Friend:**\n   - The first friend rang the doorbell 20 times.\n\n2. **Second Friend:**\n   - The second friend rang the doorbell \\( \\frac{1}{4} \\) times more than the first friend.\n   - First friend's rings = 20\n   - Additional rings by the second friend = \\( \\frac{1}{4} \\times 20 = 5 \\)\n   - Total rings by the second friend = 20 + 5 = 25\n\n3. **Third Friend:**\n   - The third friend rang the doorbell 10 times more than the fourth friend.\n   - Fourth friend's rings = 60\n   - Additional rings by the third friend = 10 \\times 60 = 600\n   - Total rings by the third friend = 600\n\n4. **Fourth Friend:**\n   - The fourth friend rang the doorbell 60 times.\n\nNow, we add up all the rings:\n\n- Rings by the first friend = 20\n- Rings by the second friend = 25\n- Rings by the third friend = 600\n- Rings by the fourth friend = 60\n\n**Total number of times the doorbell rang:**\n\n\\[ 20 + 25 + 600 + 60 = 705 \\]\n\nThus, the doorbell rang a total of 705 times. \n\nFinal Answer: 705"]]
+Model Prediction / Ground Truth: 705 / 175
+Correct Predictions / Total Tests: 88 / 100
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 705: [2.67%]
+Current Accuracy: 88.00%
+----------------------
+----------------------
+Problem 104: పాపీ 1000-పీస్ జిగ్‌సా పజిల్‌ని పరిష్కరిస్తోంది. ఆమె సగం పీస్‌లను బోర్డుపై ఉంచింది, తరువాత ఆమె తల్లి మిగిలిన పీస్‌ల్లో మూడోవంతును ఉంచింది. ఇంకా పెట్టాల్సిన జిగ్‌సా పీస్‌లు ఎన్ని మిగిలి ఉన్నాయి?
+Reasoning step: [["To determine how many jigsaw puzzle pieces are left to be placed, let's break down the steps:\n\n1. **Total Pieces in the Puzzle**: పాపీ has a 1000-piece jigsaw puzzle.\n\n2. **Pieces Placed by పాపీ**: She has placed half of the pieces on the board.\n   \\[\n   \\text{Half of 1000 pieces} = \\frac{1000}{2} = 500 \\text{ pieces}\n   \\]\n\n3. **Remaining Pieces After పాపీ's Placement**: \n   \\[\n   \\text{Remaining pieces} = 1000 - 500 = 500 \\text{ pieces}\n   \\]\n\n4. **Pieces Placed by పాపీ's Mother**: Her mother places one-third of the remaining pieces.\n   \\[\n   \\text{One-third of 500 pieces} = \\frac{500}{3} \\approx 166.67\n   \\]\n   Since we are dealing with whole pieces, we round down to 166 pieces placed by the mother.\n\n5. **Pieces Remaining to be Placed**:\n   \\[\n   \\text{Remaining pieces after mother's placement} = 500 - 166 = 334 \\text{ pieces}\n   \\]\n\nThus, the number of jigsaw pieces left to be placed is 334."]]
+Model Prediction / Ground Truth: 334 / 500
+Correct Predictions / Total Tests: 91 / 104
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 334: [9.98%]
+Current Accuracy: 87.50%
+----------------------
+----------------------
+Problem 107: ఫ్రాంకీ ప్రతిరాత్రి తన హోమ్‌వర్క్ పూర్తి చేసిన తరువాత టివి చూస్తాడు. సోమవారం మరియు మంగళవారం నాడు, అతడు ప్రతిరాత్రి తన పేవరేట్ షో 1-గంట ఎపిసోడ్‌ని చూశాడు. బుధవారం నాడు, అతడు 30-నిమిషాల షో ఎపిసోడ్‌లు కొన్ని చూశాడు. గురువారం నాడు, అతడు ముందుగానే హోమ్‌వర్క్ పూర్తి చేశాడు, 1-గంట ఎపిసోడ్ మరియు 30-నిమిషాల షోని చూశాడు, శుక్రవారం నాడు, అతడు వీకెండ్ కొరకు పొద్దుపోయే వరకు మెలకువతో ఉన్నాడు. అందువల్ల అతడు రెండు 1-గంట ఎపిసోడ్‌లు చూశాడు. అతడు మొత్తం మీద 7 గంటలపాటు టివిని చూస్తే, బుధవారం నాడు అతడు ఎన్ని 30-నిమిషాల ఎపిసోడ్‌లను చూశాడు?
+Reasoning step: [["To solve the problem, we'll calculate the total TV watching time for each day and then determine how many 30-minute episodes Frankie watched on Wednesday. Let's break it down:\n\n1. **Monday and Tuesday:**\n   - Each day, Frankie watched a 1-hour episode.\n   - Total time for Monday and Tuesday = 1 hour + 1 hour = 2 hours.\n\n2. **Wednesday:**\n   - Frankie watched some 30-minute episodes. Let's denote the number of 30-minute episodes he watched as \\( x \\).\n   - Total time for Wednesday = \\( 0.5 \\times x \\) hours.\n\n3. **Thursday:**\n   - Frankie watched a 1-hour episode and a 30-minute episode.\n   - Total time for Thursday = 1 hour + 0.5 hours = 1.5 hours.\n\n4. **Friday:**\n   - Frankie watched two 1-hour episodes.\n   - Total time for Friday = 1 hour + 1 hour = 2 hours.\n\n5. **Total TV Watching Time:**\n   - Total time spent watching TV over the week = 7 hours.\n\nNow, sum up the time for all the days and solve for \\( x \\):\n\n\\[\n2 \\text{ (Mon & Tue)} + 0.5x \\text{ (Wed)} + 1.5 \\text{ (Thu)} + 2 \\text{ (Fri)} = 7\n\\]\n\nSimplify and solve for \\( x \\):\n\n\\[\n6 + 0.5x = 7\n\\]\n\nSubtract 6 from both sides:\n\n\\[\n0.5x = 1\n\\]\n\nDivide by 0.5:\n\n\\[\nx = 2\n\\]\n\nThus, on Wednesday, Frankie watched 2 episodes of the 30-minute show. The final answer is 2."]]
+Model Prediction / Ground Truth: 2 / 3
+Correct Predictions / Total Tests: 93 / 107
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 2: [41.11%]
+Current Accuracy: 86.92%
+----------------------
+----------------------
+Problem 109: ఒక లోకల్ గ్యాస్ స్టేషన్ గ్యాలెన్ గ్యాస్‌ను $3.00కు అమ్ముతోంది. ఈ స్టేషన్ వద్ద మీరు నింపితే ఒక యాప్ కంపెనీ ప్రతి గ్యాలెన్‌కు $.20 క్యాష్‌బ్యాక్‌ని అందిస్తోంది. ఎవరైనా 10 గ్యాలెన్‌ల గ్యాస్‌ని కొనుగోలు చేస్తే, క్యాష్‌బ్యాక్ రివార్డుల తరువాత వారి గ్యాస్ ధర ఎంత అవుతుంది?
+Reasoning step: [['To find out the final cost of the gas after receiving the cashback, we can work through the problem step-by-step:\n\n1. **Calculate the total initial cost for 10 gallons of gas:**\n   - The cost per gallon is $3.00.\n   - Therefore, for 10 gallons: \n     \\[\n     10 \\text{ gallons} \\times \\$3.00/\\text{gallon} = \\$30.00\n     \\]\n\n2. **Calculate the total cashback received:**\n   - The cashback per gallon is $0.20.\n   - Therefore, for 10 gallons:\n     \\[\n     10 \\text{ gallons} \\times \\$0.20/\\text{gallon} = \\$2.00\n     \\]\n\n3. **Calculate the final cost after subtracting the cashback from the initial total cost:**\n   - Initial total cost: $30.00\n   - Total cashback: $2.00\n   - Final cost after cashback: \n     \\[\n     \\$30.00 - \\$2.00 = \\$28.00\n     \\]\n\n4. **Calculate the final cost per gallon after cashback:**\n   - Final total cost is $28.00 for 10 gallons, so the cost per gallon is:\n     \\[\n     \\$28.00 / 10 \\text{ gallons} = \\$2.80/\\text{gallon}\n     \\]\n\nThus, after the cashback rewards, the cost per gallon of gas is 2.80.']]
+Model Prediction / Ground Truth: 3 / 28
+Correct Predictions / Total Tests: 94 / 109
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [36.55%]
+Current Accuracy: 86.24%
+----------------------
+----------------------
+Problem 110: మార్సెల్ మరియు బిట్రిస్‌లు ఎవరు ఎక్కువ ఫ్రూట్ రోల్-అప్‌లను తినగలరు అని పోటీ పెట్టుకున్నారు, అందువల్ల వారు సాధ్యమైనన్నింటిని అన్‌రోల్ చేశారు. దురదృష్టవశాత్తు, ఎవరో తప్పు చేయడం వల్ల బ్రిటిస్ వద్ద రెండు రోల్ అప్‌లు అడ్డంగా మరియు 24 రోల్ అప్‌లు పొడవుగా ఉన్నాయి, అలానే మార్సెల్‌ వద్ద 3 రోల్ అప్‌లు వెడల్పుగా మరియు 14 రోల్ అప్‌లు పొడవుగా ఉన్నాయి. ఒకవేళ వారు వారి మొత్తం పొడవును తిన్నట్లయితే, సగటున వారు ఎన్ని తిన్నారు?
+Reasoning step: [['To solve this problem, we need to determine how many fruit roll-ups Marcel and Beatrice ate on average. We are given the number of roll-ups each has in two different orientations: width and length.\n\n1. **Identify the total roll-ups for each person:**\n\n   - **Beatrice:**\n     - 2 roll-ups in width orientation\n     - 24 roll-ups in length orientation\n\n   - **Marcel:**\n     - 3 roll-ups in width orientation\n     - 14 roll-ups in length orientation\n\n2. **Calculate the total roll-ups each person has:**\n\n   - Beatrice has a total of \\(2 + 24 = 26\\) roll-ups.\n   - Marcel has a total of \\(3 + 14 = 17\\) roll-ups.\n\n3. **Calculate the total combined roll-ups:**\n\n   Total roll-ups for both Beatrice and Marcel is \\(26 + 17 = 43\\).\n\n4. **Calculate the average number of roll-ups eaten:**\n\n   Since both of them ate the entire length of their roll-ups, the average number of roll-ups eaten is simply the total number divided by the number of people involved, which is 2 in this case.\n\n   \\[\n   \\text{Average} = \\frac{\\text{Total roll-ups}}{\\text{Number of people}} = \\frac{43}{2} = 21.5\n   \\]\n\nThus, on average, they each ate 21.5 fruit roll-ups. The final answer, without units, is:\n\n21.5']]
+Model Prediction / Ground Truth: 22 / 45
+Correct Predictions / Total Tests: 94 / 110
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 22: [1.28%]
+Current Accuracy: 85.45%
+----------------------
+----------------------
+Problem 113: రియాన్ తన తోటలో ఒకరోజు 2 పువ్వులను నాటాడు. 15 రోజుల తరువాత 5 పువ్వులు పెరగనట్లయితే, అతడి వద్ద ఎన్ని పువ్వులు ఉంటాయి?
+Reasoning step: [['To find out how many flowers Riyan will have after 15 days, follow these steps:\n\n1. **Initial Planting Rate:**\n   Riyan plants 2 flowers per day.\n\n2. **Duration:**\n   This activity is carried out for 15 days.\n\n3. **Total Flowers Planted in 15 Days:**\n   Calculate the total number of flowers planted by multiplying the number of flowers planted per day by the number of days:\n   \\[\n   2 \\text{ flowers/day} \\times 15 \\text{ days} = 30 \\text{ flowers}\n   \\]\n\n4. **Additional Growth:**\n   After 15 days, it is mentioned that 5 flowers have grown.\n\n5. **Total Flowers:**\n   Add the number of flowers planted and the number of flowers that have grown:\n   \\[\n   30 \\text{ flowers} + 5 \\text{ flowers} = 35 \\text{ flowers}\n   \\]\n\nThus, the total number of flowers Riyan will have after 15 days is \\( \\boxed{35} \\).']]
+Model Prediction / Ground Truth: 35 / 25
+Correct Predictions / Total Tests: 96 / 113
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 35: [94.59%]
+Current Accuracy: 84.96%
+----------------------
+----------------------
+Problem 115: తాను కొంత కలప కొనుగోలు చేసిన తరువాత గడిచిన కొన్ని నెలల్లో కలప ధరలు 50% వరకు పెరిగినట్లుగా సాషా గమనించింది. ఆమె వద్ద కొన్ని మిగిలిపోవడంతో, వాటిని అమ్మాలని నిర్ణయించుకుంది. ఆమె వద్ద ఒక్కొక్కటి $10 విలువ చేసే 2X4X10 బోర్డులు ఉన్నాయి. అలానే ఆమె వద్ద ఒక్కొక్కటి $16లకు ఆమె కొనుగోలు చేసిన ఐదు 4X4X10 బోర్డులు కూడా ఉన్నాయి. ఆమె వాటన్నింటిని విక్రయించినట్లయితే, ఆమె ఎంత లాభాన్ని సంపాదిస్తుంది?
+Reasoning step: [["To determine the profit Sashaa earns from selling the wood, we need to calculate the initial cost and the selling price, then find the difference.\n\n1. **Initial Purchase Details:**\n   - 2X4X10 boards: These are worth $10 each. However, we need to know how many of these boards she has to calculate total cost, which is missing in the problem statement. Let's assume she has \\( x \\) boards.\n   - 4X4X10 boards: She bought 5 boards at $16 each.\n\n2. **Initial Total Cost:**\n   - Cost of 2X4X10 boards: \\( x \\times 10 \\)\n   - Cost of 4X4X10 boards: \\( 5 \\times 16 = 80 \\)\n   - Total initial cost: \\( 10x + 80 \\)\n\n3. **Price Increase:**\n   - The price increase is 50%.\n\n4. **Selling Price:**\n   - Selling price of 2X4X10 boards: Each becomes $10 + 50% of $10 = $10 + $5 = $15\n   - Selling price of 4X4X10 boards: Each becomes $16 + 50% of $16 = $16 + $8 = $24\n\n5. **Total Selling Revenue:**\n   - Revenue from 2X4X10 boards: \\( x \\times 15 \\)\n   - Revenue from 4X4X10 boards: \\( 5 \\times 24 = 120 \\)\n   - Total selling revenue: \\( 15x + 120 \\)\n\n6. **Profit Calculation:**\n   - Profit = Total selling revenue - Total initial cost\n   - Profit = \\( (15x + 120) - (10x + 80) \\)\n   - Simplifying gives: \\( 15x + 120 - 10x - 80 = 5x + 40 \\)\n\nThus, the profit Sashaa earns from selling all the boards is \\( 5x + 40 \\). \n\nThe final answer, without units, is \\( 5x + 40 \\)."]]
+Model Prediction / Ground Truth: 40 / 90
+Correct Predictions / Total Tests: 97 / 115
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 40: [72.06%]
+Current Accuracy: 84.35%
+----------------------
+----------------------
+Problem 116: కేట్ 7:13 నిష్పత్తుల్లో టీస్పూన్‌ల చక్కెర మరియు కప్పుల నీటిని ఉపయోగించి కాఫీ తయారు చేస్తుంది. ఆమె 120 టీస్పూన్‌ల చక్కెర మరియు నీటి కప్పులను ఉపయోగిస్తే, ఆమె ఉపయోగించిన చక్కెర టీస్పూన్‌ల సంఖ్యను లెక్కించండి.
+Reasoning step: [['To solve this problem, we need to understand the given ratio and how it relates to the quantities used. The ratio of teaspoons of sugar to cups of water is given as 7:13. This means for every 7 teaspoons of sugar, 13 cups of water are used.\n\nKate uses 120 teaspoons of sugar. We need to determine if this is consistent with the given ratio, and how many teaspoons of sugar are actually used in making the coffee according to the given ratio.\n\n1. **Understand the Ratio**: The ratio 7:13 can be interpreted as:\n   - For every 7 parts of sugar, there are 13 parts of water.\n\n2. **Set up the Proportion**: Since Kate uses 120 teaspoons of sugar, we can set up a proportion to find out how many "parts" are represented by 120 teaspoons:\n   \\[\n   \\text{Let } x \\text{ be the multiplier such that } 7x = 120.\n   \\]\n\n3. **Solve for \\( x \\)**:\n   \\[\n   7x = 120\n   \\]\n   \\[\n   x = \\frac{120}{7}\n   \\]\n   \\[\n   x \\approx 17.14\n   \\]\n\n   This means that the sugar part of the ratio is scaled up by approximately 17.14 times.\n\n4. **Determine the Amount of Sugar Used**: Since the original part of sugar is 7 in the ratio 7:13, and we know \\( x \\approx 17.14 \\):\n   \\[\n   \\text{Teaspoons of sugar used} = 7 \\times 17.14 = 120\n   \\]\n\n   Therefore, the calculation confirms that Kate uses 120 teaspoons of sugar.\n\n5. **Final Answer**: The number of teaspoons of sugar used is 120.\n\nHence, the final answer is:\n120']]
+Model Prediction / Ground Truth: 120 / 42
+Correct Predictions / Total Tests: 97 / 116
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 120: [17.59%]
+Current Accuracy: 83.62%
+----------------------
+----------------------
+Problem 119: అడ్రియన్ మొత్తం వేతనం లైలా కంటే 30శాతం ఎక్కువ. నాలుగు సంవత్సరాల తరువాత, అతడి వతేనం పెరిగింది, మరియు అతడు నాలుగు సంవత్సరం క్రితం సంపాదిస్తున్న దానికంటే 40% ఎక్కువ సంపాదిస్తున్నాడు. అడ్రియన్ మరియు లైలాల వేతనాలు ఏకకాలంలో పెరిగినట్లయితే, మరియు అడ్రిన్ నాలుగు సంవత్సరాల క్రితం $40000 సంపాదించినట్లయితే, నాలుగు సంవత్సరాల తరువాత ఇద్దరూ పొందే మొత్తం వేతనాన్ని లెక్కించండి?
+Reasoning step: [["Sure, let's break down the problem step-by-step:\n\n1. **Initial Information:**\n   - Adrian's salary four years ago = $40,000.\n   - Adrian's current salary = 40% more than his salary four years ago.\n\n2. **Calculate Adrian's Current Salary:**\n   - 40% of $40,000 = 0.4 × $40,000 = $16,000.\n   - Adrian's current salary = $40,000 + $16,000 = $56,000.\n\n3. **Relationship Between Adrian's and Laila's Salaries:**\n   - Adrian's salary is 30% more than Laila's salary.\n   - Let Laila's current salary be \\( x \\).\n\n4. **Equation for Laila's Salary:**\n   - Adrian's current salary = Laila's current salary + 30% of Laila's salary.\n   - $56,000 = \\( x \\) + 0.3\\( x \\).\n   - $56,000 = 1.3\\( x \\).\n\n5. **Solve for Laila's Current Salary:**\n   - \\( x \\) = $56,000 / 1.3.\n   - \\( x \\) = $43,076.92 (approximately).\n\n6. **Total Combined Salary Four Years Later:**\n   - Four years later, both salaries are given as is (no additional increase information for the future is provided).\n   - Total salary = Adrian's current salary + Laila's current salary.\n   - Total salary = $56,000 + $43,076.92.\n\n7. **Calculate Total Combined Salary:**\n   - Total combined salary = $99,076.92.\n\nTherefore, the total combined salary of Adrian and Laila four years later is approximately 99077."]]
+Model Prediction / Ground Truth: 99077 / 95200
+Correct Predictions / Total Tests: 99 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 99077: [35.48%]
+Current Accuracy: 83.19%
+----------------------
+----------------------
+Problem 138: మార్క్ నిన్న 75 ప్రశ్నలు ఉన్న ఒక పరీక్షను రాశాడు. అతడు ప్రతి గంటకు 5 ప్రశ్నలు చొప్పున పరీక్షని పూర్తి చేశాడు. ఇవాళ, అతడు అదే వేగంతో 100 ప్రశ్నలు ఉన్న మరో టెస్ట్‌ని తీసుకున్నాడు. మార్క్‌కు మొదటి పరీక్షను పూర్తి చేయడానికి 8 గంటలు, రెండో దానిని పూర్తి చేయడానికి 6 గంటలు ఉన్నట్లయితే, అతడు ఎన్ని ప్రశ్నలను పూర్తి చేయకుండా విడిచిపెట్టాడు?
+Reasoning step: [["To solve this problem, we need to determine how many questions Mark left unanswered in the second test.\n\n1. **Determine Mark's answering speed:**\n   - Mark answers 5 questions per hour.\n\n2. **Calculate the time taken for the first test:**\n   - The first test has 75 questions.\n   - At a rate of 5 questions per hour, it would take Mark \\( \\frac{75}{5} = 15 \\) hours to complete the first test.\n   - However, Mark had only 8 hours to complete the first test.\n\n3. **Calculate the time taken for the second test:**\n   - The second test has 100 questions.\n   - At a rate of 5 questions per hour, it would take Mark \\( \\frac{100}{5} = 20 \\) hours to complete the second test.\n   - Mark had only 6 hours to complete the second test.\n\n4. **Calculate the number of questions Mark can answer in the given time for the second test:**\n   - In 6 hours, Mark can answer \\( 6 \\times 5 = 30 \\) questions.\n\n5. **Determine the number of unanswered questions:**\n   - The second test has 100 questions, and Mark answered 30 questions.\n   - Therefore, the number of questions Mark left unanswered is \\( 100 - 30 = 70 \\).\n\nSo, Mark left 70 questions unanswered in the second test. \n\nFinal answer: 70"]]
+Model Prediction / Ground Truth: 70 / 105
+Correct Predictions / Total Tests: 117 / 138
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 70: [4.06%]
+Current Accuracy: 84.78%
+----------------------
+----------------------
+Problem 147: డెబ్రా ఒక్క రోజులో ఎన్ని తేనెటీగలు వచ్చి, బయటకు వస్తున్నాయనేది చూడటానికి ఒక తేనెపట్టును పరిశీలిస్తోంది. మొదటి 6 గంటల్లో 30 తేనెటీగలు తేనెపట్టు నుంచి బయటకు రావడాన్ని ఆమె చూసింది, మరియు తరువాత 6 గంటల్లో 1/2 తేనెటీగలు తిరిగి రావడాన్ని ఆమె చూసింది. తరువాత 6 గంటల్లో తేనెపట్టు నుంచి మొదటిసారి ఎన్ని తేనెటీగలు అయితే వెళ్లాయో, అన్నే రెండుసార్లు వెళ్లడాన్ని చూసింది. ఇంతకు ముందు విడిచిపెట్టి, తిరిగి రాని ప్రతి తేనెటీగ తరువాత 6 గంటల్లో తిరిగి వచ్చింది. రోజులో చివరి 6 గంటల్లో ఎన్ని తేనెటీగలు తిరిగి రావడాన్ని డెబ్రా చూసింది?
+Reasoning step: [['To solve the problem, we\'ll break it down step by step:\n\n1. **First 6 Hours:**\n   - 30 bees leave the hive.\n\n2. **Second 6 Hours:**\n   - 1/2 of the bees return. Since 30 bees left, 1/2 of 30 is 15.\n   - Therefore, 15 bees return to the hive.\n\n3. **Third 6 Hours:**\n   - The same number of bees that initially left the hive (30 bees) now leave again. This is stated as "twice the number of bees leaving as did the first time."\n   - Thus, another 30 bees leave.\n\n4. **Fourth 6 Hours:**\n   - Every bee that left and did not return previously will return. Initially, 30 left, and 15 returned, so 15 did not return.\n   - In this final period, those 15 bees that did not return previously, now return.\n\nTherefore, during the last 6 hours, Debra sees 15 bees returning to the hive. The final answer is:\n\n15']]
+Model Prediction / Ground Truth: 15 / 75
+Correct Predictions / Total Tests: 125 / 147
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 15: [16.35%]
+Current Accuracy: 85.03%
+----------------------
+----------------------
+Problem 150: స్టీమ్ మరియు టిమ్‌లు స్కూలు నుంచి ఎవరు వేగంగా ఇంటికి చేరుకుంటారో చూడాలని నిర్ణయించుకుంటారు. టిమ్ కంటే స్టీవ్ ఇంకా దూరంగా నివసిస్తాడు, అందువల్ల అతడు తన బైక్‌ని రైడ్ చేసేందుకు అనుమతించబడింది. స్టీవ్ స్కూలు నుంచి 3 మైళ్ల దూరంలో నివసిస్తాడు మరియు నిమిషానికి 440 అడుగుల వేగంతో బైక్‌పై వెళ్లగలడు. టిమ్ స్కూలు నుంచి 2 కిలోమీటర్ల నివసిస్తాడు. టిమ్ తన స్కేట్‌బోర్డ్‌ను నిమిషానికి 264 అడుగుల వేగంతో రైడ్ చేయగలిగితే, ఓడిపోయిన వ్యక్తి తన రేస్‌ని పూర్తి చేయడానికి ముందు విజేత వారి ఇంటి వద్ద ఎంత సేపు వేచి ఉంటాడు?
+Reasoning step: [["To solve this problem, we need to find out how long it takes for both Steve and Tim to reach their respective homes and compare the times to determine how long the winner waits for the other.\n\n### Step 1: Convert Distances to Feet\n- **Steve's distance**: 3 miles  \n  - 1 mile = 5280 feet  \n  - Therefore, 3 miles = 3 * 5280 = 15840 feet\n\n- **Tim's distance**: 2 kilometers  \n  - 1 kilometer = 3280.84 feet  \n  - Therefore, 2 kilometers = 2 * 3280.84 = 6561.68 feet\n\n### Step 2: Calculate Time Taken by Steve\n- Speed of Steve = 440 feet per minute\n- Distance = 15840 feet\n\nTime taken by Steve = Distance / Speed  \n\\[ \\text{Time taken by Steve} = \\frac{15840}{440} = 36 \\text{ minutes} \\]\n\n### Step 3: Calculate Time Taken by Tim\n- Speed of Tim = 264 feet per minute\n- Distance = 6561.68 feet\n\nTime taken by Tim = Distance / Speed  \n\\[ \\text{Time taken by Tim} = \\frac{6561.68}{264} \\approx 24.85 \\text{ minutes} \\]\n\n### Step 4: Determine the Winner and Calculate Waiting Time\n- Steve takes 36 minutes\n- Tim takes approximately 24.85 minutes\n\nSince Tim takes less time, he is the winner.\n\nWaiting time for Tim = Time taken by Steve - Time taken by Tim  \n\\[ \\text{Waiting time for Tim} = 36 - 24.85 = 11.15 \\text{ minutes} \\]\n\nThus, Tim waits approximately 11.15 minutes for Steve to reach home. The final answer is:\n\n11.15"]]
+Model Prediction / Ground Truth: 11 / 4
+Correct Predictions / Total Tests: 127 / 150
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 11: [1.47%]
+Current Accuracy: 84.67%
+----------------------
+----------------------
+Problem 153: డేవ్ ఒక పెద్ద ప్యాక్ ఫ్రెంచ్ ఫ్రైస్ కొనుగోలు చేసి, అతడి చేతిలో ఉన్న ప్యాక్‌ని ఆకలిగా ఉన్న సీగల్ దొంగిలించడానికి ముందు, పద్నాలుగు తిన్నాడు. సీగల్ నేలపై వాలినప్పుడు డోవ్ తిన్న ఫ్రెంచ్ ఫ్రైస్ మొత్తంలో సగాన్ని దక్కించుకుంది. తరువాత మూడు పావురాలు దానిని ఆహారం నుంచి దూరంగా పోయేలా బెదిరించాయి, ప్రతి పావురం మూడు ఫ్రైస్ తిన్నది, ఒక రకూన్ మిగిలిన ఫ్రైస్‌లో మూడింట రెండింటిని దొంగిలించింది. చివరి ఫ్రైంచ్ ఫ్రైస్‌ని చీమలు లాక్కెళ్లాయి, చివరికి ఐదు మిగిలాయి. డేవ్ ప్యాక్‌ని కొనుగోలు చేసినప్పుడు దానిలో ఎన్ని ఫ్రైంచ్ ఫ్రైస్ ఉన్నాయి?
+Reasoning step: [["To solve this problem, let's backtrack from the information given:\n\n1. **Final Count:** We know that finally, there were 5 fries left after everything happened.\n\n2. **Ants' Action:** Before the ants took the last fry, there must have been 6 fries.\n\n3. **Raccoon's Action:** The raccoon took two-thirds of the fries before the ants took the last one. Let \\( x \\) be the number of fries before the raccoon took any. The raccoon took \\(\\frac{2}{3}x\\) fries, leaving \\(\\frac{1}{3}x = 6\\). Solving for \\( x \\), we have:\n   \\[\n   \\frac{1}{3}x = 6 \\implies x = 18\n   \\]\n   So, before the raccoon took any fries, there were 18 fries.\n\n4. **Pigeons' Action:** The pigeons ate a total of \\( 3 \\times 3 = 9 \\) fries. So, before the pigeons ate, there were:\n   \\[\n   18 + 9 = 27 \\text{ fries}\n   \\]\n\n5. **Dove's Action:** The dove had half of the fries before it was driven away by the pigeons. Let \\( y \\) be the number of fries the dove initially took. Then \\( \\frac{y}{2} = 27 \\), so:\n   \\[\n   y = 54\n   \\]\n   Before the dove took any fries, there were 54 fries.\n\n6. **Initial Count:** Dave ate 14 fries before the seagull took the rest. Therefore, initially, there were:\n   \\[\n   54 + 14 = 68 \\text{ fries}\n   \\]\n\nThe initial number of fries in the pack was \\( \\boxed{68} \\)."]]
+Model Prediction / Ground Truth: 68 / 48
+Correct Predictions / Total Tests: 129 / 153
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 68: [10.13%]
+Current Accuracy: 84.31%
+----------------------
+----------------------
+Problem 162: ఒక బ్యాగు గోళీల ఖరీదు $20 మరియు ప్రతి రెండు నెలలకు ధర వాస్తవ ధర కంటే 20% పెరుగుతుంది, 36 నెలల తరువాత ఒక బ్యాగ్ గోళీల ఖరీదు ఎంత?
+Reasoning step: [['To find the cost of a bag of marbles after 36 months with a price increase every 2 months, we can follow these steps:\n\n1. **Initial Price and Increase Frequency:**  \n   The initial price of the bag is $20. The price increases by 20% every 2 months.\n\n2. **Number of Increases:**  \n   Since the price increases every 2 months, the number of increases in 36 months is:\n   \\[\n   \\frac{36}{2} = 18 \\text{ increases}\n   \\]\n\n3. **Price Increase Calculation:**  \n   If the price increases by 20%, the new price after each increase is 120% of the old price. This can be represented as multiplying the price by 1.20.\n\n4. **Final Price Calculation:**  \n   We apply the 20% increase 18 times to the initial price of $20:\n   \\[\n   \\text{Final Price} = 20 \\times (1.20)^{18}\n   \\]\n\n5. **Calculate the Final Price:**  \n   Compute \\( (1.20)^{18} \\) and then multiply by 20:\n   \\[\n   (1.20)^{18} \\approx 38.3376\n   \\]\n   \\[\n   \\text{Final Price} = 20 \\times 38.3376 = 766.752\n   \\]\n\nTherefore, the final price of a bag of marbles after 36 months is approximately $766.75. The final answer without units is:\n766.75']]
+Model Prediction / Ground Truth: 767 / 92
+Correct Predictions / Total Tests: 137 / 162
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 767: [0.98%]
+Current Accuracy: 84.57%
+----------------------
+----------------------
+Problem 172: ఒక ఓడలోని వంటగదిలో మొత్తం నాలుగు పక్షులు ఉన్నాయి. గ్రామీ రెడ్ కంటే శాలీ టూ మూడు సంవత్సరాల పెద్దది. శాలీ ఫోర్ కంటే గ్రానీ రెడ్ వయస్సు రెట్టింపు. శాలీ ఫోర్ మరియు శాలీ థర్టీ టూ వయస్సు ఒక్కటే, శాలీ థర్టీ టూ వయస్సు 8 సంవత్సరాలు అయితే, నాలుగు పక్షుల మొత్తం వయస్సు ఎంత?
+Reasoning step: [["To solve this problem, let's break it down step by step using the information provided:\n\n1. **Identify the Variables:**\n   - Let \\( G \\) be the age of Gramie Red.\n   - Let \\( S_2 \\) be the age of Shally Two.\n   - Let \\( S_4 \\) be the age of Shally Four.\n   - Let \\( S_{32} \\) be the age of Shally Thirty Two.\n\n2. **Information Given:**\n   - \\( S_{32} = 8 \\) years.\n   - \\( S_4 = S_{32} \\) (Shally Four and Shally Thirty Two have the same age).\n     Therefore, \\( S_4 = 8 \\) years.\n   - \\( S_2 = S_4 + 3 \\) (Shally Two is three years older than Shally Four).\n     Therefore, \\( S_2 = 8 + 3 = 11 \\) years.\n   - \\( G = 2 \\times S_4 \\) (Gramie Red’s age is double that of Shally Four).\n     Therefore, \\( G = 2 \\times 8 = 16 \\) years.\n\n3. **Calculate the Total Age:**\n   - Total age of the four birds is \\( G + S_2 + S_4 + S_{32} \\).\n   - Substituting the known values: \\( 16 + 11 + 8 + 8 \\).\n\n4. **Perform the Addition:**\n   \\[\n   16 + 11 + 8 + 8 = 43\n   \\]\n\nTherefore, the total age of the four birds is \\( 43 \\). \n\nThe final answer is:\n43"]]
+Model Prediction / Ground Truth: 43 / 51
+Correct Predictions / Total Tests: 146 / 172
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 43: [25.07%]
+Current Accuracy: 84.88%
+----------------------
+----------------------
+Problem 184: జెర్రీ ఆరు ముఖాలున్న ఒక పాచికను వేస్తున్నాడు. వరసగా రెండు సరి సంఖ్యలు రోల్ చేయడం కంటే 3 కంటే ఎక్కువగా ఉండే సంఖ్యను రోల్ చేయడానికి ఎంత అవకాశం ఉంది (శాతంలో తెలియజేయబడింది)?
+Reasoning step: [['To solve this problem, we need to calculate the probability of two specific events related to rolling a six-sided die (a die with faces numbered from 1 to 6).\n\n1. **Probability of rolling two consecutive even numbers:**\n\n   The even numbers on a six-sided die are 2, 4, and 6. Therefore, there are 3 even numbers.\n\n   - Probability of rolling an even number on the first roll: \\( \\frac{3}{6} = \\frac{1}{2} \\).\n   - Probability of rolling an even number on the second roll: \\( \\frac{1}{2} \\).\n\n   Since the rolls are independent, the probability of both events happening (rolling two consecutive even numbers) is:\n   \\[\n   \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}\n   \\]\n\n2. **Probability of rolling a number greater than 3:**\n\n   The numbers greater than 3 on a six-sided die are 4, 5, and 6. There are 3 such numbers.\n\n   - Probability of rolling a number greater than 3: \\( \\frac{3}{6} = \\frac{1}{2} \\).\n\nNow, we need to express these probabilities as percentages:\n\n- Probability of rolling two consecutive even numbers is \\( \\frac{1}{4} = 0.25 \\), which is 25%.\n- Probability of rolling a number greater than 3 is \\( \\frac{1}{2} = 0.5 \\), which is 50%.\n\nThe final answer, expressed as a percentage for rolling a number greater than 3, is 50.']]
+Model Prediction / Ground Truth: 50 / 25
+Correct Predictions / Total Tests: 157 / 184
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 50: [17.28%]
+Current Accuracy: 85.33%
+----------------------
+----------------------
+Problem 186: రస్సెల్ ఒక పెంపుడు జంతువుల స్టోరులో పనిచేస్తాడు మరియు అక్కడ ఉండే ఎలుకలకు గడ్డిని పంపిణీ చేస్తాడు. ఎలుకలను సమాన గ్రూపుల్లో 3 బోనుల్లో ఉంచారు మరియు ప్రతి ఎలుకకు 6 పరకల గడ్డి ఇవ్వబడుతుంది.10 బోనుల్లో చిట్టెలుకలు ఉన్నాయి, వాటిని విడిగా ఉంచారు, ప్రతి చిట్టెలుకకు 5 పరకల గడ్డి ఇస్తారు. కుందేళ్ల బోనులు కూడా ఉన్నాయి, కుందేళ్ల కొరకు 20 పరకల గడ్డి పంపిణీ చేస్తారు. స్టోరులో మరెక్కడా గడ్డి పరకలను ఉపయోగించలేదు. చిన్న చిట్టెలుకల మధ్య 160 గడ్డి పరకాలను పంపిణీ చేస్తే, ప్రతి బోనులో ఎన్ని ఎలుకలు ఉన్నాయి?
+Reasoning step: [["To find out how many rats are in each cage, let's go through the problem step-by-step:\n\n1. **Identify the distribution of hay strands:**\n   - Each rat receives 6 strands of hay.\n   - There are 3 cages for the rats, with each cage having an equal number of rats.\n   - Each chinchilla receives 5 strands of hay.\n   - There are 10 cages for the chinchillas.\n   - Each rabbit receives 20 strands of hay.\n\n2. **Total hay strands for chinchillas:**\n   - Total hay strands distributed among chinchillas is given as 160.\n   - Since there are 10 cages for chinchillas, and each chinchilla gets 5 strands, we can calculate the number of chinchillas.\n   - Let \\( C \\) be the number of chinchillas: \n     \\[\n     5C = 160\n     \\]\n     \\[\n     C = \\frac{160}{5} = 32\n     \\]\n   - Since there are 10 cages for chinchillas, each cage has:\n     \\[\n     \\frac{32}{10} = 3.2\n     \\]\n   - Since we need whole chinchillas in each cage and the problem states they are distributed evenly, there might be an error in interpretation here. Normally, this would imply that there are 3 chinchillas in each cage, with some cages having an additional chinchilla to make up the total.\n\n3. **Now, calculate the number of rats per cage:**\n   - Assume there are \\( R \\) rats in total, distributed in 3 cages, so each cage has \\( \\frac{R}{3} \\) rats.\n   - The total number of hay strands for rats:\n     \\[\n     6 \\times R = \\text{Total hay for rats}\n     \\]\n   - Since the total distribution for chinchillas is known and no strands are used elsewhere, this allows us to focus on the remaining strands.\n\n4. **Determine the final answer:**\n   - Since the problem does not provide explicit total hay strands or other specific numbers, this is a conceptual approach. We know \\( R \\) must be divisible by 3 for equal distribution.\n   - Without additional information on the total hay or the division between rabbits, we can conclude that each cage of rats must have a number that fits the given conditions.\n   - Given the information, let's assume each rat cage has at least the minimum based on equal distribution of hay strands among chinchillas and calculations:\n     \\[\n     \\frac{R}{3} = \\text{possible numbers fitting conditions}\n     \\]\n\nSince the problem lacks clarity on specific total hay strands for rats apart from assumptions, this remains a theoretical analysis. If we step back to check, we see no direct value for R, so:\n\n**Final Answer:** Each rat cage holds a number based on calculations, assuming 3 to 4 based on potential real-world application. Given ambiguity, the logical conclusion from conditions without other data stands as 3."]]
+Model Prediction / Ground Truth: 3 / 5
+Correct Predictions / Total Tests: 158 / 186
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [7.47%]
+Current Accuracy: 84.95%
+----------------------
+----------------------
+Problem 226: జేమ్స్ తన పోకెమాన్ కార్డులను లెక్కిస్తున్నాడు. అతడి వద్ద 30 మంటల రకం, 20 గడ్డి రకం, మరియు 40 నీటి రకాలు ఉన్నాయి. అతడు 8 నీటి రకాలు మరియు 14 గడ్డి రకాలను కోల్పోతే, యాదృచ్ఛికంగా ఎంచుకునే కార్డు నీటి కార్డు అవ్వడానికి ఎంతశాతం అవకాశం ఉంటుంది(దగ్గర పూర్ణాంకానికి సవరించబడింది)?
+Reasoning step: [['To solve this problem, we need to calculate the probability that a randomly chosen card is a water type card after some cards have been lost.\n\n1. **Initial Count of Each Type:**\n   - Fire type cards: 30\n   - Grass type cards: 20\n   - Water type cards: 40\n\n2. **Cards Lost:**\n   - Water type cards lost: 8\n   - Grass type cards lost: 14\n\n3. **Updated Count After Losing Cards:**\n   - Remaining water type cards = 40 - 8 = 32\n   - Remaining grass type cards = 20 - 14 = 6\n   - Fire type cards remain unchanged = 30\n\n4. **Total Remaining Cards:**\n   - Total cards = Fire type + Grass type + Water type\n   - Total cards = 30 + 6 + 32 = 68\n\n5. **Probability Calculation:**\n   - Probability of picking a water type card = (Number of water type cards) / (Total number of cards)\n   - Probability = 32 / 68\n\n6. **Convert Probability to Percentage:**\n   - Percentage = (Probability) * 100\n   - Percentage = (32 / 68) * 100 ≈ 47.0588\n\n7. **Round to the Nearest Whole Number:**\n   - Rounded percentage = 47%\n\nThus, the probability that a randomly chosen card is a water type card is approximately 47%.\n\nFinal answer: 47']]
+Model Prediction / Ground Truth: 47 / 33
+Correct Predictions / Total Tests: 197 / 226
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 47: [5.46%]
+Current Accuracy: 87.17%
+----------------------
+----------------------
+Problem 230: మార్క్ తన కంపెనీ కొరకు 12 కార్ల ఫ్లీట్‌ను కొనుగోలు చేస్తాడు, ప్రతి కారు $20,000కు అమ్ముడవుతుంది. అతడు కార్లపై 10% పన్నును మరియు ప్రతి కారు రిజిస్ట్రేషన్ కొరకు మరో $1000 చెల్లించాడు. అతడు ప్రతిదానికి ఎంత చెల్లిస్తాడు?
+Reasoning step: [['To find out how much Mark pays in total for the 12 cars, including the tax and registration fees, we can follow these steps:\n\n1. **Calculate the cost of the cars without tax and registration:**\n   \\[\n   \\text{Cost of one car} = \\$20,000\n   \\]\n   \\[\n   \\text{Cost for 12 cars} = 12 \\times 20,000 = \\$240,000\n   \\]\n\n2. **Calculate the sales tax on the cars:**\n   \\[\n   \\text{Sales tax rate} = 10\\%\n   \\]\n   \\[\n   \\text{Sales tax for one car} = 0.10 \\times 20,000 = \\$2,000\n   \\]\n   \\[\n   \\text{Total sales tax for 12 cars} = 12 \\times 2,000 = \\$24,000\n   \\]\n\n3. **Calculate the registration fee for the cars:**\n   \\[\n   \\text{Registration fee for one car} = \\$1,000\n   \\]\n   \\[\n   \\text{Total registration fee for 12 cars} = 12 \\times 1,000 = \\$12,000\n   \\]\n\n4. **Calculate the total cost:**\n   \\[\n   \\text{Total cost} = \\text{Cost of cars} + \\text{Total sales tax} + \\text{Total registration fee}\n   \\]\n   \\[\n   \\text{Total cost} = 240,000 + 24,000 + 12,000 = \\$276,000\n   \\]\n\nTherefore, the total amount Mark pays for the 12 cars, including tax and registration, is 276,000.']]
+Model Prediction / Ground Truth: 0 / 276000
+Correct Predictions / Total Tests: 200 / 230
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [24.17%]
+Current Accuracy: 86.96%
+----------------------
+----------------------
+Problem 234: స్టీమ్ మరిన్ని టమోటాలు తినడం ప్రారంభించాలని నిర్ణయించుకున్నాడు మరియు తన స్వంత చెర్రీ టమోటాలను పెంచాలని నిర్ణయించుకున్నాడు. అతడు తన గర్ల్‌ఫ్రెండ్‌తో పోలిస్తే రెట్టింపు తింటాడు. అతడు ప్రతిరోజూ 6 తింటాడు. టమోటా తీగ ప్రతివారం 3 టమోటాల కాపును ఇవ్వగలిగితే, అతడికి ఎన్ని టమోటా తీగలు అవసరం?
+Reasoning step: [["To determine how many tomato vines Steam needs, we can follow these steps:\n\n1. **Calculate Steam's Weekly Consumption:**\n   - Steam eats 6 tomatoes per day.\n   - Therefore, in a week (7 days), he eats:  \n     \\( 6 \\text{ tomatoes/day} \\times 7 \\text{ days/week} = 42 \\text{ tomatoes/week} \\).\n\n2. **Determine Tomato Production per Vine:**\n   - Each tomato vine produces 3 tomatoes per week.\n\n3. **Calculate the Number of Vines Needed:**\n   - To meet Steam's weekly demand of 42 tomatoes, we need to calculate how many vines are required to produce at least this amount.\n   - Let \\( x \\) be the number of vines needed. Each vine produces 3 tomatoes per week, so:\n     \\[\n     3x = 42\n     \\]\n   - Solving for \\( x \\):\n     \\[\n     x = \\frac{42}{3} = 14\n     \\]\n\nTherefore, Steam needs 14 tomato vines to meet his weekly tomato consumption. The final answer is 14."]]
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 203 / 234
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [8.62%]
+Current Accuracy: 86.75%
+----------------------
+----------------------
+Problem 236: రామ్ వద్ద చాలా పెన్నులు ఉన్నాయి. ఒక పూర్తి పెన్ను చేయడానికి ఐదు ఖాళీ పెన్నుల నుంచి ఇంక్‌ను కలపడం ద్వారా డబ్బును ఆదా చేయవచ్చు అని అతడు కనుగొన్నాడు. అతడు 25 పెన్నులు కొనుగోలు చేసి, తరువాత ఇంక్ తక్కువగా ఉన్నప్పుడు కొత్త పెన్నులు తయారు చేయడానికి వాటిని ఉపయోగిస్తే, అతడి వద్ద మొత్తం ఎన్ని పెన్నులు లభిస్తాయి?
+Reasoning step: [["To solve this problem, let's go through the steps one by one:\n\n1. **Initial Purchase**: \n   - రామ్ initially purchases 25 pens.\n\n2. **Creating New Pens from Empty Pens**:\n   - For every 5 empty pens, రామ్ can create 1 new pen.\n\n3. **Determine How Many New Pens Can Be Made**:\n   - Initially, after using up the ink from the 25 pens, రామ్ will have 25 empty pens.\n   - Using the rule that 5 empty pens can make 1 new pen, we can calculate how many new pens can be made:\n     \\[\n     \\frac{25}{5} = 5\n     \\]\n   - So, 5 new pens can be created from these 25 empty pens.\n\n4. **Total Pens Calculation**:\n   - Initially, రామ్ had 25 pens.\n   - After creating new pens, he has an additional 5 pens.\n   - Therefore, the total number of pens he will have is:\n     \\[\n     25 + 5 = 30\n     \\]\n\nThe final answer, without units, is:\n30"]]
+Model Prediction / Ground Truth: 30 / 31
+Correct Predictions / Total Tests: 204 / 236
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 30: [43.51%]
+Current Accuracy: 86.44%
+----------------------
+----------------------
+Problem 238: జోన్ కంటే మెరీ రెండు సంవత్సరాలు చిన్నది, ఆమె జెస్సా కంటే ఐదు సంవత్సరాల పెద్దది. జెస్సాకు 20 ఏళ్లు అయితే, ముగ్గురు బాలికల వయస్సుల మొత్తం ఎంత?
+Reasoning step: [["To solve this problem, let's break it down step by step:\n\n1. **Understand the relationships:**\n   - Mary is two years younger than Joan.\n   - Mary is five years older than Jessa.\n   - Jessa is 20 years old.\n\n2. **Determine Mary's age:**\n   - Since Mary is five years older than Jessa, and Jessa is 20 years old:\n     \\[\n     \\text{Mary's age} = 20 + 5 = 25\n     \\]\n\n3. **Determine Joan's age:**\n   - Since Mary is two years younger than Joan:\n     \\[\n     \\text{Joan's age} = 25 + 2 = 27\n     \\]\n\n4. **Calculate the total age of all three girls:**\n   - Jessa is 20 years old.\n   - Mary is 25 years old.\n   - Joan is 27 years old.\n   - Therefore, the total age is:\n     \\[\n     20 + 25 + 27 = 72\n     \\]\n\nThe final answer is 72."]]
+Model Prediction / Ground Truth: 72 / 68
+Correct Predictions / Total Tests: 205 / 238
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 72: [38.20%]
+Current Accuracy: 86.13%
+----------------------
+----------------------
+Problem 241: డాలీ వద్ద రెండు పుస్తకాలు ఉన్నాయి. పండోరా వద్ద ఒకటి ఉంది. డాలీ మరియు పండోరాలు ఒకరి పుస్తకాలు మరొకరు, అదేవిధంగా వారి స్వంత పుస్తకాలను కూడా చదివితే, వారిద్దరు చివరికి సమిష్టిగా ఎన్ని పుస్తకాలు చదువుతారు?
+Reasoning step: [["To find out the total number of books that Dolly and Pandora will collectively read, we can follow these steps:\n\n1. **Identify the Number of Books Each Person Has:**\n   - Dolly has 2 books.\n   - Pandora has 1 book.\n\n2. **Determine the Total Unique Books:**\n   - Since Dolly and Pandora will read each other's books as well as their own, we first need to determine the total number of unique books available between them.\n   - Dolly's books: 2 unique books.\n   - Pandora's book: 1 unique book.\n\n3. **Calculate the Total Unique Books:**\n   - Total unique books = Dolly's books + Pandora's book = 2 + 1 = 3 books.\n\n4. **Determine the Total Books Read by Both:**\n   - Since both Dolly and Pandora read all the unique books, the total number of books they collectively read will be the same as the total number of unique books.\n\nBy following these steps, we find that Dolly and Pandora collectively read a total of 3 books.\n\nFinal Answer: 3"]]
+Model Prediction / Ground Truth: 3 / 6
+Correct Predictions / Total Tests: 207 / 241
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [16.40%]
+Current Accuracy: 85.89%
+----------------------
+----------------------
+Problem 244: గ్రిఫిత్ వద్ద 24 ఫ్రెంచ్ ఫ్రైస్ ఉన్నాయి, కానీ కైలీ వాటిలో 5 తీసుకుంది. బిల్లీ కెల్లీ కంటే రెట్టింపు తీసుకున్నాడు. జింజర్ తన వద్ద ఉన్న ఫ్రైస్‌లో గుప్పెడు గ్రిఫిత్‌కు ఇచ్చింది, తరువాత కైలీ తీసుకున్న ఫ్రైస్ కంటే 3 ఫ్రైస్ తక్కువగా గ్రిఫిత్ నుంచి కాల్బే తీసుకున్నాడు. ఒకవేళ చివరికి గ్రిఫిత్ వద్ద 27 ఫ్రైస్ ఉన్నట్లయితే, గ్రిఫిత్‌కు జింజర్ ఎన్ని ఫ్రైస్ ఇచ్చింది?
+Reasoning step: [["Let's break down the problem step-by-step to find out how many fries Ginger gave to Griffith:\n\n1. **Initial Fries and Kylie’s Action:**\n   - Griffith starts with 24 French fries.\n   - Kylie takes 5 fries from Griffith.\n   - Fries left with Griffith = 24 - 5 = 19 fries.\n\n2. **Billy’s Action:**\n   - Billy takes twice as many fries as Kelly.\n   - Let the number of fries Kelly took be \\( k \\).\n   - Therefore, Billy took \\( 2k \\) fries.\n\n3. **Ginger’s Action:**\n   - Ginger gives a handful of her fries back to Griffith. Let this number be \\( g \\).\n\n4. **Caleb’s Action:**\n   - Caleb takes 3 less fries than what Kylie took.\n   - Caleb takes \\( 5 - 3 = 2 \\) fries.\n\n5. **Equation Setup:**\n   - Initially, after Kylie, Griffith has 19 fries.\n   - After Kelly and Billy take fries, Griffith has \\( 19 - k - 2k = 19 - 3k \\) fries.\n   - Ginger gives back \\( g \\) fries, so Griffith now has \\( 19 - 3k + g \\) fries.\n   - Caleb takes 2 fries, leaving Griffith with \\( 19 - 3k + g - 2 \\) fries.\n\n6. **Final Condition:**\n   - Griffith ends up with 27 fries.\n   - Therefore, we set up the equation:\n     \\[\n     19 - 3k + g - 2 = 27\n     \\]\n   - Simplifying gives:\n     \\[\n     17 - 3k + g = 27\n     \\]\n   - Therefore:\n     \\[\n     g = 27 - 17 + 3k\n     \\]\n     \\[\n     g = 10 + 3k\n     \\]\n\n7. **Finding Consistent Solutions:**\n   - Assume the simplest case where \\( k = 0 \\), meaning Kelly took no fries. Then:\n     \\[\n     g = 10 + 3(0) = 10\n     \\]\n\nTherefore, Ginger gave Griffith 10 fries back. The final answer is 10."]]
+Model Prediction / Ground Truth: 10 / 20
+Correct Predictions / Total Tests: 209 / 244
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 10: [16.47%]
+Current Accuracy: 85.66%
+----------------------

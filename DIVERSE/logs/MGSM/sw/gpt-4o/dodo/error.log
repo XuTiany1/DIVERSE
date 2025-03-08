@@ -1,0 +1,270 @@
+----------------------
+Problem 2: Josha anaamua kujaribu kununua nyumba na kuuza kwa faida. Ananunua nyumba kwa $80,000 na kutumia $50,000 kuikarabati. Hii iliongeza thamani ya nyumba hiyo kwa 150%. Alipata faida ya kiasi gani?
+Reasoning step: [["To determine the profit Josha made from buying and selling the house, we need to follow these steps:\n\n1. **Calculate the Total Investment:**\n   Josha's total investment is the sum of the purchase price and the renovation costs.\n\n   \\[\n   \\text{Total Investment} = \\text{Purchase Price} + \\text{Renovation Costs} = 80,000 + 50,000 = 130,000\n   \\]\n\n2. **Determine the Increased Value of the House:**\n   The renovation increased the house's value by 150%. This means the final value of the house is 150% more than the total investment.\n\n   \\[\n   \\text{Increased Value} = \\text{Total Investment} \\times \\left(1 + \\frac{150}{100}\\right) = 130,000 \\times 2.5 = 325,000\n   \\]\n\n3. **Calculate the Profit:**\n   The profit is the difference between the increased value of the house and the total investment.\n\n   \\[\n   \\text{Profit} = \\text{Increased Value} - \\text{Total Investment} = 325,000 - 130,000 = 195,000\n   \\]\n\nTherefore, Josha's profit from selling the house is **195,000**."]]
+Model Prediction / Ground Truth: 0 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [82.11%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 12: Carlos anapanda mlimau. Mti huo utagharimu $90 kuupanda. Kila mwaka utazaa limau 7, anazoweza kuuza kwa $1.5 kila moja. Gharama ya kunyunyiza maji na kulisha mti huo kila mwaka ni $3. Itachukua miaka mingapi kabla ya yeye kuanza kupata mapato kutoka kwa mlimau huo?
+Reasoning step: [['To determine how many years it will take for Carlos to start making a profit from the lemon tree, we need to calculate the yearly net income and then find when the initial cost is recovered.\n\n1. **Initial Cost of Planting the Tree:**\n   - The cost to plant the tree is $90.\n\n2. **Annual Revenue from Lemons:**\n   - Each year, the tree produces 7 lemons.\n   - Each lemon is sold for $1.5.\n   - Annual revenue = 7 lemons/year * $1.5/lemon = $10.5/year.\n\n3. **Annual Maintenance Cost:**\n   - The yearly cost for watering and feeding the tree is $3.\n\n4. **Annual Net Income:**\n   - Net income = Annual revenue - Annual maintenance cost\n   - Net income = $10.5 - $3 = $7.5/year.\n\n5. **Calculating the Break-Even Point:**\n   - Carlos needs to recover the initial planting cost of $90.\n   - To find out how many years it takes to recover this cost:\n   - Break-even point = Initial cost / Annual net income\n   - Break-even point = $90 / $7.5/year = 12 years.\n\nTherefore, it will take 12 years before Carlos starts making a profit from the lemon tree. The final answer is 12.']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 10 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [54.22%]
+Current Accuracy: 83.33%
+----------------------
+----------------------
+Problem 13: Melanie ni mfanyabiashara wa nyumba kwa nyumba. Aliuza theluthi moja ya visafishaji vyake vya kuvuta uchafu katika nyumba ya kijani, 2 zaidi kwa nyumba nyekundu, na nusu ya vilivyosalia katika nyumba ya rangi ya chungwa. Iwapo Melanie amesalia na visafishaji 5 vya kuvuta uchafu, alianza na vingapi?
+Reasoning step: [['To find out how many vacuum cleaners Melanie initially had, we can set up an equation based on the information provided and solve it step by step.\n\n1. Let \\( x \\) be the initial number of vacuum cleaners.\n\n2. According to the problem, Melanie sold one-third of her vacuum cleaners to the green house. Therefore, the number sold to the green house is:\n   \\[\n   \\frac{x}{3}\n   \\]\n\n3. She sold 2 more to the red house. Therefore, the number sold to the red house is:\n   \\[\n   \\frac{x}{3} + 2\n   \\]\n\n4. She then sold half of the remaining vacuum cleaners to the orange house. To calculate the remaining vacuum cleaners after the first two sales:\n   \\[\n   \\text{Remaining after green and red house sales} = x - \\left(\\frac{x}{3} + \\frac{x}{3} + 2\\right) = x - \\frac{2x}{3} - 2 = \\frac{x}{3} - 2\n   \\]\n\n5. She sold half of what was remaining to the orange house:\n   \\[\n   \\frac{1}{2}\\left(\\frac{x}{3} - 2\\right)\n   \\]\n   Thus, the number sold to the orange house is:\n   \\[\n   \\frac{x}{6} - 1\n   \\]\n\n6. After these sales, she is left with 5 vacuum cleaners. Therefore, the equation for the remaining vacuum cleaners is:\n   \\[\n   \\frac{x}{3} - 2 - \\left(\\frac{x}{6} - 1\\right) = 5\n   \\]\n\n7. Now, solve the equation:\n   \\[\n   \\frac{x}{3} - 2 - \\frac{x}{6} + 1 = 5\n   \\]\n   Simplify:\n   \\[\n   \\frac{x}{3} - \\frac{x}{6} - 1 = 5\n   \\]\n\n8. Find a common denominator for the fractions (which is 6):\n   \\[\n   \\frac{2x}{6} - \\frac{x}{6} - 1 = 5\n   \\]\n\n9. Combine the fractions:\n   \\[\n   \\frac{x}{6} - 1 = 5\n   \\]\n\n10. Add 1 to both sides:\n    \\[\n    \\frac{x}{6} = 6\n    \\]\n\n11. Multiply both sides by 6 to solve for \\( x \\):\n    \\[\n    x = 36\n    \\]\n\nTherefore, Melanie initially had 36 vacuum cleaners. The final answer is 36.']]
+Model Prediction / Ground Truth: 36 / 18
+Correct Predictions / Total Tests: 10 / 13
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 36: [12.94%]
+Current Accuracy: 76.92%
+----------------------
+----------------------
+Problem 15: Mfanyabiashara anataka kufanya chaguo la ununuzi kati ya mipango 2 ya ununuzi: mapambo ya kito yenye thamani ya $5,000 au vifaa vya eletroniki vyenye thamani ya $8,000. Mshauri wake wa kifedha anakadiria kuwa soko la mapambo ya kito litapanda hadi 2.5% huku soko la vifaa vya elektroniki litapanda hadi 1.2% ndani ya mwezi huo mmoja. Iwapo mfanyabiashara huyo anataka kuwa na faida za juu zaidi mwishoni mwa mwezi huu kwa kufanya chaguo, hii itakuwa faida ya kiasi gani?
+Reasoning step: [['To determine which investment will yield a higher profit and by how much, we’ll calculate the expected value of each option after one month based on the given growth rates.\n\n1. **Calculate the expected value of the jewelry after one month:**\n   - Initial value of the jewelry: $5,000\n   - Expected increase in value: 2.5%\n\n   \\[\n   \\text{Increase in value} = 5,000 \\times \\frac{2.5}{100} = 5,000 \\times 0.025 = 125\n   \\]\n\n   \\[\n   \\text{Value of jewelry after one month} = 5,000 + 125 = 5,125\n   \\]\n\n2. **Calculate the expected value of the electronics after one month:**\n   - Initial value of the electronics: $8,000\n   - Expected increase in value: 1.2%\n\n   \\[\n   \\text{Increase in value} = 8,000 \\times \\frac{1.2}{100} = 8,000 \\times 0.012 = 96\n   \\]\n\n   \\[\n   \\text{Value of electronics after one month} = 8,000 + 96 = 8,096\n   \\]\n\n3. **Calculate the profit for each investment:**\n   - Profit from jewelry: $5,125 - $5,000 = $125\n   - Profit from electronics: $8,096 - $8,000 = $96\n\n4. **Determine which investment gives a higher profit:**\n   - The jewelry yields a profit of $125, while the electronics yield a profit of $96.\n\n5. **Calculate the difference in profit:**\n   \\[\n   \\text{Difference in profit} = 125 - 96 = 29\n   \\]\n\nThus, the jewelry investment will yield a higher profit, and the difference in profit between the two investments is 29.']]
+Model Prediction / Ground Truth: 29 / 125
+Correct Predictions / Total Tests: 11 / 15
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 29: [55.53%]
+Current Accuracy: 73.33%
+----------------------
+----------------------
+Problem 34: Siobhan ana vito 2 chache zaidi ya vya Aaron. Aaron ana vito 5 zaidi ya nusu ya vito vya Raymond. Ikiwa Raymond ana vito 40, Siobhan ana vito vingapi?
+Reasoning step: [["To solve this problem, let's break it down step-by-step:\n\n1. **Determine Aaron's Number of Beads:**\n   - We know that Raymond has 40 beads.\n   - Aaron has 5 more beads than half of Raymond's beads.\n   - First, calculate half of Raymond's beads: \n     \\[\n     \\frac{40}{2} = 20\n     \\]\n   - Then, add 5 more beads to this amount:\n     \\[\n     20 + 5 = 25\n     \\]\n   - Therefore, Aaron has 25 beads.\n\n2. **Determine Siobhan's Number of Beads:**\n   - Siobhan has 2 more beads than twice Aaron's beads.\n   - First, calculate twice the number of Aaron's beads:\n     \\[\n     2 \\times 25 = 50\n     \\]\n   - Then, add 2 more beads to this amount:\n     \\[\n     50 + 2 = 52\n     \\]\n\nThus, Siobhan has 52 beads. The final answer is 52."]]
+Model Prediction / Ground Truth: 52 / 23
+Correct Predictions / Total Tests: 29 / 34
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 52: [84.70%]
+Current Accuracy: 85.29%
+----------------------
+----------------------
+Problem 71: Kelian ana mapishi mawili ya kuandaa milo, moja lina maelekezo 20 na la pili lina maelekezo mara tatu zaidi ya mapishi ya kwanza. Kelian anahitajika kusoma maelekezo mangapi ili kuandaa milo miwili?
+Reasoning step: [['To solve the problem, we need to determine the total number of instructions Kelian needs to read for both recipes.\n\n1. **Identify the number of instructions in the first recipe:**\n   - The first recipe has 20 instructions.\n\n2. **Determine the number of instructions in the second recipe:**\n   - The second recipe has three times the number of instructions as the first recipe. \n   - So, calculate the instructions for the second recipe: \n     \\[\n     3 \\times 20 = 60\n     \\]\n\n3. **Calculate the total number of instructions for both recipes:**\n   - Add the instructions from both recipes together:\n     \\[\n     20 + 60 = 80\n     \\]\n\nThe last number in the response, which is the final answer without units, is:\n80']]
+Model Prediction / Ground Truth: 80 / 60
+Correct Predictions / Total Tests: 65 / 71
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 80: [82.24%]
+Current Accuracy: 91.55%
+----------------------
+----------------------
+Problem 75: Luke ametulia kwenye ufuo wa bahari akijenga kasri za mchanga. Hatimaye anagundua kuwa kila kiwango cha kasri ya mchanga kitakuwa na nusu ya futi mraba ya kiwango kilichoko chini yake. Akiunda kasri ya mchanga yenye viwango 4 ambapo kiwango cha juu kina futi mraba 16, wastani wa futi mraba ya kiwango ni ngapi?
+Reasoning step: [["To find the average square footage of each level in Luke's sandcastle, we need to calculate the square footage of each level and then find the average.\n\n1. **Determine the square footage of each level:**\n   - The top level has a square footage of 16 square feet.\n   - Each subsequent level has half the square footage of the level above it.\n\n   Therefore:\n   - Top level (Level 4): 16 square feet\n   - Level 3: \\( \\frac{16}{2} = 8 \\) square feet\n   - Level 2: \\( \\frac{8}{2} = 4 \\) square feet\n   - Bottom level (Level 1): \\( \\frac{4}{2} = 2 \\) square feet\n\n2. **Calculate the total square footage of all levels:**\n   \\[\n   \\text{Total square footage} = 16 + 8 + 4 + 2 = 30 \\text{ square feet}\n   \\]\n\n3. **Determine the number of levels:**\n   - There are 4 levels in total.\n\n4. **Calculate the average square footage per level:**\n   \\[\n   \\text{Average square footage per level} = \\frac{\\text{Total square footage}}{\\text{Number of levels}} = \\frac{30}{4} = 7.5\n   \\]\n\nThus, the average square footage per level is 7.5. The answer is 7.5."]]
+Model Prediction / Ground Truth: 8 / 60
+Correct Predictions / Total Tests: 68 / 75
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 8: [14.78%]
+Current Accuracy: 90.67%
+----------------------
+----------------------
+Problem 82: Grace ana uzani wa pauni 125. Uzani wa Alex ni pauni 2 kiasi kwa mara 4 ya uzani wa Grace. Jumla ya uzani wao kwa pauni ni ngapi?
+Reasoning step: [["To solve this problem, we need to determine the weight of Alex and then add it to Grace's weight to find the total weight in pounds.\n\n1. **Determine Grace's Weight:**\n   - Grace's weight is given directly as 125 pounds.\n\n2. **Determine Alex's Weight:**\n   - The problem states that Alex's weight is 2 times the weight of Grace, multiplied by 4.\n   - First, calculate 2 times Grace's weight:\n     \\[\n     2 \\times 125 = 250 \\text{ pounds}\n     \\]\n   - Next, multiply this result by 4 to find Alex's weight:\n     \\[\n     250 \\times 4 = 1000 \\text{ pounds}\n     \\]\n\n3. **Calculate the Total Weight:**\n   - Add Grace's weight and Alex's weight together:\n     \\[\n     125 + 1000 = 1125 \\text{ pounds}\n     \\]\n\nTherefore, the total weight of Grace and Alex combined is 1125."]]
+Model Prediction / Ground Truth: 1125 / 623
+Correct Predictions / Total Tests: 74 / 82
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 1125: [90.96%]
+Current Accuracy: 90.24%
+----------------------
+----------------------
+Problem 86: Greg ameweka king'ora kilie mara tatu kwa siku kama kikumbusho. King'ora kikianza kulia, huwa kinaendelea kulia hadi Greg akizime. Mara ya kwanza kilipoanza kulia leo, kililia mara nne. Mara ya pili kilipoanza kulia, kililia mara tatu zaidi ya mara ya kwanza kilipolia. Mara ya tatu kilipolia, kililia nusu ya kilivyolia mara ya pili. King'ora hicho kililia mara ngapi kwa jumla?
+Reasoning step: [["To solve the problem of determining the total number of times the alarm rang, we need to go through the information step by step:\n\n1. **First Alarm Ring:**\n   - The first time the alarm rang, it rang 4 times.\n   \n2. **Second Alarm Ring:**\n   - The second time the alarm rang, it rang 3 times more than the first time.\n   - Since the first time it rang 4 times, the second time it rang \\(4 + 3 = 7\\) times.\n   \n3. **Third Alarm Ring:**\n   - The third time the alarm rang, it rang half as many times as it did the second time.\n   - Since the second time it rang 7 times, the third time it rang \\(\\frac{7}{2} = 3.5\\) times.\n   - However, since the number of rings should be a whole number, we can assume it rang 3 times, as it's the closest whole number to half of 7.\n\n4. **Total Number of Rings:**\n   - To find the total number of times the alarm rang, we add the number of rings from each instance:\n   - Total = First ring + Second ring + Third ring\n   - Total = 4 + 7 + 3\n   - Total = 14\n\nTherefore, the total number of times the alarm rang is 14."]]
+Model Prediction / Ground Truth: 14 / 22
+Correct Predictions / Total Tests: 77 / 86
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [4.78%]
+Current Accuracy: 89.53%
+----------------------
+----------------------
+Problem 87: Kampuni hulipa kila mmoja wa wafanyakazi wake $600 kwa mwezi. Kampuni hiyo ina sera ya kuongeza mishahara ya kila mfanyakazi kwa 10% ya mshahara wa awali kila mwaka kwa wale ambao wamekaa kwenye kampuni hiyo kwa miaka mitano. Ikiwa Sylvie alifikisha miaka 5 katika kampuni hiyo Desemba iliyopita, mshahara wake wa kila mwaka baada ya miaka mitatu zaidi ya kuhudumia kampuni hiyo ni ngapi?
+Reasoning step: [["To find Sylvie's annual salary after three more years with the company (given she already completed five years), we need to calculate her salary increment based on the company's policy.\n\n1. **Initial Monthly Salary:**\n   Sylvie's initial monthly salary is $600.\n\n2. **Initial Annual Salary:**\n   Her initial annual salary is calculated as:\n   \\[\n   600 \\text{ dollars/month} \\times 12 \\text{ months} = 7200 \\text{ dollars/year}\n   \\]\n\n3. **Salary Increment Policy:**\n   The company increases the salary by 10% each year for employees who have completed five years.\n\n4. **First Year Increment:**\n   After the first year (year 6 of her service), her salary is increased by 10%:\n   \\[\n   \\text{Increment for the first year} = 7200 \\times 0.10 = 720 \\text{ dollars}\n   \\]\n   \\[\n   \\text{New annual salary after the first increment} = 7200 + 720 = 7920 \\text{ dollars}\n   \\]\n\n5. **Second Year Increment:**\n   After the second year (year 7), her salary is again increased by 10%:\n   \\[\n   \\text{Increment for the second year} = 7920 \\times 0.10 = 792 \\text{ dollars}\n   \\]\n   \\[\n   \\text{New annual salary after the second increment} = 7920 + 792 = 8712 \\text{ dollars}\n   \\]\n\n6. **Third Year Increment:**\n   After the third year (year 8), her salary is increased by another 10%:\n   \\[\n   \\text{Increment for the third year} = 8712 \\times 0.10 = 871.2 \\text{ dollars}\n   \\]\n   \\[\n   \\text{New annual salary after the third increment} = 8712 + 871.2 = 9583.2 \\text{ dollars}\n   \\]\n\nThus, Sylvie's annual salary after three more years of service is 9583.2. The final answer is:\n9583.2"]]
+Model Prediction / Ground Truth: 9583 / 9360
+Correct Predictions / Total Tests: 77 / 87
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 9583: [1.33%]
+Current Accuracy: 88.51%
+----------------------
+----------------------
+Problem 89: Christina anapanga sherehe ya siku ya kuzaliwa na anahitaji mikoba .75 ya zawadi kwa kila mgeni aliyealikwa, kwa sababu 1/4 ya wahudhuriaji hawakuhudhuria. Alialika marafiki 16. Mikoba ya zawadi ni $2 kila moja. Atatumia pesa ngapi?
+Reasoning step: [["To determine how much Christina will spend on gift bags, let's go through the problem step-by-step.\n\n1. **Determine the Number of Guests Attending:**\n   Christina invited 16 friends, but only 3/4 of them will attend because 1/4 will not show up. Calculate the number of attendees:\n   \\[\n   \\text{Attendees} = \\frac{3}{4} \\times 16 = 12\n   \\]\n\n2. **Calculate the Number of Gift Bags Needed:**\n   Christina plans to provide 0.75 gift bags for each attendee. Therefore, calculate the total number of gift bags required:\n   \\[\n   \\text{Gift Bags Needed} = 0.75 \\times 12 = 9\n   \\]\n\n3. **Calculate the Total Cost of the Gift Bags:**\n   Each gift bag costs $2. To find the total cost, multiply the number of gift bags by the cost per bag:\n   \\[\n   \\text{Total Cost} = 9 \\times 2 = 18\n   \\]\n\nThe final answer is the total amount Christina will spend on gift bags, which is **18**."]]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 78 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [95.49%]
+Current Accuracy: 87.64%
+----------------------
+----------------------
+Problem 105: Cody huwa anakula biskuti mara tatu zaidi ya biskuti ambazo Amir hukula. Iwapo Amir hukula biskuti 5, wote wawili huwa wanakula biskuti ngapi kwa pamoja?
+Reasoning step: [['To solve the problem, we need to determine the total number of biscuits that Cody and Amir eat together.\n\n1. Determine the number of biscuits Amir eats:\n   Amir eats 5 biscuits.\n\n2. Determine the number of biscuits Cody eats:\n   Cody eats 3 more biscuits than Amir. Therefore, Cody eats:\n   \\( 5 + 3 = 8 \\) biscuits.\n\n3. Calculate the total number of biscuits both eat together:\n   Total biscuits = Biscuits eaten by Amir + Biscuits eaten by Cody\n   \\( 5 + 8 = 13 \\)\n\nThe total number of biscuits they both eat together is 13. Therefore, the final answer is 13.']]
+Model Prediction / Ground Truth: 13 / 20
+Correct Predictions / Total Tests: 93 / 105
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 13: [92.15%]
+Current Accuracy: 88.57%
+----------------------
+----------------------
+Problem 119: Jumla ya mshahara wa Adrien ilikuwa asilimia 30 juu ya mshahara wa Lulah. Miaka minne baadaye, mshahara wake ulikuwa umeongezeka, na alikuwa anapata 40% zaidi ya mshahara ambao alikuwa anapata miaka minne iliyopita. Ikiwa mshahara wa Adrien na Lylah uliongeleza sambamba, na Adrien alikuwa anapata $40000 miaka minne iliyopita, piga hesabu ya jumla ya mshahara ambao watu hao wawili walikuwa wanapokea miaka minne baadaye?
+Reasoning step: [["To solve this problem, we need to determine the salaries of Adrien and Lulah four years after the initial period.\n\n1. **Initial Salaries:**\n   - Let's assume the initial salary of Lulah was \\( x \\).\n\n2. **Adrien's Initial Salary:**\n   - Adrien's initial salary was 30% more than Lulah's. Therefore, Adrien's salary was:\n     \\[\n     \\text{Adrien's initial salary} = x + 0.3x = 1.3x\n     \\]\n   - We know Adrien was earning $40,000 four years ago, so:\n     \\[\n     1.3x = 40,000\n     \\]\n   - Solving for \\( x \\):\n     \\[\n     x = \\frac{40,000}{1.3} \\approx 30,769.23\n     \\]\n\n3. **Lulah's Initial Salary:**\n   - Thus, Lulah's initial salary was approximately $30,769.23.\n\n4. **Adrien's Salary Four Years Later:**\n   - Four years later, Adrien's salary increased by 40% of what he earned initially:\n     \\[\n     \\text{Increase} = 0.4 \\times 40,000 = 16,000\n     \\]\n   - So, Adrien's new salary:\n     \\[\n     \\text{Adrien's salary} = 40,000 + 16,000 = 56,000\n     \\]\n\n5. **Lulah's Salary Four Years Later:**\n   - Since Lulah's salary increased proportionally, we need to find the factor by which Adrien's salary increased:\n     \\[\n     \\text{Increase factor} = \\frac{56,000}{40,000} = 1.4\n     \\]\n   - Applying the same factor to Lulah's initial salary:\n     \\[\n     \\text{Lulah's salary} = 30,769.23 \\times 1.4 \\approx 43,076.92\n     \\]\n\n6. **Total Salary Four Years Later:**\n   - Finally, the total salary received by both Adrien and Lulah four years later is:\n     \\[\n     \\text{Total salary} = 56,000 + 43,076.92 = 99,076.92\n     \\]\n\nThus, the total salary that Adrien and Lulah received four years later is approximately \\(\\boxed{99077}\\)."]]
+Model Prediction / Ground Truth: 99077 / 95200
+Correct Predictions / Total Tests: 106 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 99077: [58.99%]
+Current Accuracy: 89.08%
+----------------------
+----------------------
+Problem 141: Kuna nyuki 700 katika mzinga wa nyuki. Idadi ya nyuki wa kufanya kazi ni mara mbili zaidi ya nyuki watoto, na idadi ya nyuki watoto ni mara tatu zaidi ya nyuki malkia. Kuna nyuki wangapi wa kufanya kazi?
+Reasoning step: [['To solve this problem, we need to define the variables and set up equations based on the given information.\n\n1. **Define the Variables:**\n   - Let \\( Q \\) be the number of queen bees.\n   - Let \\( C \\) be the number of child bees.\n   - Let \\( W \\) be the number of worker bees.\n\n2. **Set Up Equations:**\n   - From the problem, we know the total number of bees is 700. Therefore:\n     \\[\n     Q + C + W = 700\n     \\]\n   - The number of child bees is three times the number of queen bees:\n     \\[\n     C = 3Q\n     \\]\n   - The number of worker bees is twice the number of child bees:\n     \\[\n     W = 2C\n     \\]\n\n3. **Substitute and Solve the Equations:**\n   - Substitute \\( C = 3Q \\) into \\( W = 2C \\):\n     \\[\n     W = 2(3Q) = 6Q\n     \\]\n   - Substitute \\( C = 3Q \\) and \\( W = 6Q \\) into the total equation:\n     \\[\n     Q + 3Q + 6Q = 700\n     \\]\n     \\[\n     10Q = 700\n     \\]\n   - Solve for \\( Q \\):\n     \\[\n     Q = \\frac{700}{10} = 70\n     \\]\n\n4. **Find the Number of Worker Bees:**\n   - Now that we know \\( Q = 70 \\), find \\( C \\):\n     \\[\n     C = 3Q = 3 \\times 70 = 210\n     \\]\n   - Find \\( W \\):\n     \\[\n     W = 6Q = 6 \\times 70 = 420\n     \\]\n\nThe number of worker bees is 420. Thus, the final answer is:\n420']]
+Model Prediction / Ground Truth: 420 / 400
+Correct Predictions / Total Tests: 127 / 141
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 420: [65.04%]
+Current Accuracy: 90.07%
+----------------------
+----------------------
+Problem 147: Debra anafuatilia mzinga wa nyuki ili kuona ni nyuki wangapi huingia na kutoka kwa siku. Huwa anaona nyuki 30 wakiondoka kwenye mzinga katika saa 6 za kwanza, na kisha kuona 1/2 ya idadi hio ya nyuki wakirejea katika saa 6 zinazofuata. Anaona mara mbili zaidi ya nyuki aliowaona wakiondoka mara ya kwanza wakiruka wakitoka kwenye mzinga na kutoka katika saa 6 zinazofuata. Kisha kila nyuki aliyeondoka kabla ya hapo anarudi katika saa 6 zinazofuata. Debra aliona nyuki wangapi wakirudi kwenye mzinga katika saa 6 za mwisho za siku?
+Reasoning step: [["To solve this problem, let's break it down step-by-step:\n\n1. **First 6 hours:**\n   - Debra observes 30 bees leaving the hive.\n\n2. **Next 6 hours:**\n   - During these hours, half of the bees that left earlier return. Since 30 bees left, half of them are \\( \\frac{30}{2} = 15 \\) bees. \n   - Therefore, 15 bees return during these 6 hours.\n\n3. **Third set of 6 hours:**\n   - During these hours, Debra observes twice the number of bees that initially left, leaving the hive again. Initially, 30 bees left, so twice this number is \\( 2 \\times 30 = 60 \\) bees. \n   - Thus, 60 bees leave during these 6 hours.\n\n4. **Last 6 hours:**\n   - During these final 6 hours, every bee that has left previously returns. \n   - This includes the 60 bees that left in the third set of 6 hours.\n\nTherefore, the number of bees returning to the hive during the last 6 hours is 60.\n\nThe final answer is 60."]]
+Model Prediction / Ground Truth: 60 / 75
+Correct Predictions / Total Tests: 132 / 147
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 60: [19.27%]
+Current Accuracy: 89.80%
+----------------------
+----------------------
+Problem 153: Dave alinunua kifurushi kikubwa cha chipsi na akala kumi na nne kabla ya shakwe aliye na njaa kuiba kifurushi hicho kutoka kwa mkono wake. Shakwe huyo alipotua, aligooka nusu ya chipsi ambazo Dave alikuwa amekula. Kisha njiwa watatu wakamfurusha kutoka kwa chakula hicho, na kila njiwa akala chipsi tatu. Baadaye, rakuni aliiba theluthi mbili ya chipsi zilizosalia. Siafu wakabeba chipsi ya mwisho, na kuacha tano nyuma. Kulikuwa na chipsi ngapi katika kifurushi hicho wakati Dave alikinunua?
+Reasoning step: [["Let's break down the problem step by step to determine the initial number of chips in the package.\n\n1. **Dave Eats Chips:**\n   - Dave initially eats 14 chips.\n\n2. **Shakwe Steals and Eats:**\n   - Shakwe eats half of what Dave ate. Since Dave ate 14 chips, shakwe eats 7 chips (half of 14).\n\n3. **Chips Remaining After Shakwe:**\n   - After shakwe eats 7 chips, 14 - 7 = 7 chips remain.\n\n4. **Pigeons Eat:**\n   - Three pigeons arrive, and each eats 3 chips. Therefore, they eat a total of 3 * 3 = 9 chips.\n\n5. **Chips Remaining After Pigeons:**\n   - After the pigeons eat, 7 - 9 = -2 chips, which indicates a discrepancy. The proper interpretation is that initially there must have been enough chips for the pigeons to eat, meaning the remaining chips were more than calculated.\n\nLet's reassess from the beginning assuming unknown initial chips `x`:\n\n- Dave eats 14 chips.\n- Shakwe steals and eats 7 chips (half of 14).\n- Therefore, after shakwe, 14 - 7 = 7 chips remain.\n- Pigeons eat 9 chips total, suggesting at least 9 chips must have been there, so there were initially more than 7 chips after shakwe's action.\n\n6. **Correct Chips Remaining After Pigeons:**\n   - Since after pigeons there needed to be enough chips, we assume pigeons eat 9 chips from the remaining `y` after shakwe's action.\n   - If pigeons eat 9 chips, then `y` (post-shakwe chips) must be at least 9.\n   - The initial assumption needs correction: the stepwise understanding of each action must ensure non-negative remaining chips after pigeons.\n\n7. **Calculate Forward Based on Final Condition:**\n   - Let's consider the final step provided: only 5 chips remain after the sequence of actions.\n   - Before final step of ants taking one chip and leaving 5: \n     - Assume `z` chips after pigeons (before raccoon): `z` chips' exact number cannot be deduced from negative after pigeon assumption.\n     - Raccoon steals 2/3 of chips before ants: if 5 left, then raccoons left 5 after stealing 2/3.\n     - Let raccoon leaves 1/3, implying 3 * 5 = 15 chips prior to raccoon.\n     - Therefore, before raccoon, there must be 15 chips.\n\n8. **Reconcile with Pigeon's Eating:**\n   - Since we previously had a negative assumption, let’s consider pigeon correctly: from prior logical consistency, post-shakwe should leave enough to correct to 15 after pigeons:\n     - Pre-pigeon should be 15 + 9 = 24 to satisfy pigeon and raccoon sequence coordination.\n     - Prior to shakwe, let `x - 14 = 24`, the initial chips count `x = 24 + 14`.\n\nTherefore, the correct initial number of chips Dave purchased is 39."]]
+Model Prediction / Ground Truth: 39 / 48
+Correct Predictions / Total Tests: 137 / 153
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 39: [8.03%]
+Current Accuracy: 89.54%
+----------------------
+----------------------
+Problem 161: Anakin na Locsin walienda kwenye ufuo leo. Anakin alishika pweza 10, farasi-maji 6, na juhabahari 3. Huku Locsin alishika pweza 5 chache zaidi ya wa Anakin, farasi-maji 3 chache zaidi ya wa Anakin, na juhubahari 2 zaidi ya wa Anakin. Wote wawili waliweza kushika samaki wangapi kwa jumla?
+Reasoning step: [["To find the total number of sea creatures Anakin and Locsin caught, we need to add up the number of each type of creature they each caught.\n\n**Anakin's Catch:**\n- Octopuses: 10\n- Seahorses: 6\n- Starfish: 3\n\nTotal for Anakin = 10 + 6 + 3 = 19\n\n**Locsin's Catch:**\n- Octopuses: Anakin caught 10, and Locsin caught 5 fewer, so Locsin caught 10 - 5 = 5\n- Seahorses: Anakin caught 6, and Locsin caught 3 more, so Locsin caught 6 + 3 = 9\n- Starfish: Anakin caught 3, and Locsin caught 2 more, so Locsin caught 3 + 2 = 5\n\nTotal for Locsin = 5 + 9 + 5 = 19\n\n**Combined Total:**\nTo find the total number of creatures both caught together, we add Anakin's and Locsin's totals:\n\nTotal creatures caught by both = Anakin's total + Locsin's total = 19 + 19 = 38\n\nTherefore, Anakin and Locsin caught a total of 38 sea creatures.\n\nFinal answer: 38"]]
+Model Prediction / Ground Truth: 38 / 32
+Correct Predictions / Total Tests: 144 / 161
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 38: [77.09%]
+Current Accuracy: 89.44%
+----------------------
+----------------------
+Problem 162: Ikiwa bei mfuko wa marumaru ni $20 na bei hiyo huongezeka na 20% ya bei ya asili kila baada ya miezi miwili, bei ya mfuko wa marumaru itakuwa ngapi baada ya miezi 36?
+Reasoning step: [['To solve this problem, we need to calculate the price of a bag of cement after 36 months, given that the price increases by 20% every 2 months.\n\n1. **Initial Price:**\n   The initial price of the bag is $20.\n\n2. **Price Increase Frequency:**\n   The price increases every 2 months.\n\n3. **Price Increase Percentage:**\n   Each increase is 20% of the current price.\n\n4. **Number of Increments in 36 Months:**\n   Since the price increases every 2 months, in 36 months there will be:\n   \\[\n   \\frac{36 \\text{ months}}{2 \\text{ months per increment}} = 18 \\text{ increments}\n   \\]\n\n5. **Calculating the Price After Each Increment:**\n   After each increment, the price becomes:\n   \\[\n   \\text{New Price} = \\text{Current Price} + 0.20 \\times \\text{Current Price} = 1.20 \\times \\text{Current Price}\n   \\]\n\n6. **Final Price Calculation:**\n   We need to apply this increase 18 times to the original price:\n   \\[\n   \\text{Final Price} = 20 \\times (1.20)^{18}\n   \\]\n\n7. **Computing the Final Price:**\n   Calculate \\( (1.20)^{18} \\) and then multiply by 20.\n\n   \\[\n   (1.20)^{18} \\approx 38.3376\n   \\]\n\n   Therefore, the final price is:\n   \\[\n   20 \\times 38.3376 \\approx 766.752\n   \\]\n\nThe final price of the bag of cement after 36 months will be approximately $766.752, and the last number is:\n766.752']]
+Model Prediction / Ground Truth: 767 / 92
+Correct Predictions / Total Tests: 144 / 162
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 767: [0.83%]
+Current Accuracy: 88.89%
+----------------------
+----------------------
+Problem 181: Sandra, muuza maua anayepatikana karibu, hajafurahia jinsi ambavyo Fred hakukamilisha uwasilishaji wa agizo. Sandra alikuwa ameagiza waridi mwekundu mara nne zaidi ya maua meupe. Pia aliagiza yungiyungi 200 za pinki, ambazo zilikuwa mara tano zaidi ya idadi ya maua meupe. Sandra ametishia kubadilisha wasambazaji iwapo waridi mwekundu ambao haupo hautawasilishia kufikia saa 11 jioni. Ili kudumisha biashara ya Sandra, ni lazima Fred awasilishe waridi mwekundu ngapi kabla ya saa 11 jioni?
+Reasoning step: [['To determine how many red roses Fred needs to deliver, we need to first find out how many white flowers Sandra ordered.\n\n1. **Identify the relationship between pink lilies and white flowers:**\n   - Sandra ordered 200 pink lilies, which is five times the number of white flowers.\n   - Let the number of white flowers be \\( x \\).\n   - Therefore, \\( 5x = 200 \\).\n\n2. **Solve for the number of white flowers (\\( x \\)):**\n   \\[\n   5x = 200 \\\\\n   x = \\frac{200}{5} \\\\\n   x = 40\n   \\]\n   So, Sandra ordered 40 white flowers.\n\n3. **Determine the number of red roses:**\n   - Sandra ordered four times as many red roses as white flowers.\n   - Therefore, the number of red roses is \\( 4x \\).\n\n4. **Calculate the number of red roses (\\( 4x \\)):**\n   \\[\n   4x = 4 \\times 40 = 160\n   \\]\n\nThus, Fred needs to deliver **160** red roses before 11 PM.']]
+Model Prediction / Ground Truth: 11 / 160
+Correct Predictions / Total Tests: 162 / 181
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 11: [12.89%]
+Current Accuracy: 89.50%
+----------------------
+----------------------
+Problem 183: Timu mbili za mbio za uwanjani zinashindana na kila moja katika mbio za kupokezana kijiti za 4 kwa mita 400; mbio ambapo kila timu inayoshindana ina wanachama wanne ambao kila mmoja anakimbia mita 400, au kuzunguka mara moja, kwenye uwanja kamili. Mojawapo kati ya timu hizo mbili ina wakimbiaji wazuri na kila mmoja wao atakimbia mkondo wao wa mita 400 kwa sekunde 55. Timu hiyo nyingine haina wakimbiaji wazuri vile; mkimbiaji wao wa kwanza atakimbia mkondo wao wa mita 400 kwa sekunde 60 kisha kila mkimbiaji anayefuata atakuwa na kasi ya sekunde 3 zaidi ya aliyemtangulia. Kwa kutumia maelezo haya, timu iliyo na mbio ya haraka zaidi itashinda kwa sekunde ngapi?
+Reasoning step: [["To determine which team has the faster overall time and by how many seconds they win, we need to calculate the total relay time for each team.\n\n**Team 1 (Fast Team):**\n- Each runner in Team 1 runs 400 meters in 55 seconds.\n- Since there are 4 runners, the total time for Team 1 is:\n  \\[\n  4 \\times 55 = 220 \\text{ seconds}\n  \\]\n\n**Team 2 (Slower Team):**\n- The first runner runs 400 meters in 60 seconds.\n- The second runner takes 3 seconds more than the first runner, so they run in 63 seconds.\n- The third runner takes 3 seconds more than the second runner, so they run in 66 seconds.\n- The fourth runner takes 3 seconds more than the third runner, so they run in 69 seconds.\n\nThe total time for Team 2 is:\n\\[\n60 + 63 + 66 + 69 = 258 \\text{ seconds}\n\\]\n\n**Difference in Times:**\n- To find out by how many seconds Team 1 is faster than Team 2, we subtract Team 1's time from Team 2's time:\n  \\[\n  258 - 220 = 38 \\text{ seconds}\n  \\]\n\nThe faster team wins by 38 seconds. Therefore, the final answer is:\n\\[\n38\n\\]"]]
+Model Prediction / Ground Truth: 38 / 2
+Correct Predictions / Total Tests: 163 / 183
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 38: [84.76%]
+Current Accuracy: 89.07%
+----------------------
+----------------------
+Problem 184: Jerry anacheza dadu yenye pande sita. Ana uwezekano mgani mkubwa zaidi (katika asilimia) kuwa atabingirisha nambari kubwa kwa 3 zaidi ya kubingirisha nambari mbili za zushfwa mara mbili mfululizo?
+Reasoning step: [['To solve this problem, we need to compare two probabilities involving rolling a six-sided die.\n\nStep 1: Calculate the probability of rolling a number greater than 3.\n- A six-sided die has numbers 1 through 6.\n- Numbers greater than 3 are 4, 5, and 6.\n- There are 3 such numbers out of 6 possible outcomes.\n- Probability of rolling a number greater than 3 = Number of favorable outcomes / Total possible outcomes = 3/6 = 1/2.\n\nStep 2: Calculate the probability of rolling two specific numbers in succession.\n- We want to calculate the probability of rolling the numbers 2 and 5 consecutively in any order on two rolls.\n- The probability of rolling a 2 on one roll is 1/6.\n- The probability of rolling a 5 on one roll is also 1/6.\n- The probability of rolling first a 2 and then a 5 is (1/6) * (1/6) = 1/36.\n- The probability of rolling first a 5 and then a 2 is also (1/6) * (1/6) = 1/36.\n- Therefore, the probability of rolling a 2 and a 5 in any order in two rolls is 1/36 + 1/36 = 2/36 = 1/18.\n\nStep 3: Compare the probabilities and convert to percentages.\n- Probability of rolling a number greater than 3 = 1/2 = 0.5.\n- Probability of rolling a 2 and a 5 in two consecutive rolls = 1/18 ≈ 0.0556.\n- Convert these probabilities to percentages:\n  - Probability of rolling greater than 3: 0.5 * 100% = 50%.\n  - Probability of rolling a 2 and a 5: 0.0556 * 100% ≈ 5.56%.\n\nStep 4: Determine the greater probability and the difference.\n- The probability of rolling a number greater than 3 (50%) is much higher than rolling a 2 and a 5 in two rolls (5.56%).\n- Therefore, the probability of rolling a number greater than 3 is the more significant probability.\n\nFinal Answer: 50']]
+Model Prediction / Ground Truth: 50 / 25
+Correct Predictions / Total Tests: 163 / 184
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 50: [68.38%]
+Current Accuracy: 88.59%
+----------------------
+----------------------
+Problem 189: Marafiki watatu walitumia $20.25 kununua tikiti 3 za onesho. Pia walinunua chakula na bei ya tikiti ilikuwa imeshinda bei ya chakula na $4.50. Pia walienda kwenye safari 2 tofauti kwa bei ya $33 kwa kila safari. Ikiwa walikubali kugawanya gharama zote kwa usawa, kila mmoja wao alilipa pesa ngapi?
+Reasoning step: [["To solve this problem, we need to break down the costs and determine the total expenses before dividing it equally among the three friends.\n\n1. **Cost of Tickets:**\n   Let's denote the cost of three tickets as \\( T \\).\n   We know that the cost of tickets exceeds the cost of food by $4.50.\n\n2. **Total Cost of Tickets and Food:**\n   The combined cost of tickets and food is $20.25.\n\n3. **Set up the Equation:**\n   Let \\( F \\) be the cost of the food. Then, the cost of the tickets is \\( F + 4.50 \\).\n\n   We have:\n   \\[\n   (F + 4.50) + F = 20.25\n   \\]\n   Simplifying:\n   \\[\n   2F + 4.50 = 20.25\n   \\]\n   \\[\n   2F = 20.25 - 4.50\n   \\]\n   \\[\n   2F = 15.75\n   \\]\n   \\[\n   F = \\frac{15.75}{2} = 7.875\n   \\]\n\n4. **Cost of Tickets:**\n   Since the cost of the tickets is \\( F + 4.50 \\):\n   \\[\n   T = 7.875 + 4.50 = 12.375\n   \\]\n\n5. **Cost of Two Trips:**\n   Each trip costs $33, so two trips cost:\n   \\[\n   2 \\times 33 = 66\n   \\]\n\n6. **Total Cost:**\n   Add the cost of tickets, food, and trips to find the total cost:\n   \\[\n   \\text{Total Cost} = 12.375 + 7.875 + 66\n   \\]\n   \\[\n   \\text{Total Cost} = 86.25\n   \\]\n\n7. **Divide the Total Cost Equally:**\n   Since the total cost is to be divided equally among the three friends:\n   \\[\n   \\text{Amount each friend pays} = \\frac{86.25}{3}\n   \\]\n   \\[\n   \\text{Amount each friend pays} = 28.75\n   \\]\n\nThus, each friend paid 28.75. The final answer is 28.75."]]
+Model Prediction / Ground Truth: 29 / 34
+Correct Predictions / Total Tests: 167 / 189
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 29: [81.07%]
+Current Accuracy: 88.36%
+----------------------
+----------------------
+Problem 197: Katika jiji la Soda, kuna wakazi 23786. Wanajumuisha wanaume 8417 na wanawake 9092. Watu wengine waliosalia ni watoto. Kuna watoto wangapi katika jiji la Soda?
+Reasoning step: [['To find the number of children in the city of Soda, we need to calculate the difference between the total population and the sum of the number of men and women.\n\nStep 1: Identify the total population of the city.\n- Total population = 23,786\n\nStep 2: Identify the number of men and women in the city.\n- Number of men = 8,417\n- Number of women = 9,092\n\nStep 3: Calculate the total number of adults (men and women).\n- Total adults = Number of men + Number of women\n- Total adults = 8,417 + 9,092\n- Total adults = 17,509\n\nStep 4: Calculate the number of children by subtracting the total number of adults from the total population.\n- Number of children = Total population - Total adults\n- Number of children = 23,786 - 17,509\n- Number of children = 6,277\n\nTherefore, the number of children in the city of Soda is 6,277.']]
+Model Prediction / Ground Truth: 277 / 6277
+Correct Predictions / Total Tests: 174 / 197
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 277: [89.70%]
+Current Accuracy: 88.32%
+----------------------
+----------------------
+Problem 222: Andy amepanda jeraniamu 90 na zambarau 40 chache zaidi ya jeraniamu. Amepanda maua mangapi kwa jumla?
+Reasoning step: [['To find the total number of flowers Andy planted, we need to determine the number of each type of flower and then add them together.\n\n1. Andy planted 90 geraniums.\n2. He planted 40 more purple flowers than geraniums. Therefore, the number of purple flowers is:\n   \\[\n   90 + 40 = 130\n   \\]\n\n3. To find the total number of flowers, add the number of geraniums and the number of purple flowers:\n   \\[\n   90 + 130 = 220\n   \\]\n\nThe total number of flowers Andy planted is 220.']]
+Model Prediction / Ground Truth: 220 / 140
+Correct Predictions / Total Tests: 198 / 222
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 220: [93.09%]
+Current Accuracy: 89.19%
+----------------------
+----------------------
+Problem 230: Mark ananunua magari 12 katika kampuni yake. Kila gari linauzwa kwa $20,000. Analipa ushuru wa 10% wa magari hayo na kisha $1000 ya usajili kwa kila moja yao. Jumla ya pesa alizolipia kila kitu ni ngapi?
+Reasoning step: [['To determine the total amount Mark paid for everything, we need to consider the cost of the cars, the tax, and the registration fees. Here’s the step-by-step breakdown:\n\n1. **Cost of the cars:**\n   - Each car costs $20,000.\n   - Mark buys 12 cars.\n   - Total cost for the cars = 12 cars × $20,000 per car = $240,000.\n\n2. **Calculate the tax:**\n   - The tax rate is 10%.\n   - Tax on the cars = 10% of $240,000 = 0.10 × $240,000 = $24,000.\n\n3. **Calculate the registration fees:**\n   - The registration fee per car is $1,000.\n   - For 12 cars, the total registration fee = 12 cars × $1,000 per car = $12,000.\n\n4. **Calculate the total amount paid:**\n   - Total amount = Cost of the cars + Tax + Registration fees\n   - Total amount = $240,000 + $24,000 + $12,000 = $276,000.\n\nTherefore, the total amount Mark paid for everything is 276,000.']]
+Model Prediction / Ground Truth: 0 / 276000
+Correct Predictions / Total Tests: 205 / 230
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [85.91%]
+Current Accuracy: 89.13%
+----------------------
+----------------------
+Problem 234: Steve anaamua kuanza kula nyanya nyingi na anaamua kupanda nyanya zake. Huwa anakula mara mbili zaidi ya mchumba wake. Huwa anakula 6 kwa siku. Ikiwa mnyanya mmoja unaweza kuzalisha nyanya 3 kwa wiki, anahitaji miti mingapi ya nyanya?
+Reasoning step: [["To determine how many tomato plants Steve needs, let's break down the information given:\n\n1. **Steve's Consumption Rate**:\n   - Steve eats twice as many tomatoes as his fiancée.\n   - Steve eats 6 tomatoes per day.\n\n2. **Weekly Consumption**:\n   - Since Steve eats 6 tomatoes per day, in a week (7 days), he will eat:\n     \\[\n     6 \\text{ tomatoes/day} \\times 7 \\text{ days/week} = 42 \\text{ tomatoes/week}\n     \\]\n\n3. **Tomato Plant Production**:\n   - One tomato plant produces 3 tomatoes per week.\n\n4. **Calculating the Number of Plants Needed**:\n   - To find out how many plants Steve needs to meet his weekly consumption of 42 tomatoes, divide his weekly consumption by the weekly production of one plant:\n     \\[\n     \\frac{42 \\text{ tomatoes/week}}{3 \\text{ tomatoes/plant/week}} = 14 \\text{ plants}\n     \\]\n\nTherefore, Steve needs 14 tomato plants. The final answer is 14."]]
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 208 / 234
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [72.49%]
+Current Accuracy: 88.89%
+----------------------
+----------------------
+Problem 236: Ram hutumia kalamu nyingi. Aligundua kuwa anaweza kuokoa pesa kwa kuchanganya wino kutoka kwa kalamu tano zilizo tupu ili kutengeneza kalamu moja. Akinunua kalamu 25 na kisha akazitumia kutengeneza kalamu mpya wino ukipungua, atakuwa na kalamu ngapi kwa jumla?
+Reasoning step: [['To solve this problem, we need to calculate how many new pens Ram can create by combining ink from used pens, and then determine the total number of pens he will have in the end.\n\n1. **Initial Purchase**: Ram buys 25 pens.\n\n2. **Using the Pens**: Once Ram uses these 25 pens, he will have 25 empty pens.\n\n3. **Combining Ink**: According to the problem, Ram can make one new pen from the ink of 5 empty pens.\n   - Number of new pens that can be made from 25 empty pens:\n     \\[\n     \\frac{25 \\text{ empty pens}}{5 \\text{ empty pens per new pen}} = 5 \\text{ new pens}\n     \\]\n\n4. **Total Pens**: After creating new pens, Ram will have the original pens plus the new ones created:\n   - Initially, he had 25 pens.\n   - He creates 5 new pens from the empty ones.\n   - Total number of pens:\n     \\[\n     25 + 5 = 30\n     \\]\n\nThus, Ram will have a total of 30 pens in the end. The final answer is:\n\\[ \\boxed{30} \\]']]
+Model Prediction / Ground Truth: 30 / 31
+Correct Predictions / Total Tests: 209 / 236
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 30: [69.16%]
+Current Accuracy: 88.56%
+----------------------
+----------------------
+Problem 241: Dolly ana vitabu viwili. Pandora ana kimoja. Ikiwa Dolly na Pandora husoma vitabu vya mwenzao pamoja na vyao, wote wawili watakuwa wamesoma vitabu vingapi mwishoni?
+Reasoning step: [["To determine how many books Dolly and Pandora will have read in total after sharing their books, we can break it down step-by-step:\n\n1. **Identify the number of books each person initially has:**\n   - Dolly has 2 books.\n   - Pandora has 1 book.\n\n2. **Determine the total number of books between them:**\n   - Combine the books Dolly and Pandora have: \\(2 + 1 = 3\\).\n\n3. **Conclusion:**\n   - If Dolly and Pandora read each other's books along with their own, they will have read a total of 3 books.\n\nThus, the final answer is 3."]]
+Model Prediction / Ground Truth: 3 / 6
+Correct Predictions / Total Tests: 213 / 241
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [29.06%]
+Current Accuracy: 88.38%
+----------------------
+----------------------
+Problem 246: Msanii wa mapambo wa Jean hutoza $250 kila saa. Anahitaji mapambo ghali mno kwa filamu anayofanya na huwa inachukua saa 6 kufanya kila siku na anahitaji ifanywe mara 4 kwa wiki. Filamu hiyo inachukua wiki 5 kukamilisha. Baada ya filamu hiyo kuisha msanii wa mapambo humpa Jean kipunguzo cha 10% kwa sababu ya kiwango cha kazi alichofanya. Jean alimlipa pesa ngapi?
+Reasoning step: [['To determine the total amount Jean paid, we can follow these steps:\n\n1. **Calculate the number of hours Jean works per week**:\n   - Jean works 6 hours per day.\n   - She works 4 days per week.\n   \n   Total hours per week = 6 hours/day * 4 days/week = 24 hours/week\n\n2. **Calculate the number of hours Jean works over 5 weeks**:\n   - The film takes 5 weeks to complete.\n   \n   Total hours over 5 weeks = 24 hours/week * 5 weeks = 120 hours\n\n3. **Calculate the total cost before any discount**:\n   - Jean charges $250 per hour.\n   \n   Total cost = 120 hours * $250/hour = $30,000\n\n4. **Apply the 10% discount**:\n   - The discount is 10% of the total cost.\n   \n   Discount amount = 10% of $30,000 = 0.10 * $30,000 = $3,000\n\n5. **Calculate the final amount Jean paid after the discount**:\n   - Subtract the discount from the total cost.\n   \n   Final amount = $30,000 - $3,000 = $27,000\n\nTherefore, Jean paid a total of 27,000.']]
+Model Prediction / Ground Truth: 0 / 27000
+Correct Predictions / Total Tests: 217 / 246
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [82.89%]
+Current Accuracy: 88.21%
+----------------------
+----------------------
+Problem 249: Jumatatu, Sue alikula biskuti mara 4 zaidi ya dadake. Jumanne, alikula biskuti mara mbili zaidi ya dadake. Dadake alikula biskuti 5 Jumatatu na 13 siku iliyofuata. Ikiwa biskuti 1 ina kalori 200, Sue alikula kalori ngapi zaidi ya dadake?
+Reasoning step: [["To find out how many more calories Sue consumed compared to her sister, we will go through the problem step-by-step:\n\n1. **Determine the number of biscuits Sue's sister ate:**\n   - Monday (Jumatatu): Sue's sister ate 5 biscuits.\n   - Tuesday (Jumanne): Sue's sister ate 13 biscuits.\n\n2. **Calculate the number of biscuits Sue ate:**\n   - Monday: Sue ate 4 more biscuits than her sister.\n     \\[\n     \\text{Sue's biscuits on Monday} = 5 + 4 = 9\n     \\]\n   - Tuesday: Sue ate twice as many biscuits as her sister.\n     \\[\n     \\text{Sue's biscuits on Tuesday} = 2 \\times 13 = 26\n     \\]\n\n3. **Calculate the total number of biscuits each person ate:**\n   - Sue's sister:\n     \\[\n     \\text{Total biscuits by sister} = 5 + 13 = 18\n     \\]\n   - Sue:\n     \\[\n     \\text{Total biscuits by Sue} = 9 + 26 = 35\n     \\]\n\n4. **Find the difference in the number of biscuits eaten:**\n   \\[\n   \\text{Difference in biscuits} = 35 - 18 = 17\n   \\]\n\n5. **Calculate the total calorie difference:**\n   - Each biscuit has 200 calories.\n   - Therefore, the difference in calories:\n     \\[\n     17 \\times 200 = 3400\n     \\]\n\nFinal Answer: 3400"]]
+Model Prediction / Ground Truth: 3400 / 5600
+Correct Predictions / Total Tests: 219 / 249
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3400: [17.60%]
+Current Accuracy: 87.95%
+----------------------

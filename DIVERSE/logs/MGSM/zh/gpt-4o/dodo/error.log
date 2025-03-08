@@ -1,0 +1,270 @@
+----------------------
+Problem 2: 乔希决定试试房屋翻新。他花了 80,000 美元买了一套房子，然后投入 50,000 美元进行维修。这样做使房子的价值增加了 150%。他赚了多少利润？
+Reasoning step: [['To determine the profit Josh made from the house renovation, follow these steps:\n\n1. **Initial Costs:**\n   - Purchase price of the house: $80,000\n   - Cost of repairs: $50,000\n   - Total initial investment = Purchase price + Cost of repairs = $80,000 + $50,000 = $130,000\n\n2. **Increase in Value:**\n   - The value of the house increased by 150%.\n   - To find the new value, calculate the increase in value and add it to the initial investment:\n   - Increase in value = 150% of $130,000 = 1.5 × $130,000 = $195,000\n\n3. **New Value of the House:**\n   - New value = Initial investment + Increase in value = $130,000 + $195,000 = $325,000\n\n4. **Profit Calculation:**\n   - Profit = New value - Total initial investment = $325,000 - $130,000 = $195,000\n\nThe profit Josh made from the house renovation is 195000.']]
+Model Prediction / Ground Truth: 195000 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 195000: [34.00%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 4: 温迪每天给她的每只鸡喂 3 杯含有种子、黄粉虫和蔬菜的混合鸡饲料，以帮助它们保持健康。她给鸡喂 3 顿饲料。上午，她给鸡群喂 15 杯饲料。下午，她给鸡喂 25 杯饲料。如果温迪的鸡群规模达到 20 只，则在一天中的最后一顿，她需要给鸡喂多少杯饲料？
+Reasoning step: [['To find out how many cups of feed Wendy needs to give her chickens during the last meal of the day, we can follow these steps:\n\n1. **Determine the Total Daily Feed Per Chicken:**\n   - Wendy feeds each chicken 3 cups of feed per meal.\n   - She feeds the chickens 3 meals a day.\n   - Therefore, each chicken receives \\(3 \\text{ cups/meal} \\times 3 \\text{ meals/day} = 9 \\text{ cups/chicken/day}\\).\n\n2. **Calculate the Total Daily Feed for the Entire Flock:**\n   - Wendy has 20 chickens.\n   - The total feed needed for all chickens in a day is \\(20 \\text{ chickens} \\times 9 \\text{ cups/chicken/day} = 180 \\text{ cups/day}\\).\n\n3. **Determine the Amount Already Fed:**\n   - In the morning, Wendy feeds the chickens 15 cups.\n   - In the afternoon, she feeds them 25 cups.\n   - The total amount of feed given by the end of the afternoon is \\(15 \\text{ cups} + 25 \\text{ cups} = 40 \\text{ cups}\\).\n\n4. **Calculate the Remaining Feed Needed for the Last Meal:**\n   - The total daily feed requirement for the flock is 180 cups.\n   - So, the remaining feed needed for the last meal is \\(180 \\text{ cups} - 40 \\text{ cups} = 140 \\text{ cups}\\).\n\nTherefore, Wendy needs to give the chickens 140 cups of feed during the last meal of the day. The final answer is 140.']]
+Model Prediction / Ground Truth: 140 / 20
+Correct Predictions / Total Tests: 2 / 4
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 140: [73.36%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 12: 卡洛斯在种一棵柠檬树。种这棵树需要花 90 美元。这颗树每年会结出 7 棵柠檬，每颗能卖 1.5 美元。每年给这棵树浇水和施肥需要花 3 美元。他需要用多少年才能开始从这棵柠檬树上赚到钱？
+Reasoning step: [['To determine how many years it will take for Carlos to start making a profit from his lemon tree, we need to calculate the total cost and total revenue over time and find out when the revenue exceeds the costs.\n\n1. **Initial Cost:**\n   - The cost to plant the lemon tree is $90.\n\n2. **Annual Revenue:**\n   - Each year, the tree produces 7 lemons.\n   - Each lemon sells for $1.5.\n   - Annual revenue from selling lemons = 7 lemons/year * $1.5/lemon = $10.5.\n\n3. **Annual Maintenance Cost:**\n   - The cost for watering and fertilizing the tree is $3 per year.\n\n4. **Annual Net Profit:**\n   - Annual net profit = Annual revenue - Annual maintenance cost.\n   - Annual net profit = $10.5 - $3 = $7.5.\n\n5. **Find the Break-even Point:**\n   - To break even, the total net profit must equal the initial cost.\n   - Let \\( x \\) be the number of years needed to break even.\n   - Total net profit after \\( x \\) years = $7.5 * \\( x \\).\n   - We need $7.5 * \\( x \\) = $90.\n   - Solving for \\( x \\), we get:\n     \\[\n     x = \\frac{90}{7.5} = 12\n     \\]\n\nTherefore, Carlos will start to make a profit after 12 years. The final answer is 12.']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 9 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [33.54%]
+Current Accuracy: 75.00%
+----------------------
+----------------------
+Problem 13: 梅兰妮是一名上门推销员。她在绿房子卖掉了三分之一的吸尘器，在红房子多卖了 2 台，在橙房子卖掉了剩下吸尘器的一半。如果 Melanie 还剩下 5 台吸尘器，她一开始有多少台吸尘器？
+Reasoning step: [["Let's use a step-by-step approach to solve the problem.\n\n1. **Define the initial number of vacuum cleaners:**\n   - Let \\( x \\) be the total number of vacuum cleaners Melanie had initially.\n\n2. **Calculate the number of vacuum cleaners sold at the green house:**\n   - She sold one-third of them at the green house, which is \\( \\frac{x}{3} \\).\n\n3. **Calculate the number of vacuum cleaners sold at the red house:**\n   - She sold 2 more than what she sold at the green house, so she sold \\( \\frac{x}{3} + 2 \\) at the red house.\n\n4. **Determine how many vacuum cleaners she had left after the green and red houses:**\n   - After selling at the green and red houses, the remaining vacuum cleaners are:\n     \\[\n     x - \\left(\\frac{x}{3} + \\left(\\frac{x}{3} + 2\\right)\\right)\n     \\]\n   - Simplifying inside the parentheses:\n     \\[\n     x - \\left(\\frac{2x}{3} + 2\\right)\n     \\]\n   - Simplifying further:\n     \\[\n     x - \\frac{2x}{3} - 2 = \\frac{x}{3} - 2\n     \\]\n\n5. **Calculate the number of vacuum cleaners sold at the orange house:**\n   - At the orange house, she sold half of what she had left, so she sold:\n     \\[\n     \\frac{1}{2} \\left(\\frac{x}{3} - 2\\right)\n     \\]\n   - Simplifying:\n     \\[\n     \\frac{x}{6} - 1\n     \\]\n\n6. **Determine the remaining vacuum cleaners:**\n   - After selling at the orange house, she had 5 vacuum cleaners left:\n     \\[\n     \\left(\\frac{x}{3} - 2\\right) - \\left(\\frac{x}{6} - 1\\right) = 5\n     \\]\n   - Simplifying the equation:\n     \\[\n     \\frac{x}{3} - 2 - \\frac{x}{6} + 1 = 5\n     \\]\n   - Combine like terms:\n     \\[\n     \\frac{2x}{6} - \\frac{x}{6} - 1 = 5\n     \\]\n   - Simplifying further:\n     \\[\n     \\frac{x}{6} - 1 = 5\n     \\]\n   - Solving for \\( x \\):\n     \\[\n     \\frac{x}{6} = 6\n     \\]\n     \\[\n     x = 36\n     \\]\n\nThe initial number of vacuum cleaners Melanie had was \\( 36 \\)."]]
+Model Prediction / Ground Truth: 36 / 18
+Correct Predictions / Total Tests: 9 / 13
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 36: [9.44%]
+Current Accuracy: 69.23%
+----------------------
+----------------------
+Problem 21: 雷蒙德和萨曼莎是堂兄妹。雷蒙德比萨曼莎大 6 岁。雷蒙德有一个 23 岁的儿子。如果萨曼莎现在 31 岁，雷蒙德的儿子是多少年前出生的？
+Reasoning step: [["To solve this problem, follow these steps:\n\n1. Determine Raymond's current age.\n   - Samantha is currently 31 years old.\n   - Raymond is 6 years older than Samantha.\n   - Therefore, Raymond's current age is 31 + 6 = 37 years old.\n\n2. Identify the age of Raymond's son.\n   - It is given that Raymond has a son who is currently 23 years old.\n\n3. Calculate how many years ago Raymond's son was born.\n   - Subtract the son's current age from Raymond's current age.\n   - Raymond's age when his son was born: 37 - 23 = 14 years old.\n\n4. Determine how many years ago Raymond was 14.\n   - Raymond is currently 37 years old.\n   - He was 14 years old when his son was born.\n   - So, the difference in time is 37 - 14 = 23 years ago.\n\nTherefore, Raymond's son was born 23 years ago. The final answer is 23."]]
+Model Prediction / Ground Truth: 23 / 14
+Correct Predictions / Total Tests: 16 / 21
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 23: [97.51%]
+Current Accuracy: 76.19%
+----------------------
+----------------------
+Problem 40: 布兰登的 iPhone 手机比本的 iPhone 手机旧三倍。本的 iPhone 手机比 苏茜的 iPhone 手机旧两倍。如果苏茜的 iPhone 手机使用了 1 年，则 布兰登的 iPhone 手机有多旧？
+Reasoning step: [["To solve the problem, let's define some variables to represent the age of each person's iPhone:\n\n- Let \\( S \\) represent the age of Susie's iPhone in years.\n- Let \\( B \\) represent the age of Ben's iPhone in years.\n- Let \\( Br \\) represent the age of Brandon's iPhone in years.\n\nFrom the problem, we have the following information:\n\n1. Susie's iPhone has been used for 1 year:\n   \\[\n   S = 1\n   \\]\n\n2. Ben's iPhone is twice as old as Susie's iPhone:\n   \\[\n   B = 2 \\times S\n   \\]\n\n3. Brandon's iPhone is three times as old as Ben's iPhone:\n   \\[\n   Br = 3 \\times B\n   \\]\n\nLet's substitute the known value of \\( S \\) into the equation for \\( B \\):\n\n\\[\nB = 2 \\times 1 = 2\n\\]\n\nNow, substitute the value of \\( B \\) into the equation for \\( Br \\):\n\n\\[\nBr = 3 \\times 2 = 6\n\\]\n\nTherefore, Brandon's iPhone is 6 years old. The final answer is:\n\n6"]]
+Model Prediction / Ground Truth: 6 / 8
+Correct Predictions / Total Tests: 34 / 40
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 6: [35.12%]
+Current Accuracy: 85.00%
+----------------------
+----------------------
+Problem 42: 琼斯奶奶烤了 5 张苹果派，当作消防员的午餐。她将每张派切成了 8 片，然后将这 5 张派放在外面的自助餐桌上供宾客自取。午餐结束时，在宾客吃完各自拿走的派后，还剩下 14 片派。宾客拿走了多少张派？
+Reasoning step: [["To solve this problem, let's go through the steps:\n\n1. **Determine the Total Number of Slices**:  \n   Grandma Jones baked 5 apple pies, and each pie was cut into 8 slices. Therefore, the total number of slices is:\n   \\[\n   5 \\times 8 = 40 \\text{ slices}\n   \\]\n\n2. **Calculate the Number of Slices Taken**:  \n   After the guests finished their meal, there were 14 slices remaining. This means the number of slices that were taken by the guests is:\n   \\[\n   40 - 14 = 26 \\text{ slices}\n   \\]\n\n3. **Convert Slices Taken Back into Whole Pies**:  \n   Since each pie consists of 8 slices, we need to calculate how many whole pies the 26 slices correspond to:\n   \\[\n   \\frac{26}{8} = 3 \\text{ pies with remainder}\n   \\]\n\n   Calculating this division gives us 3 full pies, and a remainder of 2 slices, which means 3 full pies were taken and 2 additional slices from another pie.\n\nThus, the guests took a total of 3 full pies and some additional slices from a fourth pie. Therefore, the number of pies taken is:\n\\[\n3\n\\]"]]
+Model Prediction / Ground Truth: 3 / 26
+Correct Predictions / Total Tests: 35 / 42
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [7.26%]
+Current Accuracy: 83.33%
+----------------------
+----------------------
+Problem 54: 在 Doubtfire 姐妹开车载着 7 只从当地动物收容所收养的小猫回家的路上，她们的妈妈打电话来告诉她们说，她们的两只家猫刚生了小猫。她说小补丁（第一只猫）生的小猫数量是收养小猫数量的两倍，而特雷克西（第二只猫）生了 12 只。Doubtfire 一家现在有多少只小猫？
+Reasoning step: [["To determine the total number of kittens in the Doubtfire household, we need to follow these steps:\n\n1. **Adopted Kittens:** The Doubtfire sisters adopted 7 kittens from the local animal shelter.\n\n2. **Kittens from Little Patch:** Little Patch, the first house cat, gave birth to a number of kittens that is twice the number of adopted kittens. Since there are 7 adopted kittens, Little Patch gave birth to:\n   \\[\n   2 \\times 7 = 14 \\text{ kittens}\n   \\]\n\n3. **Kittens from Trexie:** Trexie, the second house cat, gave birth to 12 kittens.\n\n4. **Total Number of Kittens:** To find the total number of kittens, add the number of adopted kittens, Little Patch's kittens, and Trexie's kittens:\n   \\[\n   7 \\text{ (adopted) } + 14 \\text{ (Little Patch) } + 12 \\text{ (Trexie) } = 33\n   \\]\n\nThus, the Doubtfire family now has a total of 33 kittens. The final answer is:\n\\[\n33\n\\]"]]
+Model Prediction / Ground Truth: 33 / 40
+Correct Predictions / Total Tests: 46 / 54
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 33: [92.37%]
+Current Accuracy: 85.19%
+----------------------
+----------------------
+Problem 62: 如果玛茜在同一家公司工作了 40 年，她能获得每年 50,000 美元的年度养老金。从 20 年后开始，她有权获得每年养老金价值的 5%。如果她在 30 年后辞职，那时她的年度退休金是多少？
+Reasoning step: [["To solve this problem, we need to calculate the annual pension Marcy would receive if she resigns after 30 years of service, given the conditions specified.\n\n1. **Initial Annual Pension Calculation:**\n   - Marcy's initial annual pension after 40 years would be $50,000.\n\n2. **Adjustment for Early Resignation:**\n   - She resigns after 30 years, which is 10 years earlier than the 40-year mark.\n   - However, from 20 years onward, she accrues an additional 5% of the pension value each year.\n\n3. **Accrual Calculation:**\n   - Starting from the 20th year, she earns an additional 5% of the $50,000 pension value annually.\n   - This accrual occurs for 10 years (from year 21 to year 30).\n\n4. **Calculate the Total Accrual:**\n   \\[\n   \\text{Annual Accrual} = 5\\% \\times 50,000 = 0.05 \\times 50,000 = 2,500\n   \\]\n   - Over 10 years, the total additional accrual is:\n   \\[\n   2,500 \\times 10 = 25,000\n   \\]\n\n5. **Final Annual Pension Calculation:**\n   - If Marcy had completed 40 years, her pension would have been $50,000.\n   - With the additional accrual of $25,000 over 10 years, her pension after 30 years is:\n   \\[\n   50,000 + 25,000 = 75,000\n   \\]\n\nTherefore, Marcy's annual pension if she resigns after 30 years of service is **75,000**."]]
+Model Prediction / Ground Truth: 0 / 25000
+Correct Predictions / Total Tests: 53 / 62
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [81.22%]
+Current Accuracy: 85.48%
+----------------------
+----------------------
+Problem 63: 亚琳娜订阅了流媒体服务，每年的费用是 140 美元。如果流媒体公司对她收取上半年费用的初始金额，然后对她下半年的费用少收 10%，请计算到年底她为流媒体服务支付的总金额。
+Reasoning step: [["To solve the problem, we need to calculate how much 亚琳娜 pays for the streaming service by the end of the year, given the conditions described. Here's the step-by-step process:\n\n1. **Determine the initial annual fee:**  \n   The total annual fee for the streaming service is $140.\n\n2. **Calculate the semi-annual fee:**  \n   Since the payment is split into two parts (for the first and second half of the year), divide the total annual fee by 2 to get the semi-annual fee.  \n   \\[\n   \\text{Semi-annual fee} = \\frac{140}{2} = 70\n   \\]\n\n3. **Calculate the discount for the second half of the year:**  \n   For the second half of the year, 亚琳娜 is charged 10% less than the initial semi-annual fee. Calculate 10% of the semi-annual fee.  \n   \\[\n   \\text{Discount} = 70 \\times 0.10 = 7\n   \\]\n\n4. **Calculate the adjusted fee for the second half of the year:**  \n   Subtract the discount from the initial semi-annual fee to find the adjusted fee for the second half.  \n   \\[\n   \\text{Adjusted second-half fee} = 70 - 7 = 63\n   \\]\n\n5. **Calculate the total amount paid by the end of the year:**  \n   Add the initial semi-annual fee (for the first half) and the adjusted fee (for the second half) to find the total amount 亚琳娜 pays.  \n   \\[\n   \\text{Total amount paid} = 70 + 63 = 133\n   \\]\n\nTherefore, the total amount that 亚琳娜 pays by the end of the year is 133."]]
+Model Prediction / Ground Truth: 133 / 1596
+Correct Predictions / Total Tests: 53 / 63
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 133: [93.25%]
+Current Accuracy: 84.13%
+----------------------
+----------------------
+Problem 73: 席拉买了 5 部手机，每部 150 美元。她采用了 3 个月分期付款，每期的利率为 2%。在这三个月，席拉每个月要支付多少钱？
+Reasoning step: [['To determine how much Sheila has to pay each month over the 3-month installment plan, we need to follow these steps:\n\n1. **Calculate the Total Cost of the Phones:**\n   Sheila bought 5 phones, each costing $150. \n   \\[\n   \\text{Total Cost} = 5 \\times 150 = 750 \\text{ dollars}\n   \\]\n\n2. **Determine the Total Interest for 3 Months:**\n   The interest rate per period (3 months in this case) is 2%. Since she adopted a 3-month installment plan, the interest is applied to the total cost.\n   \n   For simplicity, we are assuming simple interest for each month. Therefore, the total interest is calculated as follows:\n   \n   \\[\n   \\text{Total Interest for 3 months} = 750 \\times 0.02 \\times 3 = 45 \\text{ dollars}\n   \\]\n\n3. **Calculate the Total Amount to be Repaid:**\n   Add the total interest to the original total cost of the phones.\n   \\[\n   \\text{Total Amount to be Repaid} = 750 + 45 = 795 \\text{ dollars}\n   \\]\n\n4. **Determine the Monthly Payment:**\n   Sheila will pay this total amount over 3 months. \n   \\[\n   \\text{Monthly Payment} = \\frac{795}{3} = 265 \\text{ dollars}\n   \\]\n\nThe last number is the final answer, which is the amount Sheila needs to pay each month.\n265']]
+Model Prediction / Ground Truth: 265 / 255
+Correct Predictions / Total Tests: 62 / 73
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 265: [71.46%]
+Current Accuracy: 84.93%
+----------------------
+----------------------
+Problem 89: 克里斯蒂娜正在策划一场生日派对，需要的礼品袋数量是每位受邀宾客 0.75 个，因为 1/4 的宾客未出席。她邀请了 16 位朋友。礼品袋每个 2 美元。她要花多少钱？
+Reasoning step: [['To determine how much Christina will spend on gift bags, follow these steps:\n\n1. **Calculate the number of guests who will attend the party:**\n   - Christina invited 16 friends.\n   - According to the problem, 1/4 of the invited guests will not attend the party.\n   - Number of guests not attending = 16 * (1/4) = 4.\n   - Therefore, the number of guests attending = 16 - 4 = 12.\n\n2. **Determine the number of gift bags needed:**\n   - Christina needs 0.75 gift bags per attending guest.\n   - Number of gift bags needed = 12 * 0.75 = 9.\n\n3. **Calculate the total cost of the gift bags:**\n   - Each gift bag costs $2.\n   - Total cost = Number of gift bags * Cost per gift bag = 9 * 2 = 18.\n\nTherefore, Christina will spend a total of 18.']]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 77 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [98.50%]
+Current Accuracy: 86.52%
+----------------------
+----------------------
+Problem 119: 阿德里安的总工资比莱拉的总工资高 30%。四年后，他的工资上涨了，他的收入比四年前高出 40%。如果阿德里安的工资和莱拉的工资同时上涨，阿德里安四年前的收入是 40,000 美元，请计算两个人四年后的工资总额?
+Reasoning step: [["To solve this problem, we'll proceed step-by-step:\n\n1. **Determine Leila's Salary Four Years Ago:**\n   - Adrian's salary four years ago was $40,000.\n   - Adrian's salary was 30% higher than Leila's salary. \n   - Let Leila's salary four years ago be \\( x \\).\n   - Therefore, \\( 1.3x = 40,000 \\).\n   - Solving for \\( x \\), we get \\( x = \\frac{40,000}{1.3} \\).\n   - \\( x \\approx 30,769.23 \\).\n\n2. **Calculate Adrian's Salary Four Years Later:**\n   - Adrian's salary increased by 40% over four years.\n   - His salary four years later = \\( 40,000 \\times 1.4 \\).\n   - This equals \\( 56,000 \\).\n\n3. **Calculate Leila's Salary Four Years Later:**\n   - Since the problem does not specify Leila's rate of increase, we assume her salary increased by the same percentage as Adrian's, which is 40%.\n   - Leila's salary four years later = \\( 30,769.23 \\times 1.4 \\).\n   - This equals \\( 43,076.92 \\).\n\n4. **Calculate the Total Combined Salary of Adrian and Leila Four Years Later:**\n   - Total combined salary = Adrian's salary four years later + Leila's salary four years later.\n   - \\( 56,000 + 43,076.92 = 99,076.92 \\).\n\nThe total combined salary of Adrian and Leila four years later is approximately 99,077."]]
+Model Prediction / Ground Truth: 77 / 95200
+Correct Predictions / Total Tests: 106 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 77: [56.26%]
+Current Accuracy: 89.08%
+----------------------
+----------------------
+Problem 125: 朱丽叶正在为在她家里举办的晚餐聚会做准备，她打算在晚餐上提供炖菜。她注意到塑料勺子用完了，所以她买了一包新勺子。后来，她的丈夫也买了一包 5 把新勺子，并把它们拿给朱丽叶。当朱丽叶做炖菜时，她用了 3 把勺子来试吃炖菜。后来，当她在摆放餐具时，一共有 12 把勺子。朱丽叶买的那包勺子里面有多少把勺子？
+Reasoning step: [["Let's break down the problem step by step:\n\n1. **Determine the total number of spoons Juliet has at the end:**\n   - Juliet ends up with a total of 12 spoons.\n\n2. **Account for the spoons her husband brought:**\n   - Her husband brought a pack containing 5 spoons.\n\n3. **Calculate the number of spoons Juliet used while cooking:**\n   - Juliet used 3 spoons while making the stew.\n\n4. **Understand the situation:**\n   - The total number of spoons after using 3 spoons for tasting is still 12. This implies that the 3 spoons used for tasting are part of the total count of 12 spoons.\n\n5. **Set up the equation:**\n   - Let \\( x \\) be the number of spoons in the pack Juliet bought.\n   - The total number of spoons is the sum of Juliet's pack, her husband's pack, and the spoons used for tasting:\n     \\[\n     x + 5 = 12\n     \\]\n\n6. **Solve for \\( x \\):**\n   - Subtract 5 from both sides:\n     \\[\n     x = 12 - 5 = 7\n     \\]\n\nThus, the pack of spoons that Juliet bought contained 7 spoons.  \nThe final answer is: 7"]]
+Model Prediction / Ground Truth: 7 / 10
+Correct Predictions / Total Tests: 111 / 125
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 7: [40.69%]
+Current Accuracy: 88.80%
+----------------------
+----------------------
+Problem 129: 一家医院每天接诊 500 人。每位患者的看诊时长平均为 24 分钟。医生对医院收费每小时 150 美元，医院对患者收费每小时 200 美元。医院从这些就诊中获得多少利润？
+Reasoning step: [["To determine the hospital's profit from these consultations, we need to follow these steps:\n\n1. **Calculate Total Consultation Time per Day:**\n   - Each patient has an average consultation time of 24 minutes.\n   - With 500 patients per day, the total consultation time per day is:\n     \\[\n     500 \\text{ patients} \\times 24 \\text{ minutes per patient} = 12,000 \\text{ minutes}\n     \\]\n\n2. **Convert Total Consultation Time to Hours:**\n   - Since profit calculations are based on hourly rates, convert the total consultation time from minutes to hours:\n     \\[\n     \\frac{12,000 \\text{ minutes}}{60 \\text{ minutes per hour}} = 200 \\text{ hours}\n     \\]\n\n3. **Calculate Total Revenue:**\n   - The hospital charges patients $200 per hour for consultations.\n   - Therefore, the total revenue from 200 hours of consultations is:\n     \\[\n     200 \\text{ hours} \\times 200 \\text{ dollars per hour} = 40,000 \\text{ dollars}\n     \\]\n\n4. **Calculate Total Cost:**\n   - The hospital pays doctors $150 per hour.\n   - Therefore, the total cost for 200 hours of consultations is:\n     \\[\n     200 \\text{ hours} \\times 150 \\text{ dollars per hour} = 30,000 \\text{ dollars}\n     \\]\n\n5. **Calculate Profit:**\n   - Profit is the difference between total revenue and total cost:\n     \\[\n     40,000 \\text{ dollars} - 30,000 \\text{ dollars} = 10,000 \\text{ dollars}\n     \\]\n\nThe hospital's profit from these consultations is **10,000**."]]
+Model Prediction / Ground Truth: 0 / 10000
+Correct Predictions / Total Tests: 114 / 129
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [94.11%]
+Current Accuracy: 88.37%
+----------------------
+----------------------
+Problem 134: 汤姆每周洗 4 次车。如果每次洗车 15 美元，他一年要支付多少钱？
+Reasoning step: [['To determine how much Tom spends on car washes in a year, follow these steps:\n\n1. **Determine the weekly cost**: Tom washes his car 4 times a week, and each wash costs $15. \n   \\[\n   \\text{Weekly cost} = 4 \\, \\text{washes/week} \\times 15 \\, \\text{USD/wash} = 60 \\, \\text{USD/week}\n   \\]\n\n2. **Calculate the annual cost**: There are 52 weeks in a year. Multiply the weekly cost by the number of weeks in a year to find the annual cost.\n   \\[\n   \\text{Annual cost} = 60 \\, \\text{USD/week} \\times 52 \\, \\text{weeks/year} = 3120 \\, \\text{USD/year}\n   \\]\n\nThus, Tom spends 3120 dollars in a year on car washes. The final answer is 3120.']]
+Model Prediction / Ground Truth: 3120 / 720
+Correct Predictions / Total Tests: 118 / 134
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3120: [53.83%]
+Current Accuracy: 88.06%
+----------------------
+----------------------
+Problem 159: 芬恩看着 11 只蝌蚪在池塘里游来游去。突然，他看到其中 6 只从藏身的睡莲叶子下面游了出来，然后他看到其中 2 只躲在石头下。芬恩现在能在池塘里看到多少只蝌蚪？
+Reasoning step: [["To solve this problem, we need to determine how many tadpoles Finn can currently see in the pond. Let's go through the steps:\n\n1. Initially, there are 11 tadpoles in the pond.\n\n2. Finn sees 6 of them swim out from underneath a lily pad. This means these 6 tadpoles are now visible to him.\n\n3. Out of these 6 visible tadpoles, 2 swim and hide under a rock. This means these 2 tadpoles are no longer visible to him.\n\n4. To find out how many tadpoles Finn can currently see, we subtract the 2 hidden under the rock from the 6 that were visible:  \n   \\( 6 - 2 = 4 \\)\n\nTherefore, Finn can now see 4 tadpoles in the pond. The final answer is 4."]]
+Model Prediction / Ground Truth: 4 / 15
+Correct Predictions / Total Tests: 142 / 159
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 4: [93.14%]
+Current Accuracy: 89.31%
+----------------------
+----------------------
+Problem 161: 安纳金和洛克辛今天去了海滩。安纳金捉到 10 只海星、6 只海马和 3 条小丑鱼，而洛克辛比安纳金少捉到 5 只海星和 2 只海马，比安纳金多捉到 2 条小丑鱼。他们捉到了多少条鱼？
+Reasoning step: [["To determine the total number of fish Anakin and Luoxin caught, we need to analyze the types of creatures they caught and focus on the fish.\n\n1. **Anakin's Catch:**\n   - Sea Stars: 10\n   - Seahorses: 6\n   - Clownfish: 3\n\n2. **Luoxin's Catch:**\n   - Luoxin caught 5 fewer sea stars than Anakin, so:  \n     \\(10 - 5 = 5\\) sea stars.\n   - Luoxin caught 2 fewer seahorses than Anakin, so:  \n     \\(6 - 2 = 4\\) seahorses.\n   - Luoxin caught 2 more clownfish than Anakin, so:  \n     \\(3 + 2 = 5\\) clownfish.\n\nNext, we calculate the total number of clownfish (which are the fish in this scenario) that both Anakin and Luoxin caught:\n\n- Anakin caught 3 clownfish.\n- Luoxin caught 5 clownfish.\n\nAdding these together gives us the total number of clownfish:\n\n\\[3 + 5 = 8\\]\n\nThus, the total number of fish (clownfish) they caught is 8. \n\nFinal answer: 8"]]
+Model Prediction / Ground Truth: 8 / 32
+Correct Predictions / Total Tests: 143 / 161
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 8: [43.97%]
+Current Accuracy: 88.82%
+----------------------
+----------------------
+Problem 162: 如果一袋大理石 20 美元，而且价格每两个月比原价上涨 20%。在 36 个月后，一袋大理石多少钱？
+Reasoning step: [['To determine the price of a bag of marbles after 36 months with a 20% price increase every two months, we can follow these steps:\n\n1. **Initial Price**: The initial price of the bag of marbles is $20.\n\n2. **Time Periods**: Since the price increases every two months, in 36 months there are:\n   \\[\n   \\frac{36 \\text{ months}}{2 \\text{ months per period}} = 18 \\text{ periods}\n   \\]\n\n3. **Price Increase Per Period**: The price increases by 20% every two months. A 20% increase means the new price is 120% of the old price, or 1.20 times the old price.\n\n4. **Calculate Final Price**:\n   Using the formula for compound interest (since it is a similar concept here), the final price \\( P \\) after 18 periods is given by:\n   \\[\n   P = P_0 \\times (1 + r)^n\n   \\]\n   where:\n   - \\( P_0 = 20 \\) (initial price),\n   - \\( r = 0.20 \\) (rate of increase per period),\n   - \\( n = 18 \\) (number of periods).\n\n5. **Plug in the values**:\n   \\[\n   P = 20 \\times (1.20)^{18}\n   \\]\n\n6. **Calculate**:\n   First, compute \\( (1.20)^{18} \\):\n   \\[\n   (1.20)^{18} \\approx 38.3376\n   \\]\n\n   Then, multiply by the initial price:\n   \\[\n   P = 20 \\times 38.3376 \\approx 766.752\n   \\]\n\nThe final price of a bag of marbles after 36 months is approximately 767 (rounded to the nearest whole number).\nThus, the final answer is: 767']]
+Model Prediction / Ground Truth: 767 / 92
+Correct Predictions / Total Tests: 143 / 162
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 767: [2.88%]
+Current Accuracy: 88.27%
+----------------------
+----------------------
+Problem 172: 守车上有 4 只鸟。莎莉二号比瑞德奶奶大 3 岁。瑞德奶奶的年龄是莎莉四号的两倍。如果莎莉四号和莎莉三十二号一样大，而莎莉三十二号 8 岁，则 4 只鸟一共多少岁？
+Reasoning step: [['To solve the problem, we need to determine the ages of the people mentioned and then calculate the total number of years for the 4 birds.\n\n1. **Determine the age of Sally 32:**\n   - Age of Sally 32 is given as 8 years.\n\n2. **Determine the age of Sally 4:**\n   - Sally 4 is the same age as Sally 32, so Sally 4 is also 8 years old.\n\n3. **Determine the age of Grandma Red:**\n   - Grandma Red\'s age is twice that of Sally 4.\n   - Since Sally 4 is 8 years old, Grandma Red is \\(2 \\times 8 = 16\\) years old.\n\n4. **Determine the age of Sally 2:**\n   - Sally 2 is 3 years older than Grandma Red.\n   - So, Sally 2 is \\(16 + 3 = 19\\) years old.\n\n5. **Calculate the total age of the 4 birds:**\n   - The question asks for the total age of the 4 birds, which is unrelated to the ages of the people.\n   - The problem does not provide specific ages for the birds.\n   - Therefore, we assume the ages of the birds are not provided, and the question asks for a number of years, which is 4 years each (as the number of birds is 4).\n\nSince the ages of the birds are not given and the question ends with "4 只鸟一共多少岁?", which can be considered as a trick question, the final answer should be the number of birds, which is 4.\n\nFinal Answer: 4']]
+Model Prediction / Ground Truth: 4 / 51
+Correct Predictions / Total Tests: 152 / 172
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 4: [20.10%]
+Current Accuracy: 88.37%
+----------------------
+----------------------
+Problem 177: 扎伊德用 1/4 的工资付房租，用 1/3 的工资付加油费，并将剩余工资的一半捐赠给他最喜欢的慈善机构。他给他女儿 200 美元作为每周的花销，给他妻子 700 美元作为日用品和其他家庭用品的预算。如果扎伊德每个月挣 6,000 美元，则在支付所有这些费用和捐款后，他还有多少钱？
+Reasoning step: [["To determine how much money Zayed has left after covering all his expenses and donations, we can follow these steps:\n\n1. **Calculate Rent:**\n   Zayed uses 1/4 of his salary to pay for rent. \n   \\[\n   \\text{Rent} = \\frac{1}{4} \\times 6000 = 1500\n   \\]\n\n2. **Calculate Fuel Costs:**\n   Zayed uses 1/3 of his salary to pay for fuel.\n   \\[\n   \\text{Fuel} = \\frac{1}{3} \\times 6000 = 2000\n   \\]\n\n3. **Calculate Remaining Salary After Rent and Fuel:**\n   Subtract the rent and fuel costs from the total salary.\n   \\[\n   \\text{Remaining Salary} = 6000 - 1500 - 2000 = 2500\n   \\]\n\n4. **Calculate Donation:**\n   Zayed donates half of the remaining salary after paying rent and fuel.\n   \\[\n   \\text{Donation} = \\frac{1}{2} \\times 2500 = 1250\n   \\]\n\n5. **Calculate Remaining Salary After Donation:**\n   Subtract the donation from the remaining salary.\n   \\[\n   \\text{Remaining After Donation} = 2500 - 1250 = 1250\n   \\]\n\n6. **Subtract Weekly Allowance for Daughter:**\n   Zayed gives his daughter $200 as a weekly allowance. Assuming there are 4 weeks in a month:\n   \\[\n   \\text{Daughter's Allowance} = 200 \\times 4 = 800\n   \\]\n\n7. **Subtract Budget for Wife's Expenses:**\n   Zayed gives his wife $700 for household expenses.\n   \\[\n   \\text{Wife's Expenses} = 700\n   \\]\n\n8. **Calculate Final Remaining Amount:**\n   Subtract the daughter's allowance and wife's expenses from the remaining salary after donation.\n   \\[\n   \\text{Final Remaining Amount} = 1250 - 800 - 700 = -250\n   \\]\n\nThe final amount Zayed has after all expenses and donations is \\(-250\\). This indicates that Zayed is over budget by $250. \n\n-250"]]
+Model Prediction / Ground Truth: -250 / 350
+Correct Predictions / Total Tests: 156 / 177
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: -250: [0.75%]
+Current Accuracy: 88.14%
+----------------------
+----------------------
+Problem 185: 詹娜和她妈妈从自家苹果园里摘了一些苹果。詹娜比她妈妈多摘了一半的苹果。如果她妈妈摘了 20 颗苹果，她们两个人摘了多少颗苹果？
+Reasoning step: [["To solve the problem, let's break it down step-by-step:\n\n1. **Identify the number of apples picked by Jenna's mom:**\n   - Jenna's mom picked 20 apples.\n\n2. **Determine the relationship between the apples picked by Jenna and her mom:**\n   - The problem states that Jenna picked half again as many apples as her mom. This means Jenna picked the number of apples her mom picked plus half of that number.\n   - Half of the apples picked by Jenna's mom is \\( \\frac{20}{2} = 10 \\).\n\n3. **Calculate the number of apples picked by Jenna:**\n   - Jenna picked the same number of apples as her mom plus half more, which is \\( 20 + 10 = 30 \\) apples.\n\n4. **Calculate the total number of apples picked by both Jenna and her mom:**\n   - Combine the number of apples picked by both: \\( 20 + 30 = 50 \\).\n\nTherefore, the total number of apples picked by Jenna and her mom is 50."]]
+Model Prediction / Ground Truth: 50 / 30
+Correct Predictions / Total Tests: 163 / 185
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 50: [96.51%]
+Current Accuracy: 88.11%
+----------------------
+----------------------
+Problem 197: 在索达市，居民的确切人数是 23,786。他们包括 8,417 个男性和 9,092 个女性。其他人口由儿童构成。索达市有多少儿童？
+Reasoning step: [['To find the number of children in Soda City, we need to subtract the number of men and women from the total population.\n\n1. Total population of Soda City = 23,786\n2. Number of men = 8,417\n3. Number of women = 9,092\n\nFirst, calculate the combined number of men and women:\n\n\\[ \\text{Number of men and women} = 8,417 + 9,092 = 17,509 \\]\n\nNext, subtract the number of men and women from the total population to find the number of children:\n\n\\[ \\text{Number of children} = 23,786 - 17,509 = 6,277 \\]\n\nTherefore, the number of children in Soda City is 6,277.']]
+Model Prediction / Ground Truth: 277 / 6277
+Correct Predictions / Total Tests: 174 / 197
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 277: [95.63%]
+Current Accuracy: 88.32%
+----------------------
+----------------------
+Problem 201: 约翰在工作中获奖了。这个奖项包括 5,000 美元的 1 倍现金奖励和 5% 的加薪。如果他每周赚 2,000（一年中的每周），并且他在一年中的第一天获奖，则他在这一年赚多少钱？
+Reasoning step: [["To calculate how much John earns in the year after receiving the award, we need to consider both the cash bonus and the salary increase. Here's a step-by-step breakdown:\n\n1. **Calculate the Cash Bonus:**\n   John receives a one-time cash bonus of $5,000.\n\n2. **Calculate the Original Annual Salary:**\n   Since John earns $2,000 per week and there are 52 weeks in a year, his original annual salary is:\n   \\[\n   2,000 \\times 52 = 104,000\n   \\]\n\n3. **Calculate the Salary Increase:**\n   John receives a 5% increase on his original annual salary. To find this increase:\n   \\[\n   104,000 \\times 0.05 = 5,200\n   \\]\n\n4. **Calculate the New Annual Salary:**\n   Add the salary increase to the original annual salary to find the new annual salary:\n   \\[\n   104,000 + 5,200 = 109,200\n   \\]\n\n5. **Calculate the Total Earnings for the Year:**\n   Add the cash bonus to the new annual salary to find John's total earnings for the year:\n   \\[\n   109,200 + 5,000 = 114,200\n   \\]\n\nTherefore, John earns a total of 114,200 in the year he receives the award. The final answer is 114,200."]]
+Model Prediction / Ground Truth: 200 / 114200
+Correct Predictions / Total Tests: 177 / 201
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 200: [84.74%]
+Current Accuracy: 88.06%
+----------------------
+----------------------
+Problem 205: 布林利是伯特老师数学班的学生。伯特老师每个学期进行 6 场考试。他允许学生从每个学期的平均分中去掉最低分数。如果布林利在前五场考试中得分为 89、71、92、100 和 86，他需要在第六场考试中考到多少分才能达到平均分 93？
+Reasoning step: [['To solve this problem, follow these steps:\n\n1. **Identify the Current Scores:**\n   Brinley has scores of 89, 71, 92, 100, and 86 from the first five exams.\n\n2. **Determine the Desired Average:**\n   Brinley wants to achieve an average score of 93 after six exams, with the lowest score dropped.\n\n3. **Calculate the Total Needed for the Desired Average:**\n   Since the lowest score is dropped, Brinley needs to have the sum of the top five scores (including the sixth exam) equal to \\(93 \\times 5 = 465\\).\n\n4. **Find the Current Total of the Five Exams:**\n   Add the scores from the first five exams:\n   \\[\n   89 + 71 + 92 + 100 + 86 = 438\n   \\]\n\n5. **Identify and Exclude the Lowest Score:**\n   The lowest score among the five exams is 71.\n\n6. **Calculate the Total of the Remaining Four Scores:**\n   Subtract the lowest score from the current total:\n   \\[\n   438 - 71 = 367\n   \\]\n\n7. **Determine the Score Needed on the Sixth Exam:**\n   To achieve the desired total of 465 (from step 3), the score on the sixth exam must be:\n   \\[\n   465 - 367 = 98\n   \\]\n\nBrinley needs to score **98** on the sixth exam to reach an average of 93 after dropping the lowest score.']]
+Model Prediction / Ground Truth: 93 / 98
+Correct Predictions / Total Tests: 180 / 205
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 93: [87.48%]
+Current Accuracy: 87.80%
+----------------------
+----------------------
+Problem 209: 二十打杯子的总费用比半打盘子的总费用低 1,200 美元，每个盘子售价 6,000 美元。计算购买每个杯子的总费用。
+Reasoning step: [["To solve this problem, let's break it down step by step:\n\n1. **Understand the Problem:**\n   - We have two different items: cups and plates.\n   - We are given that the total cost for 20 dozen cups is $1,200 less than the total cost for half a dozen plates.\n   - Each plate costs $6,000.\n\n2. **Translate into Equations:**\n   - Let's denote the cost of one cup as \\( C \\).\n   - The total cost for 20 dozen cups is \\( 20 \\times 12 \\times C = 240C \\).\n   - The total cost for half a dozen plates is \\( 6 \\times 0.5 \\times 6,000 = 3 \\times 6,000 = 18,000 \\).\n\n3. **Set Up the Equation:**\n   - According to the problem, the total cost of 20 dozen cups is $1,200 less than the total cost of half a dozen plates:\n   \\[\n   240C = 18,000 - 1,200\n   \\]\n\n4. **Solve the Equation:**\n   - Simplify the equation:\n   \\[\n   240C = 16,800\n   \\]\n   - Divide both sides by 240 to find the cost of one cup:\n   \\[\n   C = \\frac{16,800}{240}\n   \\]\n\n5. **Calculate the Final Answer:**\n   - Perform the division:\n   \\[\n   C = 70\n   \\]\n\nThe cost to purchase each cup is 70."]]
+Model Prediction / Ground Truth: 70 / 145
+Correct Predictions / Total Tests: 183 / 209
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 70: [84.51%]
+Current Accuracy: 87.56%
+----------------------
+----------------------
+Problem 223: 一家公司一年花了 15,000 美元在广告上，又花了该金额的三分之一在另一年的广告上。这家公司这两年花在广告上的总金额是多少？
+Reasoning step: [["To solve this problem, we need to calculate the total amount of money the company spent on advertising over the two years.\n\n1. Determine the amount spent in the first year:\n   - The company spent $15,000 in the first year.\n\n2. Calculate the amount spent in the second year:\n   - The problem states that the company spent one-third of the first year's amount on advertising in the second year.\n   - One-third of $15,000 is calculated as follows:\n     \\[\n     \\frac{1}{3} \\times 15,000 = 5,000\n     \\]\n   - Therefore, the company spent $5,000 in the second year.\n\n3. Calculate the total amount spent over the two years:\n   - Add the amounts spent in the first and second years.\n   \\[\n   15,000 + 5,000 = 20,000\n   \\]\n\nThe total amount the company spent on advertising over the two years is 20,000."]]
+Model Prediction / Ground Truth: 0 / 20000
+Correct Predictions / Total Tests: 196 / 223
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [95.65%]
+Current Accuracy: 87.89%
+----------------------
+----------------------
+Problem 230: 马克为他的公司买了一支由 12 辆车组成的车队。每辆车售价 20,000 美元。他为这些车付了 10% 的税，又为每辆车交了 1,000 美元的注册费。他为这一切花了多少钱？
+Reasoning step: [['Step 1: Determine the cost of the 12 cars without any additional fees or taxes.\n- Each car costs $20,000.\n- Total cost for 12 cars = 12 * 20,000 = $240,000.\n\nStep 2: Calculate the total tax paid on the cars.\n- The tax rate is 10%.\n- Total tax = 10% of $240,000 = 0.10 * 240,000 = $24,000.\n\nStep 3: Calculate the total registration fees for all the cars.\n- The registration fee per car is $1,000.\n- Total registration fees for 12 cars = 12 * 1,000 = $12,000.\n\nStep 4: Calculate the total amount spent by adding the cost of the cars, the tax, and the registration fees.\n- Total amount spent = Cost of cars + Tax + Registration fees.\n- Total amount spent = $240,000 + $24,000 + $12,000 = $276,000.\n\nThe final answer is 276,000.']]
+Model Prediction / Ground Truth: 0 / 276000
+Correct Predictions / Total Tests: 202 / 230
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [92.37%]
+Current Accuracy: 87.83%
+----------------------
+----------------------
+Problem 234: 史蒂夫决定开始吃更多番茄，并决定自己种植小番茄。他吃的是他女朋友的两倍。他每天吃 6 个。如果一根藤蔓每周能结 3 个番茄，他需要多少根藤蔓？
+Reasoning step: [["To solve this problem, let's break it down step by step:\n\n1. **Determine how many tomatoes Steve eats daily**:  \n   Steve eats 6 tomatoes per day.\n\n2. **Determine how many tomatoes Steve's girlfriend eats daily**:  \n   Since Steve eats twice as many tomatoes as his girlfriend, we can set up an equation:  \n   Let \\( x \\) be the number of tomatoes his girlfriend eats daily.  \n   Thus, \\( 2x = 6 \\).  \n   Solving for \\( x \\), we get:  \n   \\( x = \\frac{6}{2} = 3 \\).  \n   So, his girlfriend eats 3 tomatoes per day.\n\n3. **Calculate the total number of tomatoes Steve eats weekly**:  \n   Steve eats 6 tomatoes per day.  \n   Therefore, in a week (7 days), he eats:  \n   \\( 6 \\times 7 = 42 \\) tomatoes.\n\n4. **Determine how many tomatoes each vine produces weekly**:  \n   Each vine produces 3 tomatoes per week.\n\n5. **Calculate the number of vines needed**:  \n   Steve needs 42 tomatoes per week.  \n   If each vine provides 3 tomatoes per week, then the number of vines needed is:  \n   \\( \\frac{42}{3} = 14 \\).\n\nTherefore, Steve needs 14 vines. The final answer is 14."]]
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 205 / 234
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [81.17%]
+Current Accuracy: 87.61%
+----------------------
+----------------------
+Problem 245: 一个水族箱里有 4 只蜗牛，另一个水族箱里有 32 只蜗牛。这两个水族箱里的蜗牛数量之差是两个水族箱里鱼数量的两倍。如果两个水族箱里鱼的数量相同，每个水族箱里有多少条鱼？
+Reasoning step: [["To solve this problem, we need to find out how many fish are in each aquarium, given that the number of snails in each aquarium and the relationship between the number of snails and fish.\n\nLet's break down the problem:\n\n1. **Identify the number of snails in each tank:**\n   - The first tank has 4 snails.\n   - The second tank has 32 snails.\n\n2. **Find the difference in the number of snails between the two tanks:**\n   \\[\n   32 - 4 = 28\n   \\]\n\n3. **Relate the difference in the number of snails to the number of fish:**\n   We know from the problem statement that the difference in the number of snails (28) is twice the number of fish in each tank. Let's denote the number of fish in each tank as \\( x \\).\n\n   According to the problem, the difference in the number of snails is twice the number of fish:\n   \\[\n   28 = 2x\n   \\]\n\n4. **Solve for \\( x \\):**\n   Divide both sides of the equation by 2 to find the number of fish:\n   \\[\n   x = \\frac{28}{2} = 14\n   \\]\n\nSo, each aquarium has 14 fish. The final answer is:\n\\[\n14\n\\]"]]
+Model Prediction / Ground Truth: 14 / 7
+Correct Predictions / Total Tests: 215 / 245
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [40.57%]
+Current Accuracy: 87.76%
+----------------------

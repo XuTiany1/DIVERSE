@@ -1,0 +1,162 @@
+----------------------
+Problem 12: คาร์ลอสปลูกต้นเลมอนซึ่งใช้เงิน $90 ต้นเลมอนจะออกผลปีละ 7 ลูก ซึ่งเขาสามารถนำไปขายได้ลูกละ $1.5 ค่ารดน้ำและใส่ปุ๋ยต้นเลมอนอยู่ที่ปีละ $3 เขาจะเริ่มได้กำไรจากต้นเลมอนในอีกกี่ปี
+Reasoning step: [["To determine when Carlos will start making a profit from his lemon tree, we need to calculate the costs, revenues, and when revenues will exceed costs. Here's a step-by-step breakdown:\n\n1. **Initial Cost**: \n   - Carlos spends $90 to plant the lemon tree. This is a one-time cost.\n\n2. **Annual Revenue**: \n   - The lemon tree produces 7 lemons per year.\n   - Each lemon can be sold for $1.5.\n   - Therefore, the annual revenue from selling the lemons is:\n     \\[\n     7 \\text{ lemons/year} \\times \\$1.5/\\text{lemon} = \\$10.5/\\text{year}\n     \\]\n\n3. **Annual Costs**:\n   - The maintenance costs for watering and fertilizing the tree are $3 per year.\n\n4. **Net Annual Profit**:\n   - The net profit per year from the tree (after deducting annual costs from annual revenue) is:\n     \\[\n     \\$10.5/\\text{year} - \\$3/\\text{year} = \\$7.5/\\text{year}\n     \\]\n\n5. **Break-even Point**:\n   - To determine how many years it will take for Carlos to cover his initial investment of $90, we divide the initial cost by the net annual profit:\n     \\[\n     \\$90 / \\$7.5/\\text{year} = 12 \\text{ years}\n     \\]\n\nTherefore, Carlos will start making a profit in 12 years. The final answer is 12."]]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 11 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [27.97%]
+Current Accuracy: 91.67%
+----------------------
+----------------------
+Problem 16: รถไฟสองขบวนออกจากซานราฟาเอลพร้อมกัน ทั้งสองขบวนเริ่มมุ่งหน้าไปทางทิศตะวันตกเป็นระยะทาง 80 ไมล์ วันต่อมาทั้งสองมุ่งหน้าไปทางทิศเหนือรวมกันเป็นระยะทาง 150 ไมล์ ในเวลาสองวัน รถไฟแต่ละขบวนเดินทางเป็นระยะทางกี่ไมล์
+Reasoning step: [["To solve this problem, we need to determine the distance each train traveled over two days. We can approach this using the concept of vectors and the Pythagorean theorem.\n\n### Day 1: Traveling West\n\n1. **Distance Traveled West**: Both trains traveled 80 miles west. This is a straightforward distance for both trains.\n\n### Day 2: Traveling North\n\n2. **Total Distance Traveled North**: Together, the two trains traveled a total distance of 150 miles north.\n\n### Step-by-Step Calculation:\n\nNow, let's assume the following:\n- Train A traveled a distance of \\( x \\) miles north on the second day.\n- Train B traveled a distance of \\( y \\) miles north on the second day.\n\nFrom the information given, we know:\n\\[ x + y = 150 \\]\n\n### Applying the Pythagorean Theorem:\n\nEach train travels in a straight line from the start point to the endpoint over the two days. Hence, for each train, the total distance traveled can be calculated using the Pythagorean theorem.\n\n- **Train A**:\n  \\[\n  \\text{Total distance for Train A} = \\sqrt{80^2 + x^2}\n  \\]\n\n- **Train B**:\n  \\[\n  \\text{Total distance for Train B} = \\sqrt{80^2 + y^2}\n  \\]\n\nSince the problem asks for the individual distances traveled by each train, we assume each train travels an equal amount of distance in total over the two days. Therefore:\n\n\\[\n\\sqrt{80^2 + x^2} = \\sqrt{80^2 + y^2}\n\\]\n\nThis implies:\n\\[ x = y \\]\n\nGiven that \\( x + y = 150 \\), and \\( x = y \\), we can solve for \\( x \\):\n\n\\[\nx + x = 150 \\\\\n2x = 150 \\\\\nx = 75\n\\]\n\nThus, each train travels 75 miles north on the second day.\n\n### Final Answer:\n\nThe total distance each train traveled is the sum of the distance traveled on both days:\n- \\(\\sqrt{80^2 + 75^2}\\)\n\nCalculating, we get:\n\\[\n\\sqrt{6400 + 5625} = \\sqrt{12025} = 109.67 \\, \\text{(approximately)}\n\\]\n\nTherefore, each train traveled a total distance of approximately 109.67 miles over the two days. The final answer, rounded to the nearest mile, is:\n\n110"]]
+Model Prediction / Ground Truth: 110 / 230
+Correct Predictions / Total Tests: 14 / 16
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 110: [6.24%]
+Current Accuracy: 87.50%
+----------------------
+----------------------
+Problem 35: ไมค์เล่นปิงปองเป็นเวลา 40 นาที ในช่วง 20 นาทีแรก เขาทำคะแนนได้ 4 แต้ม ในช่วง 20 นาทีต่อมา เขาทำคะแนนเพิ่มได้อีก 25% รวมแล้วเขาทำคะแนนได้ทั้งหมดกี่แต้ม
+Reasoning step: [['To find the total number of points Mike scored, we can break the problem into steps:\n\n1. **Initial Score Calculation:**\n   - In the first 20 minutes, Mike scored 4 points.\n\n2. **Score Increase Calculation:**\n   - In the next 20 minutes, Mike increased his score by 25%. We need to calculate 25% of the points he scored in the first 20 minutes.\n   - 25% of 4 points is calculated as follows:\n     \\[\n     0.25 \\times 4 = 1\n     \\]\n   - Therefore, in the second 20 minutes, he scored an additional 1 point.\n\n3. **Total Score Calculation:**\n   - To find the total score, add the scores from both periods:\n     \\[\n     4 \\text{ points} + 1 \\text{ point} = 5 \\text{ points}\n     \\]\n\nThus, the total number of points Mike scored is 5. The final answer is 5.']]
+Model Prediction / Ground Truth: 5 / 9
+Correct Predictions / Total Tests: 32 / 35
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 5: [18.14%]
+Current Accuracy: 91.43%
+----------------------
+----------------------
+Problem 73: ชีล่าซื้อโทรศัพท์มือถือเครื่องละ $150 โดยแบ่งผ่อนชำระนาน 3 เดือน โทรศัพท์แต่ละเครื่องจะมีการเรียกเก็บดอกเบี้ย 2% ดังนั้น ใน 3 เดือนนี้ ชีล่าจะต้องชำระเงินเดือนละกี่ดอลลาร์
+Reasoning step: [['To solve this problem, we need to determine the monthly payment Sheila has to make, considering the interest charged on the phone purchase.\n\n1. **Identify the Principal Cost**:  \n   Sheila bought a phone for $150.\n\n2. **Interest Rate and Duration**:  \n   The interest rate is 2% for 3 months. \n\n3. **Calculate Total Interest**:  \n   Interest for one phone = 2% of $150  \n   Interest = 0.02 × $150 = $3\n\n4. **Determine Total Amount to be Paid**:  \n   Total cost including interest = Principal + Interest  \n   Total cost = $150 + $3 = $153\n\n5. **Calculate Monthly Payment**:  \n   Since she is paying over 3 months, divide the total cost by 3.  \n   Monthly payment = $153 ÷ 3 = $51\n\nThus, Sheila has to pay $51 per month. The final answer is 51.']]
+Model Prediction / Ground Truth: 51 / 255
+Correct Predictions / Total Tests: 69 / 73
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 51: [70.60%]
+Current Accuracy: 94.52%
+----------------------
+----------------------
+Problem 75: ลูคสร้างปราสาททรายอยู่ริมชายหาด สุดท้าย เขาสังเกตเห็นว่าปราสาททรายแต่ละชั้นจะมีพื้นที่น้อยกว่าปราสาททรายชั้นที่อยู่ต่ำกว่าครึ่งตารางฟุต ถ้าเขาสร้างปราสาททรายสูง 4 ชั้น โดยที่ชั้นบนสุดมีพื้นที่ 16 ตารางฟุต พื้นที่เฉลี่ยของแต่ละชั้นจะเท่ากับกี่ตารางฟุต
+Reasoning step: [['To solve this problem, we need to determine the area of each layer of the sandcastle and then find the average area of all the layers.\n\n1. **Identify the area of the top layer:**\n   - The top layer (4th layer) has an area of 16 square feet.\n\n2. **Determine the relationship between the layers:**\n   - Each layer below has an area greater by half a square foot than the layer above it.\n\n3. **Calculate the area of each layer:**\n   - Let \\( A_4 = 16 \\) (area of the 4th layer).\n   - The 3rd layer will have an area greater by 0.5 square feet:\n     \\[\n     A_3 = A_4 + 0.5 = 16 + 0.5 = 16.5\n     \\]\n   - The 2nd layer will have an area greater by another 0.5 square feet:\n     \\[\n     A_2 = A_3 + 0.5 = 16.5 + 0.5 = 17\n     \\]\n   - The 1st layer (bottom layer) will have an area greater by another 0.5 square feet:\n     \\[\n     A_1 = A_2 + 0.5 = 17 + 0.5 = 17.5\n     \\]\n\n4. **Find the total area of all layers:**\n   \\[\n   \\text{Total Area} = A_1 + A_2 + A_3 + A_4 = 17.5 + 17 + 16.5 + 16 = 67\n   \\]\n\n5. **Calculate the average area of the layers:**\n   - There are 4 layers, so the average area is:\n     \\[\n     \\text{Average Area} = \\frac{\\text{Total Area}}{4} = \\frac{67}{4} = 16.75\n     \\]\n\nThus, the average area of each layer is 16.75. The final answer is 16.75.']]
+Model Prediction / Ground Truth: 17 / 60
+Correct Predictions / Total Tests: 70 / 75
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 17: [16.45%]
+Current Accuracy: 93.33%
+----------------------
+----------------------
+Problem 87: บริษัทจ่ายค่าตอบแทนให้พนักงาน $600 ต่อเดือน โดยบริษัทมีนโยบายขึ้นเงินเดือนให้พนักงาน 10% จากฐานเงินเดือนเริ่มต้นทุกปีในกรณีที่พนักงานทำงานกับบริษัทมานานห้าปี หากซิลวีทำงานที่บริษัทครบห้าปีเมื่อเดือนธันวาคมที่ผ่านมา ซิลวีจะได้รับเงินเดือนรวมตลอดทั้งปีเท่าใดหลังจากทำงานต่ออีกสามปี
+Reasoning step: [["To determine Sylvie's total salary over the next three years, we need to consider the company's policy of increasing salaries by 10% from the initial salary after five years of employment.\n\n1. **Initial Salary**: \n   - Sylvie's initial salary is $600 per month.\n\n2. **Salary Increase**:\n   - After five years, Sylvie's salary increases by 10% of the initial salary.\n   - The increase amount is 10% of $600, which is $600 * 0.10 = $60.\n\n3. **New Monthly Salary**:\n   - After the increase, Sylvie's new monthly salary is $600 (initial) + $60 (increase) = $660.\n\n4. **Annual Salary**:\n   - The annual salary after the increase is $660 per month * 12 months = $7,920.\n\n5. **Total Salary Over Three Years**:\n   - For the next three years, Sylvie will earn $7,920 per year.\n   - Therefore, over three years, the total salary is $7,920 * 3 = $23,760.\n\nThe final answer, which is the total salary Sylvie will receive over the next three years, is 23760."]]
+Model Prediction / Ground Truth: 23760 / 9360
+Correct Predictions / Total Tests: 81 / 87
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 23760: [34.96%]
+Current Accuracy: 93.10%
+----------------------
+----------------------
+Problem 88: เพลงแรกของมาริลีนมียอดจำหน่ายสูงกว่าเฮอรัลด์ถึง 10 เท่า หากเพลงของมาริลีนมียอดจำหน่าย 88,000 แผ่น เฮอรัลด์มียอดจำหน่ายเท่าใด
+Reasoning step: [["To solve this problem, we need to determine how many records Herald sold given that Marilyn's record sales are 10 times higher.\n\nStep 1: Identify the information given in the problem.\n- Marilyn's sales = 88,000 records\n- Marilyn's sales are 10 times Herald's sales.\n\nStep 2: Set up the equation based on the relationship between Marilyn's and Herald's sales.\nLet \\( H \\) represent the number of records sold by Herald.\n\nAccording to the problem, Marilyn's sales are 10 times that of Herald's:\n\\[ 88,000 = 10 \\times H \\]\n\nStep 3: Solve for \\( H \\).\nTo find \\( H \\), divide both sides of the equation by 10:\n\\[ H = \\frac{88,000}{10} \\]\n\nStep 4: Calculate the division.\n\\[ H = 8,800 \\]\n\nTherefore, Herald sold 8,800 records. The final answer is 8800."]]
+Model Prediction / Ground Truth: 8800 / 8000
+Correct Predictions / Total Tests: 81 / 88
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 8800: [7.19%]
+Current Accuracy: 92.05%
+----------------------
+----------------------
+Problem 89: คริสตินากำลังวางแผนจัดงานเลี้ยงวันเกิดและต้องใช้ถุงใส่ของขวัญ 0.75 ใบต่อแขกที่เชิญมาแต่ละคน เนื่องจาก 1/4 ของผู้ได้รับเชิญไม่มาร่วมงาน คริสตินาได้เชิญเพื่อนมา 16 คน ถุงใส่ของขวัญมีราคาใบละ $2 เธอจะต้องจ่ายเงินเท่าใด
+Reasoning step: [["To determine how much money Christina will spend on gift bags for her birthday party, let's break down the problem step-by-step:\n\n1. **Determine the number of guests attending:**\n   - Christina invited 16 friends.\n   - However, 1/4 of the invited guests will not attend. \n   - Calculate the number of guests not attending: \n     \\[\n     \\frac{1}{4} \\times 16 = 4\n     \\]\n   - Therefore, the number of guests attending is:\n     \\[\n     16 - 4 = 12\n     \\]\n\n2. **Calculate the number of gift bags needed:**\n   - Christina needs 0.75 gift bags per attending guest.\n   - Multiply the number of attending guests by 0.75 to find the total number of gift bags required:\n     \\[\n     12 \\times 0.75 = 9\n     \\]\n\n3. **Calculate the total cost of the gift bags:**\n   - Each gift bag costs $2.\n   - Multiply the number of gift bags by the cost per bag to find the total expenditure:\n     \\[\n     9 \\times 2 = 18\n     \\]\n\nThe final cost Christina will incur for the gift bags is $18. \n\nSo, the final answer is 18."]]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 81 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [40.62%]
+Current Accuracy: 91.01%
+----------------------
+----------------------
+Problem 95: นักเรียนชั้นประถมศึกษาปีที่ 5 มีทั้งหมด 200 คน ในจำนวนนี้ 2/5 เป็นเด็กชาย และ 2/3 ของเด็กผู้หญิงที่มีเป็นเนตรนารี เด็กผู้หญิงที่เป็นเนตรนารีมีกี่คน
+Reasoning step: [['To find how many girl scouts there are, follow these steps:\n\n1. **Determine the number of boys:**\n   - Total students = 200\n   - Boys = \\( \\frac{2}{5} \\) of total students\n   - Boys = \\( \\frac{2}{5} \\times 200 = 80 \\)\n\n2. **Calculate the number of girls:**\n   - Total students = 200\n   - Girls = Total students - Boys\n   - Girls = 200 - 80 = 120\n\n3. **Find the number of girl scouts:**\n   - \\( \\frac{2}{3} \\) of the girls are scouts\n   - Girl scouts = \\( \\frac{2}{3} \\times 120 = 80 \\)\n\nThe number of girl scouts is 80.']]
+Model Prediction / Ground Truth: 80 / 40
+Correct Predictions / Total Tests: 86 / 95
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 80: [30.21%]
+Current Accuracy: 90.53%
+----------------------
+----------------------
+Problem 119: เงินเดือนทั้งหมดของเอเดรียนมากกว่าเงินเดือนทั้งหมดของไลลาห์ 30 เปอร์เซ็นต์ จากนั้นสี่ปีต่อมา เงินเดือนของเอเดรียนเพิ่มขึ้น และเขาได้เงินเดือนมากกว่าที่เคยได้รับสี่ปีที่แล้ว 40% หากเงินเดือนของเอเดรียนและไลลาห์เพิ่มขึ้นพร้อมกัน และเมื่อสี่ปีที่แล้วเอเดรียนได้เงินเดือน $40,000 ให้คำนวณเงินเดือนทั้งหมดที่ทั้งสองได้รับสี่ปีต่อมา
+Reasoning step: [["To solve this problem, we will go through the steps to calculate the total salaries of Adrian and Lailah four years later:\n\n**Step 1: Determine Lailah's Salary Four Years Ago**\n- We know Adrian's salary four years ago was $40,000.\n- Adrian’s salary is 30% more than Lailah’s salary.\n  \n  Let's denote Lailah's salary four years ago as \\( L \\).\n  \n  \\[\n  40,000 = L + 0.30L = 1.30L\n  \\]\n  \n  Solving for \\( L \\),\n  \n  \\[\n  L = \\frac{40,000}{1.30} = 30,769.23\n  \\]\n\n**Step 2: Calculate Adrian's Salary Four Years Later**\n- Adrian’s salary increased by 40% four years later.\n\n  \\[\n  \\text{New Salary of Adrian} = 40,000 + 0.40 \\times 40,000 = 40,000 + 16,000 = 56,000\n  \\]\n\n**Step 3: Calculate Lailah's Salary Four Years Later**\n- Since Lailah’s salary would have increased by the same percentage, we need to find the increase from four years ago to four years later.\n\n  \\[\n  \\text{Lailah’s Salary Increase} = \\frac{56,000 - 40,000}{40,000} = 0.40 \\text{ or 40%}\n  \\]\n  \n  Since Lailah's salary also increases by 40%:\n\n  \\[\n  \\text{New Salary of Lailah} = 30,769.23 + 0.40 \\times 30,769.23\n  \\]\n\n  \\[\n  = 30,769.23 + 12,307.69 = 43,076.92\n  \\]\n\n**Step 4: Calculate Total Salaries Four Years Later**\n- Add Adrian's and Lailah's new salaries:\n\n  \\[\n  \\text{Total Salary} = 56,000 + 43,076.92 = 99,076.92\n  \\]\n\nTherefore, the total salary that both received four years later is $99,076.92.\n\nFinal Answer: 99076.92"]]
+Model Prediction / Ground Truth: 99077 / 95200
+Correct Predictions / Total Tests: 109 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 99077: [5.65%]
+Current Accuracy: 91.60%
+----------------------
+----------------------
+Problem 153: เดฟซื้อเฟรนช์ฟรายแพ็กใหญ่มาหนึ่งแพ็กและกินไปสิบสี่ชิ้นก่อนที่นกนางนวลที่หิวโหยจะขโมยเฟรนช์ฟรายแพ็กนั้นไปจากมือของเขา เมื่อนกนางนวลบินลงมาที่พื้น ก็ขยุ้มกินเฟรนช์ฟรายครึ่งหนึ่งของปริมาณที่เดฟกิน จากนั้นนกพิราบสามตัวเข้ามารุมไล่นกนางนวลออกไปจากอาหาร และนกพิราบแต่ละตัวกินเฟรนช์ฟรายไปสามชิ้น ต่อมาแรคคูนก็ขโมยสองในสามของเฟรนช์ฟรายที่เหลือไป มดขนเฟรนช์ฟรายชิ้นสุดท้ายออกไป เหลืออยู่ห้าชิ้น มีเฟรนช์ฟรายอยู่ในแพ็กกี่ชิ้นในตอนที่เดฟซื้อมา
+Reasoning step: [["To solve the problem, let's work through the events step-by-step:\n\n1. **Initial Eating by Dave:**  \n   Dave eats 14 French fries.\n\n2. **Seagull's Action:**  \n   The seagull takes the pack and eats half of what Dave ate.  \n   Dave ate 14, so half of that is 7.  \n   The seagull eats 7 fries.\n\n3. **Pigeons' Action:**  \n   Three pigeons then come in and each eats 3 fries.  \n   So, the pigeons collectively eat \\(3 \\times 3 = 9\\) fries.\n\n4. **Raccoon's Action:**  \n   The raccoon steals two-thirds of the remaining fries.  \n   After the seagull and pigeons, let's determine how many fries are left.\n   - Total eaten by Dave, seagull, and pigeons: \\(14 + 7 + 9 = 30\\).\n   - Let \\(x\\) be the initial number of fries in the pack.\n   - Remaining fries after Dave, seagull, and pigeons: \\(x - 30\\).\n\n   The raccoon steals two-thirds of these remaining fries, leaving one-third behind.  \n   If one-third of the remaining fries is 5 (as stated), then:\n\n   \\(\\frac{1}{3}(x - 30) = 5\\)\n\n   Solving for \\(x - 30\\):  \n   \\((x - 30) = 5 \\times 3 = 15\\).\n\n5. **Solving for Initial Amount:**  \n   Now, solve for \\(x\\):  \n   \\(x - 30 = 15\\)  \n   \\(x = 15 + 30\\)  \n   \\(x = 45\\).\n\nThus, Dave initially bought 45 French fries.  \nThe final answer is 45."]]
+Model Prediction / Ground Truth: 45 / 48
+Correct Predictions / Total Tests: 142 / 153
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 45: [64.96%]
+Current Accuracy: 92.81%
+----------------------
+----------------------
+Problem 162: หากลูกแก้วมีราคาถุงละ $20 และราคาเพิ่มขึ้น 20% จากราคาเดิมทุกสองเดือน ลูกแก้วหนึ่งถุงจะมีราคาเท่าใดหลังจาก 36 เดือนผ่านไป
+Reasoning step: [['To determine the price of a bag of marbles after 36 months, given that the price increases by 20% every two months, we can follow these steps:\n\n1. **Initial Price**: \n   - The initial price of a bag of marbles is $20.\n\n2. **Price Increase Frequency**: \n   - The price increases every two months.\n\n3. **Number of Increases**:\n   - Since the price increases every two months, we need to determine how many two-month periods are in 36 months.\n   - Number of two-month periods in 36 months = \\( \\frac{36}{2} = 18 \\).\n\n4. **Price Increase Calculation**:\n   - The price increases by 20% each period. \n   - A 20% increase means the new price is 1.20 times the previous price.\n\n5. **Final Price Calculation**:\n   - To find the final price after 36 months, apply the 20% increase 18 times to the initial price.\n   - Final price = Initial price × (1.20)^18\n   - Final price = $20 × (1.20)^18\n\n6. **Compute the Final Price**:\n   - Calculate (1.20)^18 using a calculator:\n     - (1.20)^18 ≈ 38.3376\n   - Final price ≈ $20 × 38.3376 = $766.752\n\nSince we need the final answer without units, the final price of a bag of marbles after 36 months is approximately:\n\n767']]
+Model Prediction / Ground Truth: 767 / 92
+Correct Predictions / Total Tests: 150 / 162
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 767: [1.36%]
+Current Accuracy: 92.59%
+----------------------
+----------------------
+Problem 174: บิลลี่กำลังปอกและหั่นมันฝรั่งเพื่อเตรียมทำสลัดมันฝรั่งสำหรับทำบาร์บีคิวในงานรวมญาติครอบครัวใหญ่ของเขา ซึ่งเป็นงานใหญ่ เขาจึงเตรียมมันฝรั่งไว้ 60 หัว มันฝรั่งมีขนาดใกล้เคียงกัน ดังนั้นจึงใช้เวลาพอๆ กันในการปอกและหั่นมันฝรั่งแต่ละหัว บิลลี่ใช้เวลาประมาณหนึ่งนาทีครึ่งในการปอกมันฝรั่ง แต่ใช้เวลาเพียง 5 วินาทีเท่านั้นในการหั่น บิลลี่จะใช้เวลานานแค่ไหนในการเตรียมมันฝรั่งให้เสร็จ
+Reasoning step: [['To determine how long it will take Billy to prepare all the potatoes, we need to calculate the total time spent on peeling and slicing each potato and then multiply that by the total number of potatoes.\n\n1. **Time to Peel One Potato:**\n   - Billy takes 1.5 minutes to peel one potato.\n   - Converting minutes to seconds (since slicing time is in seconds), 1.5 minutes = 1.5 * 60 = 90 seconds.\n\n2. **Time to Slice One Potato:**\n   - Billy takes 5 seconds to slice one potato.\n\n3. **Total Time for One Potato:**\n   - Total time to prepare one potato = Time to peel + Time to slice\n   - Total time for one potato = 90 seconds (peeling) + 5 seconds (slicing) = 95 seconds.\n\n4. **Total Number of Potatoes:**\n   - Billy has 60 potatoes to prepare.\n\n5. **Total Preparation Time for All Potatoes:**\n   - Total preparation time = Total time for one potato * Total number of potatoes\n   - Total preparation time = 95 seconds/potato * 60 potatoes = 5700 seconds.\n\nThus, the total time Billy will need to prepare all the potatoes is 5700.']]
+Model Prediction / Ground Truth: 5700 / 95
+Correct Predictions / Total Tests: 161 / 174
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 5700: [3.63%]
+Current Accuracy: 92.53%
+----------------------
+----------------------
+Problem 197: ในเมืองโซดามีผู้อยู่อาศัย 23,786 คน ประกอบด้วยผู้ชาย 8,417 คน และผู้หญิง 9,092 คน โดยประชากรที่เหลือเป็นเด็ก เมืองโซดามีเด็กทั้งหมดกี่คน
+Reasoning step: [['To determine the number of children in the city of Soda, we need to subtract the number of men and women from the total population. Here’s how we can do it step-by-step:\n\n1. **Identify the Total Population:**\n   - The total population of the city is 23,786 people.\n\n2. **Identify the Number of Men:**\n   - There are 8,417 men in the city.\n\n3. **Identify the Number of Women:**\n   - There are 9,092 women in the city.\n\n4. **Calculate the Total Number of Adults (Men and Women):**\n   - Total adults = Number of men + Number of women\n   - Total adults = 8,417 + 9,092 = 17,509\n\n5. **Calculate the Number of Children:**\n   - Number of children = Total population - Total adults\n   - Number of children = 23,786 - 17,509 = 6,277\n\nTherefore, the city of Soda has 6,277 children. The final answer is 6,277.']]
+Model Prediction / Ground Truth: 277 / 6277
+Correct Predictions / Total Tests: 183 / 197
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 277: [86.11%]
+Current Accuracy: 92.89%
+----------------------
+----------------------
+Problem 230: มาร์คซื้อรถยนต์จำนวน 12 คันให้บริษัทของเขา โดยแต่ละคันขายในราคา $20,000 เขาจ่ายภาษีรถยนต์ 10% และจ่ายอีก $1,000 เป็นค่าจดทะเบียนรถแต่ละคัน รวมทั้งหมดแล้วเขาจ่ายเงินไปเท่าไหร่
+Reasoning step: [['To determine the total amount Mark paid for the 12 cars, we need to follow these steps:\n\n1. **Calculate the cost of the cars before taxes and fees:**\n   - Each car costs $20,000.\n   - Mark bought 12 cars.\n   - Total cost for the cars = 12 cars × $20,000/car = $240,000.\n\n2. **Calculate the total tax paid:**\n   - The tax rate is 10%.\n   - Tax for each car = 10% of $20,000 = $2,000.\n   - Total tax for 12 cars = 12 cars × $2,000/car = $24,000.\n\n3. **Calculate the total registration fees paid:**\n   - Registration fee for each car = $1,000.\n   - Total registration fee for 12 cars = 12 cars × $1,000/car = $12,000.\n\n4. **Calculate the total amount paid:**\n   - Total amount = Cost of cars + Total tax + Total registration fees.\n   - Total amount = $240,000 + $24,000 + $12,000 = $276,000.\n\nTherefore, the total amount Mark paid for the cars, including taxes and registration fees, is **276,000**.']]
+Model Prediction / Ground Truth: 0 / 276000
+Correct Predictions / Total Tests: 215 / 230
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [22.19%]
+Current Accuracy: 93.48%
+----------------------
+----------------------
+Problem 231: ไคลีและโรเบิร์ตชอบไปชายหาดเพื่อเก็บเปลือกหอย ในวันจันทร์ไคลีเก็บเปลือกหอยได้มากกว่าโรเบิร์ตที่เก็บได้ 20 อันเป็นจำนวน 5 อัน ในวันอังคารไคลีเก็บเปลือกหอยได้มากกว่าที่ตัวเองเก็บได้ในวันจันทร์ 2 เท่า ไคลีเก็บเปลือกหอยได้กี่อันในวันอังคาร
+Reasoning step: [["To solve this problem, we need to determine how many seashells Kylie collected on Tuesday. Here’s a step-by-step breakdown:\n\n1. **Determine how many seashells Robert collected on Monday:**\n\n   Let's assume Robert collected \\( x \\) seashells on Monday.\n\n2. **Determine how many seashells Kylie collected on Monday:**\n\n   According to the problem, Kylie collected 5 more seashells than Robert on Monday. Therefore, Kylie collected \\( x + 5 \\) seashells.\n\n3. **Determine how many seashells Kylie collected on Tuesday:**\n\n   It is stated that on Tuesday, Kylie collected twice as many seashells as she did on Monday. So, the number of seashells Kylie collected on Tuesday is:\n\n   \\[\n   2 \\times (x + 5)\n   \\]\n\n4. **Express in terms of x:**\n\n   - Kylie's collection on Tuesday is:\n     \\[\n     2 \\times (x + 5) = 2x + 10\n     \\]\n\n5. **Express in terms of specific number:**\n\n   Since the exact number of seashells Robert collected on Monday is not given, we focus on the relation given for Tuesday:\n   \n   - Kylie's collection on Monday was \\( x + 5 \\).\n   - Therefore, on Tuesday, she collected \\( 2 \\times (x + 5) \\).\n\n6. **Final Expression:**\n\n   Since we do not have the specific value of \\( x \\), the final expression for the number of seashells Kylie collected on Tuesday is based on the simplification:\n   \n   - Kylie collected \\( 2(x + 5) = 2x + 10 \\) seashells on Tuesday.\n\nSince the problem asks for the final number without further context or additional specific values, the general expression for the number of seashells Kylie collected on Tuesday is \\( 2x + 10 \\).\n\nHowever, if we need a specific number, we need the number of seashells Robert collected on Monday to make the calculation specific. In the absence of that, \\( 2x + 10 \\) is the best representation we have for Kylie's collection on Tuesday. But if we assume a value for Robert's collection, like if Robert collected, say, 10 seashells on Monday (a hypothetical assumption for completion), Kylie collected:\n\n   - Monday: \\( 10 + 5 = 15 \\) seashells.\n   - Tuesday: \\( 2 \\times 15 = 30 \\) seashells.\n\nThus, the final answer, assuming a specific value for Robert's collection, would be 30. However, without that assumption, the problem remains in expression form."]]
+Model Prediction / Ground Truth: 30 / 50
+Correct Predictions / Total Tests: 215 / 231
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 30: [46.68%]
+Current Accuracy: 93.07%
+----------------------
+----------------------
+Problem 232: แด็กซ์ไปที่ฟาร์มเพื่อเก็บแอปเปิลและเจอแมลงชนิดอื่นๆ ในสวนมากกว่ามดครึ่งหนึ่ง ถ้ามีมดจำนวน 50 ตัว จงคำนวณจำนวนแมลงทั้งหมดในสวน
+Reasoning step: [['To solve this problem, we need to determine the total number of insects in the garden, knowing that there are more insects than half the number of ants.\n\n1. **Identify the number of ants:** We are given that there are 50 ants in the garden.\n\n2. **Calculate half the number of ants:** \n   \\[\n   \\frac{50}{2} = 25\n   \\]\n   So, half the number of ants is 25.\n\n3. **Determine the minimum number of other insects:** The problem states there are more insects than half the number of ants. This means the number of other insects is at least 26 (since it must be more than 25).\n\n4. **Calculate the total number of insects:** \n   - Number of ants = 50\n   - Number of other insects = 26 (minimum, since it must be more than 25)\n\n   Therefore, the total number of insects is:\n   \\[\n   50 + 26 = 76\n   \\]\n\nThe final answer is 76.']]
+Model Prediction / Ground Truth: 76 / 75
+Correct Predictions / Total Tests: 215 / 232
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 76: [25.15%]
+Current Accuracy: 92.67%
+----------------------
+----------------------
+Problem 234: สตีฟตัดสินใจว่าจะเริ่มกินมะเขือเทศมากขึ้นและตัดสินใจว่าจะปลูกมะเขือเทศเชอรี่เป็นของตัวเอง เขากินจุกว่าแฟนสาวของเขาสองเท่า โดยเขากินมะเขือเทศวันละ 6 ผล ถ้าต้นมะเขือเทศหนึ่งต้นให้ผลผลิต 3 ผลต่อสัปดาห์ เขาจะต้องปลูกกี่ต้น
+Reasoning step: [["To determine how many cherry tomato plants Steve needs to grow, let's break down the problem step by step:\n\n1. **Understand Steve's consumption**: \n   - Steve eats 6 tomatoes per day. \n   - In one week (7 days), Steve will eat: \n     \\[\n     6 \\text{ tomatoes/day} \\times 7 \\text{ days/week} = 42 \\text{ tomatoes/week}\n     \\]\n\n2. **Calculate the yield per plant**:\n   - Each tomato plant produces 3 tomatoes per week.\n\n3. **Determine the number of plants needed**:\n   - To find out how many plants are needed to meet Steve's consumption, divide his weekly tomato requirement by the weekly yield per plant:\n     \\[\n     \\frac{42 \\text{ tomatoes/week}}{3 \\text{ tomatoes/plant/week}} = 14 \\text{ plants}\n     \\]\n\nTherefore, Steve needs to plant 14 cherry tomato plants to meet his weekly consumption of tomatoes. \n\nThe final answer is 14."]]
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 216 / 234
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [7.60%]
+Current Accuracy: 92.31%
+----------------------

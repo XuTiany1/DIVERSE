@@ -1,0 +1,333 @@
+----------------------
+Problem 12: カルロスはレモンの木を植えようとしています。レモンの木は植えるのに90ドルかかります。毎年7個のレモンがなり、1つあたり1.5ドルで売れます。木に水をやり肥料を与えるのに1年間で3ドルかかります。カルロスがレモンの木で収益を得るようになるには何年かかりますか？
+Reasoning step: [['To determine how many years it will take for Carlos to start making a profit from his lemon tree, we need to calculate the costs and revenues associated with the tree and find out when the revenues surpass the costs.\n\n1. **Initial Cost**: The initial cost to plant the lemon tree is $90.\n\n2. **Annual Revenue**: \n   - The tree produces 7 lemons per year.\n   - Each lemon is sold for $1.5.\n   - Annual revenue from selling lemons = 7 lemons/year * $1.5/lemon = $10.5/year.\n\n3. **Annual Cost**: \n   - The annual cost for watering and fertilizing the tree is $3.\n\n4. **Net Annual Profit**:\n   - Net annual profit = Annual revenue - Annual cost\n   - Net annual profit = $10.5 - $3 = $7.5/year.\n\n5. **Break-even Point**:\n   - To find out when Carlos will break even, we need to calculate how many years it will take for the net profit to cover the initial cost of planting the tree.\n   - Let \\( n \\) be the number of years it takes to break even.\n   - Total net profit after \\( n \\) years = \\( n \\times $7.5 \\).\n   - Set the total net profit equal to the initial cost: \\( n \\times $7.5 = $90 \\).\n\n6. **Solve for \\( n \\)**:\n   \\[\n   n = \\frac{90}{7.5} = 12\n   \\]\n\nTherefore, it will take Carlos 12 years to start making a profit from his lemon tree. The final answer is 12.']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 11 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [65.62%]
+Current Accuracy: 91.67%
+----------------------
+----------------------
+Problem 18: クレアは毎朝朝ごはん用に卵を3つ使ったオムレツを作ります。クレアは4週間で卵を何個食べることになりますか？
+Reasoning step: [['To determine how many eggs Claire uses in 4 weeks, we need to break down the problem step-by-step:\n\n1. **Eggs Used Per Day**: Claire uses 3 eggs every morning for her omelet.\n\n2. **Days in a Week**: There are 7 days in a week.\n\n3. **Eggs Used Per Week**: To find out how many eggs Claire uses in one week, multiply the number of eggs she uses per day by the number of days in a week:\n   \\[\n   3 \\text{ eggs/day} \\times 7 \\text{ days/week} = 21 \\text{ eggs/week}\n   \\]\n\n4. **Weeks in 4 Weeks**: Claire continues this routine for 4 weeks.\n\n5. **Total Eggs Used in 4 Weeks**: Multiply the number of eggs used per week by the number of weeks:\n   \\[\n   21 \\text{ eggs/week} \\times 4 \\text{ weeks} = 84 \\text{ eggs}\n   \\]\n\nTherefore, Claire uses a total of 84 eggs in 4 weeks.\n\nFinal answer: 84']]
+Model Prediction / Ground Truth: 84 / 7
+Correct Predictions / Total Tests: 16 / 18
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 84: [94.78%]
+Current Accuracy: 88.89%
+----------------------
+----------------------
+Problem 34: シヴォーンが持つ宝石の数は、アーロンよりも2個少ないです。アーロンはレイモンドよりも、5個多く宝石を持っています。もしもレイモンドが40個の宝石を持っている場合、シヴォーンはいくつ宝石を持っていますか？
+Reasoning step: [["To find out how many gems Siobhan has, let's follow the steps:\n\n1. **Identify the number of gems Raymond has.**  \n   According to the problem, Raymond has 40 gems.\n\n2. **Determine the number of gems Aaron has.**  \n   Aaron has 5 more gems than Raymond.  \n   Therefore, Aaron has:  \n   \\[\n   40 + 5 = 45\n   \\]\n\n3. **Calculate the number of gems Siobhan has.**  \n   Siobhan has 2 fewer gems than Aaron.  \n   Therefore, Siobhan has:  \n   \\[\n   45 - 2 = 43\n   \\]\n\nThe final number of gems Siobhan has is \\(43\\)."]]
+Model Prediction / Ground Truth: 43 / 23
+Correct Predictions / Total Tests: 31 / 34
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 43: [92.78%]
+Current Accuracy: 91.18%
+----------------------
+----------------------
+Problem 37: ジョンは自分のすべてのおもちゃを売り、そのお金でビデオゲームを買う予定です。彼は13個のレゴセットを持っており、$15でそれぞれ売ります。彼は最終的に、$20のビデオゲームを8個買い、$5残りました。彼は現在、何個のレゴセットを持っていますか？
+Reasoning step: [['To solve this problem, we need to determine how many LEGO sets John initially had, given that he sold all of them and then bought video games with the proceeds.\n\n1. **Calculate the total cost of the video games and the remaining money:**\n   - John bought 8 video games at $20 each.\n   - Total cost for the video games: \\( 8 \\times 20 = 160 \\) dollars.\n   - John also had $5 left after buying the video games.\n\n2. **Determine the total amount of money John had after selling the LEGO sets:**\n   - Total money John had = Cost of video games + Remaining money\n   - Total money = \\( 160 + 5 = 165 \\) dollars.\n\n3. **Calculate how many LEGO sets were needed to get this total amount:**\n   - Each LEGO set was sold for $15.\n   - Let \\( x \\) be the number of LEGO sets John originally had.\n   - The equation for the total money from selling the LEGO sets is: \\( 15x = 165 \\).\n\n4. **Solve for \\( x \\):**\n   - Divide both sides by 15 to find \\( x \\):\n   - \\( x = \\frac{165}{15} = 11 \\).\n\nTherefore, John originally had 11 LEGO sets. The final answer is 11.']]
+Model Prediction / Ground Truth: 11 / 2
+Correct Predictions / Total Tests: 33 / 37
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 11: [36.08%]
+Current Accuracy: 89.19%
+----------------------
+----------------------
+Problem 39: ダナは、徒歩の時よりも4倍の速さで走ることができますが、走る速度の半分の速さでスキップすることができます。彼女が1時間に3マイルの速度でスキップできる場合、3分の1の時間を走り、3分の2を歩くとしたら、6時間で何キロ進めますか？
+Reasoning step: [["To solve this problem, we need to determine how far Dana can travel in 6 hours when spending 1/3 of her time running and 2/3 of her time walking. Here is a step-by-step breakdown:\n\n1. **Determine Dana's Skipping Speed**:\n   - Dana skips at a speed of 3 miles per hour.\n\n2. **Determine Dana's Running Speed**:\n   - Dana's skipping speed is half her running speed.\n   - Let \\( R \\) be Dana's running speed. We have:\n     \\[\n     \\frac{R}{2} = 3 \\text{ miles per hour}\n     \\]\n   - Solving for \\( R \\):\n     \\[\n     R = 6 \\text{ miles per hour}\n     \\]\n\n3. **Determine Dana's Walking Speed**:\n   - Dana runs 4 times faster than she walks.\n   - Let \\( W \\) be Dana's walking speed. We have:\n     \\[\n     4W = 6 \\text{ miles per hour}\n     \\]\n   - Solving for \\( W \\):\n     \\[\n     W = 1.5 \\text{ miles per hour}\n     \\]\n\n4. **Calculate Total Distance in 6 Hours**:\n   - Dana spends 1/3 of her time running and 2/3 of her time walking.\n   - Total time = 6 hours.\n\n5. **Calculate Distance Running**:\n   - Time spent running = \\( \\frac{1}{3} \\times 6 = 2 \\) hours.\n   - Distance running = Running speed \\(\\times\\) Time running = \\( 6 \\times 2 = 12 \\) miles.\n\n6. **Calculate Distance Walking**:\n   - Time spent walking = \\( \\frac{2}{3} \\times 6 = 4 \\) hours.\n   - Distance walking = Walking speed \\(\\times\\) Time walking = \\( 1.5 \\times 4 = 6 \\) miles.\n\n7. **Total Distance**:\n   - Total distance = Distance running + Distance walking = \\( 12 + 6 = 18 \\) miles.\n\n8. **Convert Miles to Kilometers**:\n   - 1 mile = 1.60934 kilometers.\n   - Total distance in kilometers = \\( 18 \\times 1.60934 = 28.96812 \\) kilometers.\n\n9. **Final Answer**:\n   - Rounding to the nearest whole number, Dana can travel approximately 29 kilometers.\n\nTherefore, the final answer is 29."]]
+Model Prediction / Ground Truth: 29 / 18
+Correct Predictions / Total Tests: 34 / 39
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 29: [73.32%]
+Current Accuracy: 87.18%
+----------------------
+----------------------
+Problem 45: メレディスは健康のトピックについて書き、毎日クライアントに提出することが本業の、フリーランスのブロガーです。ブログ記事は、リサーチして執筆するために平均4時間かかります。先週、月曜日に彼女は5記事書き、火曜日は月曜日の2/5倍の記事を書きました。水曜日、彼女は火曜日に書いた記事の数の倍の数を書きました。3日間で彼女は合計何時間、記事を書くことに使ったのかを計算しなさい。
+Reasoning step: [['To solve this problem, we need to calculate the total number of hours Meredith spent writing articles over the three days. We will break down the problem step by step:\n\n1. **Calculate the number of articles written each day:**\n\n   - **Monday:** Meredith wrote 5 articles.\n   - **Tuesday:** She wrote \\(\\frac{2}{5}\\) of the number of articles she wrote on Monday. Therefore, the number of articles written on Tuesday is:\n     \\[\n     \\frac{2}{5} \\times 5 = 2 \\text{ articles}\n     \\]\n\n   - **Wednesday:** She wrote twice the number of articles she wrote on Tuesday. Therefore, the number of articles written on Wednesday is:\n     \\[\n     2 \\times 2 = 4 \\text{ articles}\n     \\]\n\n2. **Calculate the total number of articles written over the three days:**\n\n   - Total articles = Articles on Monday + Articles on Tuesday + Articles on Wednesday\n   - Total articles = \\(5 + 2 + 4 = 11\\) articles\n\n3. **Calculate the total hours spent writing:**\n\n   Each article takes 4 hours to write. Therefore, the total number of hours spent writing the articles is:\n   \\[\n   11 \\text{ articles} \\times 4 \\text{ hours per article} = 44 \\text{ hours}\n   \\]\n\nThus, the total number of hours Meredith spent writing articles over the three days is 44.\n\nFinal answer without units: 44']]
+Model Prediction / Ground Truth: 44 / 104
+Correct Predictions / Total Tests: 39 / 45
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 44: [79.97%]
+Current Accuracy: 86.67%
+----------------------
+----------------------
+Problem 66: バスケットボールの大会で、4校が競っている。各学校が女子バスケットボールチームと男子バスケットボールチームを参加させており、各チーム5人いる。各学校はまた、コーチも1人参加させている。すべての学校で、全部で何人の人間が参加しているか？
+Reasoning step: [["To determine the total number of participants in the basketball tournament, let's break down the components step by step:\n\n1. **Number of Schools**: There are 4 schools participating.\n\n2. **Teams per School**: Each school has:\n    - 1 girls' basketball team\n    - 1 boys' basketball team\n\n3. **Players per Team**: Each team consists of 5 players.\n\n4. **Coaches per School**: Each school has 1 coach.\n\nNow, let's calculate the total number of participants:\n\n- **Total Players per School**:\n  - Girls' team: 5 players\n  - Boys' team: 5 players\n  - Total players per school = 5 (girls) + 5 (boys) = 10 players\n\n- **Total Participants per School (including the coach)**:\n  - Total players per school = 10\n  - Plus 1 coach = 10 + 1 = 11 participants per school\n\n- **Total Participants for all Schools**:\n  - Total participants per school = 11\n  - Total schools = 4\n  - Total participants = 11 participants/school * 4 schools = 44 participants\n\nThe final answer is 44."]]
+Model Prediction / Ground Truth: 44 / 48
+Correct Predictions / Total Tests: 59 / 66
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 44: [97.15%]
+Current Accuracy: 89.39%
+----------------------
+----------------------
+Problem 77: レイモンドがサラが洗濯した分の半分洗濯をして、サラはデイビッドと同じくらい洗濯をした場合、サラが400ポンド洗濯をしたら、レイモンドとデイビッドの洗濯した量はどれだけの違いがありますか。
+Reasoning step: [["To solve this problem, let's break it down step-by-step:\n\n1. **Identify the amount Sarah washed:**\n   - Sarah washed 400 pounds.\n\n2. **Determine how much David washed:**\n   - According to the problem, Sarah washed the same amount as David. Therefore, David also washed 400 pounds.\n\n3. **Determine how much Raymond washed:**\n   - Raymond washed half of what Sarah washed. Since Sarah washed 400 pounds, Raymond washed \\( \\frac{1}{2} \\times 400 = 200 \\) pounds.\n\n4. **Calculate the difference between what Raymond and David washed:**\n   - David washed 400 pounds.\n   - Raymond washed 200 pounds.\n   - The difference is \\( 400 - 200 = 200 \\) pounds.\n\nTherefore, the difference in the amount washed by Raymond and David is 200."]]
+Model Prediction / Ground Truth: 200 / 100
+Correct Predictions / Total Tests: 69 / 77
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 200: [92.67%]
+Current Accuracy: 89.61%
+----------------------
+----------------------
+Problem 80: 2人の少女がそれぞれ24リットルの水を6分の1飲んだ。それから男の子が水を6リットル飲んだ。何リットルの水が残ったか？
+Reasoning step: [["To solve the problem, let's break it down step by step:\n\n1. **Initial Amount of Water:**  \n   Each girl has 24 liters of water. Therefore, the total amount of water initially is \\( 24 \\, \\text{liters} \\times 2 = 48 \\, \\text{liters} \\).\n\n2. **Water Consumed by the Girls:**  \n   Each girl drinks \\(\\frac{1}{6}\\) of her 24 liters of water.  \n   \\(\\frac{1}{6} \\times 24 \\, \\text{liters} = 4 \\, \\text{liters}\\) per girl.  \n   Since there are two girls, the total amount of water consumed by the girls is \\( 4 \\, \\text{liters} \\times 2 = 8 \\, \\text{liters} \\).\n\n3. **Water Consumed by the Boy:**  \n   The boy drinks 6 liters of water.\n\n4. **Total Water Consumed:**  \n   The total amount of water consumed by both the girls and the boy is \\( 8 \\, \\text{liters} + 6 \\, \\text{liters} = 14 \\, \\text{liters} \\).\n\n5. **Water Remaining:**  \n   The initial amount of water was 48 liters, and 14 liters have been consumed.  \n   So, the amount of water remaining is \\( 48 \\, \\text{liters} - 14 \\, \\text{liters} = 34 \\, \\text{liters} \\).\n\nTherefore, the amount of water remaining is 34."]]
+Model Prediction / Ground Truth: 34 / 10
+Correct Predictions / Total Tests: 71 / 80
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 34: [97.53%]
+Current Accuracy: 88.75%
+----------------------
+----------------------
+Problem 87: ある企業は従業員に毎月$600払います。その会社は、5年間在籍した従業員の給料を毎年、当初の給料の10％ずつ増加させる方針を取り入れています。シルヴィーが、昨年の12月に、入社5年目を迎えた場合、彼女があと3年務めた後の年俸はいくらになりますか？
+Reasoning step: [["To determine Sylvie's annual salary after working for an additional 3 years beyond her 5th year, we need to follow these steps:\n\n1. **Determine Sylvie's initial monthly salary:**\n   Sylvie's initial monthly salary is $600.\n\n2. **Calculate Sylvie's annual salary at the start:**\n   \\[\n   \\text{Initial annual salary} = 600 \\times 12 = 7200\n   \\]\n\n3. **Calculate the salary increase after 5 years:**\n   Since Sylvie's salary increases by 10% each year starting from her 5th year, we first need to determine the salary after 5 years.\n\n4. **Calculate the salary incrementally for each year after the 5th year:**\n\n   - **Year 6 Salary:**\n     \\[\n     \\text{Year 6 salary} = 7200 \\times (1 + 0.10) = 7200 \\times 1.10 = 7920\n     \\]\n\n   - **Year 7 Salary:**\n     \\[\n     \\text{Year 7 salary} = 7920 \\times (1 + 0.10) = 7920 \\times 1.10 = 8712\n     \\]\n\n   - **Year 8 Salary:**\n     \\[\n     \\text{Year 8 salary} = 8712 \\times (1 + 0.10) = 8712 \\times 1.10 = 9583.2\n     \\]\n\n5. **Determine the final salary after 3 additional years:**\n   After 3 years following her 5th year, Sylvie's annual salary is $9583.2.\n\nTherefore, Sylvie's annual salary after working a total of 8 years is 9583.2."]]
+Model Prediction / Ground Truth: 9583 / 9360
+Correct Predictions / Total Tests: 77 / 87
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 9583: [12.57%]
+Current Accuracy: 88.51%
+----------------------
+----------------------
+Problem 88: マリリンの最初のレコードはハラルドの10倍売れました。彼らが合わせて88,000枚売っていた場合、ハラルドは何枚売りましたか？
+Reasoning step: [["To solve this problem, we need to set up an equation based on the information given. Let's break it down step by step:\n\n1. **Define Variables:**\n   - Let \\( x \\) be the number of records sold by Harald.\n\n2. **Express Marilyn's Sales:**\n   - According to the problem, Marilyn sold 10 times as many records as Harald. Therefore, Marilyn sold \\( 10x \\) records.\n\n3. **Set Up the Equation:**\n   - Together, they sold a total of 88,000 records. So, we can write the equation:\n     \\[\n     x + 10x = 88,000\n     \\]\n\n4. **Simplify the Equation:**\n   - Combine the terms on the left side:\n     \\[\n     11x = 88,000\n     \\]\n\n5. **Solve for \\( x \\):**\n   - Divide both sides of the equation by 11 to solve for \\( x \\):\n     \\[\n     x = \\frac{88,000}{11}\n     \\]\n   - Calculate the division:\n     \\[\n     x = 8,000\n     \\]\n\nThe number of records Harald sold is 8,000."]]
+Model Prediction / Ground Truth: 0 / 8000
+Correct Predictions / Total Tests: 77 / 88
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [92.84%]
+Current Accuracy: 87.50%
+----------------------
+----------------------
+Problem 89: クリスティーナは誕生日会を計画しており、4分の1の出席者は参加しないので、各招待客につき.75個のギフトバッグが必要です。彼女は16人の友人を招待しました。ギフトバッグはそれぞれ$2です。彼女はいくら使うことになりますか？
+Reasoning step: [['To determine how much Christina will spend on gift bags for her birthday party, we can follow these steps:\n\n1. **Calculate the Number of Attendees:**\n   Christina invited 16 friends, but 1/4 of them will not attend. Therefore, the number of attendees will be:\n   \\[\n   \\text{Number of attendees} = 16 \\times \\left(1 - \\frac{1}{4}\\right) = 16 \\times \\frac{3}{4} = 12\n   \\]\n\n2. **Calculate the Total Number of Gift Bags Needed:**\n   Christina needs 0.75 gift bags per attendee. Therefore, the total number of gift bags needed will be:\n   \\[\n   \\text{Total gift bags} = 12 \\times 0.75 = 9\n   \\]\n\n3. **Calculate the Total Cost:**\n   Each gift bag costs $2. Therefore, the total cost for the gift bags will be:\n   \\[\n   \\text{Total cost} = 9 \\times 2 = 18\n   \\]\n\nTherefore, Christina will spend a total of $18 on gift bags. The final answer is 18.']]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 77 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [79.55%]
+Current Accuracy: 86.52%
+----------------------
+----------------------
+Problem 100: ジェロームは特定の日に彼を訪ねてくる4人の友達がいます。最初の友達はジェロームがドアを開けるまでに、20回呼び鈴を鳴らし、2人目の友達はジェロームの最初の友達の1/4回鳴らしました。3人目の友達は呼び鈴を4人目の友達よりも10回多く鳴らしました。もしも4人目の友達が呼び鈴を60回鳴らしたら、呼び鈴は何回鳴りましたか？
+Reasoning step: [["To solve this problem, we need to determine the total number of times the doorbell was rung by all four of Jerome's friends. Let's break it down step by step:\n\n1. **First Friend:**\n   - The first friend rings the doorbell 20 times.\n\n2. **Second Friend:**\n   - The second friend rings the doorbell 1/4 as many times as the first friend.\n   - Calculation: \\( \\frac{1}{4} \\times 20 = 5 \\) times.\n\n3. **Fourth Friend:**\n   - We are given that the fourth friend rings the doorbell 60 times.\n\n4. **Third Friend:**\n   - The third friend rings the doorbell 10 more times than the fourth friend.\n   - Calculation: \\( 60 + 10 = 70 \\) times.\n\nNow, we sum up the number of times each friend rings the doorbell to find the total:\n\n- First friend: 20 times\n- Second friend: 5 times\n- Third friend: 70 times\n- Fourth friend: 60 times\n\nTotal number of times the doorbell was rung:\n\n\\[ 20 + 5 + 70 + 60 = 155 \\]\n\nThe final answer, without units, is 155."]]
+Model Prediction / Ground Truth: 155 / 175
+Correct Predictions / Total Tests: 87 / 100
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 155: [44.11%]
+Current Accuracy: 87.00%
+----------------------
+----------------------
+Problem 104: ポピーは1000ピースのジグソーパズルを解いている。彼女は4分の1のピースをボードにはめて、彼女の母親が残りの3分の1をはめる。残りいくつのパズルのピースがはめられずに残っている？
+Reasoning step: [["To solve this problem, let's break down the steps:\n\n1. **Understand the Total Number of Pieces**: \n   The jigsaw puzzle has a total of 1000 pieces.\n\n2. **Calculate Pieces Fitted by Poppy**:\n   Poppy fits \\(\\frac{1}{4}\\) of the total pieces. \n   \\[\n   \\frac{1}{4} \\times 1000 = 250 \n   \\]\n   So, Poppy fits 250 pieces.\n\n3. **Calculate Pieces Fitted by Her Mother**:\n   Her mother fits \\(\\frac{1}{3}\\) of the total pieces.\n   \\[\n   \\frac{1}{3} \\times 1000 = 333.33 \n   \\]\n   Since the number of pieces must be a whole number, we round this down to 333 pieces because you can't fit a fraction of a piece.\n\n4. **Calculate Total Pieces Fitted**:\n   Add the number of pieces fitted by Poppy and her mother.\n   \\[\n   250 + 333 = 583 \n   \\]\n\n5. **Calculate Remaining Pieces**:\n   Subtract the total number of fitted pieces from the total number of pieces.\n   \\[\n   1000 - 583 = 417 \n   \\]\n\nTherefore, the number of pieces that remain unfitted is 417.\n\nFinal answer: 417"]]
+Model Prediction / Ground Truth: 417 / 500
+Correct Predictions / Total Tests: 90 / 104
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 417: [20.11%]
+Current Accuracy: 86.54%
+----------------------
+----------------------
+Problem 111: ジュリアのボートが、湖を運転中に水漏れを起こした。ボートは彼女が岸辺に向かい10フィートこぐたびに、2リットルの水が入っか。岸辺は64秒先だった。ジュリアが岸辺にたどり着くまでに、どれだけの水がボートに入ったか？
+Reasoning step: [["To solve this problem, let's break it down step-by-step:\n\n1. **Understand the Problem**: \n   - Julia's boat is leaking while she is rowing towards the shore.\n   - For every 10 feet she rows, 2 liters of water enter the boat.\n   - The shore is 64 seconds away.\n\n2. **Determine Rowing Speed**:\n   - To find out how much water enters by the time she reaches the shore, we need to know how many feet she rows in 64 seconds.\n   - Let's assume her rowing speed is constant. However, the problem doesn't provide a direct speed in feet per second or per minute, so we'll need to make an assumption or deduce it from given information.\n\n3. **Calculate Total Distance**:\n   - The problem doesn't give the speed in feet per second but mentions the shore is 64 seconds away. \n   - Without speed, it's challenging to calculate the exact distance, but the key information is how much water enters per 10 feet, not the actual distance in feet.\n   - Assuming she rows at a speed of \\( x \\) feet per second, in 64 seconds, she would row \\( 64x \\) feet.\n\n4. **Determine Water Intake Frequency**:\n   - Every 10 feet, 2 liters of water enter the boat.\n   - Thus, for every 10 feet, the boat takes on 2 liters of water.\n\n5. **Calculate Total Water Intake**:\n   - To find out how much water enters by the time she reaches the shore:\n     - If she rows \\( 64x \\) feet in 64 seconds, then the number of 10-feet segments she rows is \\( \\frac{64x}{10} \\).\n     - Therefore, the total amount of water in liters that enters the boat is \\( \\frac{64x}{10} \\times 2 \\).\n\n6. **Final Calculation**:\n   - Simplify the expression: \\( \\frac{64x}{10} \\times 2 = \\frac{128x}{10} = 12.8x \\).\n\nSince we don't have the exact value of \\( x \\) (feet per second), the answer is expressed in terms of \\( x \\). However, the final numerical answer depends on the rowing speed \\( x \\), which isn't provided explicitly in the problem. If \\( x \\) were provided, we could substitute it to find the exact liters of water. \n\nBut, to follow the problem's constraint of providing a final number without units, we assume there's an interpretation or further instruction missing in the problem. If we assume a reasonable rowing speed or if any additional data were provided, that would be used here.\n\nIn conclusion, without the specific speed \\( x \\), we cannot provide a single numerical answer, but the expression for the final answer in terms of \\( x \\) is:\n\n**12.8x** \n\n(Note: If additional information or assumptions are made, such as a typical rowing speed, that value can be used to compute a specific number.)"]]
+Model Prediction / Ground Truth: 13 / 16
+Correct Predictions / Total Tests: 96 / 111
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 13: [10.06%]
+Current Accuracy: 86.49%
+----------------------
+----------------------
+Problem 119: エイドリアンの給与総額は、リリアの給与よりも30%高い。4年後、彼の給与は上がり、4年前と比べて、40%収入を増やしていた。エイドリアンとリリアの給与が、同時に上がっていた場合、そしてエイドリアンが4年前、$40000稼いでいた場合、彼ら二人が4年後に受けとっか給与総額はいくらになりますか？
+Reasoning step: [["To solve this problem, we need to determine the salaries of Adrian and Lilia after 4 years, given the conditions in the problem.\n\n1. **Initial Salary of Adrian:**\n   - Adrian's salary 4 years ago was $40,000.\n\n2. **Adrian's Salary 4 Years Later:**\n   - After 4 years, Adrian's salary increased by 40% compared to 4 years ago.\n   - New Salary of Adrian = $40,000 + 40% of $40,000\n   - New Salary of Adrian = $40,000 + ($40,000 * 0.40)\n   - New Salary of Adrian = $40,000 + $16,000\n   - New Salary of Adrian = $56,000\n\n3. **Determine Lilia's Salary 4 Years Ago:**\n   - Let Lilia's salary 4 years ago be \\( x \\).\n   - Adrian's salary was 30% higher than Lilia's salary 4 years ago.\n   - Therefore, $40,000 = x + 30% of x\n   - $40,000 = x + 0.30x\n   - $40,000 = 1.30x\n   - Solving for \\( x \\), we get:\n   - \\( x = \\frac{$40,000}{1.30} \\)\n   - \\( x = $30,769.23 \\) (approximately)\n\n4. **Lilia's Salary 4 Years Later:**\n   - Assuming Lilia's salary also increased by the same 40% in 4 years.\n   - New Salary of Lilia = $30,769.23 + 40% of $30,769.23\n   - New Salary of Lilia = $30,769.23 + ($30,769.23 * 0.40)\n   - New Salary of Lilia = $30,769.23 + $12,307.69\n   - New Salary of Lilia = $43,076.92 (approximately)\n\n5. **Total Combined Salary 4 Years Later:**\n   - Total Salary = Adrian's New Salary + Lilia's New Salary\n   - Total Salary = $56,000 + $43,076.92\n   - Total Salary = $99,076.92\n\nThe combined total salary they will receive 4 years from now is approximately $99,076.92. Thus, the final numerical answer is:\n\n99076"]]
+Model Prediction / Ground Truth: 99076 / 95200
+Correct Predictions / Total Tests: 103 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 99076: [66.64%]
+Current Accuracy: 86.55%
+----------------------
+----------------------
+Problem 129: ある病院は500人の患者を毎日診察します。それぞれの患者は平均24分間診察されます。医者は病院に、1時間$150請求します。病院は患者に1時間$200請求します。病院はこれらの診察でいくら収益を得られますか？
+Reasoning step: [['To determine the revenue the hospital earns from these consultations, we can follow these steps:\n\n1. **Calculate the total consultation time for all patients in a day**:\n   - Each patient is seen for 24 minutes.\n   - There are 500 patients per day.\n   - Total consultation time = 500 patients × 24 minutes/patient = 12,000 minutes.\n\n2. **Convert the total consultation time to hours**:\n   - There are 60 minutes in an hour.\n   - Total consultation time in hours = 12,000 minutes ÷ 60 minutes/hour = 200 hours.\n\n3. **Calculate the revenue earned by the hospital from the patients**:\n   - The hospital charges patients $200 per hour.\n   - Revenue from patients = 200 hours × $200/hour = $40,000.\n\n4. **Calculate the cost to the hospital to pay the doctors**:\n   - The doctors charge the hospital $150 per hour.\n   - Total cost to the hospital for doctors = 200 hours × $150/hour = $30,000.\n\n5. **Calculate the net revenue (profit) for the hospital**:\n   - Net revenue = Revenue from patients - Cost to doctors\n   - Net revenue = $40,000 - $30,000 = $10,000.\n\nTherefore, the hospital earns a revenue of $10,000 from these consultations. The final answer is 10,000.']]
+Model Prediction / Ground Truth: 0 / 10000
+Correct Predictions / Total Tests: 112 / 129
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [73.59%]
+Current Accuracy: 86.82%
+----------------------
+----------------------
+Problem 135: ブライアンの友達ボビーは、ブライアンが所持するゲームの数の3倍よりも5個少ないゲームを持っています。もしもブライアンが20個のビデオゲームを持っていて、比較する直前に5個なくしていた場合、ボビーはゲームを何個もっていますか？
+Reasoning step: [["To determine how many games Bobby has, follow these steps:\n\n1. **Determine the initial number of games Brian had:**\n   Brian initially had 20 games but lost 5 just before the comparison. Therefore, the number of games he had before losing any was:\n   \\[\n   20 + 5 = 25\n   \\]\n\n2. **Calculate three times the initial number of Brian's games:**\n   Since Bobby has 5 fewer than three times the number of games Brian had initially, first calculate three times Brian's initial count:\n   \\[\n   3 \\times 25 = 75\n   \\]\n\n3. **Calculate the number of games Bobby has:**\n   Bobby has 5 fewer games than the result from the previous step, so:\n   \\[\n   75 - 5 = 70\n   \\]\n\nThe final answer is that Bobby has 70 games."]]
+Model Prediction / Ground Truth: 70 / 40
+Correct Predictions / Total Tests: 117 / 135
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 70: [96.91%]
+Current Accuracy: 86.67%
+----------------------
+----------------------
+Problem 139: キャンディーマシーンには、青いガムボールの数の4倍の数のピンクのガムボールが入っている。12個の青いガムボールが入っているとすると、ピンクはいくつあるか？
+Reasoning step: [['To solve this problem, we need to determine the number of pink gumballs in the machine, given the relationship between the blue and pink gumballs.\n\nStep 1: Identify the number of blue gumballs.\n- We are given that there are 12 blue gumballs.\n\nStep 2: Understand the relationship between blue and pink gumballs.\n- The problem states that the number of pink gumballs is 4 times the number of blue gumballs.\n\nStep 3: Calculate the number of pink gumballs.\n- Since there are 12 blue gumballs, the number of pink gumballs is 4 times 12.\n\nStep 4: Perform the multiplication.\n- \\(4 \\times 12 = 48\\).\n\nThus, there are 48 pink gumballs in the machine. The final answer is 48.']]
+Model Prediction / Ground Truth: 48 / 70
+Correct Predictions / Total Tests: 120 / 139
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 48: [96.65%]
+Current Accuracy: 86.33%
+----------------------
+----------------------
+Problem 141: 700匹の蜂が蜂の巣にいる。赤ちゃんの鉢の12倍、働き蜂がおり、女王蜂の2倍の赤ちゃんの蜂がいる。何匹の働き蜂がいますか？
+Reasoning step: [["To solve this problem, we need to set up equations based on the information given and then solve for the number of worker bees.\n\nLet's define the variables:\n- Let \\( x \\) be the number of queen bees.\n- Let \\( y \\) be the number of baby bees.\n- Let \\( z \\) be the number of worker bees.\n\nFrom the problem, we have the following information:\n1. The total number of bees is 700.\n   \\[\n   x + y + z = 700\n   \\]\n\n2. The number of worker bees is 12 times the number of baby bees.\n   \\[\n   z = 12y\n   \\]\n\n3. The number of baby bees is twice the number of queen bees.\n   \\[\n   y = 2x\n   \\]\n\nNow, we have a system of three equations:\n\\[\n1. \\quad x + y + z = 700\n\\]\n\\[\n2. \\quad z = 12y\n\\]\n\\[\n3. \\quad y = 2x\n\\]\n\nSubstitute equation (3) into equation (1):\n\\[\nx + 2x + z = 700\n\\]\n\\[\n3x + z = 700\n\\]\n\nNow substitute equation (2) into the modified equation (1):\n\\[\n3x + 12y = 700\n\\]\n\nSubstitute equation (3) into this equation:\n\\[\n3x + 12(2x) = 700\n\\]\n\\[\n3x + 24x = 700\n\\]\n\\[\n27x = 700\n\\]\n\nSolve for \\( x \\):\n\\[\nx = \\frac{700}{27}\n\\]\n\nThis gives an approximate value of \\( x \\), which isn't a whole number, meaning I made a mistake in the substitution. Let's fix it:\n\nSubstitute equation (3) into equation (2) correctly:\n\\[\nz = 12(2x) = 24x\n\\]\n\nSubstitute back into the equation for the total number of bees:\n\\[\nx + 2x + 24x = 700\n\\]\n\\[\n27x = 700\n\\]\n\nSolve for \\( x \\):\n\\[\nx = \\frac{700}{27}\n\\]\n\nCalculate the number of baby bees \\( y \\):\n\\[\ny = 2x = 2 \\left(\\frac{700}{27}\\right) = \\frac{1400}{27}\n\\]\n\nCalculate the number of worker bees \\( z \\):\n\\[\nz = 24x = 24 \\left(\\frac{700}{27}\\right) = \\frac{16800}{27}\n\\]\n\nThe final number of worker bees, rounded to the nearest whole number, is:\n\\[\nz \\approx 622\n\\]\n\nSo, the number of worker bees is approximately:\n\\[\n622\n\\]"]]
+Model Prediction / Ground Truth: 622 / 400
+Correct Predictions / Total Tests: 121 / 141
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 622: [12.40%]
+Current Accuracy: 85.82%
+----------------------
+----------------------
+Problem 147: デボラは、ミツバチの巣箱を監視し、1日に何匹のミツバチが出入りしているかをみています。最初の6時間に、巣箱から30匹のハチが出て行き、そのうちの2分の1が6時間以内に戻ってきたのを確認します。彼女は最初に巣箱を出て行ったハチの2倍の数のハチが、次の6時間で巣箱から飛び立ち、去っていくのを見ました。それから、先に出て行ったハチのうち、まだ戻っていないハチが、次の6時間で巣に戻ってきます。デボラはその日の最後の6時間で何匹のハチが、巣箱に戻ってくるのを見ますか？
+Reasoning step: [['To solve this problem, we need to follow the sequence of events and calculations described:\n\n1. **Initial Departure:** In the first 6 hours, 30 bees leave the hive. Out of these, half return within the same 6 hours. \n   - Bees returning: \\( \\frac{30}{2} = 15 \\)\n   - Bees not returning in the first 6 hours: \\( 30 - 15 = 15 \\)\n\n2. **Second Departure:** In the next 6 hours, twice the number of bees that initially left (30) fly away. \n   - Bees leaving: \\( 2 \\times 30 = 60 \\)\n\n3. **Returning Bees in the Next 6 Hours:** During this period, the bees that did not return in the first 6 hours (15 bees) return to the hive.\n\n4. **Final 6 Hours:** In the final 6 hours, we are interested in how many bees return to the hive. According to the problem, only the bees that were still outside from the initial departure and not yet returned come back during this period. Since all 15 of these bees returned in the previous 6-hour period, and there is no mention of any other bees returning during the final period, no additional bees return in the last 6 hours.\n\nTherefore, the number of bees that return to the hive in the last 6 hours is:\n0']]
+Model Prediction / Ground Truth: 0 / 75
+Correct Predictions / Total Tests: 126 / 147
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [44.13%]
+Current Accuracy: 85.71%
+----------------------
+----------------------
+Problem 151: ショーンダは近所の子供達が本当に自転車の空気入れサービスを使えると決めた。彼女は、タイヤごとに請求することが最適だと決めた。各タイヤを膨らませるためには25セントかかる。最初の日、5人が自転車で、双方のタイヤを膨らませにきた。3人は、三輪車のタイヤをすべて膨らましにきた。最後に、1人が一輪車できた。彼女はその日、いくら稼いだか？
+Reasoning step: [['To determine how much ショーンダ earned on the first day, we need to calculate the total number of tires she inflated and multiply that by the cost per tire.\n\n1. **Bicycles:** \n   - Each bicycle has 2 tires.\n   - 5 people came with bicycles.\n   - Total bicycle tires = 5 bicycles × 2 tires/bicycle = 10 tires.\n\n2. **Tricycles:**\n   - Each tricycle has 3 tires.\n   - 3 people came with tricycles.\n   - Total tricycle tires = 3 tricycles × 3 tires/tricycle = 9 tires.\n\n3. **Unicycle:**\n   - A unicycle has 1 tire.\n   - 1 person came with a unicycle.\n   - Total unicycle tires = 1 tire.\n\n4. **Total tires inflated:**\n   - Total tires = 10 (bicycles) + 9 (tricycles) + 1 (unicycle) = 20 tires.\n\n5. **Cost per tire:**\n   - It costs 25 cents to inflate each tire.\n\n6. **Total earnings:**\n   - Total earnings = 20 tires × 25 cents/tire = 500 cents.\n\n7. **Convert to dollars (if necessary):**\n   - Since the question does not specify the need to convert to dollars, we can leave the answer in cents.\n\nThus, ショーンダ earned a total of 500 cents on the first day. \n\nFinal answer: 500']]
+Model Prediction / Ground Truth: 500 / 5
+Correct Predictions / Total Tests: 129 / 151
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 500: [32.64%]
+Current Accuracy: 85.43%
+----------------------
+----------------------
+Problem 153: デイブはフライドポテトの大きなパックを購入し、お腹がすいたカモメがパックを彼の手から奪うまえに14個食べました。カモメは地上に降りて、デイブが食べたフライドポテトの半分を貪りました。それから3匹の鳩が彼から食べ物を奪い、それぞれ3本のポテトを食べました。後から、アライグマが残ったポテトの3分の2を奪いました。アリが最後のフライドポテトを運んで行き、5つ残りました。デイブが買った時、何本のフライドポテトがパックに入っていましたか？
+Reasoning step: [["To solve this problem, we will work our way backward from the end to determine how many fries were in the pack initially.\n\n1. **Final State:** There are 5 fries left after all the events have occurred.\n\n2. **Raccoon's Action:** The raccoon takes 2/3 of the remaining fries. Since 5 fries are left after this, it implies that these 5 fries represent the 1/3 that the raccoon did not take. Therefore, the total number of fries before the raccoon took any was:\n   \\[\n   x - \\frac{2}{3}x = 5 \\quad \\Rightarrow \\quad \\frac{1}{3}x = 5 \\quad \\Rightarrow \\quad x = 15\n   \\]\n   So, there were 15 fries before the raccoon took any.\n\n3. **Pigeons' Action:** 3 pigeons each ate 3 fries, totaling 9 fries. Before the pigeons ate, there were:\n   \\[\n   15 + 9 = 24 \\text{ fries}\n   \\]\n\n4. **Seagull's Action:** The seagull ate half of what Dave ate, which is 7 fries (half of 14). Before the pigeons and seagull ate, there were:\n   \\[\n   24 + 7 = 31 \\text{ fries}\n   \\]\n\n5. **Initial Count:** Dave initially ate 14 fries. Adding these to the fries before the seagull ate gives us the total fries initially in the pack:\n   \\[\n   31 + 14 = 45\n   \\]\n\nTherefore, when Dave bought the pack, there were initially **45** fries."]]
+Model Prediction / Ground Truth: 45 / 48
+Correct Predictions / Total Tests: 130 / 153
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 45: [72.41%]
+Current Accuracy: 84.97%
+----------------------
+----------------------
+Problem 171: ジェイクは昆虫博物館まで歩いている。彼は8本足の蜘蛛を80匹、6本足の虫を90匹、それぞれ10本の足がある希少な変異体の無脊椎動物を見る。ジェイクは全部で何本の足を見る？
+Reasoning step: [['To find out the total number of legs that Jake sees, we need to calculate the number of legs contributed by each type of creature and then sum them all up.\n\n1. **Spiders:**\n   - Each spider has 8 legs.\n   - Jake sees 80 spiders.\n   - Total legs from spiders = 8 legs/spider × 80 spiders = 640 legs.\n\n2. **Insects:**\n   - Each insect has 6 legs.\n   - Jake sees 90 insects.\n   - Total legs from insects = 6 legs/insect × 90 insects = 540 legs.\n\n3. **Rare Mutant Invertebrates:**\n   - Each rare mutant invertebrate has 10 legs.\n   - The number of rare mutant invertebrates is not explicitly given in the problem, so we assume there is 1 such creature (since no specific number is provided beyond the context).\n   - Total legs from rare mutant invertebrates = 10 legs/creature × 1 creature = 10 legs.\n\nNow, we add up all the legs:\n\n- Total legs = Legs from spiders + Legs from insects + Legs from rare mutant invertebrates\n- Total legs = 640 legs + 540 legs + 10 legs = 1190 legs\n\nTherefore, Jake sees a total of 1190 legs. \n\nFinal Answer: 1190']]
+Model Prediction / Ground Truth: 1190 / 1210
+Correct Predictions / Total Tests: 147 / 171
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 1190: [50.79%]
+Current Accuracy: 85.96%
+----------------------
+----------------------
+Problem 177: ゼイドは彼の給料の1/4を家賃に使用し、1/3を車の燃料に仕位、残りの半分を彼の好きなチャリティに寄付している。彼は娘に毎週の出費用に200ドル、妻に食料品や家庭用品用に700ドル渡している。ゼイドが6000ドル月に稼いでる場合、これらの出費と寄付の後にいくら残っているか？
+Reasoning step: [["To find out how much money Zaid has left after all his expenses and donations, we need to calculate each of his expenses from his monthly salary and then subtract them from his total income.\n\n1. **Calculate the house rent:**\n   - Zaid uses 1/4 of his salary for rent.\n   - Rent = (1/4) * 6000 = 1500 dollars\n\n2. **Calculate the car fuel expense:**\n   - Zaid uses 1/3 of his salary for car fuel.\n   - Car fuel = (1/3) * 6000 = 2000 dollars\n\n3. **Calculate the amount donated to charity:**\n   - After paying for rent and car fuel, the remaining amount is used for other expenses and charity.\n   - Remaining after rent and fuel = 6000 - 1500 - 2000 = 2500 dollars\n   - Zaid donates half of the remaining amount to charity.\n   - Charity donation = (1/2) * 2500 = 1250 dollars\n\n4. **Calculate weekly expenses for his daughter:**\n   - Zaid gives his daughter 200 dollars weekly.\n   - Since a month has approximately 4 weeks, monthly expense for daughter = 200 * 4 = 800 dollars\n\n5. **Calculate expenses for his wife:**\n   - Zaid gives his wife 700 dollars for groceries and household items.\n\n6. **Calculate total expenses:**\n   - Total expenses = Rent + Car fuel + Charity donation + Daughter's expenses + Wife's expenses\n   - Total expenses = 1500 + 2000 + 1250 + 800 + 700 = 6250 dollars\n\n7. **Calculate remaining amount after all expenses:**\n   - Remaining amount = Total income - Total expenses\n   - Remaining amount = 6000 - 6250 = -250\n\nThus, Zaid has -250 dollars remaining after all expenses, indicating he is overspending by 250 dollars. The final answer is -250."]]
+Model Prediction / Ground Truth: -250 / 350
+Correct Predictions / Total Tests: 152 / 177
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: -250: [21.29%]
+Current Accuracy: 85.88%
+----------------------
+----------------------
+Problem 182: ジェーンはマークよりも2歳年上だ。2年前、マークはジャンの年の半分よりも5個上の年だった。もしジャンが30歳なら、ジェーンは何歳？
+Reasoning step: [["To solve this problem, we need to determine Jane's current age given the information about her and Mark's ages.\n\n1. **Understand the Information:**\n   - Jane is 2 years older than Mark.\n   - 2 years ago, Mark's age was 5 more than half of Jane's age at that time.\n   - Jan is currently 30 years old.\n\n2. **Set Up Variables:**\n   - Let \\( J \\) be Jane's current age.\n   - Let \\( M \\) be Mark's current age.\n\n3. **Translate the Given Information into Equations:**\n   - From the first piece of information: \n     \\[ J = M + 2 \\]\n\n   - From the second piece of information (2 years ago):\n     - Jane's age 2 years ago was \\( J - 2 \\).\n     - Mark's age 2 years ago was \\( M - 2 \\).\n     - According to the problem, 2 years ago, Mark's age was 5 more than half of Jane's age at that time:\n     \\[ M - 2 = \\frac{1}{2}(J - 2) + 5 \\]\n\n4. **Solve the Equations:**\n   - Substitute \\( J = M + 2 \\) into the second equation:\n     \\[\n     M - 2 = \\frac{1}{2}((M + 2) - 2) + 5\n     \\]\n   - Simplify:\n     \\[\n     M - 2 = \\frac{1}{2}(M) + 5\n     \\]\n   - Multiply every term by 2 to eliminate the fraction:\n     \\[\n     2(M - 2) = M + 10\n     \\]\n   - Simplify:\n     \\[\n     2M - 4 = M + 10\n     \\]\n   - Rearrange to solve for \\( M \\):\n     \\[\n     2M - M = 10 + 4\n     \\]\n     \\[\n     M = 14\n     \\]\n\n5. **Find Jane's Age:**\n   - We have \\( J = M + 2 \\), so substitute the value of \\( M \\):\n     \\[\n     J = 14 + 2 = 16\n     \\]\n\nThus, Jane is currently 16 years old. The final answer is: \n\n16"]]
+Model Prediction / Ground Truth: 16 / 23
+Correct Predictions / Total Tests: 156 / 182
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 16: [23.80%]
+Current Accuracy: 85.71%
+----------------------
+----------------------
+Problem 197: ソーダ市には住民が23,786人いる。これには8,417人の男性と9,092人の女性が含まれる。人口の残りは子どもである。ソーダ市にいる子どもの数は何人か？
+Reasoning step: [['To find the number of children in Soda City, follow these steps:\n\n1. **Determine the total population of Soda City**:  \n   The total population is given as 23,786.\n\n2. **Determine the number of adults (men and women)**:  \n   The number of men is 8,417 and the number of women is 9,092.\n\n3. **Calculate the total number of adults**:  \n   Add the number of men and women:  \n   \\( 8,417 + 9,092 = 17,509 \\)\n\n4. **Calculate the number of children**:  \n   Subtract the total number of adults from the total population to find the number of children:  \n   \\( 23,786 - 17,509 = 6,277 \\)\n\nThe number of children in Soda City is 6,277.']]
+Model Prediction / Ground Truth: 277 / 6277
+Correct Predictions / Total Tests: 170 / 197
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 277: [98.31%]
+Current Accuracy: 86.29%
+----------------------
+----------------------
+Problem 201: ジョンは仕事で賞を受賞した。この賞は5,000ドルの一時金と給料の5%アップを伴う。もしジョンが年間を通して毎週2,000ドル稼いでいて、1年の最初の日にこの賞を受け取っていた場合、ジョンはその年いくら受け取っていたか？
+Reasoning step: [["To determine how much John received in total for the year after being awarded, we can follow these steps:\n\n1. **Calculate John's original annual salary:**\n   - John earns $2,000 per week.\n   - There are 52 weeks in a year.\n   - Original annual salary = $2,000/week * 52 weeks = $104,000\n\n2. **Calculate the salary increase due to the award:**\n   - The award includes a 5% salary increase.\n   - Increase in salary = 5% of $104,000 = 0.05 * $104,000 = $5,200\n\n3. **Calculate the new annual salary after the salary increase:**\n   - New annual salary = Original annual salary + Increase in salary\n   - New annual salary = $104,000 + $5,200 = $109,200\n\n4. **Add the one-time award payment:**\n   - The award also includes a $5,000 one-time payment.\n   - Total amount received = New annual salary + One-time payment\n   - Total amount received = $109,200 + $5,000 = $114,200\n\nTherefore, the total amount John received for the year after the award is $114,200. The final answer is:\n\n114,200"]]
+Model Prediction / Ground Truth: 200 / 114200
+Correct Predictions / Total Tests: 173 / 201
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 200: [85.77%]
+Current Accuracy: 86.07%
+----------------------
+----------------------
+Problem 205: ブリンリーはバート先生の数学の授業を受けています。バート先生はセメスターごとに6回テストを行います。彼は、各セメスターで最も低いスコアを、平均点から取り除くことを生徒に許可しています。ブリンリーがもし、最初の5回のテストで89、71、92、100そして86点を取ったら、彼女が平均で93点を取るには、6回目のテストで何点取る必要がありますか？
+Reasoning step: [['To determine the score Brinley needs on her 6th test to achieve an average of 93, we can follow these steps:\n\n1. **Calculate the Total Required for the Average:**\n\n   Since the average (mean) is the sum of all scores divided by the number of scores, we can express it as follows for 6 tests:\n\n   \\[\n   \\text{Average} = \\frac{\\text{Sum of scores}}{\\text{Number of tests}}\n   \\]\n\n   Given that Brinley wants an average of 93 across 6 tests, the equation becomes:\n\n   \\[\n   93 = \\frac{\\text{Sum of scores}}{6}\n   \\]\n\n   So, the total sum of scores required is:\n\n   \\[\n   \\text{Sum of scores} = 93 \\times 6 = 558\n   \\]\n\n2. **Calculate the Current Total from the First 5 Tests:**\n\n   Add up the scores from the first 5 tests:\n\n   \\[\n   89 + 71 + 92 + 100 + 86 = 438\n   \\]\n\n3. **Consider Dropping the Lowest Score:**\n\n   Brinley is allowed to drop the lowest score among the 6 tests. Currently, her lowest score from the first 5 tests is 71. Dropping this score, the sum of her top 4 scores is:\n\n   \\[\n   89 + 92 + 100 + 86 = 367\n   \\]\n\n4. **Determine the Score Needed on the 6th Test:**\n\n   To achieve the target total of 558 (after dropping the lowest score), we need to include the 6th score. The equation becomes:\n\n   \\[\n   367 + \\text{6th score} = 558\n   \\]\n\n   Solving for the 6th score:\n\n   \\[\n   \\text{6th score} = 558 - 367 = 191\n   \\]\n\nTherefore, Brinley needs to score **191** on her 6th test to achieve an average of 93, after dropping her lowest score.']]
+Model Prediction / Ground Truth: 93 / 98
+Correct Predictions / Total Tests: 176 / 205
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 93: [88.36%]
+Current Accuracy: 85.85%
+----------------------
+----------------------
+Problem 209: 20ダースのカップは、$6000で売られている半ダースの皿の総額よりも、$1200安いです。それぞれのカップを購入する際の総額を計算しなさい。
+Reasoning step: [['To solve this problem, we need to follow these steps:\n\n1. **Understanding the problem:**\n   - We are given that 20 dozen cups are $1200 less than the total cost of half a dozen plates sold for $6000.\n\n2. **Calculate the total cost of half a dozen plates:**\n   - Half a dozen means 6 plates.\n   - The total cost of 6 plates is given as $6000.\n\n3. **Determine the cost difference:**\n   - The cost of 20 dozen cups is $1200 less than the total cost of the plates.\n   - Therefore, the cost of 20 dozen cups = $6000 - $1200.\n\n4. **Compute the cost of 20 dozen cups:**\n   - $6000 - $1200 = $4800.\n\n5. **Determine the total cost for each cup:**\n   - 1 dozen equals 12 cups.\n   - Therefore, 20 dozen cups = 20 × 12 = 240 cups.\n\n6. **Calculate the cost per cup:**\n   - Total cost for 240 cups is $4800.\n   - To find the cost per cup, divide the total cost by the number of cups: $4800 ÷ 240.\n\n7. **Final Calculation:**\n   - $4800 ÷ 240 = $20 per cup.\n\nTherefore, the cost of purchasing each cup is 20.']]
+Model Prediction / Ground Truth: 20 / 145
+Correct Predictions / Total Tests: 179 / 209
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 20: [68.83%]
+Current Accuracy: 85.65%
+----------------------
+----------------------
+Problem 223: ある会社が1年間で15,000ドルの広告費を使い、その3分の1の額を次の年に使いました。2年間で会社が払った広告費の合計はいくらですか？
+Reasoning step: [["To solve this problem, let's break it down step by step:\n\n1. **Determine the amount spent in the first year:**\n   - The company spent $15,000 on advertising in the first year.\n\n2. **Calculate the amount spent in the second year:**\n   - The company spent one-third of the first year's amount in the second year.\n   - One-third of $15,000 is calculated as: \n     \\[\n     \\frac{1}{3} \\times 15,000 = 5,000\n     \\]\n\n3. **Calculate the total advertising expenses over the two years:**\n   - Add the amount spent in the first year to the amount spent in the second year:\n     \\[\n     15,000 + 5,000 = 20,000\n     \\]\n\nThus, the total amount spent on advertising over the two years is 20,000."]]
+Model Prediction / Ground Truth: 0 / 20000
+Correct Predictions / Total Tests: 192 / 223
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [92.50%]
+Current Accuracy: 86.10%
+----------------------
+----------------------
+Problem 226: ジェームズはポケモンカードを数えています。彼は30枚の炎タイプ、20枚の草タイプ、そして40枚の水タイプがあります。もしも彼が8枚の水タイプをなくし、14枚の草タイプを購入すれば、偶然選んだカードが水タイプになる確率は何になりますか（小数点以下四捨五入）？
+Reasoning step: [['To solve this problem, we need to follow these steps:\n\n1. **Determine the initial count of each type of card:**\n   - Fire type: 30 cards\n   - Grass type: 20 cards\n   - Water type: 40 cards\n\n2. **Account for changes in the number of cards:**\n   - Water type cards: James loses 8 water type cards.\n     \\[\n     40 - 8 = 32 \\text{ water type cards remaining}\n     \\]\n   - Grass type cards: James purchases 14 more grass type cards.\n     \\[\n     20 + 14 = 34 \\text{ grass type cards after purchase}\n     \\]\n\n3. **Calculate the total number of cards after these changes:**\n   - Total cards = Fire type + Grass type + Water type\n   \\[\n   30 + 34 + 32 = 96 \\text{ total cards}\n   \\]\n\n4. **Determine the probability of randomly selecting a water type card:**\n   - Probability = (Number of water type cards) / (Total number of cards)\n   \\[\n   \\frac{32}{96}\n   \\]\n\n5. **Simplify the fraction:**\n   - Divide both numerator and denominator by 32:\n   \\[\n   \\frac{32 \\div 32}{96 \\div 32} = \\frac{1}{3}\n   \\]\n\n6. **Convert the fraction to a decimal:**\n   \\[\n   \\frac{1}{3} \\approx 0.3333\\ldots\n   \\]\n\n7. **Round to the nearest decimal place as required (usually two decimal places for probabilities):**\n   \\[\n   0.33\n   \\]\n\nThus, the probability that a randomly selected card is a water type card is \\(0.33\\).']]
+Model Prediction / Ground Truth: 0 / 33
+Correct Predictions / Total Tests: 194 / 226
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [80.69%]
+Current Accuracy: 85.84%
+----------------------
+----------------------
+Problem 234: スティーブはもっとトマトを食べようと決意し、自分のチェリートマトの栽培を始めることにしました。彼はガールフレンドの2倍の量のトマトを食べます。彼は1日あたり6個のトマトを食べます。1つのつるから1週間あたり3つのトマトを作れるとした場合、スティーブは何本のつるが必要でしょうか？
+Reasoning step: [["To solve this problem, we need to determine how many vines Steve requires to meet his tomato consumption needs. Here is the step-by-step breakdown:\n\n1. **Determine Steve's Weekly Tomato Consumption:**\n   - Steve eats 6 tomatoes per day.\n   - There are 7 days in a week, so his weekly consumption is:\n     \\[\n     6 \\text{ tomatoes/day} \\times 7 \\text{ days/week} = 42 \\text{ tomatoes/week}\n     \\]\n\n2. **Determine Tomato Production per Vine:**\n   - Each vine produces 3 tomatoes per week.\n\n3. **Calculate the Number of Vines Needed:**\n   - We need to find out how many vines are required to produce at least 42 tomatoes per week.\n   - Let \\( x \\) be the number of vines needed. Each vine produces 3 tomatoes per week, so:\n     \\[\n     3x = 42\n     \\]\n   - Solve for \\( x \\):\n     \\[\n     x = \\frac{42}{3} = 14\n     \\]\n\nTherefore, Steve needs 14 vines to supply his weekly consumption of tomatoes. The final answer is 14."]]
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 201 / 234
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [33.01%]
+Current Accuracy: 85.90%
+----------------------
+----------------------
+Problem 235: ジョンは友達と一緒にピザを注文しました。友達は合計20人いて、1人あたり4スライス食べられるようにしたいと考えています。ピザのスライスは1枚あたり8スライスです。ジョンはピザを何枚頼む必要がありますか？
+Reasoning step: [['To determine how many pizzas John needs to order, we can follow these steps:\n\n1. **Calculate the total number of slices needed:**  \n   Each friend, including John, wants to have 4 slices. There are 20 friends, so we calculate the total number of people as 20 + 1 = 21 people.  \n   Total slices needed = 21 people × 4 slices/person = 84 slices.\n\n2. **Determine how many slices are in one pizza:**  \n   Each pizza has 8 slices.\n\n3. **Calculate the number of pizzas needed:**  \n   To find out how many pizzas are needed, divide the total number of slices by the number of slices per pizza.  \n   Number of pizzas = Total slices needed ÷ Slices per pizza = 84 ÷ 8 = 10.5 pizzas.\n\n4. **Round up to the nearest whole number:**  \n   Since John cannot order half a pizza, he needs to round up to the nearest whole number. Thus, John needs to order 11 pizzas.\n\nFinal Answer: 11']]
+Model Prediction / Ground Truth: 11 / 10
+Correct Predictions / Total Tests: 201 / 235
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 11: [20.24%]
+Current Accuracy: 85.53%
+----------------------
+----------------------
+Problem 241: ドリーは2冊の本をもっています。パンドラは1冊もっています。ドリーとパンドラが自分の本に加えて相手の本も読んだとしたら、2人で合計何冊読んだことになりますか？
+Reasoning step: [["To solve this problem, let's break it down step-by-step:\n\n1. **Identify the number of books each person has:**\n   - Dolly has 2 books.\n   - Pandora has 1 book.\n\n2. **Determine the total number of distinct books between them:**\n   - Combined, Dolly and Pandora have 2 (Dolly's) + 1 (Pandora's) = 3 books in total.\n\n3. **Determine how many books each person reads if they read their own books and each other's:**\n   - Dolly reads her own 2 books plus Pandora's 1 book. So, Dolly reads 2 + 1 = 3 books.\n   - Pandora reads her own 1 book plus Dolly's 2 books. So, Pandora reads 1 + 2 = 3 books.\n\n4. **Calculate the total number of books read by both:**\n   - Since both Dolly and Pandora have read all the books available to them, the total number of distinct books they have read is simply the total number of distinct books they have, which is 3.\n\nThus, the final answer is 3."]]
+Model Prediction / Ground Truth: 3 / 6
+Correct Predictions / Total Tests: 206 / 241
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 3: [40.15%]
+Current Accuracy: 85.48%
+----------------------
+----------------------
+Problem 245: ある水族館にカタツムリが4匹います。別の水族館にはカタツムリが32匹います。両者の差は、両方の水族館にいる魚の合計数の2倍です。それぞれの水族館に同じ数の魚がいるとすると、それぞれの水族館にいる魚は何匹ずつでしょうか？
+Reasoning step: [["To solve this problem, let's break it down step-by-step.\n\n1. **Identify the given information:**\n\n   - Aquarium 1 has 4 snails.\n   - Aquarium 2 has 32 snails.\n   - The difference in the number of snails between the two aquariums is equal to twice the total number of fish in both aquariums.\n   - Each aquarium has the same number of fish.\n\n2. **Calculate the difference in the number of snails:**\n\n   The difference in the number of snails between the two aquariums is:\n   \\[\n   32 - 4 = 28\n   \\]\n\n3. **Relate the difference to the number of fish:**\n\n   We are told that this difference (28) is equal to twice the total number of fish in both aquariums.\n\n   Let \\( x \\) be the number of fish in each aquarium. Since both aquariums have the same number of fish, the total number of fish in both aquariums is \\( 2x \\).\n\n   According to the problem:\n   \\[\n   2x = 28\n   \\]\n\n4. **Solve for \\( x \\):**\n\n   Divide both sides of the equation by 2 to find \\( x \\):\n   \\[\n   x = \\frac{28}{2} = 14\n   \\]\n\nThus, each aquarium has 14 fish. Therefore, the final answer is:\n\n14"]]
+Model Prediction / Ground Truth: 14 / 7
+Correct Predictions / Total Tests: 209 / 245
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [71.33%]
+Current Accuracy: 85.31%
+----------------------
+----------------------
+Problem 249: 月曜日、スーは妹と同じだけのクッキーを食べた。火曜日、彼女は妹の2倍のクッキーを食べた。妹は月曜日に5枚のクッキーを食べ、翌日は13枚のクッキーを食べた。もしも1枚のクッキーが200カロリーだとすると、スーは妹と比べてどれだけ多くのカロリーを得ましたか？
+Reasoning step: [["To solve this problem, we need to determine how many more calories Sue consumed compared to her sister over the two days.\n\n1. **Determine the number of cookies consumed by Sue and her sister on Monday:**\n   - Sue's sister ate 5 cookies on Monday.\n   - Sue ate the same number of cookies as her sister, so she also ate 5 cookies on Monday.\n\n2. **Determine the number of cookies consumed by Sue and her sister on Tuesday:**\n   - Sue's sister ate 13 cookies on Tuesday.\n   - Sue ate twice as many cookies as her sister on Tuesday, so she ate \\( 2 \\times 13 = 26 \\) cookies.\n\n3. **Calculate the total number of cookies consumed by Sue and her sister over the two days:**\n   - Sue's sister: \\( 5 \\text{ (Monday)} + 13 \\text{ (Tuesday)} = 18 \\) cookies.\n   - Sue: \\( 5 \\text{ (Monday)} + 26 \\text{ (Tuesday)} = 31 \\) cookies.\n\n4. **Calculate the total calorie intake for both Sue and her sister:**\n   - Each cookie is 200 calories.\n   - Calorie intake for Sue's sister: \\( 18 \\times 200 = 3600 \\) calories.\n   - Calorie intake for Sue: \\( 31 \\times 200 = 6200 \\) calories.\n\n5. **Calculate the difference in calorie intake between Sue and her sister:**\n   - Difference: \\( 6200 - 3600 = 2600 \\) calories.\n\nThus, Sue consumed 2600 more calories than her sister. The final answer is 2600."]]
+Model Prediction / Ground Truth: 2600 / 5600
+Correct Predictions / Total Tests: 212 / 249
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 2600: [98.14%]
+Current Accuracy: 85.14%
+----------------------

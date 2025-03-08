@@ -1,0 +1,243 @@
+----------------------
+Problem 2: Josh beschließt, ein Haus zu verkaufen. Er kauft ein Haus für 80.000 US-Dollar und steckt anschließend 50.000 US-Dollar an Reparaturen hinein. Dadurch steigt der Wert des Hauses um 150 %. Wie viel Gewinn macht er?
+Reasoning step: [["To determine the profit Josh makes from selling the house, we'll follow these steps:\n\n1. **Calculate the Total Investment:**\n   - Purchase Price: $80,000\n   - Repair Costs: $50,000\n   - Total Investment = Purchase Price + Repair Costs\n   - Total Investment = $80,000 + $50,000 = $130,000\n\n2. **Calculate the Increased Value of the House:**\n   - The value of the house increases by 150%.\n   - Increased Value = Original Purchase Price * (1 + Percentage Increase)\n   - Increased Value = $80,000 * (1 + 1.50)\n   - Increased Value = $80,000 * 2.50 = $200,000\n\n3. **Calculate the Profit:**\n   - Profit = Increased Value - Total Investment\n   - Profit = $200,000 - $130,000 = $70,000\n\nThe final profit that Josh makes from selling the house is 70,000."]]
+Model Prediction / Ground Truth: 0 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [98.35%]
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 5: Kylar geht ins Kaufhaus, um Gläser für seine neue Wohnung zu erwerben. Ein Glas kostet 5 US-Dollar, aber jedes weitere Glas kostet nur 60 % des Ausgangspreises. Kylar möchte 16 Gläser kaufen. Wie viel muss er dafür ausgeben?
+Reasoning step: [["To determine how much Kylar has to spend, we will calculate the cost for each glass, taking into account the discount for additional glasses after the first one. Here's a step-by-step breakdown:\n\n1. **Cost of the First Glass:**\n   The first glass costs the full price of $5.\n\n2. **Cost of Additional Glasses:**\n   Each additional glass costs 60% of the original price. To find this cost:\n   \\[\n   \\text{Discounted price for each additional glass} = 0.60 \\times 5 = 3 \\text{ US-Dollar}\n   \\]\n\n3. **Calculate the Total Cost:**\n   - The first glass costs $5.\n   - The remaining 15 glasses (since Kylar wants to buy a total of 16 glasses) each cost $3.\n   \n4. **Calculate Total Cost for 15 Additional Glasses:**\n   \\[\n   \\text{Cost for 15 additional glasses} = 15 \\times 3 = 45 \\text{ US-Dollar}\n   \\]\n\n5. **Calculate the Total Expenditure:**\n   \\[\n   \\text{Total cost} = \\text{Cost of the first glass} + \\text{Cost of additional glasses} = 5 + 45 = 50 \\text{ US-Dollar}\n   \\]\n\nThus, the total amount Kylar has to spend is 50."]]
+Model Prediction / Ground Truth: 50 / 64
+Correct Predictions / Total Tests: 3 / 5
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 50: [59.58%]
+Current Accuracy: 60.00%
+----------------------
+----------------------
+Problem 12: Carlos pflanzt einen Zitronenbaum. Das Pflanzen des Baumes kostet 90 US-Dollar. Jedes Jahr wachsen 7 Zitronen, die er für 1,50 US-Dollar pro Stück verkaufen kann. Es kostet 3 US-Dollar pro Jahr, den Baum zu gießen und zu düngen. Wie viele Jahre dauert es, bevor er mit dem Zitronenbaum Geld verdient?
+Reasoning step: [['To determine how many years it will take for Carlos to start making a profit from his lemon tree, we need to consider both the costs and the revenue associated with the tree.\n\n1. **Initial Cost:**\n   - The initial cost of planting the tree is $90.\n\n2. **Annual Revenue:**\n   - Each year, the tree produces 7 lemons.\n   - Each lemon is sold for $1.50.\n   - Therefore, the annual revenue from selling the lemons is \\(7 \\text{ lemons} \\times 1.50 \\text{ USD/lemon} = 10.50 \\text{ USD/year}\\).\n\n3. **Annual Costs:**\n   - The annual cost to water and fertilize the tree is $3.\n\n4. **Net Annual Profit:**\n   - The net annual profit is the annual revenue minus the annual costs.\n   - Net annual profit = $10.50 (revenue) - $3 (costs) = $7.50.\n\n5. **Time to Break Even:**\n   - Carlos needs to recover the initial planting cost of $90.\n   - To find out how many years it will take to break even, we divide the initial cost by the net annual profit.\n   - \\( \\frac{90 \\text{ USD}}{7.50 \\text{ USD/year}} = 12 \\text{ years} \\).\n\nTherefore, it will take 12 years for Carlos to start making a profit from his lemon tree. The final answer is 12.']]
+Model Prediction / Ground Truth: 12 / 13
+Correct Predictions / Total Tests: 9 / 12
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 12: [89.93%]
+Current Accuracy: 75.00%
+----------------------
+----------------------
+Problem 43: Den Nährwertangaben zufolge, hat eine Tüte Chips 250 Kalorien pro Portion. Wenn eine 300 g-Tüte 5 Portionen enthält, kannst du wie viele Gramm essen, wenn dein tägliches Kalorienziel bei 2000 liegt und du bereits 1800 Kalorien zu dir genommen hast?
+Reasoning step: [['To solve this problem, we need to determine how many grams of chips you can eat without exceeding your daily calorie target.\n\n1. **Identify the remaining calorie allowance:**\n   - Your daily calorie goal is 2000 calories.\n   - You have already consumed 1800 calories.\n   - Therefore, the remaining calories you can consume are \\(2000 - 1800 = 200\\) calories.\n\n2. **Determine the calories per gram of chips:**\n   - The entire bag of chips weighs 300 grams and contains 5 portions.\n   - Each portion has 250 calories.\n   - Therefore, the entire bag contains \\(5 \\times 250 = 1250\\) calories.\n   - The calories per gram are \\(\\frac{1250 \\text{ calories}}{300 \\text{ grams}}\\).\n\n3. **Calculate calories per gram:**\n   \\[\n   \\frac{1250}{300} \\approx 4.17 \\text{ calories per gram}\n   \\]\n\n4. **Determine how many grams you can eat within the remaining calorie allowance:**\n   - You have 200 calories remaining.\n   - Set up the equation: \\(4.17 \\times \\text{grams} = 200\\).\n   - Solve for grams: \n   \\[\n   \\text{grams} = \\frac{200}{4.17} \\approx 47.96\n   \\]\n\nTherefore, you can eat approximately 47.96 grams of chips without exceeding your daily calorie goal. The final answer is 47.']]
+Model Prediction / Ground Truth: 47 / 48
+Correct Predictions / Total Tests: 39 / 43
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 47: [2.86%]
+Current Accuracy: 90.70%
+----------------------
+----------------------
+Problem 53: Ein Mechaniker nimmt verschiedene Tarife für die Reparatur von Lastwagen- und Autoreifen. Für jeden reparierten Lastwagenreifen berechnet der Mechaniker 60 US-Dollar und für jeden reparierten Autoreifen berechnet der Mechaniker 40 US-Dollar. Am Donnerstag repariert der Mechaniker 6 Lastwagenreifen und 4 Autoreifen. Am Freitag repariert der Mechaniker 12 Autoreifen und repariert keine Lastwagenreifen. Wie viel Umsatz hat der Mechaniker an dem Tag mit dem höheren Umsatz gemacht?
+Reasoning step: [["To determine the day with the higher revenue, we will calculate the revenue for each day and compare them.\n\n**Thursday:**\n- Number of truck tires repaired: 6\n- Revenue from each truck tire: $60\n- Total revenue from truck tires: \\( 6 \\times 60 = 360 \\)\n\n- Number of car tires repaired: 4\n- Revenue from each car tire: $40\n- Total revenue from car tires: \\( 4 \\times 40 = 160 \\)\n\n- Total revenue on Thursday: \\( 360 + 160 = 520 \\)\n\n**Friday:**\n- Number of car tires repaired: 12\n- Revenue from each car tire: $40\n- Total revenue from car tires: \\( 12 \\times 40 = 480 \\)\n\n- Total revenue on Friday: 480\n\nNow, we compare the total revenues:\n- Thursday's revenue: 520\n- Friday's revenue: 480\n\nThe day with the higher revenue is Thursday, with a total revenue of 520. \n\nFinal answer: 520"]]
+Model Prediction / Ground Truth: 520 / 40
+Correct Predictions / Total Tests: 48 / 53
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 520: [86.99%]
+Current Accuracy: 90.57%
+----------------------
+----------------------
+Problem 62: Wenn Marcy 40 Jahre lang für das gleiche Unternehmen tätig ist, bekommt sie eine jährliche Rente von 50.000 US-Dollar/Jahr. Nach 20 Jahren werden ihr 5 % des Wertes der jährlichen Rente pro Jahr zugestanden. Wenn sie nach 30 Jahren geht, wie hoch ist dann ihre jährliche Rente?
+Reasoning step: [["To determine Marcy's annual pension if she leaves after 30 years, we need to calculate the adjustments to her pension based on the rules provided.\n\n1. **Understand the Full Pension**: Marcy's full annual pension, after 40 years, is $50,000.\n\n2. **Calculate the Adjustment Period**: The pension adjustment starts after 20 years. If Marcy leaves after 30 years, the adjustment period is 30 - 20 = 10 years.\n\n3. **Determine the Annual Increase**: Each year after 20 years, Marcy's pension increases by 5% of the full pension value. So, after 30 years, she will have 10 years of adjustments, each increasing her pension by 5%.\n\n4. **Calculate Total Increase**: \n   - Each year's increase is 5% of $50,000, which is 0.05 × $50,000 = $2,500.\n   - Over 10 years, the total increase is 10 × $2,500 = $25,000.\n\n5. **Calculate her Pension after 30 Years**: \n   - Her pension after 30 years is the base pension plus the total increase: $50,000 + $25,000 = $75,000.\n\nThe final answer is 75,000."]]
+Model Prediction / Ground Truth: 0 / 25000
+Correct Predictions / Total Tests: 56 / 62
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [91.23%]
+Current Accuracy: 90.32%
+----------------------
+----------------------
+Problem 70: Judy unterrichtet 5 Tanzkurse, täglich, an den Wochenenden und 8 Kurse am Samstag. Wenn jeder Kurs aus 15 Schülern besteht und sie 15,00 US-Dollar pro Schüler verlangt, wie viel Geld macht sie dann innerhalb 1 Woche?
+Reasoning step: [['To calculate how much money Judy makes in one week from teaching dance classes, we can break down the problem step-by-step:\n\n1. **Determine the number of classes per day:**\n   - Judy teaches 5 classes daily on weekdays (Monday to Friday).\n   - Judy teaches 8 classes on Saturday.\n   - Judy teaches 5 classes on Sunday.\n\n2. **Calculate the total number of classes per week:**\n   - Weekdays: 5 classes/day * 5 days = 25 classes\n   - Saturday: 8 classes\n   - Sunday: 5 classes\n   - Total classes per week = 25 (weekdays) + 8 (Saturday) + 5 (Sunday) = 38 classes\n\n3. **Determine the number of students per class:**\n   - Each class consists of 15 students.\n\n4. **Calculate the total number of students per week:**\n   - Total students per week = 38 classes * 15 students/class = 570 students\n\n5. **Determine the fee per student:**\n   - Judy charges $15.00 per student.\n\n6. **Calculate the total revenue per week:**\n   - Total revenue per week = 570 students * $15.00/student = $8,550.00\n\nTherefore, the total amount of money Judy makes in one week is 8550.']]
+Model Prediction / Ground Truth: 8550 / 7425
+Correct Predictions / Total Tests: 63 / 70
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 8550: [44.41%]
+Current Accuracy: 90.00%
+----------------------
+----------------------
+Problem 74: Artie hat einen Blumenstand auf dem Bauernmarkt. Er verkauft drei Blumensorten: Ringelblumen, Petunien und Begonien. Er verkauft normalerweise Ringelblumen für 2,74 US-Dollar pro Topf, Petunien für 1,87 US-Dollar pro Topf und Begonien für 2,12 US-Dollar pro Topf. Artie hat heute kein Wechselgeld, also entschließt er sich, alle Preise auf den nächsthöheren Dollarbetrag aufzurunden. Wenn Artie 12 Töpfe Ringelblumen, 9 Töpfe Petunien und 17 Töpfe Begonien verkauft, wie viel verdient er dann?
+Reasoning step: [['To solve the problem, we need to follow these steps:\n\n1. **Round up the prices:**\n   - Ringelblumen (Calendulas): Original price is $2.74. Rounding up to the nearest dollar gives us $3.00.\n   - Petunien (Petunias): Original price is $1.87. Rounding up to the nearest dollar gives us $2.00.\n   - Begonien (Begonias): Original price is $2.12. Rounding up to the nearest dollar gives us $3.00.\n\n2. **Calculate the total revenue for each type of flower:**\n   - For Ringelblumen: 12 pots × $3.00 = $36.00\n   - For Petunien: 9 pots × $2.00 = $18.00\n   - For Begonien: 17 pots × $3.00 = $51.00\n\n3. **Calculate the total revenue:**\n   - Add up the revenues from all flower types: $36.00 (Ringelblumen) + $18.00 (Petunien) + $51.00 (Begonien) = $105.00\n\nTherefore, Artie earns a total of $105.00 from the sales. The final answer without units is:\n\n105']]
+Model Prediction / Ground Truth: 105 / 88
+Correct Predictions / Total Tests: 66 / 74
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 105: [28.50%]
+Current Accuracy: 89.19%
+----------------------
+----------------------
+Problem 87: Ein Unternehmen zahlt jedem seiner Mitarbeiter 600 US-Dollar pro Monat. Das Unternehmen betreibt eine Unternehmenspolitik, bei der das Gehalt aller Mitarbeiter um 10 % des Ursprungsgehalts für diejenigen angehoben wird, die seit fünf Jahren im Unternehmen sind. Wenn Sylvie im letzten Dezember genau 5 Jahre im Unternehmen war, ist ihr Gehalt nach weiteren drei Jahren wie hoch?
+Reasoning step: [["To solve this problem, we will calculate Sylvie's salary after she has been with the company for eight years. Let's go through the steps:\n\n1. **Initial Salary**: Sylvie's initial monthly salary is $600.\n\n2. **Salary Increase after 5 Years**: The company increases the salary of employees who have been with the company for five years by 10% of their original salary.\n\n   - Calculate the increase: 10% of $600 = 0.10 * $600 = $60.\n\n3. **New Salary after 5 Years**: Add the increase to the original salary.\n\n   - New Salary = Original Salary + Increase = $600 + $60 = $660.\n\n4. **Salary after 8 Years**: The problem asks for Sylvie's salary after a total of eight years with the company. Since no further increases are mentioned in the problem, we assume that her salary remains the same from the 5-year mark to the 8-year mark.\n\nTherefore, Sylvie's salary after eight years with the company is $660.\n\nFinal answer: 660"]]
+Model Prediction / Ground Truth: 660 / 9360
+Correct Predictions / Total Tests: 78 / 87
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 660: [29.96%]
+Current Accuracy: 89.66%
+----------------------
+----------------------
+Problem 89: Christina plant eine Geburtstagsparty und braucht für jeden eingeladenen Gast 0,75 Geschenktüten, da 1/4 der Gäste nicht erscheint. Sie hat 16 Freunde eingeladen. Die Geschenktüten kosten 2 US-Dollar pro Stück. Wie viel gibt sie aus?
+Reasoning step: [["To solve this problem, we'll break it down into steps:\n\n1. **Determine the Expected Number of Guests:**\n   Christina has invited 16 friends. However, she expects that 1/4 of them will not show up. To find out how many guests will actually attend, calculate 3/4 of the invited guests:\n   \\[\n   \\text{Expected Guests} = \\frac{3}{4} \\times 16 = 12\n   \\]\n\n2. **Calculate the Number of Gift Bags Needed:**\n   Christina plans to provide 0.75 gift bags per expected guest. So, we need to calculate the total number of gift bags required:\n   \\[\n   \\text{Gift Bags Needed} = 0.75 \\times 12 = 9\n   \\]\n\n3. **Calculate the Total Cost of Gift Bags:**\n   Each gift bag costs 2 US dollars. Therefore, the total cost for 9 gift bags is:\n   \\[\n   \\text{Total Cost} = 9 \\times 2 = 18\n   \\]\n\nThe final answer, the total amount Christina spends on the gift bags, is 18."]]
+Model Prediction / Ground Truth: 18 / 24
+Correct Predictions / Total Tests: 79 / 89
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 18: [97.08%]
+Current Accuracy: 88.76%
+----------------------
+----------------------
+Problem 94: In einem Wohnviertel ist die Anzahl an Kaninchen als Haustier zwölf Mal geringer als die Anzahl an Hunden und Katzen als Haustiere zusammen. Wenn auf jeden Hund zwei Katzen kommen, und es 60 Hunde gibt, gibt es insgesamt wie viele Haustiere in dem Viertel?
+Reasoning step: [["To solve this problem, we need to determine the total number of pets in the neighborhood, including dogs, cats, and rabbits. Let's go through the steps:\n\n1. **Determine the number of dogs and cats:**\n   - We know there are 60 dogs.\n   - According to the problem, there are two cats for every dog. Therefore, the number of cats is twice the number of dogs.\n   - Number of cats = 2 * Number of dogs = 2 * 60 = 120 cats.\n\n2. **Calculate the total number of dogs and cats:**\n   - Total number of dogs and cats = Number of dogs + Number of cats = 60 (dogs) + 120 (cats) = 180.\n\n3. **Determine the number of rabbits:**\n   - The problem states that the number of rabbits is twelve times less than the total number of dogs and cats. This means the number of rabbits is the total number of dogs and cats divided by 12.\n   - Number of rabbits = Total number of dogs and cats / 12 = 180 / 12 = 15 rabbits.\n\n4. **Calculate the total number of pets:**\n   - Total number of pets = Number of dogs + Number of cats + Number of rabbits = 60 (dogs) + 120 (cats) + 15 (rabbits) = 195.\n\nTherefore, the total number of pets in the neighborhood is 195. \n\nFinal answer: 195"]]
+Model Prediction / Ground Truth: 195 / 348
+Correct Predictions / Total Tests: 83 / 94
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 195: [66.05%]
+Current Accuracy: 88.30%
+----------------------
+----------------------
+Problem 95: Von den 200 Schülern der 5. Klasse sind 2/5 Jungen, und 2/3 der Mädchen bei den Pfadfinderinnen. Wie viele Mädchen sind bei den Pfadfinderinnen?
+Reasoning step: [["To solve this problem, let's break it down step by step.\n\n1. **Determine the number of boys in the class:**\n\n   - The total number of students is 200.\n   - According to the problem, \\( \\frac{2}{5} \\) of the students are boys.\n   - Calculate the number of boys: \n     \\[\n     \\text{Number of boys} = \\frac{2}{5} \\times 200 = 80\n     \\]\n\n2. **Calculate the number of girls in the class:**\n\n   - Since there are 200 students in total and 80 of them are boys, the number of girls is:\n     \\[\n     \\text{Number of girls} = 200 - 80 = 120\n     \\]\n\n3. **Determine how many girls are with the Pfadfinderinnen (Girl Scouts):**\n\n   - The problem states that \\( \\frac{2}{3} \\) of the girls are with the Pfadfinderinnen.\n   - Calculate the number of girls in the Pfadfinderinnen:\n     \\[\n     \\text{Number of girls in Pfadfinderinnen} = \\frac{2}{3} \\times 120 = 80\n     \\]\n\nThe final answer, representing the number of girls in the Pfadfinderinnen, is 80."]]
+Model Prediction / Ground Truth: 80 / 40
+Correct Predictions / Total Tests: 83 / 95
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 80: [97.20%]
+Current Accuracy: 87.37%
+----------------------
+----------------------
+Problem 109: Eine örtliche Tankstelle verkauft Benzin für 3,00 US-Dollar pro Gallone. Ein App-Unternehmen bietet eine Rückerstattung von 20 US-Dollar an, wenn du an dieser Tankstelle tankst. Wenn jemand 10 Gallonen Benzin kauft, kostet das Benzin nach der Rückvergütung wie viel?
+Reasoning step: [['To determine the cost of the gasoline after the rebate, we can break the problem down into a series of steps:\n\n1. **Calculate the initial cost of the gasoline:**\n   - The price per gallon is $3.00, and the person is purchasing 10 gallons.\n   - Initial cost = price per gallon * number of gallons = $3.00 * 10 = $30.00\n\n2. **Apply the rebate:**\n   - The rebate offered is $20.00.\n   - To find the final cost after the rebate, subtract the rebate from the initial cost.\n   - Final cost = Initial cost - Rebate = $30.00 - $20.00 = $10.00\n\n3. **Provide the final answer:**\n   - The cost of the gasoline after the rebate is $10.00.\n\nTherefore, the final answer without units is:\n10']]
+Model Prediction / Ground Truth: 10 / 28
+Correct Predictions / Total Tests: 96 / 109
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 10: [72.25%]
+Current Accuracy: 88.07%
+----------------------
+----------------------
+Problem 119: Adriens Gehalt war 30 Prozent höher als Lylahs. Vier Jahre später erhöhte sich sein Gehalt und er verdiente 40 % mehr als das, was er vor vier Jahren verdient hat. Wenn Adriens und Lylahs Gehalt gleichzeitig steigen und Adrian vor vier Jahren 40.000 US-Dollar verdient hat, berechne das gesamte Gesamtgehalt, das beiden vier Jahre später verdienten?
+Reasoning step: [["To solve the problem, let's follow these steps:\n\n1. **Identify initial salaries**:\n   - Adrian's salary four years ago was $40,000.\n   - Adrian's salary was 30% higher than Lylah's salary at that time.\n\n2. **Calculate Lylah's salary four years ago**:\n   - If Adrian's salary is 30% higher than Lylah's, then Lylah's salary (L) satisfies the equation:\n     \\[\n     1.3L = 40,000\n     \\]\n   - Solving for Lylah's salary:\n     \\[\n     L = \\frac{40,000}{1.3} \\approx 30,769.23\n     \\]\n\n3. **Calculate Adrian's salary four years later**:\n   - Adrian's salary increased by 40% over four years.\n   - New salary = Old salary + 40% of Old salary\n   - New salary = \\(40,000 + 0.4 \\times 40,000\\)\n   - New salary = \\(40,000 + 16,000 = 56,000\\)\n\n4. **Calculate Lylah's salary four years later**:\n   - Assume Lylah's salary increased at the same rate as Adrian's.\n   - Lylah's new salary = Old salary + 40% of Old salary\n   - New salary = \\(30,769.23 + 0.4 \\times 30,769.23\\)\n   - New salary = \\(30,769.23 + 12,307.69 \\approx 43,076.92\\)\n\n5. **Calculate the total combined salary four years later**:\n   - Total salary = Adrian's new salary + Lylah's new salary\n   - Total salary = \\(56,000 + 43,076.92\\)\n\n6. **Final calculation**:\n   - Total combined salary = \\(99,076.92\\)\n\nThus, the total combined salary of Adrian and Lylah four years later is approximately 99,076.92 (rounded to two decimal places). The final answer without units is:\n99076.92"]]
+Model Prediction / Ground Truth: 99077 / 95200
+Correct Predictions / Total Tests: 105 / 119
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 99077: [12.17%]
+Current Accuracy: 88.24%
+----------------------
+----------------------
+Problem 120: Miguel verwendet 2 Blätter Papier pro Woche für seine Zeichnungen. Wenn ein Zeichenblock 30 Blätter Papier hat, wie viele Blätter Papier verbraucht er dann pro Monat?
+Reasoning step: [["To solve the problem, we need to determine how many sheets of paper Miguel uses per month.\n\n1. **Understand the Weekly Usage:**\n   Miguel uses 2 sheets of paper per week.\n\n2. **Determine the Number of Weeks in a Month:**\n   Typically, a month has about 4 weeks. This approximation is often used for such calculations unless specified otherwise.\n\n3. **Calculate Monthly Paper Usage:**\n   Since there are 4 weeks in a month, we multiply Miguel's weekly usage by the number of weeks in a month:\n   \\[\n   2 \\, \\text{sheets/week} \\times 4 \\, \\text{weeks/month} = 8 \\, \\text{sheets/month}\n   \\]\n\nThus, Miguel uses 8 sheets of paper per month. Therefore, the last number in the response, which is the final answer without units, is:\n\n8"]]
+Model Prediction / Ground Truth: 8 / 240
+Correct Predictions / Total Tests: 105 / 120
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 8: [64.66%]
+Current Accuracy: 87.50%
+----------------------
+----------------------
+Problem 128: Wells Mutter verkauft Wassermelonen, Paprika und Orangen in einem lokalen Laden. Eine Wassermelone kostet dreimal mehr als jede einzelne Paprika. Eine Orange kostet 5 Mal weniger als eine Wassermelone. Dillon wird in den Laden geschickt, um 4 Wassermelonen, 20 Paprika und 10 Orangen zu kaufen. Wie hoch ist der gesamte Geldbetrag, den er ausgibt, wenn jede Paprika 15 $ kostet?
+Reasoning step: [["To solve this problem, we need to determine the cost of each type of fruit and then calculate the total amount spent. Let's break it down step-by-step:\n\n1. **Determine the cost of one pepper (Paprika):**\n   - The cost of one pepper is given as $15.\n\n2. **Determine the cost of one watermelon (Wassermelone):**\n   - A watermelon costs three times more than a pepper.\n   - Therefore, the cost of one watermelon is \\(3 \\times 15 = 45\\) dollars.\n\n3. **Determine the cost of one orange (Orange):**\n   - An orange costs 5 times less than a watermelon.\n   - Therefore, the cost of one orange is \\(\\frac{45}{5} = 9\\) dollars.\n\n4. **Calculate the total cost for each type of fruit:**\n   - **Watermelons:** Dillon buys 4 watermelons.\n     - Total cost for watermelons = \\(4 \\times 45 = 180\\) dollars.\n   - **Peppers:** Dillon buys 20 peppers.\n     - Total cost for peppers = \\(20 \\times 15 = 300\\) dollars.\n   - **Oranges:** Dillon buys 10 oranges.\n     - Total cost for oranges = \\(10 \\times 9 = 90\\) dollars.\n\n5. **Calculate the total amount spent:**\n   - Total amount spent = Total cost for watermelons + Total cost for peppers + Total cost for oranges\n   - Total amount spent = \\(180 + 300 + 90 = 570\\).\n\nThe final answer, which is the total amount Dillon spends, is 570."]]
+Model Prediction / Ground Truth: 570 / 880
+Correct Predictions / Total Tests: 112 / 128
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 570: [97.60%]
+Current Accuracy: 87.50%
+----------------------
+----------------------
+Problem 129: In einem Krankenhaus werden 500 Personen pro Tag untersucht. Jeder Patient wird durchschnittlich 24 Minuten lange untersucht. Die Ärzte berechnen dem Krankenhaus 150 $ pro Stunde, und das Krankenhaus berechnet den Patienten 200 $ pro Stunde. Wie viel Gewinn macht das Krankenhaus mit diesen Konsultationen?
+Reasoning step: [["To solve this problem, we need to calculate the profit the hospital makes from these consultations. We'll do this by following these steps:\n\n1. **Understand the time per patient**: Each patient is examined for an average of 24 minutes.\n\n2. **Convert time to hours**: Since the costs are given per hour, we need to convert 24 minutes into hours:\n   \\[\n   24 \\text{ minutes} = \\frac{24}{60} \\text{ hours} = 0.4 \\text{ hours}\n   \\]\n\n3. **Calculate the cost per patient for the hospital**: The hospital pays the doctors $150 per hour. Therefore, the cost for examining one patient is:\n   \\[\n   150 \\text{ dollars/hour} \\times 0.4 \\text{ hours} = 60 \\text{ dollars per patient}\n   \\]\n\n4. **Calculate the revenue per patient for the hospital**: The hospital charges the patients $200 per hour. Therefore, the revenue from examining one patient is:\n   \\[\n   200 \\text{ dollars/hour} \\times 0.4 \\text{ hours} = 80 \\text{ dollars per patient}\n   \\]\n\n5. **Calculate the profit per patient**: The profit the hospital makes from one patient is the revenue minus the cost:\n   \\[\n   80 \\text{ dollars} - 60 \\text{ dollars} = 20 \\text{ dollars per patient}\n   \\]\n\n6. **Calculate the total daily profit**: The hospital examines 500 patients per day. Therefore, the total daily profit is:\n   \\[\n   20 \\text{ dollars/patient} \\times 500 \\text{ patients} = 10,000 \\text{ dollars}\n   \\]\n\nThe final answer, which is the total daily profit the hospital makes from these consultations, is:\n\\[\n10,000\n\\]"]]
+Model Prediction / Ground Truth: 0 / 10000
+Correct Predictions / Total Tests: 112 / 129
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [93.48%]
+Current Accuracy: 86.82%
+----------------------
+----------------------
+Problem 133: Am Montag ging Walt 4 Meilen zu Fuß. Am Donnerstag ging er 6 Mal so viele Meilen, wie er am Montag gegangen war. Von Montag bis Mittwoch betrug seine Gesamtstrecke 41 Meilen. Wie viele Meilen ist er am Mittwoch gegangen?
+Reasoning step: [["To solve this problem, let's break it down step-by-step:\n\n1. **Distance walked by Walt on Monday**:\n   - Walt walked 4 miles on Monday.\n\n2. **Distance walked by Walt on Thursday**:\n   - On Thursday, Walt walked 6 times the distance he walked on Monday.\n   - Therefore, on Thursday, he walked \\(6 \\times 4 = 24\\) miles.\n\n3. **Total distance from Monday to Wednesday**:\n   - The problem states that from Monday to Wednesday, Walt's total distance was 41 miles.\n\n4. **Distance walked on Tuesday and Wednesday**:\n   - We know the total distance from Monday to Wednesday is 41 miles.\n   - We already know the distance walked on Monday is 4 miles.\n   - Therefore, the distance walked on Tuesday and Wednesday combined is \\(41 - 4 = 37\\) miles.\n\n5. **Determining the distance walked on Wednesday**:\n   - Since we do not have specific information about Tuesday, we assume all the remaining distance was walked on Wednesday.\n   - Therefore, Walt walked 37 miles on Wednesday.\n\nThe final answer is: 37"]]
+Model Prediction / Ground Truth: 37 / 13
+Correct Predictions / Total Tests: 115 / 133
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 37: [91.82%]
+Current Accuracy: 86.47%
+----------------------
+----------------------
+Problem 159: Finn beobachtet 11 schwimmende Kaulquappen in einem Teich. Plötzlich sieht er 6 von ihnen aus dem Versteck unter einem Seerosenblatt kommen, dann sieht er 2 von ihnen unter einem Stein verschwinden. Wie viele Kaulquappen kann Finn jetzt im Teich sehen?
+Reasoning step: [["Let's solve the problem step-by-step:\n\n1. **Initial Observation**: Finn initially observes 11 tadpoles.\n\n2. **Emerging Tadpoles**: He sees 6 tadpoles coming out from under a lily pad. It's important to note that these 6 are part of the original 11 tadpoles he observed, not additional ones.\n\n3. **Disappearing Tadpoles**: After that, 2 of these tadpoles disappear under a rock. This means 2 out of the visible tadpoles are no longer visible.\n\n4. **Visible Tadpoles Calculation**:\n   - Initially visible: 11 tadpoles\n   - Tadpoles that emerged from hiding: +6 (still part of the original 11)\n   - Tadpoles that disappeared under a rock: -2\n\n   However, since we are given that these observations include both emerging and disappearing, let's consider only the effect of the disappearing tadpoles on the initial visible count:\n\n   - Visible before any disappear: 11\n   - Tadpoles disappearing: -2\n\n5. **Final Count of Visible Tadpoles**: \n   - So, the number of tadpoles that Finn can still see is 11 - 2 = 9.\n\nThe final answer is 9."]]
+Model Prediction / Ground Truth: 9 / 15
+Correct Predictions / Total Tests: 140 / 159
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 9: [64.55%]
+Current Accuracy: 88.05%
+----------------------
+----------------------
+Problem 161: Anakin und Locsin gingen heute zum Strand. Anakin fing 10 Seesterne, 6 Seepferdchen und 3 Clownfische. Locsin fing hingegen 5 Seesterne weniger, 3 Seepferdchen weniger und 2 Clownfische mehr als Anakin. Wie viele Fische konnten sie fangen?
+Reasoning step: [["To solve the problem, we need to find the total number of fish (Clownfische) Anakin and Locsin caught together.\n\n1. **Anakin's Catch:**\n   - Anakin caught 3 Clownfische.\n\n2. **Locsin's Catch:**\n   - Locsin caught 2 more Clownfische than Anakin.\n   - Therefore, Locsin caught \\(3 + 2 = 5\\) Clownfische.\n\n3. **Total Fish Caught:**\n   - To find the total number of Clownfische caught by both Anakin and Locsin, we add the number of Clownfische each caught:\n   - Total Clownfische = Anakin's Clownfische + Locsin's Clownfische\n   - Total Clownfische = \\(3 + 5 = 8\\)\n\nThe final answer is 8."]]
+Model Prediction / Ground Truth: 8 / 32
+Correct Predictions / Total Tests: 141 / 161
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 8: [33.88%]
+Current Accuracy: 87.58%
+----------------------
+----------------------
+Problem 182: Jean ist zwei Jahre älter als Mark. Vor zwei Jahren war Mark 5 Jahre älter als die Hälfte des Alters von Jan. Wenn Jan 30 ist, wie alt ist dann Jean?
+Reasoning step: [["To solve the problem, we need to determine the current age of Jean.\n\n1. **Define the Variables:**\n   - Let \\( J \\) be the current age of Jean.\n   - Let \\( M \\) be the current age of Mark.\n   - Let \\( N \\) be the current age of Jan.\n\n2. **Establish Known Values:**\n   - \\( N = 30 \\) (Jan is 30 years old).\n\n3. **Translate the Problem into Mathematical Expressions:**\n   - Jean is two years older than Mark: \n     \\[\n     J = M + 2\n     \\]\n\n   - Two years ago, Mark was 5 years older than half of Jan's age:\n     - Two years ago, Mark's age was \\( M - 2 \\).\n     - Half of Jan's age (Jan is currently 30) is \\( \\frac{30}{2} = 15 \\).\n     - Therefore, two years ago, Mark was 5 years older than 15:\n     \\[\n     M - 2 = 15 + 5\n     \\]\n\n4. **Solve the Equation:**\n   - Simplify the equation from two years ago:\n     \\[\n     M - 2 = 20\n     \\]\n   - Solve for \\( M \\):\n     \\[\n     M = 22\n     \\]\n\n5. **Find Jean's Current Age:**\n   - Use the relationship between Jean and Mark:\n     \\[\n     J = M + 2 = 22 + 2 = 24\n     \\]\n\n6. **Final Answer:**\n   - The current age of Jean is \\( \\boxed{24} \\)."]]
+Model Prediction / Ground Truth: 24 / 23
+Correct Predictions / Total Tests: 161 / 182
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 24: [90.99%]
+Current Accuracy: 88.46%
+----------------------
+----------------------
+Problem 184: Jerry wirft einen sechsseitigen Würfel. Wie viel wahrscheinlicher ist es (in Prozent ausgedrückt), dass er eine Zahl größer als 3 wirft als zwei gerade Zahlen hintereinander?
+Reasoning step: [['To solve this problem, we need to calculate the probabilities of two different events and then compare them.\n\n**Step 1: Probability of rolling a number greater than 3**\n\nA six-sided die has the numbers 1, 2, 3, 4, 5, and 6. The numbers greater than 3 are 4, 5, and 6. \n\n- There are 3 favorable outcomes (4, 5, and 6) out of a total of 6 possible outcomes.\n- Probability of rolling a number greater than 3 = Number of favorable outcomes / Total number of outcomes = 3/6 = 1/2.\n\n**Step 2: Probability of rolling two consecutive even numbers**\n\nThe even numbers on a six-sided die are 2, 4, and 6.\n\n- Probability of rolling an even number on the first roll = 3/6 = 1/2.\n- If the first roll is an even number, the probability of rolling an even number on the second roll is also 1/2.\n- Probability of rolling two consecutive even numbers = (1/2) * (1/2) = 1/4.\n\n**Step 3: Calculate how much more likely it is to roll a number greater than 3 than two consecutive even numbers**\n\n- Probability of rolling a number greater than 3 = 1/2 = 0.5.\n- Probability of rolling two consecutive even numbers = 1/4 = 0.25.\n\nTo find how much more likely it is to roll a number greater than 3, we calculate the ratio of these probabilities and then express it as a percentage:\n\n\\[\n\\text{Ratio} = \\frac{\\text{Probability of number > 3}}{\\text{Probability of two even numbers}} = \\frac{0.5}{0.25} = 2\n\\]\n\nThis means rolling a number greater than 3 is twice as likely as rolling two even numbers consecutively. To express this as a percentage:\n\n- A ratio of 2 means it is 100% more likely (since doubling the likelihood makes it 100% more than the original likelihood).\n\nThus, rolling a number greater than 3 is 100% more likely than rolling two even numbers consecutively.\n\nFinal answer: **100**']]
+Model Prediction / Ground Truth: 100 / 25
+Correct Predictions / Total Tests: 162 / 184
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 100: [73.52%]
+Current Accuracy: 88.04%
+----------------------
+----------------------
+Problem 197: In der Stadt Soda gibt es genau 23786 Einwohner. Dazu gehören 8417 Männer und 9092 Frauen. Der Rest der Bevölkerung besteht aus Kindern. Wie viele Kinder gibt es in Soda?
+Reasoning step: [['To find the number of children in the city of Soda, we need to subtract the number of men and women from the total population.\n\n1. **Identify the total population**:  \n   The total population of Soda is 23,786.\n\n2. **Identify the number of men**:  \n   There are 8,417 men in Soda.\n\n3. **Identify the number of women**:  \n   There are 9,092 women in Soda.\n\n4. **Calculate the combined number of men and women**:  \n   Add the number of men and women together:  \n   \\( 8,417 + 9,092 = 17,509 \\)\n\n5. **Calculate the number of children**:  \n   Subtract the combined number of men and women from the total population to find the number of children:  \n   \\( 23,786 - 17,509 = 6,277 \\)\n\nThe number of children in Soda is 6,277.']]
+Model Prediction / Ground Truth: 277 / 6277
+Correct Predictions / Total Tests: 174 / 197
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 277: [76.61%]
+Current Accuracy: 88.32%
+----------------------
+----------------------
+Problem 199: Mark ist Korrektor. Er bearbeitet jede Woche die gleiche Anzahl Sätze für zwei verschiedene Herausgeber, die ihm jeweils eine andere Rate pro Satz bezahlen. Herausgeber B bezahlt Mark das Doppelte dessen, was Herausgeber A bezahlt. Mark bearbeitet jede Woche eine Gesamtzahl von 1000 Sätzen, und Herausgeber A bezahlt ihm 5 Cent pro Satz. Wie viel verdient Mark in einer Woche in Cent?
+Reasoning step: [["To determine how much Mark earns in a week, we need to find out how many sentences he corrects for each publisher and calculate his earnings based on the rates provided.\n\n1. **Determine the rate for Publisher B**: \n   - Publisher A pays Mark 5 cents per sentence.\n   - Publisher B pays double the rate of Publisher A.\n   - Therefore, the rate for Publisher B is \\(5 \\times 2 = 10\\) cents per sentence.\n\n2. **Establish variables**:\n   - Let \\( x \\) be the number of sentences Mark corrects for Publisher A each week.\n   - Since he corrects a total of 1000 sentences each week, the number of sentences he corrects for Publisher B is \\( 1000 - x \\).\n\n3. **Calculate weekly earnings from each publisher**:\n   - Earnings from Publisher A: \\( 5 \\times x \\) cents.\n   - Earnings from Publisher B: \\( 10 \\times (1000 - x) \\) cents.\n\n4. **Calculate total weekly earnings**:\n   - Total earnings: \\( 5x + 10(1000 - x) \\).\n\n5. **Simplify the expression**:\n   - Distribute the 10: \\( 5x + 10000 - 10x \\).\n   - Combine like terms: \\( 10000 - 5x \\).\n\nSince we don't have specific constraints on the number of sentences for each publisher, and the problem doesn't provide any additional conditions, we know that Mark's total weekly earnings solely depend on the total number of sentences and the rates, summing up to:\n\n- \\( 5x + 10(1000 - x) = 10000 - 5x + 5x = 10000 \\) cents.\n\nThus, Mark earns 10000 cents in a week. Therefore, the final answer is:\n\n10000"]]
+Model Prediction / Ground Truth: 10000 / 7500
+Correct Predictions / Total Tests: 175 / 199
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 10000: [3.10%]
+Current Accuracy: 87.94%
+----------------------
+----------------------
+Problem 209: Zwanzig Duzend Tassen kosten 1200 $ weniger als die Gesamtkosten für ein halbes Duzend Teller, das jeweils zu 6000 $ verkauft wird. Berechnen Sie die Gesamtkosten für den Kauf jeder Tasse.
+Reasoning step: [['To solve this problem, we need to perform a few calculations step by step. Let\'s go through them:\n\n1. **Understanding the Units:**\n   - "Zwanzig Duzend Tassen" means "twenty dozen cups."\n   - "Ein halbes Duzend Teller" means "half a dozen plates."\n\n2. **Calculate the Cost of Plates:**\n   - Each plate is sold for $6000.\n   - For half a dozen (which is 6 plates / 2 = 3 plates), the total cost is:\n     \\[\n     3 \\times 6000 = 18000 \\text{ dollars}\n     \\]\n\n3. **Determine the Cost of Cups:**\n   - The cost for twenty dozen cups is $1200 less than the cost of the plates.\n   - Therefore, the cost for the cups is:\n     \\[\n     18000 - 1200 = 16800 \\text{ dollars}\n     \\]\n\n4. **Calculate the Cost Per Cup:**\n   - Twenty dozen cups mean:\n     \\[\n     20 \\times 12 = 240 \\text{ cups}\n     \\]\n   - The total cost for 240 cups is $16800. Therefore, the cost per cup is:\n     \\[\n     \\frac{16800}{240} = 70\n     \\]\n\nThe cost for each cup is 70.']]
+Model Prediction / Ground Truth: 70 / 145
+Correct Predictions / Total Tests: 184 / 209
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 70: [87.03%]
+Current Accuracy: 88.04%
+----------------------
+----------------------
+Problem 230: Mark kauft eine Flotte von 12 Autos für seine Firma. Jedes Auto ist für 20.000 $ zu haben. Er zahlt 10 % Steuer auf die Autos und weitere 1000 $ für jedes davon für die Registrierung. Wie viel bezahlt er für alles?
+Reasoning step: [['To calculate the total cost Mark pays for the entire fleet of cars, consider the following steps:\n\n1. **Calculate the cost of the cars without taxes and registration:**\n   - Mark buys 12 cars, each costing $20,000.\n   - Total cost for the cars: 12 cars × $20,000/car = $240,000.\n\n2. **Calculate the tax on the cars:**\n   - The tax rate is 10%.\n   - Total tax: 10% of $240,000 = 0.10 × $240,000 = $24,000.\n\n3. **Calculate the registration cost:**\n   - Registration costs $1,000 per car.\n   - Total registration cost: 12 cars × $1,000/car = $12,000.\n\n4. **Calculate the total cost including cars, tax, and registration:**\n   - Total cost = Cost of cars + Tax + Registration cost\n   - Total cost = $240,000 + $24,000 + $12,000 = $276,000.\n\nTherefore, the total amount Mark pays for everything is 276,000.']]
+Model Prediction / Ground Truth: 0 / 276000
+Correct Predictions / Total Tests: 204 / 230
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 0: [95.18%]
+Current Accuracy: 88.70%
+----------------------
+----------------------
+Problem 234: Steve beschließt, damit anzufangen, mehr Tomaten zu essen und seine eigenen Cherry-Tomaten anzupflanzen. Er isst doppelt so viele wie seine Freundin. Er isst 6 pro Tag. Wenn ein Stock 3 Tomaten pro Woche erzeugen kann, wie viele Stöcke braucht er dann?
+Reasoning step: [["To solve this problem, we need to determine how many tomato plants Steve needs to meet his consumption needs.\n\n1. **Determine Steve's weekly consumption:**\n   - Steve eats 6 tomatoes per day.\n   - Therefore, in one week (which has 7 days), Steve eats:\n     \\[\n     6 \\text{ tomatoes/day} \\times 7 \\text{ days/week} = 42 \\text{ tomatoes/week}\n     \\]\n\n2. **Determine production per plant:**\n   - Each plant produces 3 tomatoes per week.\n\n3. **Calculate the number of plants needed:**\n   - To find the number of plants required, divide Steve's weekly consumption by the production per plant:\n     \\[\n     \\frac{42 \\text{ tomatoes/week}}{3 \\text{ tomatoes/plant/week}} = 14 \\text{ plants}\n     \\]\n\nTherefore, Steve needs 14 plants. \n\nFinal Answer: 14"]]
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 207 / 234
+Weighted Verifier Probability: 0.00%
+Verifier Raw Probability: 14: [60.93%]
+Current Accuracy: 88.46%
+----------------------
