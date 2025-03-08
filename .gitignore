@@ -2,3 +2,35 @@
 
 /verifier_env
 
+
+# Saved checkpoints
+/DIVERSE/execution
+
+# Python Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore training state and optimizer files
+trainer_state.json
+training_args.bin
+optimizer.pt
+scheduler.pt
+rng_state.pth
+
+# Ignore all config files (if not necessary)
+config.json
+
+# Ignore model checkpoints and binary files
+*.pt
+*.pth
+*.bin
+
+# Wandb
+/DIVERSE/code/src/wandb
+
+# Data
+/DIVERSE/data
+/data
+/logs
