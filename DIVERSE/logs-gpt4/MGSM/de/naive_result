@@ -1,0 +1,1496 @@
+--- TEST LOG START (2025-02-20 19:40:39) ---
+
+----------------------
+Problem 1: Ein Kleid erfordert 2 Knäuel blaue Wolle und halb so viel weiße Wolle. Wie viele Knäuel braucht man insgesamt?
+Model Prediction / Ground Truth: 3 / 3
+Correct Predictions / Total Tests: 1 / 1
+Current Accuracy: 100.00%
+----------------------
+----------------------
+Problem 2: Josh beschließt, ein Haus zu verkaufen. Er kauft ein Haus für 80.000 US-Dollar und steckt anschließend 50.000 US-Dollar an Reparaturen hinein. Dadurch steigt der Wert des Hauses um 150 %. Wie viel Gewinn macht er?
+Model Prediction / Ground Truth: 120000 / 70000
+Correct Predictions / Total Tests: 1 / 2
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 3: James beschließt, 3-mal pro Woche 3 Kurzstreckenläufe zu absolvieren. Pro Kurzstreckenlauf läuft er 60 Meter. Wie viele Meter insgesamt läuft er pro Woche?
+Model Prediction / Ground Truth: 540 / 540
+Correct Predictions / Total Tests: 2 / 3
+Current Accuracy: 66.67%
+----------------------
+----------------------
+Problem 4: Wendi füttert jedes ihrer Hühner täglich mit drei Tassen gemischtem Hühnerfutter, mit Samen, Mehlwürmern und Gemüse, damit sie gesund bleiben. Sie füttert die Hühner in drei separaten Mahlzeiten. Morgens füttert sie ihre Hühnerschar mit 15 Tassen Futter. Nachmittags gibt sie den Hühnern noch einmal 25 Tassen Futter. Wie viele Tassen Futter braucht sie, um den Hühnern die letzte Mahlzeit des Tages zu verabreichen, wenn Wendis Hühnerschar aus 20 Hühnern besteht?
+Model Prediction / Ground Truth: 30 / 20
+Correct Predictions / Total Tests: 2 / 4
+Current Accuracy: 50.00%
+----------------------
+----------------------
+Problem 5: Kylar geht ins Kaufhaus, um Gläser für seine neue Wohnung zu erwerben. Ein Glas kostet 5 US-Dollar, aber jedes weitere Glas kostet nur 60 % des Ausgangspreises. Kylar möchte 16 Gläser kaufen. Wie viel muss er dafür ausgeben?
+Model Prediction / Ground Truth: 52 / 64
+Correct Predictions / Total Tests: 2 / 5
+Current Accuracy: 40.00%
+----------------------
+----------------------
+Problem 6: Toulouse hat zweimal so viele Schafe wie Charleston. Charleston hat 4-mal so viele Schafe wie Seattle. Wie viele Schafe haben Toulouse, Charleston und Seattle zusammen, wenn Seattle 20 Schafe hat?
+Model Prediction / Ground Truth: 180 / 260
+Correct Predictions / Total Tests: 2 / 6
+Current Accuracy: 33.33%
+----------------------
+----------------------
+Problem 7: Carla lädt eine Datei mit 200 GB herunter. Normalerweise kann sie 2 GB/Minute herunterladen, aber nachdem 40 % des Downloads abgeschlossen sind, erzwingt Windows einen Neustart, um Updates zu installieren, was 20 Minuten dauert. Danach muss Carla den Download noch einmal ganz neu starten. Wie lange dauert das Herunterladen der Datei?
+Model Prediction / Ground Truth: 240 / 160
+Correct Predictions / Total Tests: 2 / 7
+Current Accuracy: 28.57%
+----------------------
+----------------------
+Problem 8: John fährt 3 Stunden lang mit einer Geschwindigkeit von 60 Meilen/Stunde und dreht dann um, weil er bemerkt, dass er etwas ganz Wichtiges zu Hause vergessen hat. Er versucht, innerhalb von 4 Stunden nach Hause zu kommen, verbringt allerdings die ersten 2 Stunden im Stau. Die anschließende halbe Stunde fährt er mit einer Geschwindigkeit von 30 Meilen/Stunde, bevor er die verbleibende Zeit von 4 Stunden mit 80 Meilen/Stunde weiterfahren kann. Wie weit weg von zu Hause ist er am Ende dieser 4 Stunden?
+Model Prediction / Ground Truth: 30 / 45
+Correct Predictions / Total Tests: 2 / 8
+Current Accuracy: 25.00%
+----------------------
+----------------------
+Problem 9: Elizas Lohn für die ersten 40 Stunden, die sie pro Woche arbeitet, beträgt 10 US-Dollar. Sie bekommt auch die Überstunden mit dem 1,2-Fachen des normalen Stundensatzes vergütet. Wie viel verdient Eliza, wenn sie diese Woche 45 Stunden arbeitet?
+Model Prediction / Ground Truth: 460 / 460
+Correct Predictions / Total Tests: 3 / 9
+Current Accuracy: 33.33%
+----------------------
+----------------------
+Problem 10: Ein neues Programm wurde 60-mal im ersten Monat heruntergeladen. Im zweiten Monat lag die Anzahl der Downloads dreimal so hoch wie die Anzahl der Downloads im ersten Monat, brach dann aber im dritten Monat um 30 % ein. Wie oft wurde das Programm insgesamt während dieser drei Monate heruntergeladen?
+Model Prediction / Ground Truth: 222 / 366
+Correct Predictions / Total Tests: 3 / 10
+Current Accuracy: 30.00%
+----------------------
+----------------------
+Problem 11: Toula ging in die Bäckerei und kaufte verschiedene Arten von Gebäck. Sie kaufte 3 Dutzend Donuts, die 68 US-Dollar pro Dutzend kosten, 2 Dutzend Mini-Cupcakes, die 80 US-Dollar pro Dutzend kosten und 6 Dutzend Mini-Cheesecakes für 55 US-Dollar pro Dutzend. Wie hoch waren die Gesamtkosten?
+Model Prediction / Ground Truth: 3760 / 694
+Correct Predictions / Total Tests: 3 / 11
+Current Accuracy: 27.27%
+----------------------
+----------------------
+Problem 12: Carlos pflanzt einen Zitronenbaum. Das Pflanzen des Baumes kostet 90 US-Dollar. Jedes Jahr wachsen 7 Zitronen, die er für 1,50 US-Dollar pro Stück verkaufen kann. Es kostet 3 US-Dollar pro Jahr, den Baum zu gießen und zu düngen. Wie viele Jahre dauert es, bevor er mit dem Zitronenbaum Geld verdient?
+Model Prediction / Ground Truth: 6 / 13
+Correct Predictions / Total Tests: 3 / 12
+Current Accuracy: 25.00%
+----------------------
+----------------------
+Problem 13: Melanie ist Handelsvertreterin. Sie hat ein Drittel ihrer Staubsauger im grünen Haus, 2 weitere im roten Haus und die Hälfte der Übriggebliebenen im orangenen Haus verkauft. Wenn Melanie 5 Staubsauger übrighat, mit wie vielen hat sie dann angefangen?
+Model Prediction / Ground Truth: 15 / 18
+Correct Predictions / Total Tests: 3 / 13
+Current Accuracy: 23.08%
+----------------------
+----------------------
+Problem 14: In einer Tanzstunde mit 20 Schülern haben sich 20 % für Contemporary Dance eingetragen, 25 % der restlichen für Jazz Dance, und der Rest hat sich für Hip-Hop angemeldet. Wie viele Prozent aller Schüler haben sich für Hip-Hop angemeldet?
+Model Prediction / Ground Truth: 60 / 60
+Correct Predictions / Total Tests: 4 / 14
+Current Accuracy: 28.57%
+----------------------
+----------------------
+Problem 15: Ein Händler möchte eine Kaufentscheidung zwischen 2 Kaufoptionen treffen: Schmuck im Wert von 5.000 US-Dollar oder Elektronikgeräte im Wert von 8.000 US-Dollar. Sein Finanzberater geht davon aus, dass der Schmuckmarkt um 2,5 % zulegen wird und der Markt für Elektrogeräte um 1,2 % im selben Monat. Wenn der Händler Ende des Monats durch das Treffen einer Kaufentscheidung den Gewinn maximieren möchte, auf wie viel Gewinn käme er dann?
+Model Prediction / Ground Truth: 5125 / 125
+Correct Predictions / Total Tests: 4 / 15
+Current Accuracy: 26.67%
+----------------------
+----------------------
+Problem 16: Zwei Züge verlassen San Rafael zur selben Zeit. Sie beginnen, nach Westen zu fahren und legen beide 80 Meilen zurück. Am nächsten Tag fahren sie gen Norden und legen 150 Meilen zurück. Welche Strecke legt jeder der Züge in den beiden Tagen zurück?
+Model Prediction / Ground Truth: 230 / 230
+Correct Predictions / Total Tests: 5 / 16
+Current Accuracy: 31.25%
+----------------------
+----------------------
+Problem 17: Jill bekommt 20 US-Dollar pro Stunde für den Unterricht als Lehrerin und 30 US-Dollar als Cheerleader-Coach. Wenn sie 50 Wochen pro Jahr arbeitet, 35 Wochen pro Woche als Lehrerin und 15 Stunden pro Woche als Coach, wie hoch ist dann ihr Jahresgehalt?
+Model Prediction / Ground Truth: 46500 / 57500
+Correct Predictions / Total Tests: 5 / 17
+Current Accuracy: 29.41%
+----------------------
+----------------------
+Problem 18: Claire bereitet sich jeden Morgen zum Frühstück ein Omelett aus 3 Eiern zu. Wie viele Dutzend Eier isst sie innerhalb von 4 Wochen?
+Model Prediction / Ground Truth: 14 / 7
+Correct Predictions / Total Tests: 5 / 18
+Current Accuracy: 27.78%
+----------------------
+----------------------
+Problem 19: Marissa wandert einen 12 Meilen langen Wanderweg. In der 1. Stunde wandert sie die ersten 4 Meilen, anschließend die nächsten zwei Meilen in der nächsten Stunde. Wenn sie mit einer Durchschnittsgeschwindigkeit von 4 Meilen pro Stunde wandern möchte, mit welcher Geschwindigkeit (Meilen pro Stunde) muss sie den Rest der Strecke zurücklegen?
+Model Prediction / Ground Truth: 6 / 6
+Correct Predictions / Total Tests: 6 / 19
+Current Accuracy: 31.58%
+----------------------
+----------------------
+Problem 20: Ich habe 10 Liter Orangengetränk mit zwei Dritteln Wasser und möchte es zu 15 Litern Ananasgetränk mit drei Fünfteln Wasser hinzugeben. Während des Eingießens verschütte ich allerdings einen Liter des Orangengetränks. Wie viel Wasser ist in den verbleibenden 24 Litern?
+Model Prediction / Ground Truth: 14 / 15
+Correct Predictions / Total Tests: 6 / 20
+Current Accuracy: 30.00%
+----------------------
+----------------------
+Problem 21: Raymond und Samantha sind Cousins. Raymond wurde 6 Jahre vor Samantha geboren. Raymond hat mit 23 Jahren einen Sohn bekommen. Wenn Samantha jetzt 31 ist, vor wie vielen Jahren wurde dann Raymonds Sohn geboren?
+Model Prediction / Ground Truth: 14 / 14
+Correct Predictions / Total Tests: 7 / 21
+Current Accuracy: 33.33%
+----------------------
+----------------------
+Problem 22: Billy verkauft DVDs. Er hat am Dienstag 8 Kunden. Seine ersten 3 Kunden kaufen jeweils eine DVD. Seine nächsten 2 Kunden kaufen jeweils 2 DVDs. Seine letzten 3 Kunden kaufen keine DVD. Wie viele DVDs hat Billy am Dienstag verkauft?
+Model Prediction / Ground Truth: 7 / 7
+Correct Predictions / Total Tests: 8 / 22
+Current Accuracy: 36.36%
+----------------------
+----------------------
+Problem 23: Eine Kerze schmilzt jede Stunde, in der sie brennt, um 2 Zentimeter. Wie viele Zentimeter kürzer ist eine Kerze, die von 13 Uhr bis 17 Uhr brennt?
+Model Prediction / Ground Truth: 8 / 8
+Correct Predictions / Total Tests: 9 / 23
+Current Accuracy: 39.13%
+----------------------
+----------------------
+Problem 24: Kyle hat den Bestseller des vergangenen Jahres für 19,50 US-Dollar gekauft. Das ist mit einem Rabatt von 25 % auf den ursprünglichen Preis. Wie hoch war der ursprüngliche Preis des Buches?
+Model Prediction / Ground Truth: 26 / 26
+Correct Predictions / Total Tests: 10 / 24
+Current Accuracy: 41.67%
+----------------------
+----------------------
+Problem 25: Marie hat ein Hühnchengericht für 12 US-Dollar bestellt, 5 Packungen Milch für jeweils 3 US-Dollar, 4 Äpfel für jeweils 1,50 US-Dollar und ein paar Schachteln Pizza. Marie hat insgesamt 50 US-Dollar bezahlt. Wie viele Schachteln Pizza hat Marie bestellt, wenn jede Schachtel 8,50 US-Dollar kostet?
+Model Prediction / Ground Truth: 1 / 2
+Correct Predictions / Total Tests: 10 / 25
+Current Accuracy: 40.00%
+----------------------
+----------------------
+Problem 26: Mishka hat 3 Paar Shorts, 3 Hosen und 3 Paar Schuhe gekauft. Ein Paar Shorts kostet 16,50 US-Dollar. Eine Hose kostet 22,50 US-Dollar und ein Paar Schuhe 42 US-Dollar. Wie viel Dollar hat Mishka insgesamt für die Kleidung ausgegeben?
+Model Prediction / Ground Truth: 243 / 243
+Correct Predictions / Total Tests: 11 / 26
+Current Accuracy: 42.31%
+----------------------
+----------------------
+Problem 27: Cynthia isst jeden Abend eine Portion Eiscreme. Sie kauft Eiscremekartons mit 15 Portionen Eis pro Karton für 4,00 US-Dollar pro Karton. Wie viel hat sie nach 60 Tagen für Eiscreme ausgegeben?
+Model Prediction / Ground Truth: 16 / 16
+Correct Predictions / Total Tests: 12 / 27
+Current Accuracy: 44.44%
+----------------------
+----------------------
+Problem 28: Henry hat auf einer 60 Meilen langen Fahrradtour zwei Stopps eingelegt. Seinen ersten Halt machte er nach 20 Meilen. Der zweite Halt war 15 Meilen vor dem Ende der Tour. Wie viele Meilen hat er zwischen dem ersten und zweiten Halt zurückgelegt?
+Model Prediction / Ground Truth: 25 / 25
+Correct Predictions / Total Tests: 13 / 28
+Current Accuracy: 46.43%
+----------------------
+----------------------
+Problem 29: Gloria ist beim Schuhe-Shopping, als sie ein Paar Stiefel findet, das ihrem Budget entspricht. Sie muss allerdings zwischen den Stiefeln und zwei Paar High Heels wählen, die zusammen fünf Dollar weniger kosten als die Stiefel. Wenn ein Paar High Heels 33 US-Dollar kostet und das andere doppelt so viel, wie viel kosten dann die Stiefel?
+Model Prediction / Ground Truth: 99 / 104
+Correct Predictions / Total Tests: 13 / 29
+Current Accuracy: 44.83%
+----------------------
+----------------------
+Problem 30: Das Altersverhältnis von Darrell und Allen beträgt 7:11. Wenn sie jetzt zusammen 162 Jahre alt sind, berechne, wie alt Allen in 10 Jahren sein wird.
+Model Prediction / Ground Truth: 100 / 109
+Correct Predictions / Total Tests: 13 / 30
+Current Accuracy: 43.33%
+----------------------
+----------------------
+Problem 31: Gunter versucht, die Gummibärchen im Glas zu zählen. Er fragt seine Freunde, wie viele Gummibärchen sich ihrer Meinung nach im Glas befinden. Einer sagt 80. Der andere sagt 20 mehr als die Hälfte der ersten Schätzung. Ein Dritter sagt 25 % mehr als der Erste. Wie lautet ihre durchschnittliche Schätzung?
+Model Prediction / Ground Truth: 85 / 80
+Correct Predictions / Total Tests: 13 / 31
+Current Accuracy: 41.94%
+----------------------
+----------------------
+Problem 32: John kümmert sich um 10 Hunde. Jeder Hund braucht 0,5 Stunden täglich für einen Spaziergang und um sein Geschäft zu erledigen. Wie viele Stunden pro Woche kümmert er sich insgesamt um die Hunde?
+Model Prediction / Ground Truth: 35 / 35
+Correct Predictions / Total Tests: 14 / 32
+Current Accuracy: 43.75%
+----------------------
+----------------------
+Problem 33: Gretchen hat 110 Münzen. Es sind 30 mehr Gold- als Silbermünzen. Wie viele Goldmünzen hat Gretchen?
+Model Prediction / Ground Truth: 70 / 70
+Correct Predictions / Total Tests: 15 / 33
+Current Accuracy: 45.45%
+----------------------
+----------------------
+Problem 34: Siobhan besitzt 2 Schmuckstücke weniger als Aaron. Aaron hat 5 Schmuckstücke mehr als die Hälfte von Raymonds Schmuckstücken. Wenn Raymond 40 Schmuckstücke hat, wie viele Schmuckstücke besitzt dann Siobhan?
+Model Prediction / Ground Truth: 18 / 23
+Correct Predictions / Total Tests: 15 / 34
+Current Accuracy: 44.12%
+----------------------
+----------------------
+Problem 35: Mike spielt 40 Minuten lang Pingpong. In den ersten 20 Minuten macht er 4 Punkte. In den darauffolgenden 20 Minuten macht er 25 % Punkte mehr. Wie viele Punkte machte er insgesamt?
+Model Prediction / Ground Truth: 5 / 9
+Correct Predictions / Total Tests: 15 / 35
+Current Accuracy: 42.86%
+----------------------
+----------------------
+Problem 36: Terry isst 2 Joghurts pro Tag. Sie sind derzeit für 5,00 US-Dollar für 4 Joghurts im Angebot. Wie viel gibt er innerhalb von 30 Tagen für Joghurt aus?
+Model Prediction / Ground Truth: 75 / 75
+Correct Predictions / Total Tests: 16 / 36
+Current Accuracy: 44.44%
+----------------------
+----------------------
+Problem 37: John plant, sein gesamtes Spielzeug zu verkaufen und mit dem Erlös Videospiele zu kaufen. Er hat 13 Lego-Sets und verkauft sie für 15 US-Dollar pro Stück. Letztendlich kauft er 8 Videospiele für 20 US-Dollar pro Stück und hat noch 5 US-Dollar übrig. Wie viele Lego-Sets bleiben ihm noch?
+Model Prediction / Ground Truth: 0 / 2
+Correct Predictions / Total Tests: 16 / 37
+Current Accuracy: 43.24%
+----------------------
+----------------------
+Problem 38: John läuft 60 Meilen pro Woche. Er läuft 3 Tage pro Woche. Er läuft am ersten Tag 3 Stunden und an den anderen beiden Lauftagen jeweils die Hälfte. Wie schnell läuft er?
+Model Prediction / Ground Truth: 10 / 10
+Correct Predictions / Total Tests: 17 / 38
+Current Accuracy: 44.74%
+----------------------
+----------------------
+Problem 39: Dana kann viermal so schnell laufen wie sie gehen kann, aber sie kann nur mit der Hälfte ihrer Laufgeschwindigkeit hüpfen. Wenn sie mit 3 Meilen pro Stunde hüpfen kann, wie viele Meilen kann sie dann innerhalb von sechs Stunden zurücklegen, wenn sie ein Drittel der Zeit läuft und zwei Drittel der Zeit geht?
+Model Prediction / Ground Truth: 24 / 18
+Correct Predictions / Total Tests: 17 / 39
+Current Accuracy: 43.59%
+----------------------
+----------------------
+Problem 40: Brandons iPhone ist viermal so alt wie Bens iPhone. Bens iPhone ist doppelt so alt wie Suzys iPhone. Wenn Suzys iPhone 1 Jahr alt ist, wie alt ist dann Brandons iPhone?
+Model Prediction / Ground Truth: 8 / 8
+Correct Predictions / Total Tests: 18 / 40
+Current Accuracy: 45.00%
+----------------------
+----------------------
+Problem 41: Der große Drachen Perg saß hoch oben auf dem Berg Farbo und spie Feuer auf alles in einem Umkreis von 1000 Fuß. Polly konnte den goldenen Speer, die einzige bekannte Waffe, mit der sich der Drache bezwingen ließ, 400 Fuß weit werfen, also gut in die Reichweite der vom Drachen ausgestoßenen Flammen hinein. Als Polly aber den Saphir-Edelstein in den Händen hielt, konnte sie den Speer dreimal so weit werfen wie ohne den Edelstein in ihren Händen. Wenn sie den Edelstein in den Händen hielte, wie weit außerhalb der Reichweite der Flammen des Drachen könnte Polly stehen und den Drachen trotzdem noch mit dem goldenen Speer treffen?
+Model Prediction / Ground Truth: 200 / 200
+Correct Predictions / Total Tests: 19 / 41
+Current Accuracy: 46.34%
+----------------------
+----------------------
+Problem 42: Großmama Jones hat 5 Apfelkuchen für das Mittagessen der Feuerwehr gebacken. Sie schnitt jeden Kuchen in 8 Stücke und stellte fünf Kuchen auf den Buffettisch, damit sich die Gäste selbst bedienen konnten. Am Ende des Abends, nachdem sich die Gäste bedient und Kuchen gegessen hatten, waren noch 14 Kuchenstücke übrig. Wie viele Stücke haben sich die Gäste genommen?
+Model Prediction / Ground Truth: 26 / 26
+Correct Predictions / Total Tests: 20 / 42
+Current Accuracy: 47.62%
+----------------------
+----------------------
+Problem 43: Den Nährwertangaben zufolge, hat eine Tüte Chips 250 Kalorien pro Portion. Wenn eine 300 g-Tüte 5 Portionen enthält, kannst du wie viele Gramm essen, wenn dein tägliches Kalorienziel bei 2000 liegt und du bereits 1800 Kalorien zu dir genommen hast?
+Model Prediction / Ground Truth: 60 / 48
+Correct Predictions / Total Tests: 20 / 43
+Current Accuracy: 46.51%
+----------------------
+----------------------
+Problem 44: Charlie möchte Bienenwachskerzen verkaufen. Aus jedem Pfund Bienenwachs kann er 10 Kegelkerzen herstellen. Das Zubehör aus einem Pfund Bienenwachs plus Dochte kostet 10,00 US-Dollar. Wenn er die Kerzen für 2,00 US-Dollar verkauft, macht er wie viel Nettogewinn, wenn er 20 Kerzen herstellt und verkauft?
+Model Prediction / Ground Truth: 30 / 20
+Correct Predictions / Total Tests: 20 / 44
+Current Accuracy: 45.45%
+----------------------
+----------------------
+Problem 45: Meredith ist Freelance-Bloggerin und schreibt über Gesundheitsthemen und wendet sich an Kunden, was ihr fester Job ist. Das Recherchieren und Schreiben eines Blog-Artikels nimmt im Durchschnitt 4 Stunden in Anspruch. Letzte Woche hat sie am Montag 5 Artikel geschrieben und am Dienstag 2/5 mehr Artikel als am Montag. Am Mittwoch hat sie zweimal so viele Artikel verfasst wie am Dienstag. Berechne die Gesamtzahl der Stunden, die sie an drei Tagen für das Schreiben von Artikeln aufgewendet hat.
+Model Prediction / Ground Truth: 76 / 104
+Correct Predictions / Total Tests: 20 / 45
+Current Accuracy: 44.44%
+----------------------
+----------------------
+Problem 46: Candice hat 80 Post-it-Notizzettel in ihre Handtasche gepackt, bevor sie zu ihrem Job im Coffee Shop aufgebrochen ist. Unterwegs hat sie einen Zwischenstopp am Laden eingelegt und eine Packung Post-it-Notizzettel gekauft; bei der Arbeit hat sie an 220 verschiedene Tassen Kaffee jeweils einen Post-it-Notizzettel geklebt. Wenn ihr insgesamt 23 Post-it-Notizzettel übrigblieben, wie viele Post-it-Notizzettel waren dann in der Packung, die sie gekauft hat?
+Model Prediction / Ground Truth: 263 / 163
+Correct Predictions / Total Tests: 20 / 46
+Current Accuracy: 43.48%
+----------------------
+----------------------
+Problem 47: John kauft zweimal so viele rote wie blaue Krawatten. Die roten Krawatten kosten 50 % mehr als die blauen Krawatten. Er hat 200 US-Dollar für blaue Krawatten ausgegeben, die pro Stück 40 US-Dollar kosten. Wie viel hat er für Krawatten ausgegeben?
+Model Prediction / Ground Truth: 360 / 800
+Correct Predictions / Total Tests: 20 / 47
+Current Accuracy: 42.55%
+----------------------
+----------------------
+Problem 48: Tracy hat ein 4 Fuß langes Stück Draht verwendet, um die Tomatenpflanzen in ihrem Garten abzustützen. Der Draht wurde in jeweils 6 Inch lange Stücke geschnitten. Wie viele Stück Draht hatte sie?
+Model Prediction / Ground Truth: 8 / 8
+Correct Predictions / Total Tests: 21 / 48
+Current Accuracy: 43.75%
+----------------------
+----------------------
+Problem 49: Richard lebt in einem Wohnhaus mit 15 Etagen. Auf jeder Etage befinden sich 8 Wohnungen, und 3/4 des Gebäudes sind bewohnt. Wie viele Wohnungen in dem Gebäude sind insgesamt unbewohnt?
+Model Prediction / Ground Truth: 30 / 30
+Correct Predictions / Total Tests: 22 / 49
+Current Accuracy: 44.90%
+----------------------
+----------------------
+Problem 50: Lloyd hat einen Eierhof. Seine Hühner legen 252 Eier pro Tag und er verkauft sie für 2 US-Dollar pro Dutzend. Wie viel verdient Lloyd pro Woche an den Eiern?
+Model Prediction / Ground Truth: 2940 / 294
+Correct Predictions / Total Tests: 22 / 50
+Current Accuracy: 44.00%
+----------------------
+----------------------
+Problem 51: Toms Schiff kann 10 Meilen pro Stunde zurücklegen. Er segelt von 13 bis 16 Uhr. Dann fährt er mit einer Geschwindigkeit von 6 Meilen/Stunde wieder zurück. Wie lange braucht er für den Rückweg?
+Model Prediction / Ground Truth: 5 / 5
+Correct Predictions / Total Tests: 23 / 51
+Current Accuracy: 45.10%
+----------------------
+----------------------
+Problem 52: Uriah wird seine Büchertasche zu schwer. Er muss 15 Pfund daraus entnehmen. Seine Comicbücher wiegen pro Stück 1/4 Pfund und seine Spielzeuge jeweils 1/2 Pfund. Wenn er 30 Comicbücher rausnimmt, wie viele Spielzeuge muss er dann noch rausnehmen?
+Model Prediction / Ground Truth: 10 / 15
+Correct Predictions / Total Tests: 23 / 52
+Current Accuracy: 44.23%
+----------------------
+----------------------
+Problem 53: Ein Mechaniker nimmt verschiedene Tarife für die Reparatur von Lastwagen- und Autoreifen. Für jeden reparierten Lastwagenreifen berechnet der Mechaniker 60 US-Dollar und für jeden reparierten Autoreifen berechnet der Mechaniker 40 US-Dollar. Am Donnerstag repariert der Mechaniker 6 Lastwagenreifen und 4 Autoreifen. Am Freitag repariert der Mechaniker 12 Autoreifen und repariert keine Lastwagenreifen. Wie viel Umsatz hat der Mechaniker an dem Tag mit dem höheren Umsatz gemacht?
+Model Prediction / Ground Truth: 480 / 40
+Correct Predictions / Total Tests: 23 / 53
+Current Accuracy: 43.40%
+----------------------
+----------------------
+Problem 54: Die Schwestern Doubtfire fahren nach Hause mit 7 Kätzchen, die sie im örtlichen Tierheim adoptiert haben, als ihre Mutter anruft, um ihnen zu sagen, dass ihre beiden Hauskatzen gerade Kätzchen zur Welt gebracht haben. Sie sagt, dass Patchy, die erste Katze, dreimal so viele Kätzchen hat wie die adoptierten, während Trixie, die andere Katze 12 zur Welt gebracht hat. Wie viele Kätzchen haben die Doubtfires jetzt?
+Model Prediction / Ground Truth: 40 / 40
+Correct Predictions / Total Tests: 24 / 54
+Current Accuracy: 44.44%
+----------------------
+----------------------
+Problem 55: Jean hat 30 Lutscher. Jean isst 2 der Lutscher. Die verbleibenden Lutscher möchte Jean in eine Tüte mit jeweils 2 Lutschern stecken. Wie viele Tüten kann Jean füllen?
+Model Prediction / Ground Truth: 14 / 14
+Correct Predictions / Total Tests: 25 / 55
+Current Accuracy: 45.45%
+----------------------
+----------------------
+Problem 56: Peter plant, diese Woche ins Kino zu gehen. Er kauft sich immer eine Eintrittskarte für 7 US-Dollar und Popcorn für 7 US-Dollar. Wenn er für die Woche 42 US-Dollar zur Verfügung hat, wie oft kann er dann ins Kino gehen?
+Model Prediction / Ground Truth: 3 / 3
+Correct Predictions / Total Tests: 26 / 56
+Current Accuracy: 46.43%
+----------------------
+----------------------
+Problem 57: Eine Holzbrücke kann nicht mehr als 5.000 Pfund tragen. Ein Lieferwagen, der identische Kisten geladen hat, von denen jede 15 Pfund wiegt, wird über die Brücke fahren. Das Gesamtgewicht von Fahrer und leerem Lastwagen beträgt 3755 Pfund. Wie hoch ist die maximale Anzahl an Kisten, die der Lastwagen laden kann, ohne die Gewichtsgrenze der Brücke zu überschreiten?
+Model Prediction / Ground Truth: 83 / 83
+Correct Predictions / Total Tests: 27 / 57
+Current Accuracy: 47.37%
+----------------------
+----------------------
+Problem 58: Stephen hat eine Online-Bestellung für Lebensmittel aufgegeben. Die Endabrechnung belief sich auf 40,00 US-Dollar. Da die Lieferung von einem Lieferdienstleister getätigt wurde, haben sie auf die Endabrechnung eine Gebühr von 25 % aufgeschlagen und ihm 3,00 US-Dollar Liefergebühr berechnet. Stephen hat außerdem 4,00 US-Dollar Trinkgeld gegeben. Nach den Extragebühren, wie hoch war der Endpreis für Stephens Lebensmittel?
+Model Prediction / Ground Truth: 55 / 57
+Correct Predictions / Total Tests: 27 / 58
+Current Accuracy: 46.55%
+----------------------
+----------------------
+Problem 59: Ein Himbeerstrauch hat 6 Trauben mit jeweils 20 Früchten und 67 einzelne Früchte über den Strauch verteilt. Wie viele Himbeeren gibt es insgesamt?
+Model Prediction / Ground Truth: 187 / 187
+Correct Predictions / Total Tests: 28 / 59
+Current Accuracy: 47.46%
+----------------------
+----------------------
+Problem 60: Ein Korb enthält 25 Orangen, von denen 1 schlecht ist, 20 % unreif und 2 sauer sind und der Rest gut ist. Wie viele Orangen sind gut?
+Model Prediction / Ground Truth: 18 / 17
+Correct Predictions / Total Tests: 28 / 60
+Current Accuracy: 46.67%
+----------------------
+----------------------
+Problem 61: Janet kauft eine Brosche für ihre Tochter. Sie zahlt 500 US-Dollar für das Material, um sie herzustellen, und weitere 800 US-Dollar für den Juwelier, damit er sie modelliert. Anschließend zahlt sie noch 10 % von diesem Betrag, um sie zu versichern. Wie viel musste sie bezahlen?
+Model Prediction / Ground Truth: 1430 / 1430
+Correct Predictions / Total Tests: 29 / 61
+Current Accuracy: 47.54%
+----------------------
+----------------------
+Problem 62: Wenn Marcy 40 Jahre lang für das gleiche Unternehmen tätig ist, bekommt sie eine jährliche Rente von 50.000 US-Dollar/Jahr. Nach 20 Jahren werden ihr 5 % des Wertes der jährlichen Rente pro Jahr zugestanden. Wenn sie nach 30 Jahren geht, wie hoch ist dann ihre jährliche Rente?
+Model Prediction / Ground Truth: 37500 / 25000
+Correct Predictions / Total Tests: 29 / 62
+Current Accuracy: 46.77%
+----------------------
+----------------------
+Problem 63: Aleena hat einen Streaming-Dienst abonniert, der 140 US-Dollar pro Monat berechnet. Wenn das Streaming-Unternehmen ihr für die erste Jahreshälfte den ursprünglichen Betrag berechnet und dann für die zweite Jahreshälfte 10 % weniger berechnet, berechne den Gesamtbetrag, den sie bis Ende des Jahres für den Streaming-Dienst bezahlt haben wird.
+Model Prediction / Ground Truth: 1596 / 1596
+Correct Predictions / Total Tests: 30 / 63
+Current Accuracy: 47.62%
+----------------------
+----------------------
+Problem 64: Sophia denkt darüber nach, eine Autofahrt mit ihrem Auto zu machen und möchte wissen, wie weit sie mit einem Tank voll Benzin kommen wird. Seit der letzten Tankfüllung ist sie 100 Meilen gefahren, und sie musste 4 Gallonen Benzin nachfüllen, um den Tank wieder ganz aufzufüllen. In der Bedienungsanleitung für ihr Auto steht geschrieben, dass in ihren Tank 12 Gallonen Benzin passen. Wie viele Meilen kann Sophia mit einer einzigen Tankfüllung fahren?
+Model Prediction / Ground Truth: 300 / 300
+Correct Predictions / Total Tests: 31 / 64
+Current Accuracy: 48.44%
+----------------------
+----------------------
+Problem 65: Jim schaut 2 Stunden lang TV und beschließt dann, ins Bett zu gehen und halb so lange zu lesen. Das macht er 3-mal pro Woche. Wie viele Stunden verbringt er in 4 Wochen mit Fernsehschauen und Lesen?
+Model Prediction / Ground Truth: 96 / 36
+Correct Predictions / Total Tests: 31 / 65
+Current Accuracy: 47.69%
+----------------------
+----------------------
+Problem 66: Vier Schulen treten in einem Basketballturnier gegeneinander an. Jede Schule hat ein Mädchenbasketballteam und ein Jungenbasketballteam geschickt und jedes Team hat 5 Spieler. Alle Schulen haben auch einen Trainer für jedes Team mitgeschickt. Wie viele Personen haben die Schulen insgesamt geschickt?
+Model Prediction / Ground Truth: 48 / 48
+Correct Predictions / Total Tests: 32 / 66
+Current Accuracy: 48.48%
+----------------------
+----------------------
+Problem 67: Ein Schatzsucher hat eine vergrabene Schatzkiste mit Edelsteinen gefunden. Es waren 175 Diamanten, 35 weniger Rubine als Diamanten und zweimal so viele Smaragde wie Rubine. Wie viele Edelsteine waren in der Schatzkiste?
+Model Prediction / Ground Truth: 385 / 595
+Correct Predictions / Total Tests: 32 / 67
+Current Accuracy: 47.76%
+----------------------
+----------------------
+Problem 68: In der Schule von Dr. Wertz gibt es zweimal so viele Jungen wie Mädchen. Wenn es 60 Mädchen und 5 Schüler pro Lehrer gibt, wie viele Lehrer gibt es dann?
+Model Prediction / Ground Truth: 27 / 36
+Correct Predictions / Total Tests: 32 / 68
+Current Accuracy: 47.06%
+----------------------
+----------------------
+Problem 69: Bailey startet mit einem bestimmten Geldbetrag. Dann erhält sie 8 Wochen lang eine wöchentliche Vergütung von 5 US-Dollar. Wenn sie am Ende der 8 Wochen über eine Gesamtsumme von 100 US-Dollar verfügt, hatte Bailey am Anfang wie viel Geld?
+Model Prediction / Ground Truth: 60 / 60
+Correct Predictions / Total Tests: 33 / 69
+Current Accuracy: 47.83%
+----------------------
+----------------------
+Problem 70: Judy unterrichtet 5 Tanzkurse, täglich, an den Wochenenden und 8 Kurse am Samstag. Wenn jeder Kurs aus 15 Schülern besteht und sie 15,00 US-Dollar pro Schüler verlangt, wie viel Geld macht sie dann innerhalb 1 Woche?
+Model Prediction / Ground Truth: 8400 / 7425
+Correct Predictions / Total Tests: 33 / 70
+Current Accuracy: 47.14%
+----------------------
+----------------------
+Problem 71: Kelian hat zwei Kochrezepte, wobei das eine 20 Anweisungen umfasst und das andere zweimal so viele Anweisungen wie das erste. Wie viele Anweisungen muss Kelian lesen, damit er die beiden Rezepte zubereiten kann?
+Model Prediction / Ground Truth: 60 / 60
+Correct Predictions / Total Tests: 34 / 71
+Current Accuracy: 47.89%
+----------------------
+----------------------
+Problem 72: Tommy sammelt für seine Wohltätigkeitsorganisation, indem er Brownies für 3 US-Dollar pro Stück und Käsekuchenstücke für 4 US-Dollar pro Stück verkauft. Wenn Tommy 43 Brownies und 23 Käsekuchenstücke verkauft, wie viel Geld sammelt er dann?
+Model Prediction / Ground Truth: 229 / 221
+Correct Predictions / Total Tests: 34 / 72
+Current Accuracy: 47.22%
+----------------------
+----------------------
+Problem 73: Shiela hat fünf Handys für 150 US-Dollar pro Stück mit einem Ratenzahlungsvertrag über 3 Monate gekauft. Pro Stück werden 2 % Zinsen verlangt. Wie viel zahlt Shiela jeden Monat 3 Monate lang?
+Model Prediction / Ground Truth: 170 / 255
+Correct Predictions / Total Tests: 34 / 73
+Current Accuracy: 46.58%
+----------------------
+----------------------
+Problem 74: Artie hat einen Blumenstand auf dem Bauernmarkt. Er verkauft drei Blumensorten: Ringelblumen, Petunien und Begonien. Er verkauft normalerweise Ringelblumen für 2,74 US-Dollar pro Topf, Petunien für 1,87 US-Dollar pro Topf und Begonien für 2,12 US-Dollar pro Topf. Artie hat heute kein Wechselgeld, also entschließt er sich, alle Preise auf den nächsthöheren Dollarbetrag aufzurunden. Wenn Artie 12 Töpfe Ringelblumen, 9 Töpfe Petunien und 17 Töpfe Begonien verkauft, wie viel verdient er dann?
+Model Prediction / Ground Truth: 132 / 88
+Correct Predictions / Total Tests: 34 / 74
+Current Accuracy: 45.95%
+----------------------
+----------------------
+Problem 75: Luke verbringt Zeit am Strand und baut Sandburgen. Schließlich stellt er fest, dass jede Ebene einer Sandburg nur halb so viele Quadratmeter hat wie die darunterliegende Ebene. Wenn er eine 4-stöckige Sandburg baut, mit einer oberen Ebene von 16 Quadratmetern, was ist dann die durchschnittliche Quadratmeterzahl einer Ebene?
+Model Prediction / Ground Truth: 80 / 60
+Correct Predictions / Total Tests: 34 / 75
+Current Accuracy: 45.33%
+----------------------
+----------------------
+Problem 76: Cecilia hat gerade einen neuen Welpen gekauft. Laut ihrem Tierarzt muss sie den Welpen in den ersten 180 Tagen mit 1 Tasse Hundefutter täglich füttern. Danach muss sie den Welpen mit 2 Tassen Hundefutter täglich für den Rest seines Lebens füttern. Wenn eine Tüte Hundefutter 110 Tassenportionen enthält, wie viele Tüten Hundefutter verbraucht Cecilia dann im ersten Jahr?
+Model Prediction / Ground Truth: 12 / 5
+Correct Predictions / Total Tests: 34 / 76
+Current Accuracy: 44.74%
+----------------------
+----------------------
+Problem 77: Wenn Raymond halb so viel Wäsche wäscht wie Sarah, und Sarah 4-mal so viel Wäsche wäscht wie David, berechne den Unterschied in der Wäschemenge, die Raymond und David waschen, wenn Sarah 400 Pfund Wäsche wäscht.
+Model Prediction / Ground Truth: 300 / 100
+Correct Predictions / Total Tests: 34 / 77
+Current Accuracy: 44.16%
+----------------------
+----------------------
+Problem 78: Vincent kann Blumen in 3-er-Packungen für 2,50 US-Dollar oder in 2-er-Packungen für 1 US-Dollar kaufen. Wie viel Geld spart er, wenn der 18 Blumen zum besseren Preis kauft?
+Model Prediction / Ground Truth: 3 / 6
+Correct Predictions / Total Tests: 34 / 78
+Current Accuracy: 43.59%
+----------------------
+----------------------
+Problem 79: John adoptiert einen Hund. Er bringt den Hund zum Hundefrisör, was 100 US-Dollar kostet. Der Hundefrisör bietet ihm einen Rabatt von 30 % an, da er Neukunde ist. Wie viel kostet die Sitzung beim Hundefrisör?
+Model Prediction / Ground Truth: 70 / 70
+Correct Predictions / Total Tests: 35 / 79
+Current Accuracy: 44.30%
+----------------------
+----------------------
+Problem 80: Zwei Mädchen bekamen jeweils 1/6 der 24 Liter Wasser. Dann bekam ein Junge 6 Liter Wasser. Wie viele Liter Wasser blieben übrig?
+Model Prediction / Ground Truth: 14 / 10
+Correct Predictions / Total Tests: 35 / 80
+Current Accuracy: 43.75%
+----------------------
+----------------------
+Problem 81: Charlie hatte 10 Sticker. Er hat 21 Sticker in einem Laden in der Mall gekauft und bekam 23 Sticker zum Geburtstag geschenkt. Dann gab Charlie seiner Schwester 9 der Sticker und benutzte 28 zum Dekorieren einer Grußkarte. Wie viele Sticker hat Charlie übrig?
+Model Prediction / Ground Truth: 17 / 17
+Correct Predictions / Total Tests: 36 / 81
+Current Accuracy: 44.44%
+----------------------
+----------------------
+Problem 82: Grace wiegt 125 Pfund. Alex wiegt 2 Pfund weniger als das 4-fache des Gewichts von Grace. Wie viel Pfund wiegen sie zusammen?
+Model Prediction / Ground Truth: 622 / 623
+Correct Predictions / Total Tests: 36 / 82
+Current Accuracy: 43.90%
+----------------------
+----------------------
+Problem 83: Dan pflanzt 3 Rosenbüsche. Jeder Rosenbusch trägt 25 Rosen. Jede Rose hat 8 Dornen. Wie viele Dornen sind es insgesamt?
+Model Prediction / Ground Truth: 600 / 600
+Correct Predictions / Total Tests: 37 / 83
+Current Accuracy: 44.58%
+----------------------
+----------------------
+Problem 84: Ein Fußballteam spielt 22 Spiele. Sie haben 8 mehr gewonnen als verloren. Wie viele haben sie gewonnen?
+Model Prediction / Ground Truth: 15 / 15
+Correct Predictions / Total Tests: 38 / 84
+Current Accuracy: 45.24%
+----------------------
+----------------------
+Problem 85: Gene näht eine Decke aus alten Erinnerungs-T-Shirts. Er hat ein T-Shirt aus jedem Urlaub, in dem er war. Jedes Shirt bildet einen eigenen Deckenabschnitt. Jede Reihe ist aus Abschnitten eines anderen Ferienjahrs gefertigt. Er macht viermal im Jahr Urlaub und verreist, seit er 23 Jahre alt ist. Jetzt ist er 34 Jahre alt. Wie viele Deckenabschnitte hat er insgesamt?
+Model Prediction / Ground Truth: 44 / 44
+Correct Predictions / Total Tests: 39 / 85
+Current Accuracy: 45.88%
+----------------------
+----------------------
+Problem 86: Greg hat einen Wecker gestellt, der dreimal am Tag zur Erinnerung klingelt. Wenn der Wecker losgeht, klingelt er so lange, bis Greg ihn ausschaltet. Als er heute zum ersten Mal losging, hat er viermal geklingelt. Beim zweiten Mal, als er losging, hat er dreimal so lange geklingelt wie beim ersten Mal. Beim dritten Mal hat er halb so lange geklingelt wie beim zweiten Mal. Wie oft hat der Wecker insgesamt geklingelt?
+Model Prediction / Ground Truth: 16 / 22
+Correct Predictions / Total Tests: 39 / 86
+Current Accuracy: 45.35%
+----------------------
+----------------------
+Problem 87: Ein Unternehmen zahlt jedem seiner Mitarbeiter 600 US-Dollar pro Monat. Das Unternehmen betreibt eine Unternehmenspolitik, bei der das Gehalt aller Mitarbeiter um 10 % des Ursprungsgehalts für diejenigen angehoben wird, die seit fünf Jahren im Unternehmen sind. Wenn Sylvie im letzten Dezember genau 5 Jahre im Unternehmen war, ist ihr Gehalt nach weiteren drei Jahren wie hoch?
+Model Prediction / Ground Truth: 660 / 9360
+Correct Predictions / Total Tests: 39 / 87
+Current Accuracy: 44.83%
+----------------------
+----------------------
+Problem 88: Marilyns erste Platte wurde 10-mal so häufig verkauft wie Haralds. Wenn sie zusammen 88.000 Exemplare verkauft haben, hat Harald wie viele Exemplare verkauft?
+Model Prediction / Ground Truth: 8000 / 8000
+Correct Predictions / Total Tests: 40 / 88
+Current Accuracy: 45.45%
+----------------------
+----------------------
+Problem 89: Christina plant eine Geburtstagsparty und braucht für jeden eingeladenen Gast 0,75 Geschenktüten, da 1/4 der Gäste nicht erscheint. Sie hat 16 Freunde eingeladen. Die Geschenktüten kosten 2 US-Dollar pro Stück. Wie viel gibt sie aus?
+Model Prediction / Ground Truth: 24 / 24
+Correct Predictions / Total Tests: 41 / 89
+Current Accuracy: 46.07%
+----------------------
+----------------------
+Problem 90: Ted der T-Rex plant, Kartoffelsalat zum Dinopicknick mitzubringen. Er weiß, dass ein erwachsener Dinosaurier 10 Pfund Kartoffelsalat isst, und ein Junges halb so viel isst wie ein erwachsenes Tier. Wenn am Picknick 20 Erwachsene und 5 Junge teilnehmen, muss Ted wie viel Kartoffelsalat zum Picknick mitbringen, wenn er die Hoffnung hat, alle satt zu bekommen?
+Model Prediction / Ground Truth: 230 / 225
+Correct Predictions / Total Tests: 41 / 90
+Current Accuracy: 45.56%
+----------------------
+----------------------
+Problem 91: Jan hat dreimal so viele Haustiere wie Marcia. Marcia hat zwei Haustiere mehr als Cindy. Wenn Cindy vier Haustiere hat, wie viele Haustiere haben dann alle drei zusammen?
+Model Prediction / Ground Truth: 24 / 28
+Correct Predictions / Total Tests: 41 / 91
+Current Accuracy: 45.05%
+----------------------
+----------------------
+Problem 92: Emily hat 4 Kinder, die Amy, Jackson, Corey und James heißen. Amy ist 5 Jahre älter als Jackson und 2 Jahre jünger als Corey. Wenn James 10 Jahre alt ist und 1 Jahr jünger als Corey, wie alt ist dann Jackson?
+Model Prediction / Ground Truth: 6 / 4
+Correct Predictions / Total Tests: 41 / 92
+Current Accuracy: 44.57%
+----------------------
+----------------------
+Problem 93: Lee konnte die 400 Meter Hürdenlauf zwei Sekunden schneller laufen als Gerald die 400 Meter Hürden läuft. Gerald hat allerdings seine Ernährungsweise umgestellt, wodurch er seine Geschwindigkeit um 10 % verbessert hat. Wenn Lee die 400 Meter Hürden in 38 Sekunden läuft, wie schnell kann dann Gerald, mit seiner verbesserten Ernährungsweise, die 400 Meter Hürden in Sekunden laufen?
+Model Prediction / Ground Truth: 36 / 36
+Correct Predictions / Total Tests: 42 / 93
+Current Accuracy: 45.16%
+----------------------
+----------------------
+Problem 94: In einem Wohnviertel ist die Anzahl an Kaninchen als Haustier zwölf Mal geringer als die Anzahl an Hunden und Katzen als Haustiere zusammen. Wenn auf jeden Hund zwei Katzen kommen, und es 60 Hunde gibt, gibt es insgesamt wie viele Haustiere in dem Viertel?
+Model Prediction / Ground Truth: 780 / 348
+Correct Predictions / Total Tests: 42 / 94
+Current Accuracy: 44.68%
+----------------------
+----------------------
+Problem 95: Von den 200 Schülern der 5. Klasse sind 2/5 Jungen, und 2/3 der Mädchen bei den Pfadfinderinnen. Wie viele Mädchen sind bei den Pfadfinderinnen?
+Model Prediction / Ground Truth: 80 / 40
+Correct Predictions / Total Tests: 42 / 95
+Current Accuracy: 44.21%
+----------------------
+----------------------
+Problem 96: Harry hat letzte Nacht 9 Stunden geschlafen. Sein Freund James schlief nur 2/3 der Zeit, die Harry geschlafen hat. Wie viele Stunden hat Harry mehr geschlafen als James?
+Model Prediction / Ground Truth: 3 / 3
+Correct Predictions / Total Tests: 43 / 96
+Current Accuracy: 44.79%
+----------------------
+----------------------
+Problem 97: Wenn Freda Tomaten in Dosen zu Soße verkocht, verlieren sie die Hälfte an Gewicht. Jede 16-Unzen-Dose Tomaten, die sie verwendet, enthält drei Tomaten. Die letzte Portion Tomatensoße ergab 32 Unzen Soße. Wie viele Tomaten hat Freda verbraucht?
+Model Prediction / Ground Truth: 6 / 12
+Correct Predictions / Total Tests: 43 / 97
+Current Accuracy: 44.33%
+----------------------
+----------------------
+Problem 98: Auf der Autobahn reihen sich Autos aneinander. Einige der Autos fahren in den ersten 15 Minuten des Staus durch, anschließend noch einmal 20 weitere Autos in den verbleibenden 15 Minuten des Staus. 5 Autos scheren aus der Reihe aus, sodass sie nicht durch den Stau fahren müssen. Wenn ursprünglich 30 Autos auf der Autobahn standen, wie viele Autos sind dann in den ersten 15 Minuten durch den Stau gefahren?
+Model Prediction / Ground Truth: 5 / 5
+Correct Predictions / Total Tests: 44 / 98
+Current Accuracy: 44.90%
+----------------------
+----------------------
+Problem 99: Mary ist Gärtnerin aus Leidenschaft. Gestern hat sie 18 neue Topfpflanzen von ihrer Lieblingsgärtnerei bekommen. Sie hat bereits 2 Topfpflanzen auf jedem der 40 Fenstersimse ihres großen Landhauses stehen. Ihr ist großzügig zumute und sie hat sich entschlossen, dass sie 1 Topfpflanze von jedem Fenstersims morgen an Freunde und Familie verschenken möchte. Wie viele Topfpflanzen bleiben Mary übrig?
+Model Prediction / Ground Truth: 57 / 58
+Correct Predictions / Total Tests: 44 / 99
+Current Accuracy: 44.44%
+----------------------
+----------------------
+Problem 100: Jerome hat 4 Freunde, die ihn an einem gewissen Tag besuchten. Der erste Freund hat 20-mal die Türklingel betätigt, bevor Jerome öffnete, der zweite hat die Türklingel 1/4 Mal öfter betätigt als Jeromes erster Freund. Der dritte Freund hat die Türklingel 10-mal öfter betätigt als der vierte Freund. Wenn der vierte Freund die Türklingel 60-mal betätigt hat, hat die Türklingel insgesamt wie oft geklingelt?
+Model Prediction / Ground Truth: 110 / 175
+Correct Predictions / Total Tests: 44 / 100
+Current Accuracy: 44.00%
+----------------------
+----------------------
+Problem 101: Solo muss 4 Seiten aus seinem naturwissenschaftlichen Textbuch lesen, 20 Seiten aus seinem Gemeinschaftskundebuch, 7 Seiten aus seinem Geschichtsbuch und 8 Seiten aus seinem Geografiebuch. Solo liest am Montag 15 Seiten. Wenn er noch 4 Tage hat, um alles zu lesen, muss er pro Tag im Durchschnitt wie viele Seiten lesen?
+Model Prediction / Ground Truth: 6 / 6
+Correct Predictions / Total Tests: 45 / 101
+Current Accuracy: 44.55%
+----------------------
+----------------------
+Problem 102: John trinkt zum Frühstück, zum Mittagessen und Abendessen gern ein Glas Wasser. Zum Abschluss trinkt er auch noch eins vor dem Zubettgehen. John macht das an jedem Wochentag, aber an den Wochenenden entspannt er gern und trinkt zum Abendessen stattdessen ein Glas Limonade. Wie viele Gläser Wasser trinkt John pro Woche?
+Model Prediction / Ground Truth: 24 / 26
+Correct Predictions / Total Tests: 45 / 102
+Current Accuracy: 44.12%
+----------------------
+----------------------
+Problem 103: Ein Nebelschleier kommt vom Meer herüber und legt sich über eine Stadt. Er braucht 10 Minuten, um jeweils 3 Meilen der Stadt zu bedecken. Wenn sich die Stadt vom Meeresufer bis zum gegenüberliegenden Landesinneren über 42 Meilen erstreckt, braucht der Nebelschleier wie viele Minuten, bis er sich über die ganze Stadt gelegt hat?
+Model Prediction / Ground Truth: 140 / 140
+Correct Predictions / Total Tests: 46 / 103
+Current Accuracy: 44.66%
+----------------------
+----------------------
+Problem 104: Poppy löst ein 1000-Teile-Puzzle. Sie legt ein Viertel der Teile auf das Brett, dann legt ihre Mama ein Drittel der verbleibenden Teile. Wie viele Puzzleteile müssen noch gelegt werden?
+Model Prediction / Ground Truth: 500 / 500
+Correct Predictions / Total Tests: 47 / 104
+Current Accuracy: 45.19%
+----------------------
+----------------------
+Problem 105: Cody isst dreimal mehr Kekse als Amir. Wenn Amir 5 Kekse isst, wie viele Kekse essen dann beide zusammen?
+Model Prediction / Ground Truth: 20 / 20
+Correct Predictions / Total Tests: 48 / 105
+Current Accuracy: 45.71%
+----------------------
+----------------------
+Problem 106: John hat 3 Kisten. Jede Kiste ist 5 Inch mal 6 Inch mal 4 Inch groß. Die Wände sind 1 Inch dick. Wie groß ist das Innenvolumen aller 3 Kisten zusammen?
+Model Prediction / Ground Truth: 144 / 72
+Correct Predictions / Total Tests: 48 / 106
+Current Accuracy: 45.28%
+----------------------
+----------------------
+Problem 107: Frankie sieht jeden Abend, nachdem er seine Hausaufgaben gemacht hat, fern. Am Montag und am Dienstag hat er jeweils eine 1-stündige Folge seiner Lieblingssendung angeschaut. Am Mittwoch hat er einige Folgen einer 30-minütigen Sendung angeschaut. Am Donnerstag hatte er seine Hausaufgaben früher erledigt und eine 1-stündige Folge und eine 30-minütige Show angeschaut. Am Freitag durfte er wegen des Wochenendes später aufbleiben und hat zwei 1-stündige Folgen angeschaut. Wenn er insgesamt 7 Stunden ferngesehen hat, hat er am Mittwoch wie viele 30 Minuten lange Folgen angeschaut?
+Model Prediction / Ground Truth: 4 / 3
+Correct Predictions / Total Tests: 48 / 107
+Current Accuracy: 44.86%
+----------------------
+----------------------
+Problem 108: Henry backt Kekse für einen regionalen Backwettbewerb. Er möchte zweimal so viele backen wie letztes Jahr. Als er mit dem Backen fertig ist, bemerkt er, dass er 15 Kekse mehr gebacken hat als er eigentlich wollte. Er lässt 5 seiner Kekse fallen, als er sie zum Kühlen rausstellt und hat jetzt insgesamt 110 Kekse. Wie viele Kekse hat Henry letztes Jahr gebacken?
+Model Prediction / Ground Truth: 50 / 50
+Correct Predictions / Total Tests: 49 / 108
+Current Accuracy: 45.37%
+----------------------
+----------------------
+Problem 109: Eine örtliche Tankstelle verkauft Benzin für 3,00 US-Dollar pro Gallone. Ein App-Unternehmen bietet eine Rückerstattung von 20 US-Dollar an, wenn du an dieser Tankstelle tankst. Wenn jemand 10 Gallonen Benzin kauft, kostet das Benzin nach der Rückvergütung wie viel?
+Model Prediction / Ground Truth: 10 / 28
+Correct Predictions / Total Tests: 49 / 109
+Current Accuracy: 44.95%
+----------------------
+----------------------
+Problem 110: Marcell und Beatrice haben einen Wettbewerb laufen, um zu sehen, wer die meisten Fruchtrollen essen kann, also entrollen sie alle, die sie finden können. Leider macht jemand einen Fehler und das von Beatrice war zwei Rollen breit und 24 Rollen lang, während das von Marcell 3 Rollen breit und 14 Rollen lang war. Wenn beide ihre gesamte Menge essen, haben sie im Durchschnitt wie viele gegessen?
+Model Prediction / Ground Truth: 60 / 45
+Correct Predictions / Total Tests: 49 / 110
+Current Accuracy: 44.55%
+----------------------
+----------------------
+Problem 111: Julias Boot hatte ein Leck als sie auf dem See draußen war. Das Boot hat für alle zehn Fuß, die sie zurück zum Ufer gerudert ist, zwei Liter Wasser geschluckt. Sie brauchte sechzehn Sekunden, um zwanzig Fuß zu rudern. Der Strand war 64 Sekunden entfernt. Wie viel Wasser hatte das Boot geschluckt, als Julia den Strand erreichte?
+Model Prediction / Ground Truth: 16 / 16
+Correct Predictions / Total Tests: 50 / 111
+Current Accuracy: 45.05%
+----------------------
+----------------------
+Problem 112: Ein Klassenraum hat eine Tafel, die sich die 4 Lehrer teilen, die den Klassenraum abwechselnd nutzen. Jeder Lehrer hat 2 Unterrichtsstunden pro Tag und nutzt die Tafel in jeder Unterrichtsstunde. Wenn die Tafel 3-mal pro Unterrichtsstunde gewischt wird, wird die Tafel wie oft pro Tag gewischt?
+Model Prediction / Ground Truth: 24 / 24
+Correct Predictions / Total Tests: 51 / 112
+Current Accuracy: 45.54%
+----------------------
+----------------------
+Problem 113: Ryan pflanzt pro Tag 2 Blumen in seinem Garten. Nach 15 Tagen hat er wie viele Blumen, wenn 5 nicht angewachsen sind?
+Model Prediction / Ground Truth: 25 / 25
+Correct Predictions / Total Tests: 52 / 113
+Current Accuracy: 46.02%
+----------------------
+----------------------
+Problem 114: Jamals Handy kann 6-mal mehr Fotos speichern als Brittanys Handy. Die maximale Anzahl an Fotos, die Brittanys Handy speichern kann, ist 50-mal höher als die Anzahl an Vögeln auf Jamals Foto mit den Enten im Zoo. Wenn Jamals Handy 1.800 Fotos speichern kann, sind wie viele Enten auf Jamals Foto von den Enten im Zoo zu sehen?
+Model Prediction / Ground Truth: 6 / 6
+Correct Predictions / Total Tests: 53 / 114
+Current Accuracy: 46.49%
+----------------------
+----------------------
+Problem 115: Sasha bemerkt, dass die Holzpreise um 50 % in den letzten paar Monaten gestiegen sind, seit sie Holz gekauft hat. Da sie einen Rest übrighat, beschließt sie, ihn zu verkaufen. Sie hat zehn 2 x 4 x 10 große Bretter übrig, für die sie pro Stück 10 US-Dollar bezahlt hat. Sie hat auch fünf 4 x 4 x 10 Bretter, die sie für 16 US-Dollar pro Stück gekauft hat. Wenn sie alle verkauft, macht sie wie viel Gewinn?
+Model Prediction / Ground Truth: 330 / 90
+Correct Predictions / Total Tests: 53 / 115
+Current Accuracy: 46.09%
+----------------------
+----------------------
+Problem 116: Katy bereitet Kaffee zu und verwendet dazu Teelöffel mit Zucker und Tassen mit Wasser im Verhältnis 7:13. Wenn sie insgesamt 120 Teelöffel Zucker und Tassen Wasser verwendet hat, berechne die Anzahl der Teelöffel Zucker, die sie verwendet hat.
+Model Prediction / Ground Truth: 60 / 42
+Correct Predictions / Total Tests: 53 / 116
+Current Accuracy: 45.69%
+----------------------
+----------------------
+Problem 117: John kauft 2 Paar Schuhe für jedes seiner 3 Kinder. Sie kosten 60 US-Dollar pro Paar. Wie viel hat er bezahlt?
+Model Prediction / Ground Truth: 360 / 360
+Correct Predictions / Total Tests: 54 / 117
+Current Accuracy: 46.15%
+----------------------
+----------------------
+Problem 118: Ein Zollbeamter am Haupthafen der SeaSide Zollabfertigung hat 2 Container mit importierten Autos gezählt, wobei sich in jedem 5 Autos befanden. Am nächsten Tag wurden noch mehr Container geliefert und die Gesamtzahl der Autos am Hafen stieg auf 30. Berechne die Anzahl der Container, die am zweiten Tag importiert wurden, ausgehend davon, dass alle Container 5 Autos enthalten.
+Model Prediction / Ground Truth: 4 / 4
+Correct Predictions / Total Tests: 55 / 118
+Current Accuracy: 46.61%
+----------------------
+----------------------
+Problem 119: Adriens Gehalt war 30 Prozent höher als Lylahs. Vier Jahre später erhöhte sich sein Gehalt und er verdiente 40 % mehr als das, was er vor vier Jahren verdient hat. Wenn Adriens und Lylahs Gehalt gleichzeitig steigen und Adrian vor vier Jahren 40.000 US-Dollar verdient hat, berechne das gesamte Gesamtgehalt, das beiden vier Jahre später verdienten?
+Model Prediction / Ground Truth: 106400 / 95200
+Correct Predictions / Total Tests: 55 / 119
+Current Accuracy: 46.22%
+----------------------
+----------------------
+Problem 120: Miguel verwendet 2 Blätter Papier pro Woche für seine Zeichnungen. Wenn ein Zeichenblock 30 Blätter Papier hat, wie viele Blätter Papier verbraucht er dann pro Monat?
+Model Prediction / Ground Truth: 8 / 240
+Correct Predictions / Total Tests: 55 / 120
+Current Accuracy: 45.83%
+----------------------
+----------------------
+Problem 121: Morisette und Kael wurden gebeten, Obst mitzubringen. Morisette brachte 5 Äpfel und 8 Orangen mit, und Kael brachte die doppelte Menge an Äpfeln und halb so viele Orangen wie Morisette mit. Wie viele Früchte haben sie insgesamt?
+Model Prediction / Ground Truth: 20 / 27
+Correct Predictions / Total Tests: 55 / 121
+Current Accuracy: 45.45%
+----------------------
+----------------------
+Problem 122: Sadie hat am Montag 8 Stunden geschlafen. An den nächsten beiden Tagen schlief sie 2 Stunden weniger pro Tag, da sie einige Aufgaben zu erledigen hatte. Wenn sie den Rest der Woche über 1 Stunde mehr als an diesen beiden Tagen geschlafen hat, hat sie wie viele Stunden in der Woche insgesamt geschlafen?
+Model Prediction / Ground Truth: 56 / 48
+Correct Predictions / Total Tests: 55 / 122
+Current Accuracy: 45.08%
+----------------------
+----------------------
+Problem 123: Rosie kann 3 Stunden lang mit 10 Meilen pro Stunde laufen. Danach läuft sie 5 Meilen pro Stunde. Wie viele Meilen kann sie in 7 Stunden zurücklegen?
+Model Prediction / Ground Truth: 45 / 50
+Correct Predictions / Total Tests: 55 / 123
+Current Accuracy: 44.72%
+----------------------
+----------------------
+Problem 124: Jennie hilft im Büro ihrer Mutter. Sie hat einen Stapel mit 60 Briefen, die frankiert werden müssen und einen bereits frankierten Briefstapel. Sie klebt Briefmarken auf ein Drittel der Briefe, die frankiert werden müssen. Wenn sich jetzt in dem Stapel mit den bereits frankierten Briefen 30 Briefe befinden, waren wie viele Briefe in dem Stapel, als Jennie angefangen hat?
+Model Prediction / Ground Truth: 20 / 10
+Correct Predictions / Total Tests: 55 / 124
+Current Accuracy: 44.35%
+----------------------
+----------------------
+Problem 125: Julia hat sich auf eine Dinnerparty in ihrem Haus vorbereitet, bei der sie Eintopf servieren wollte. Sie bemerkte, dass sie keine Plastiklöffel mehr hatte, also kaufte sie eine neue Packung Löffel. Später kaufte auch ihr Mann eine Packung mit 5 neuen Löffeln und gab sie Julia. Während Julia den Eintopf vorbereitete, benutzte sie drei der Löffel zum Probieren der Suppe. Später, als sie den Tisch deckte, hatte sie insgesamt 12 Löffel. Wie viele Löffel waren in der Packung, die Julia gekauft hat?
+Model Prediction / Ground Truth: 10 / 10
+Correct Predictions / Total Tests: 56 / 125
+Current Accuracy: 44.80%
+----------------------
+----------------------
+Problem 126: Dylan brauchte Geflügelwürstchen und Fischwürstchen, um bei einer Party Wurstbrötchen zuzubereiten. Er hat 38 Geflügelwürstchen und 6 mehr Fischwürstchen als Geflügelwürstchen gekauft. Wie viele Würstchen hat Dylan insgesamt gekauft?
+Model Prediction / Ground Truth: 82 / 82
+Correct Predictions / Total Tests: 57 / 126
+Current Accuracy: 45.24%
+----------------------
+----------------------
+Problem 127: Nach Versetzung in eine neue Schule fand Amy 20 Freunde mehr als Lily. Wenn Lily 50 Freunde fand, wie viele Freunde haben Lily und Amy dann zusammen?
+Model Prediction / Ground Truth: 120 / 120
+Correct Predictions / Total Tests: 58 / 127
+Current Accuracy: 45.67%
+----------------------
+----------------------
+Problem 128: Wells Mutter verkauft Wassermelonen, Paprika und Orangen in einem lokalen Laden. Eine Wassermelone kostet dreimal mehr als jede einzelne Paprika. Eine Orange kostet 5 Mal weniger als eine Wassermelone. Dillon wird in den Laden geschickt, um 4 Wassermelonen, 20 Paprika und 10 Orangen zu kaufen. Wie hoch ist der gesamte Geldbetrag, den er ausgibt, wenn jede Paprika 15 $ kostet?
+Model Prediction / Ground Truth: 240 / 880
+Correct Predictions / Total Tests: 58 / 128
+Current Accuracy: 45.31%
+----------------------
+----------------------
+Problem 129: In einem Krankenhaus werden 500 Personen pro Tag untersucht. Jeder Patient wird durchschnittlich 24 Minuten lange untersucht. Die Ärzte berechnen dem Krankenhaus 150 $ pro Stunde, und das Krankenhaus berechnet den Patienten 200 $ pro Stunde. Wie viel Gewinn macht das Krankenhaus mit diesen Konsultationen?
+Model Prediction / Ground Truth: 20000 / 10000
+Correct Predictions / Total Tests: 58 / 129
+Current Accuracy: 44.96%
+----------------------
+----------------------
+Problem 130: Nissa stellt 60 Saisonarbeiter ein, damit sie im Weihnachtsdorf ihres Kaufhauses die Elfen spielen. Ein Drittel der Elfen kündigt, nachdem Kinder sich auf ihnen übergeben, dann kündigen 10 der verbleibenden Elfen, nachdem Kinder sie ins Schienbein treten. Wie viele Elfen sind noch übrig?
+Model Prediction / Ground Truth: 30 / 30
+Correct Predictions / Total Tests: 59 / 130
+Current Accuracy: 45.38%
+----------------------
+----------------------
+Problem 131: Im Mai lagen die Ausgaben von Joseph bei 500 $. Im Juni waren seine Ausgaben 60 $ geringer. Wie hoch waren seine Gesamtausgaben in diesen beiden Monaten?
+Model Prediction / Ground Truth: 940 / 940
+Correct Predictions / Total Tests: 60 / 131
+Current Accuracy: 45.80%
+----------------------
+----------------------
+Problem 132: Pam und Fred gingen auf einen Jahrmarkt. Pam fuhr 2 Mal mit der Achterbahn, Fred hingegen 4 Mal. Danach beschloss jeder von ihnen, 2 Mal mit dem Schlitten zu fahren. Wenn jede Fahrt 6 Karten kostet, wie viele Karten haben Sie dann an diesem Tag verbraucht?
+Model Prediction / Ground Truth: 60 / 60
+Correct Predictions / Total Tests: 61 / 132
+Current Accuracy: 46.21%
+----------------------
+----------------------
+Problem 133: Am Montag ging Walt 4 Meilen zu Fuß. Am Donnerstag ging er 6 Mal so viele Meilen, wie er am Montag gegangen war. Von Montag bis Mittwoch betrug seine Gesamtstrecke 41 Meilen. Wie viele Meilen ist er am Mittwoch gegangen?
+Model Prediction / Ground Truth: 31 / 13
+Correct Predictions / Total Tests: 61 / 133
+Current Accuracy: 45.86%
+----------------------
+----------------------
+Problem 134: Tom leistet sich 4 Autowäschen pro Monat. Wenn jede Autowäsche 15 $ kostet, wie viel bezahlt er dann in einem Jahr?
+Model Prediction / Ground Truth: 720 / 720
+Correct Predictions / Total Tests: 62 / 134
+Current Accuracy: 46.27%
+----------------------
+----------------------
+Problem 135: Brians Freund Bobby hat 5 Videospiele weniger als 3 Mal so viele wie Brian. Wenn Brian 20 Videospiele hat, aber davon 5 verlor, kurz bevor der Vergleich angestellt wurde, wie viele hat Bobby dann?
+Model Prediction / Ground Truth: 55 / 40
+Correct Predictions / Total Tests: 62 / 135
+Current Accuracy: 45.93%
+----------------------
+----------------------
+Problem 136: Es gibt noch 27 Einhörner auf der Welt. Ein Drittel davon befindet sich im schottischen Hochland. Zwei Drittel der schottischen Einhörner sind Weibchen. Wie viele schottische Einhorn-Weibchen gibt es?
+Model Prediction / Ground Truth: 6 / 6
+Correct Predictions / Total Tests: 63 / 136
+Current Accuracy: 46.32%
+----------------------
+----------------------
+Problem 137: Rory bestellt 2 Jumbo-Sandwiches für je 7,50 $, 2 Tüten Chips für 1,50 $ und 2 Kekse für 1,00 $, jeweils zur Lieferung. An der Kasse werden 20 % Liefergebühr addiert, und sie will 5,00 $ Trinkgeld addieren. Wie viel wird ihr Lieferauftrag kosten?
+Model Prediction / Ground Truth: 23 / 29
+Correct Predictions / Total Tests: 63 / 137
+Current Accuracy: 45.99%
+----------------------
+----------------------
+Problem 138: Mark machte gestern einen Test, der aus 75 Fragen bestand. Er vervollständigte den Test mit einer Geschwindigkeit von 5 Fragen pro Stunde. Heute machte er einen anderen Test mit 100 Fragen in der gleichen Geschwindigkeit. Wenn Mark 8 Stunden Zeit hatte, um den ersten, und 6 Stunden, um den zweiten Test zu vervollständigen, wie viele Fragen ließ er dann unvollständig?
+Model Prediction / Ground Truth: 20 / 105
+Correct Predictions / Total Tests: 63 / 138
+Current Accuracy: 45.65%
+----------------------
+----------------------
+Problem 139: In einem Kaugummiautomaten gibt es 22 rosa Kaugummikugeln mehr als das Vierfache der Anzahl blauer Kaugummikugeln. Wenn es 12 blaue Kaugummikugeln gibt, wie viele Rosafarbene gibt es dann?
+Model Prediction / Ground Truth: 70 / 70
+Correct Predictions / Total Tests: 64 / 139
+Current Accuracy: 46.04%
+----------------------
+----------------------
+Problem 140: Von den 20 verfügbaren Mietwagen sind 12 Automatikwagen, 4 Wagen mit Handschaltung und der Rest Halbautomaten. Wie viel Prozent der Autos sind Halbautomaten?
+Model Prediction / Ground Truth: 20 / 20
+Correct Predictions / Total Tests: 65 / 140
+Current Accuracy: 46.43%
+----------------------
+----------------------
+Problem 141: Es gibt 700 Bienen in einem Bienenstock. Es gibt zwei Mal so viele Arbeiterbienen wie Babybienen, und es gibt zweimal so viele Babys wie Königinnen. Wie viele Arbeiterbienen gibt es?
+Model Prediction / Ground Truth: 400 / 400
+Correct Predictions / Total Tests: 66 / 141
+Current Accuracy: 46.81%
+----------------------
+----------------------
+Problem 142: Jordan spielt jeden Tag 2 Stunden Videospiele. Er hat auch einen Teilzeitjob, bei dem er 10 $ pro Stunde verdient. Wie viel Geld würde Jordan in einer Woche verdienen, wenn er seine Videospielzeit mit Arbeit verbrächte?
+Model Prediction / Ground Truth: 140 / 140
+Correct Predictions / Total Tests: 67 / 142
+Current Accuracy: 47.18%
+----------------------
+----------------------
+Problem 143: John kauft Milch für 2 Dollar, Eier für 3 Dollar, Glühbirnen für 3 Dollar, Tassen für 3 Dollar und Kakerlakenfallen für 4 Dollar. Wenn es 10 % Steuer auf alle Non-Food-Artikel gibt, sind die Kosten wie hoch.
+Model Prediction / Ground Truth: 15 / 16
+Correct Predictions / Total Tests: 67 / 143
+Current Accuracy: 46.85%
+----------------------
+----------------------
+Problem 144: Kim hat seine eigene Haushaltungsfirma gegründet und rechnet aus, wie viel Gewinn er mit jedem seiner Kunden machen wird. Er hat bereits 3 Kunden, spricht aber gerade mit 5 potenziellen Kunden und ist optimistisch genug, um sie in seine Berechnung aufzunehmen. Das Zuhause jedes Kunden braucht jeweils 2 Flaschen Bleichmittel und eine Packung Lappen, um es zu reinigen. Die Bleichmittelflaschen kosten jeweils 2 $ und die Packungen mit Lappen jeweils 5 $. Das sind seine einzigen Ausgaben. Er rechnet aus, dass sein Gesamteinkommen 92 $ pro Woche betragen wird. Der Gewinn ist die Differenz zwischen Gesamteinkommen und Gesamtausgaben, wie viel Dollar Gewinn wird Lucas also jede Woche machen?
+Model Prediction / Ground Truth: 56 / 20
+Correct Predictions / Total Tests: 67 / 144
+Current Accuracy: 46.53%
+----------------------
+----------------------
+Problem 145: John hat ein 10 Hektar Ananasfeld. Es gibt 100 Ananas pro Hektar. John kann seine Ananas alle 3 Monate ernten. Wie viele Ananas kann John innerhalb eines Jahres ernten?
+Model Prediction / Ground Truth: 40000 / 4000
+Correct Predictions / Total Tests: 67 / 145
+Current Accuracy: 46.21%
+----------------------
+----------------------
+Problem 146: Johnny hebt gerade das Spielzeug auf dem Boden seines Zimmers auf. Er hat einen verpackten Lego-Bausatz mit 500 Teilen auf den Boden geschüttet und einen anderen, der 3 Mal so viele Teile hatte wie der 500-teilige, und einen anderen, der 1/4 der Anzahl Teile hatte. Wie viele Klötze hebt Johnny auf, wenn er alle Legosteine aufhebt?
+Model Prediction / Ground Truth: 1750 / 2125
+Correct Predictions / Total Tests: 67 / 146
+Current Accuracy: 45.89%
+----------------------
+----------------------
+Problem 147: Debra beobachtet gerade einen Bienenstock, um zu sehen, wie viele Bienen pro Tag kommen und gehen. In den ersten 6 Stunden sieht sie 30 Bienen den Bienenstock verlassen und in den nächsten 6 Stunden sieht sie dann 1/2 so viele Bienen zurückkehren. In den nächsten 6 Stunden sieht sie doppelt so viele Bienen den Bienenstock verlassen, wie sie zuerst den Bienenstock verlassen sah. Jede Biene, die davor weggeflogen und noch nicht zurückgekehrt war, kehrte dann in den nächsten 6 Stunden in den Bienenstock zurück. Wie viele Bienen sah Debra in den letzten 6 Stunden des Tages in den Bienenstock zurückkehren?
+Model Prediction / Ground Truth: 90 / 75
+Correct Predictions / Total Tests: 67 / 147
+Current Accuracy: 45.58%
+----------------------
+----------------------
+Problem 148: Brittany und ihre Mutter gehen ins Museum. Der Eintrittspreis beträgt 12 $ für Erwachsene und 10 $ für Kinder. Brittanys Mutter gibt dem Kassierer Geld für 1 Kinderkarte und 1 Erwachsenenkarte. Wenn sie 8 $ Wechselgeld bekam, wie viel Geld hatte sie dann dem Kassierer in Dollar gegeben?
+Model Prediction / Ground Truth: 30 / 30
+Correct Predictions / Total Tests: 68 / 148
+Current Accuracy: 45.95%
+----------------------
+----------------------
+Problem 149: Charlie hat drei Mal so viele Facebook-Freunde wie Dorothy. James hat vier Mal so viele Freunde auf Facebook wie Dorothy. Wenn Charlie 12 Freunde auf Facebook hat, wie viele Facebook-Freunde hat dann James?
+Model Prediction / Ground Truth: 16 / 16
+Correct Predictions / Total Tests: 69 / 149
+Current Accuracy: 46.31%
+----------------------
+----------------------
+Problem 150: Steve und Tim beschließen herauszufinden, wer schneller von der Schule zu Hause ist. Steve wohnt weiter entfernt als Tim, darum darf er mit seinem Fahrrad fahren. Steve wohnt 3 Meilen von der Schule entfernt und kann mit dem Fahrrad 440 Fuß pro Minute zurücklegen. Tim wohnt 2 Meilen von der Schule entfernt. Wenn Tim mit seinem Skateboard 264 Fuß pro Minute zurücklegt, wie lang wartet der Gewinner dann bei sich zu Hause, bevor der Verlierer das Rennen beendet?
+Model Prediction / Ground Truth: 11 / 4
+Correct Predictions / Total Tests: 69 / 150
+Current Accuracy: 46.00%
+----------------------
+----------------------
+Problem 151: Shawnda beschließt, dass die Kinder in ihrer Nachbarschaft wirklich einen Fahrrad-Aufpump-Service gebrauchen könnten. Sie beschließt, dass pro Reifen abzurechnen, die beste Methode ist. Jeder Reifen kostet 25 Cent, um ihn aufzupumpen. Am ersten Tag kamen 5 Personen auf Fahrrädern vorbei, um beide Reifen aufpumpen zu lassen. 3 Personen kamen vorbei, um alle ihre Dreiradreifen aufpumpen zu lassen. Schließlich kam tatsächlich eine Person auf einem Einrad vorbei. Wie viel Dollar hat sie an diesem Tag verdient?
+Model Prediction / Ground Truth: 3 / 5
+Correct Predictions / Total Tests: 69 / 151
+Current Accuracy: 45.70%
+----------------------
+----------------------
+Problem 152: Carl kauft zehn Kekspackungen. In jeder Kekspackung sind sechs Kekse. Jeder Keks kostest 0,10 $. Wie viel Wechselgeld bekommt Carl, wenn er mit einer 10$-Note bezahlt?
+Model Prediction / Ground Truth: 4 / 4
+Correct Predictions / Total Tests: 70 / 152
+Current Accuracy: 46.05%
+----------------------
+----------------------
+Problem 153: Dave kaufte eine große Packung Pommes frites und aß vierzehn, bevor eine hungrige Möwe die Packung aus seiner Hand klaute. Als die Möwe landete, verschlang sie halb so viele Pommes frites, wie Dave gegessen hatte. Dann drängelten sie drei Tauben von dem Essen weg, und jede Taube aß drei Pommes frites. Später klaute ein Waschbär zwei Drittel der verbleibenden Pommes frites. Ameisen trugen ein letztes Pommes frite davon und ließen fünf zurück. Wie viel Pommes frites waren in der Packung, als Dave sie kaufte?
+Model Prediction / Ground Truth: 34 / 48
+Correct Predictions / Total Tests: 70 / 153
+Current Accuracy: 45.75%
+----------------------
+----------------------
+Problem 154: Montags, mittwochs und freitags hat College-Student Kimo drei 1-stündige Kurse pro Tag. Dienstags und Donnerstags hat er zwei 2-stündige Kurse pro Tag. Ein Semester hat 16 Schulwochen. Wie viele Stunden verbringt Kimo in einem Semester mit Kursbesuchen?
+Model Prediction / Ground Truth: 192 / 272
+Correct Predictions / Total Tests: 70 / 154
+Current Accuracy: 45.45%
+----------------------
+----------------------
+Problem 155: Bill backt 300 Brötchen, 120 Schokoladencroissants und 60 Baguettes pro Tag. Jedes Brötchen ist 4 Zoll lang, jedes Croissant ist 6 Zoll lang und jedes Baguette ist zwei Fuß lang. Wenn Bill alle Backwaren aneinander legt, wie lang sind sie dann in Fuß?
+Model Prediction / Ground Truth: 2900 / 280
+Correct Predictions / Total Tests: 70 / 155
+Current Accuracy: 45.16%
+----------------------
+----------------------
+Problem 156: Der Zoowärter füttert alle Affen in dem Zoo. Alle 2 Monate bestellt er alle Bananen bei einer lokalen Farm. Wenn jeden Monat die Affen 200 Bananen, die Gorillas 400 Bananen und die Paviane 100 Bananen brauchen, wie viele Bananen muss er bestellen, um 2 Monate zu überdauern?
+Model Prediction / Ground Truth: 1400 / 1400
+Correct Predictions / Total Tests: 71 / 156
+Current Accuracy: 45.51%
+----------------------
+----------------------
+Problem 157: Blake und Kelly veranstalten einen Wettkampf, um zu sehen, wer in 15 Minuten weiter laufen kann. Sie beschließen, es auf einem Footballfeld zu tun, das 100 Yards lang ist. Blake läuft 15 Mal hin und zurück. Kelly läuft einmal hin und zurück und beschließt dann, dass sie nicht neben Blake laufen will; also beginnt sie, zur 40-Yard-Linie und zurück zu laufen. Sie tut dies 34 Mal. Wie viel läuft der Gewinner weiter als der Verlierer?
+Model Prediction / Ground Truth: 600 / 80
+Correct Predictions / Total Tests: 71 / 157
+Current Accuracy: 45.22%
+----------------------
+----------------------
+Problem 158: Raphael ging einige Schulsachen kaufen. Er kaufte 4 Stifte, die jeweils 1,5 $ kosten, 2 Hefte, die jeweils 4 $ kosten und ein Ries Schreibpapier, das 20 $ kostet. Wie viel gab er für alles aus?
+Model Prediction / Ground Truth: 34 / 34
+Correct Predictions / Total Tests: 72 / 158
+Current Accuracy: 45.57%
+----------------------
+----------------------
+Problem 159: Finn beobachtet 11 schwimmende Kaulquappen in einem Teich. Plötzlich sieht er 6 von ihnen aus dem Versteck unter einem Seerosenblatt kommen, dann sieht er 2 von ihnen unter einem Stein verschwinden. Wie viele Kaulquappen kann Finn jetzt im Teich sehen?
+Model Prediction / Ground Truth: 15 / 15
+Correct Predictions / Total Tests: 73 / 159
+Current Accuracy: 45.91%
+----------------------
+----------------------
+Problem 160: Ein Wassertank hat am Montag eine Tiefe von 17 Fuß. Am Dienstag hat der Tank 7 Fuß Wasser mehr. Am Mittwoch beträgt die Wassertiefe zwei Drittel dessen, was am Dienstag darin gewesen war. Wie ist die Wassertiefe des Tanks am Mittwoch?
+Model Prediction / Ground Truth: 16 / 16
+Correct Predictions / Total Tests: 74 / 160
+Current Accuracy: 46.25%
+----------------------
+----------------------
+Problem 161: Anakin und Locsin gingen heute zum Strand. Anakin fing 10 Seesterne, 6 Seepferdchen und 3 Clownfische. Locsin fing hingegen 5 Seesterne weniger, 3 Seepferdchen weniger und 2 Clownfische mehr als Anakin. Wie viele Fische konnten sie fangen?
+Model Prediction / Ground Truth: 27 / 32
+Correct Predictions / Total Tests: 74 / 161
+Current Accuracy: 45.96%
+----------------------
+----------------------
+Problem 162: Wenn ein Beutel Murmeln 20 $ kostet, und der Preis alle zwei Monate um 20 % des ursprünglichen Preises steigt, wie viel würde ein Beutel Murmeln dann nach 36 Monaten kosten?
+Model Prediction / Ground Truth: 2621 / 92
+Correct Predictions / Total Tests: 74 / 162
+Current Accuracy: 45.68%
+----------------------
+----------------------
+Problem 163: In einem Zimmer gibt es verschiedenes Spielzeug: 5 rote Autos, 3 Actionfiguren und eine Puppe. Die Puppe kostet so viel wie 3 Actionfiguren, und ein rotes Auto kostet 4 $. Wie viel ist das ganze Spielzeug wert, wenn eine Actionfigur 5 $ kostet?
+Model Prediction / Ground Truth: 45 / 50
+Correct Predictions / Total Tests: 74 / 163
+Current Accuracy: 45.40%
+----------------------
+----------------------
+Problem 164: Jackie versucht gerade zu entscheiden, ob sie ihre Steuererklärung selbst machen oder einen Buchhalter beauftragen soll. Wenn sie die Steuererklärung selbst macht, kann sie 3 Stunden weniger freiberuflich tätig sein und verliert 35 $/Stunde in entgangenem Einkommen. Der Buchhalter berechnet 90 $. Wie viel mehr Geld wird sie haben, wenn sie den Buchhalter beauftragt?
+Model Prediction / Ground Truth: 15 / 15
+Correct Predictions / Total Tests: 75 / 164
+Current Accuracy: 45.73%
+----------------------
+----------------------
+Problem 165: Zu seinem 30. Geburtstag wünscht sich Elvira einen neuen Computer mit viel Zubehör als Geschenk. Sie hat ein Budget von 1500 €, gespendet von ihrer ganzen Familie, und denkt, dass sie etwas Geld behalten kann, um sich ein Kleidungsstück zu leisten. Sie geht in einen Computerladen und sucht einen Computer aus, der 1090 € kostet, samt Bildschirm, Tastatur und Maus. Sie nimmt auch einen Scanner für 157 €, einen CD-Brenner im Wert von 74 € und einen Drucker für 102 €. Wie viel Geld wird sie für ihre Kleidung übrig haben?
+Model Prediction / Ground Truth: 77 / 77
+Correct Predictions / Total Tests: 76 / 165
+Current Accuracy: 46.06%
+----------------------
+----------------------
+Problem 166: Sandras Nachbar gibt ihr einen Korb mit 9 Eiern, immer wenn sie seine Tochter hütet. Um einen spanischen Karamellpudding zu machen, braucht sie 3 Eier. Wenn Sandra beauftragt wurde, 15 spanische Karamellpuddings für die Spendensammlung ihrer Schule zu machen, wie oft muss Sandra dann babysitten?
+Model Prediction / Ground Truth: 5 / 5
+Correct Predictions / Total Tests: 77 / 166
+Current Accuracy: 46.39%
+----------------------
+----------------------
+Problem 167: Seth ist doppelt so alt wie Brooke. In 2 Jahren wird die Summe ihres Alters 28 betragen. Wie alt ist Seth?
+Model Prediction / Ground Truth: 18 / 16
+Correct Predictions / Total Tests: 77 / 167
+Current Accuracy: 46.11%
+----------------------
+----------------------
+Problem 168: Jimmy hat 2 $ mehr als doppelt so viel Geld wie Ethel. Wenn Ethal 8 $ hat, wie viel Geld hat dann Jimmy im Moment?
+Model Prediction / Ground Truth: 18 / 18
+Correct Predictions / Total Tests: 78 / 168
+Current Accuracy: 46.43%
+----------------------
+----------------------
+Problem 169: Pancho geht pro Tag 20 Meilen zu Fuß. Außer an Wochenenden, an denen er 10 Meilen zu Fuß geht. Wie viele Meilen geht er in einer Woche zu Fuß?
+Model Prediction / Ground Truth: 130 / 120
+Correct Predictions / Total Tests: 78 / 169
+Current Accuracy: 46.15%
+----------------------
+----------------------
+Problem 170: Die Blaskapelle bestellt gerade neue Uniformen. Geliefert wird jede Uniform mit einem Hut, der 25 $ kostet, einer Jacke, die drei Mal so viel kostet wie der Hut, und Hosen, die den Durchschnittspreis von Hut und Jacke kosten. Wie viel kostet jede Uniform insgesamt?
+Model Prediction / Ground Truth: 125 / 150
+Correct Predictions / Total Tests: 78 / 170
+Current Accuracy: 45.88%
+----------------------
+----------------------
+Problem 171: Jake geht gerade durch das Entomologiemuseum. Er sieht 80 Spinnen mit jeweils 8 Beinen, 90 Insekten mit jeweils 6 Beinen und 3 seltene mutierte Invertebraten mit jeweils 10 Beinen. Wie viele Beine sieht Jake insgesamt?
+Model Prediction / Ground Truth: 1060 / 1210
+Correct Predictions / Total Tests: 78 / 171
+Current Accuracy: 45.61%
+----------------------
+----------------------
+Problem 172: Es gibt vier Vögel in der Kombüse. Sally Two ist drei Jahre älter als Granny Red. Granny Red ist zwei Mal älter als Sally Four. Wenn Sally Four gleich alt ist wie Sally Thirtytwo und Sally Thirtytwo 8 Jahre älter, wie hoch ist dann das Gesamtalter der vier Vögel?
+Model Prediction / Ground Truth: 28 / 51
+Correct Predictions / Total Tests: 78 / 172
+Current Accuracy: 45.35%
+----------------------
+----------------------
+Problem 173: Jessica versucht gerade herauszufinden, wie viel sie jeden Monat für alle ihre Schulden bezahlt. Ihr Studentendarlehen hat eine Mindestzahlung von 300 $/Monat, das Minimum ihrer Kreditkarte beträgt 200 $/Monat, und das Minimum ihrer Hypothek beträgt 500 $/Monat. Wenn Jessica 50 % mehr bezahlen möchte als das Minimum, wie viel bezahlt sie dann in einem Jahr?
+Model Prediction / Ground Truth: 18000 / 18000
+Correct Predictions / Total Tests: 79 / 173
+Current Accuracy: 45.66%
+----------------------
+----------------------
+Problem 174: Billy schält und schneidet Kartoffeln als Vorbereitung für die Zubereitung des Kartoffelsalats für seine große Grillparty anlässlich eines Familientreffens. Es ist ein großes Ereignis, also muss er 60 Kartoffeln schaffen. Die Kartoffeln haben ungefähr die gleiche Größe, also braucht es ungefähr gleich viel Zeit, um jede Einzelne zu schälen und zu schneiden. Billy braucht ungefähr eineinhalb Minuten, um eine Kartoffel zu schälen, aber nur ungefähr 5 Sekunden, um sie klein zu schneiden. Wie lange braucht Billy, um die Kartoffelvorbereitung abzuschließen?
+Model Prediction / Ground Truth: 105 / 95
+Correct Predictions / Total Tests: 79 / 174
+Current Accuracy: 45.40%
+----------------------
+----------------------
+Problem 175: Juan und sein Bruder Carlos verkaufen gerade Limonade. Jede Gallone, die sie machen, kostet 3 $ für Zitronen und 2 $ für Zucker. Sie verkaufen jedes Glas für 0,50 $ und holen 20 Gläser pro Gallone heraus. Wenn Sie 25 $ Profit machten, wie viel hatten sie dann für Zitronen ausgegeben?
+Model Prediction / Ground Truth: 75 / 15
+Correct Predictions / Total Tests: 79 / 175
+Current Accuracy: 45.14%
+----------------------
+----------------------
+Problem 176: In einen Rennen mit 240 Asiaten waren 80 Japaner und der Rest waren Chinesen. Wenn die Anzahl Jungen im chinesischen Team 60 betrug, wie viele Mädchen waren dann im chinesischen Team?
+Model Prediction / Ground Truth: 100 / 100
+Correct Predictions / Total Tests: 80 / 176
+Current Accuracy: 45.45%
+----------------------
+----------------------
+Problem 177: Zaid gibt 1/4 seines Lohns für Miete und 1/3 für Autobenzin aus und spendet die Hälfte des verbleibenden Betrags an seine bevorzugte karitative Einrichtung. Er gibt seiner Tochter 200 $, um sie für ihre wöchentlichen Ausgaben zu verwenden, und seiner Frau 700 $, um Lebensmittel und andere Haushaltswaren einzuplanen. Wenn Zaid 6000 $ pro Monat verdient, wie viel Geld wird er dann nach all diesen Ausgabe und Spenden noch haben?
+Model Prediction / Ground Truth: 800 / 350
+Correct Predictions / Total Tests: 80 / 177
+Current Accuracy: 45.20%
+----------------------
+----------------------
+Problem 178: Rani hat zehn Krebse mehr als Monic, die 4 Krebse weniger hat als Bo. Berechnen Sie die gesamte Anzahl der Krebse, die die drei zusammen haben, wenn Bo 40 Krebse hat.
+Model Prediction / Ground Truth: 106 / 122
+Correct Predictions / Total Tests: 80 / 178
+Current Accuracy: 44.94%
+----------------------
+----------------------
+Problem 179: Lloyd verdient 10 $ pro Stunde für Mathenachhilfe. Er gab in der ersten Woche 5 Stunden und in der zweiten Woche 8 Stunden Nachhilfeunterricht. Wie viel verdiente er in den ersten beiden Wochen?
+Model Prediction / Ground Truth: 130 / 130
+Correct Predictions / Total Tests: 81 / 179
+Current Accuracy: 45.25%
+----------------------
+----------------------
+Problem 180: Zwei Kandidaten bewerben sich als Klassensprecher in Sarais Schule. Berechnen Sie die Anzahl Stimmen, die der Verlierer bekam, wenn der Gewinner 3/4 der Stimmen erhielt und die Gesamtzahl der Schüler, die in der Klasse wählten, 80 betrug.
+Model Prediction / Ground Truth: 20 / 20
+Correct Predictions / Total Tests: 82 / 180
+Current Accuracy: 45.56%
+----------------------
+----------------------
+Problem 181: Sandra, der Blumenladen um die Ecke, ist sehr unzufrieden mit Freds unvollständiger Lieferung der Bestellung. Sandra hatte vier Mal so viele rote Rosen bestellt wie weiße Nelken. Sie bestellte auch 200 rosa Zimmercalla, die fünf Mal der Anzahl weißer Nelken entsprachen. Sandra drohte damit, den Lieferanten zu wechseln, wenn die fehlenden roten Rosen nicht bis 17 Uhr geliefert würden. Wie viele rote Rosen muss Fred bis 17 Uhr liefern, um Sandras Einkauf zu behalten?
+Model Prediction / Ground Truth: 800 / 160
+Correct Predictions / Total Tests: 82 / 181
+Current Accuracy: 45.30%
+----------------------
+----------------------
+Problem 182: Jean ist zwei Jahre älter als Mark. Vor zwei Jahren war Mark 5 Jahre älter als die Hälfte des Alters von Jan. Wenn Jan 30 ist, wie alt ist dann Jean?
+Model Prediction / Ground Truth: 32 / 23
+Correct Predictions / Total Tests: 82 / 182
+Current Accuracy: 45.05%
+----------------------
+----------------------
+Problem 183: Zwei Leichtathletikteams treten in einem 4 x 400 Meter Rennen gegeneinander an; ein Rennen, wo jedes Wettkampfteam vier Mitglieder hat, die jeweils 400 Meter oder eine Runde auf einer Standard-Strecke laufen. Eines der beiden Teams ist sehr ausgeglichen und jedes seiner Mitglieder wird seine 400 Meter Runde in genau 55 Sekunden laufen. Das andere Team ist weniger ausgeglichen; sein erster Läufer wir seine 400 Meter Runde in 60 Sekunden laufen, dann wird jeder folgende Läufer 3 Sekunden schneller laufen als der vorherige Läufer. Um wie viele Sekunden wird das schnellere Team ausgehend von diesen Informationen gewinnen?
+Model Prediction / Ground Truth: 5 / 2
+Correct Predictions / Total Tests: 82 / 183
+Current Accuracy: 44.81%
+----------------------
+----------------------
+Problem 184: Jerry wirft einen sechsseitigen Würfel. Wie viel wahrscheinlicher ist es (in Prozent ausgedrückt), dass er eine Zahl größer als 3 wirft als zwei gerade Zahlen hintereinander?
+Model Prediction / Ground Truth: 50 / 25
+Correct Predictions / Total Tests: 82 / 184
+Current Accuracy: 44.57%
+----------------------
+----------------------
+Problem 185: Jenna und ihre Mutter pflückten einige Äpfel auf ihrer Apfelfarm. Jenna pflückte halb so viele Äpfel wie ihre Mutter. Wenn ihre Mutter 20 Äpfel hatte, wie viele Äpfel pflückten sie dann beide?
+Model Prediction / Ground Truth: 30 / 30
+Correct Predictions / Total Tests: 83 / 185
+Current Accuracy: 44.86%
+----------------------
+----------------------
+Problem 186: Russell arbeitet in einer Tierhandlung und verteilt gerade Stroh unter den Nagetieren. Die Ratten werden in 3 Käfigen in gleich großen Gruppen gehalten und jeder Ratte 6 Strohhalme gegeben. Es gibt 10 Käfige von Hamstern, die allein gehalten werden, und jedem Hamster werden 5 Strohhalme gegeben. Es gibt auch einen Hasenstall, in dem 20 Strohhalme unter den Hasen verteilt werden. Überall sonst in dem Laden wird kein Stroh verteilt. Wenn 160 Strohhalme unter den kleinen Nagetieren verteil wurden, wie viele Ratten sind dann in jedem Käfig?
+Model Prediction / Ground Truth: 15 / 5
+Correct Predictions / Total Tests: 83 / 186
+Current Accuracy: 44.62%
+----------------------
+----------------------
+Problem 187: Mandy schuldet Benedict 100 $. Sie einigten sich darauf, monatliche Zinsen in Höhe von 2 % zu haben. Wenn Mandy nach 3 Monaten zahlen konnte, wie viel musste sie Benedict dann geben?
+Model Prediction / Ground Truth: 106 / 106
+Correct Predictions / Total Tests: 84 / 187
+Current Accuracy: 44.92%
+----------------------
+----------------------
+Problem 188: Ein Händler kauft ein paar Säcke Weizen bei einem Bauern zu einem Satz von 20 $ pro Sack. Wenn es 2 $ kostet, um jeden Sack von dem Bauernhof in das Lagerhaus zu transportieren, und der Händler einen Gesamtgewinn von 400 $ machte, nachdem er alle Säcke zu einem Satz von jeweils 30 $ verkauft hatte, wie viele Säcke verkaufte er dann?
+Model Prediction / Ground Truth: 50 / 50
+Correct Predictions / Total Tests: 85 / 188
+Current Accuracy: 45.21%
+----------------------
+----------------------
+Problem 189: Drei Freunde gaben 20,25 $ für 3 Eintritte in den Jahrmarkt aus. Sie gaben auch 4,50 $ weniger für Essen aus als für die Eintrittskarten. Sie fuhren auch mit 2 verschiedenen Bahnen, bei denen jede Fahrt 33 $ kostet. Wenn sie vereinbarten, alle Kosten gleichmäßig aufzuteilen, wie viel bezahlte dann jeder von ihnen?
+Model Prediction / Ground Truth: 59 / 34
+Correct Predictions / Total Tests: 85 / 189
+Current Accuracy: 44.97%
+----------------------
+----------------------
+Problem 190: John sammelt 3 Stunden lang Pfirsiche ein. Er kann 2 Pfirsiche pro Minute einsammeln. Wie viele Pfirsiche sammelt er ein?
+Model Prediction / Ground Truth: 360 / 360
+Correct Predictions / Total Tests: 86 / 190
+Current Accuracy: 45.26%
+----------------------
+----------------------
+Problem 191: Enten müssen jede Woche 3,5 Pfund Insekten fressen, um zu überleben. Wenn es eine Schar von zehn Enten gibt, wie viel Pfund Insekten brauchen sie dann pro Tag?
+Model Prediction / Ground Truth: 5 / 5
+Correct Predictions / Total Tests: 87 / 191
+Current Accuracy: 45.55%
+----------------------
+----------------------
+Problem 192: Tom pflanzt 10 Bäume pro Jahr. Jedes Jahr fällt er auch 2 Bäume pro Jahr. Er beginnt mit 50 Bäumen. Nach 10 Jahren sterben 30 % der Bäume. Wie viele Bäume behält er übrig?
+Model Prediction / Ground Truth: 56 / 91
+Correct Predictions / Total Tests: 87 / 192
+Current Accuracy: 45.31%
+----------------------
+----------------------
+Problem 193: Sue lebt in einer lustigen Nachbarschaft. An einem Wochenende beschließen ihre Nachbarn Sue einen Streich zu spielen. Am Freitagmorgen stellen die Nachbarn 18 rosa Plastik-Flamingos draußen in Sues Vorgarten. Am Samstagmorgen nahmen die Nachbarn einen Drittel der Flamingos wieder weg, strichen sie weiß und stellten diese frisch gestrichenen weißen Flamingos zurück in Sues Vorgarten. Am Sonntagmorgen fügten sie der Sammlung dann weitere 18 rosa Plastik-Flamingos hinzu. Wie viele rosa Plastik-Flamingos waren am Sonntagnachmittag mehr als weiße Plastik-Flamingos draußen?
+Model Prediction / Ground Truth: 12 / 24
+Correct Predictions / Total Tests: 87 / 193
+Current Accuracy: 45.08%
+----------------------
+----------------------
+Problem 194: Violetta will neue Farbstifte kaufen. Sie braucht sie in 5 verschiedenen Farben und sie legte 20 $ für diesen Kauf bereit. Ein Farbstift kostet 2 $. Wie viel Wechselgeld wird sie bekommen?
+Model Prediction / Ground Truth: 10 / 10
+Correct Predictions / Total Tests: 88 / 194
+Current Accuracy: 45.36%
+----------------------
+----------------------
+Problem 195: Ein Stift kostet so viel wie ein Bleistift und Radierer zusammen. Ein Bleistift kostet 1,20 $ und ein Radierer kostet 0,30 $. Wie viel kosten 8 Stifte?
+Model Prediction / Ground Truth: 12 / 12
+Correct Predictions / Total Tests: 89 / 195
+Current Accuracy: 45.64%
+----------------------
+----------------------
+Problem 196: 200 Pfund Karotten müssen an 40 Restaurants in einer bestimmten Stadt verteilt werden. Jedes Restaurant soll 2 Pfund Karotten erhalten. Wie viel Pfund Karotten werden nicht gebraucht?
+Model Prediction / Ground Truth: 120 / 120
+Correct Predictions / Total Tests: 90 / 196
+Current Accuracy: 45.92%
+----------------------
+----------------------
+Problem 197: In der Stadt Soda gibt es genau 23786 Einwohner. Dazu gehören 8417 Männer und 9092 Frauen. Der Rest der Bevölkerung besteht aus Kindern. Wie viele Kinder gibt es in Soda?
+Model Prediction / Ground Truth: 6277 / 6277
+Correct Predictions / Total Tests: 91 / 197
+Current Accuracy: 46.19%
+----------------------
+----------------------
+Problem 198: Elaine hatte anfänglich 20 Pokemonkarten. Nach einem Monat hatte sie das Dreifache dieser Zahl gesammelt. Im zweiten Monat sammelte sie 20 Karten weniger, als sie im ersten Monat gesammelt hatte. Im dritten Monat sammelte sie das Doppelte der Anzahl Pokemonkarten, die sie im ersten und zweiten Monat zusammen gesammelt hatte. Wie viele Pokemonkarten hat sie jetzt insgesamt?
+Model Prediction / Ground Truth: 200 / 320
+Correct Predictions / Total Tests: 91 / 198
+Current Accuracy: 45.96%
+----------------------
+----------------------
+Problem 199: Mark ist Korrektor. Er bearbeitet jede Woche die gleiche Anzahl Sätze für zwei verschiedene Herausgeber, die ihm jeweils eine andere Rate pro Satz bezahlen. Herausgeber B bezahlt Mark das Doppelte dessen, was Herausgeber A bezahlt. Mark bearbeitet jede Woche eine Gesamtzahl von 1000 Sätzen, und Herausgeber A bezahlt ihm 5 Cent pro Satz. Wie viel verdient Mark in einer Woche in Cent?
+Model Prediction / Ground Truth: 7500 / 7500
+Correct Predictions / Total Tests: 92 / 199
+Current Accuracy: 46.23%
+----------------------
+----------------------
+Problem 200: Baldur holt Wasser von einem Brunnen. Er holt jeden Morgen 5 Eimer Wasser und jeden Nachmittag 6 Eimer Wasser. Wenn jeder Eimer 5 Liter Wasser enthält, wie viel Liter Wasser holt er dann jeden Tag?
+Model Prediction / Ground Truth: 55 / 55
+Correct Predictions / Total Tests: 93 / 200
+Current Accuracy: 46.50%
+----------------------
+----------------------
+Problem 201: John gewinnt einen Preis bei der Arbeit. Der Preis besteht in einer 1-maligen monetären Belohnung in Höhe von 5000 $ und einer Lohnerhöhung von 5 %. Wenn er jede Woche des Jahres 2000 pro Woche verdient und er den Preis am ersten Tag des Jahres bekam, wie viel Geld verdiente er dann in jenem Jahr?
+Model Prediction / Ground Truth: 106000 / 114200
+Correct Predictions / Total Tests: 93 / 201
+Current Accuracy: 46.27%
+----------------------
+----------------------
+Problem 202: Josie pflanzt Weintrauben auf ihrem 10 Morgen großen Bauernhof an. Auf jedem Morgen werden 5 Tonnen Weintrauben pro Jahr erzeugt und aus jeder Tonne Weintrauben werden 2 Fässer Wein gemacht. Wie viele Fässer Wein erzeugt ihr Bauernhof pro Jahr?
+Model Prediction / Ground Truth: 100 / 100
+Correct Predictions / Total Tests: 94 / 202
+Current Accuracy: 46.53%
+----------------------
+----------------------
+Problem 203: Carls Lieblingsessen ist Käse. Er aß diese Woche jeden Tag ein Sandwich zum Mittagessen und verwendete 2 Scheiben Käse auf jedem Sandwich. 3 Tage in der Woche aß er Eier-Käse-Omeletten zum Frühstück und verwendete dafür eine Scheibe mehr pro Omelette, als er pro Sandwich verwendete. Er machte eine große Portion Makkaroni und Käse, um ihm für mehrere Abendessen in der Woche zu reichen, und verwendete dafür 8 Scheiben Käse. Wie viele Scheiben Käse verwendete er?
+Model Prediction / Ground Truth: 23 / 31
+Correct Predictions / Total Tests: 94 / 203
+Current Accuracy: 46.31%
+----------------------
+----------------------
+Problem 204: Janet hatte 22 grüne Stifte und 10 gelbe Stifte. Dann kaufte sie 6 Beutel blaue Stifte und 2 Beutel rote Stifte. Es waren 9 Stifte in jedem Beutel der Blauen und 6 Stifte in jedem Beutel der Roten. Wie viele Stifte hat Janet jetzt?
+Model Prediction / Ground Truth: 76 / 98
+Correct Predictions / Total Tests: 94 / 204
+Current Accuracy: 46.08%
+----------------------
+----------------------
+Problem 205: Brinley ist in Mr. Berts Mathekurs. Mr. Bert macht jedes Semester sechs Tests. Er erlaubt den Studenten jedes Semester, die niedrigste Punktzahl aus dem Durchschnitt zu streichen. Wenn Brinley in den ersten fünf Tests Punktzahlen von 89, 71, 92, 100 und 86 hat, welche Punktzahl braucht sie dann im sechsten Test, um einen Durchschnitt von 93 zu erreichen?
+Model Prediction / Ground Truth: 99 / 98
+Correct Predictions / Total Tests: 94 / 205
+Current Accuracy: 45.85%
+----------------------
+----------------------
+Problem 206: Micheal fährt liebend gerne Fahrrad. Er fuhr mindestens 5 Mal pro Woche und legte jedes Mal 25 Kilometer zurück. Er tat das vier Wochen lang und beschloss dann, das Fahrrad nur 2 Mal pro Woche zu fahren, aber jedes Mal 60 Kilometer weit, und tat das 3 Wochen lang. Wie viele Kilometer legte Micheal insgesamt zurück?
+Model Prediction / Ground Truth: 850 / 860
+Correct Predictions / Total Tests: 94 / 206
+Current Accuracy: 45.63%
+----------------------
+----------------------
+Problem 207: In Joes Süßigkeitentüte von Halloween sind 25 Schokoladenriegel und 80 kandierte Äpfel. Jeder Schokoladenriegel wiegt doppelt so viel wie jeder kandierte Apfel. Wenn jeder Schokoladenriegen 40 g wiegt, wie viel wiegt dann Joes Süßigkeitentüte in Gramm?
+Model Prediction / Ground Truth: 3800 / 2600
+Correct Predictions / Total Tests: 94 / 207
+Current Accuracy: 45.41%
+----------------------
+----------------------
+Problem 208: Rose ging am Montag in den Laden und kaufte 4 Kuchen. Am Dienstag ging sie in einen anderen Laden und kaufte dreimal so viele Kuchen. Am Mittwoch ging sie in einen anderen Laden und kaufte 5-mal so viele Kuchen, wie sie am Dienstag gekauft hatte. Wie viele Kuchen hatte sie nach allen drei Tagen gekauft?
+Model Prediction / Ground Truth: 64 / 76
+Correct Predictions / Total Tests: 94 / 208
+Current Accuracy: 45.19%
+----------------------
+----------------------
+Problem 209: Zwanzig Duzend Tassen kosten 1200 $ weniger als die Gesamtkosten für ein halbes Duzend Teller, das jeweils zu 6000 $ verkauft wird. Berechnen Sie die Gesamtkosten für den Kauf jeder Tasse.
+Model Prediction / Ground Truth: 2950 / 145
+Correct Predictions / Total Tests: 94 / 209
+Current Accuracy: 44.98%
+----------------------
+----------------------
+Problem 210: Sara möchte sich eine neue Jacke und 2 Paar Schuhe kaufen. Die Jacke, die sie möchte, kostet 30 $, und jedes Paar Schuhe kostet 20 $. Sara hütet die Nachbarskinder 4 Mal und verdient jedes Mal, wenn sie sie hütet, 5 $. Ihre Eltern zahlen ihr jedes Mal 4 $, wenn sie den Rasen mäht. Wenn Sara bereits 10 $ gespart hatte, bevor sie zu Hüten anfing, wie oft muss sie dann den Rasen mähen, bevor sie sich die Jacke und die Schuhe leisten kann?
+Model Prediction / Ground Truth: 6 / 10
+Correct Predictions / Total Tests: 94 / 210
+Current Accuracy: 44.76%
+----------------------
+----------------------
+Problem 211: Jerry hat eine Hühnerschar. Die roten Hennen legen 3 Eier pro Tag und die weißen Hennen legen 5 Eier pro Tag. Jeden Tag sammelt Jerry 42 Eier ein. Wenn er zwei weiße Hennen mehr hat als rote Hennen, wie viele rote Hennen hat er dann?
+Model Prediction / Ground Truth: 6 / 4
+Correct Predictions / Total Tests: 94 / 211
+Current Accuracy: 44.55%
+----------------------
+----------------------
+Problem 212: Gary geht gerne rund um den Rand des örtlichen Parks, der ein Rechteck ist, das 1,5 Meilen auf 6 Meilen misst. Wenn er mit 3 Meilen/Stunde geht, wie viele Stunden verbringt er dann mit Gehen?
+Model Prediction / Ground Truth: 3 / 5
+Correct Predictions / Total Tests: 94 / 212
+Current Accuracy: 44.34%
+----------------------
+----------------------
+Problem 213: Während sie in einem Ein-Euro-Shop ist, zählt Sloane 100 Kunden, die den Laden betreten. Am nächsten Tag zählt sie 50 Kunden mehr als am ersten Tag. Wenn die Gesamtzahl der Kunden am Dritten Tag 500 betrug, wie viele Kunden zählte sie dann am dritten Tag?
+Model Prediction / Ground Truth: 350 / 250
+Correct Predictions / Total Tests: 94 / 213
+Current Accuracy: 44.13%
+----------------------
+----------------------
+Problem 214: Jerry hat zwei Swimmingpools, beide mit Lecks, aus denen 4 Gallonen/Minute auslaufen. Vor 4 Minuten hatte der große Swimmingpool doppelt so viel Wasser wie der kleine Swimmingpool. Jetzt hat der große Swimmingpool vier Mal so viel Wasser wie der kleine Swimmingpool. Wie viel Wasser hat der kleine Swimmingpool jetzt?
+Model Prediction / Ground Truth: 4 / 8
+Correct Predictions / Total Tests: 94 / 214
+Current Accuracy: 43.93%
+----------------------
+----------------------
+Problem 215: Lori will ein Paar Schuhe für 320,00 $ und einen passenden Gürtel, der 32,00 $ kostet, kaufen. Bei ihrem Teilzeitjob bezahlt man ihr 8,00 $ pro Stunde. Wie viele Stunden muss sie arbeiten, bevor sie ihren Einkauf tätigen kann?
+Model Prediction / Ground Truth: 44 / 44
+Correct Predictions / Total Tests: 95 / 215
+Current Accuracy: 44.19%
+----------------------
+----------------------
+Problem 216: Janeth lieh sich 2000 $ und versprach, den Betrag mit zusätzlichen 10 % zurückzuzahlen. Wenn sie 12 Monate lang 165 $ pro Monat zahlt, wie hoch wird Janeths Restguthaben bis dahin sein?
+Model Prediction / Ground Truth: 240 / 220
+Correct Predictions / Total Tests: 95 / 216
+Current Accuracy: 43.98%
+----------------------
+----------------------
+Problem 217: Es gibt 4 Rosen in der Vase. Es gibt 7 Dahlien mehr als Rosen in der Vase. Wie viele Blumen gibt es insgesamt in der Vase?
+Model Prediction / Ground Truth: 15 / 15
+Correct Predictions / Total Tests: 96 / 217
+Current Accuracy: 44.24%
+----------------------
+----------------------
+Problem 218: Adrians Alter ist das Dreifache des Alters von Harriet, und Harriet ist halb so alt wie Zack. Berechnen Sie das Durchschnittsalter der drei in drei Jahren, wenn Harriet jetzt 21 Jahre alt ist.
+Model Prediction / Ground Truth: 30 / 45
+Correct Predictions / Total Tests: 96 / 218
+Current Accuracy: 44.04%
+----------------------
+----------------------
+Problem 219: Vier Schüler erzielten eine Summe von 251 Punkten in einem Brettspiel. Naomi erzielte 68 der Punkte. Yuri erzielte 10 Punkte mehr als halb so viele wie Naomi, und Brianna erzielte 17 Punkte mehr als Naomi. Wie viele Punkte erzielte Jojo?
+Model Prediction / Ground Truth: 66 / 54
+Correct Predictions / Total Tests: 96 / 219
+Current Accuracy: 43.84%
+----------------------
+----------------------
+Problem 220: Carmen braucht 10 Minuten, um ein Kreuzworträtsel zu beenden, und 5 Minuten, um eine Sudoku-Aufgabe zu beenden. Über das Wochenende löste sie 3 Kreuzworträtsel und 8 Sudoku-Aufgaben. Wie viel Zeit verbrachte sie mit dem Spielen dieser Spiele?
+Model Prediction / Ground Truth: 75 / 70
+Correct Predictions / Total Tests: 96 / 220
+Current Accuracy: 43.64%
+----------------------
+----------------------
+Problem 221: Ein Wassertank ist mit 120 Liter Wasser gefüllt. Celine verbrauchte 90 Liter Wasser aus dem Tank, um ihren kleinen Garten zu tränken. Sie konnte dann zwei Mal so viel Regenwasser sammeln, als noch übrig war. Wie viel Liter Wasser sind jetzt in dem Tank?
+Model Prediction / Ground Truth: 60 / 90
+Correct Predictions / Total Tests: 96 / 221
+Current Accuracy: 43.44%
+----------------------
+----------------------
+Problem 222: Andy pflanzt 90 Geranien und 40 Petunien weniger als Geranien. Wie viele Blumen pflanzt er insgesamt?
+Model Prediction / Ground Truth: 140 / 140
+Correct Predictions / Total Tests: 97 / 222
+Current Accuracy: 43.69%
+----------------------
+----------------------
+Problem 223: Eine Firma gibt ein Jahr lang 15000 $ für Werbung aus und gibt dann ein weiteres Jahr lang einen Drittel dieses Betrags für Werbung aus. Welchen Gesamtbetrag gab die Firma in diesen beiden Jahren für Werbung aus?
+Model Prediction / Ground Truth: 20000 / 20000
+Correct Predictions / Total Tests: 98 / 223
+Current Accuracy: 43.95%
+----------------------
+----------------------
+Problem 224: Carlos und Benji sind am Strand. Carlos mietet ein Kanu für 30 $ pro Stunde und Benji mietet einen Bananen-Wasserschlitten für 18 $ pro Stunde. Wenn Carlos das Boot 3 Stunden lang benutzt, und Benji den Wasserschlitten 5 Stunden lang benutzt, wie viel zahlen sie dann insgesamt für ihre Leihe?
+Model Prediction / Ground Truth: 144 / 180
+Correct Predictions / Total Tests: 98 / 224
+Current Accuracy: 43.75%
+----------------------
+----------------------
+Problem 225: Andrew plant eine Fahrt von New Jersey nach Rochester. Es dauert 6 Tage, um mit dem Bus zu reisen, und halb so viele Tage, um mit dem Auto von New Jersey nach Rochester zu reisen. Wie viele Tage reist er, wenn er plant, mit dem Bus nach Rochester zu fahren und von Rochester mit dem Auto zurückzukommen?
+Model Prediction / Ground Truth: 9 / 9
+Correct Predictions / Total Tests: 99 / 225
+Current Accuracy: 44.00%
+----------------------
+----------------------
+Problem 226: James zählt gerade seine Pokemonkarten. Er hat 30 Feuerartige, 20 Pflanzenartige und 40 Wasserartige. Wenn er 8 der Wasserartigen verlegt und 14 Pflanzenartige kauft, wie hoch ist dann die Wahrscheinlichkeit in Prozent (gerundet auf die nächste ganze Zahl), dass eine zufällig gezogene Karte eine Wasserartige sein wird?
+Model Prediction / Ground Truth: 38 / 33
+Correct Predictions / Total Tests: 99 / 226
+Current Accuracy: 43.81%
+----------------------
+----------------------
+Problem 227: Chad bestellte Mach-deinen-eigenen-Burrito zum Mittagessen. Der einfache Burrito kostet 6,50 $. Er fügt extra Fleisch für 2,00 $, extra Käse für 1,00 $, Avocado für 1,00 $ und 2 Saucen für jeweils 0,25 $ hinzu. Er beschließt, seine Mahlzeit für 3,00 $ extra aufzuwerten, wofür Chips und ein Getränk hinzukommen. Er hat eine Geschenkkarte für 5,00 $, die er an der Kasse verwendet. Wie viel schuldet er noch?
+Model Prediction / Ground Truth: 9 / 9
+Correct Predictions / Total Tests: 100 / 227
+Current Accuracy: 44.05%
+----------------------
+----------------------
+Problem 228: Kalinda arbeitet gerade an einem 360-teiligen Puzzle mit ihrer Mutter. Kalinda kann normalerweise 4 Teile pro Minute hinzufügen. Ihre Mutter kann üblicherweise halb so viele Teile pro Minuten platzieren wie Kalinda. Wie viele Stunden brauchen sie, um das Puzzle zu vervollständigen?
+Model Prediction / Ground Truth: 1 / 1
+Correct Predictions / Total Tests: 101 / 228
+Current Accuracy: 44.30%
+----------------------
+----------------------
+Problem 229: Eine Wassermelonenfarm erzeugt 120 Baby-Wassermelonen. Ashlyn ging nach zwei Monaten zu der Farm und fand heraus, dass 30 % der Wassermelonen reif für die Ernte waren, also nahm sie sie nach Hause. Als sie zwei Wochen später zurückkam, waren 3/4 der verbleibenden Wassermelonen reif, also erntete sie sie. Wie viele Melonen waren nach den zwei Wochen nicht reif, um geerntet zu werden?
+Model Prediction / Ground Truth: 21 / 21
+Correct Predictions / Total Tests: 102 / 229
+Current Accuracy: 44.54%
+----------------------
+----------------------
+Problem 230: Mark kauft eine Flotte von 12 Autos für seine Firma. Jedes Auto ist für 20.000 $ zu haben. Er zahlt 10 % Steuer auf die Autos und weitere 1000 $ für jedes davon für die Registrierung. Wie viel bezahlt er für alles?
+Model Prediction / Ground Truth: 288000 / 276000
+Correct Predictions / Total Tests: 102 / 230
+Current Accuracy: 44.35%
+----------------------
+----------------------
+Problem 231: Kylie und Robert gehen gerne zum Strand, um Muscheln zu sammeln. Am Montag sammelt Kylie 5 Muscheln mehr als Robert, der 20 Muscheln sammelt. Am Dienstag sammelt Kylie 2-mal mehr Muscheln, als sie am Montag sammelte. Wie viele Muscheln sammelt Kylie am Dienstag?
+Model Prediction / Ground Truth: 50 / 50
+Correct Predictions / Total Tests: 103 / 231
+Current Accuracy: 44.59%
+----------------------
+----------------------
+Problem 232: Dax ging zu seiner Farm, um ein paar Äpfel zu pflücken, und fand halb sie viele Käfer wie Ameisen in dem Garten. Berechnen Sie die Gesamtzahl der Insekten in dem Garten, wenn es dort 50 Ameisen gab.
+Model Prediction / Ground Truth: 75 / 75
+Correct Predictions / Total Tests: 104 / 232
+Current Accuracy: 44.83%
+----------------------
+----------------------
+Problem 233: Es gibt 36 sich sonnende Pinguine im Schnee. Ein Drittel davon springt hinein und schwimmt im Ozean. Ein weiteres Drittel geht in die Höhle, um zu Abend zu fressen. Wie viele sich sonnende Pinguine sind noch übrig?
+Model Prediction / Ground Truth: 24 / 12
+Correct Predictions / Total Tests: 104 / 233
+Current Accuracy: 44.64%
+----------------------
+----------------------
+Problem 234: Steve beschließt, damit anzufangen, mehr Tomaten zu essen und seine eigenen Cherry-Tomaten anzupflanzen. Er isst doppelt so viele wie seine Freundin. Er isst 6 pro Tag. Wenn ein Stock 3 Tomaten pro Woche erzeugen kann, wie viele Stöcke braucht er dann?
+Model Prediction / Ground Truth: 14 / 21
+Correct Predictions / Total Tests: 104 / 234
+Current Accuracy: 44.44%
+----------------------
+----------------------
+Problem 235: John bestellt ein paar Pizzas, um sie mit seinen Freunden zu teilen. Es sind 20 Freunde insgesamt, und John will sicherstellen, dass jeder 4 Stück haben kann. Pizzas werden nur in 8 Portionen geschnitten verkauft. Wie viele Pizzas muss John bestellen?
+Model Prediction / Ground Truth: 10 / 10
+Correct Predictions / Total Tests: 105 / 235
+Current Accuracy: 44.68%
+----------------------
+----------------------
+Problem 236: Ram verbraucht einen Haufen Stifte. Er entdeckt, dass er Geld sparen kann, indem er die Tinte von fünf leeren Stiften mischt, um einen Stift voll zu machen. Wenn er 25 Stifte kauft und sie dann verwendet, um neue Stifte zu machen, wenn die Tinte ausgeht, wie viele Stifte kann er dann insgesamt haben?
+Model Prediction / Ground Truth: 30 / 31
+Correct Predictions / Total Tests: 105 / 236
+Current Accuracy: 44.49%
+----------------------
+----------------------
+Problem 237: Johnny nahm seine 20 $ Taschengeld und fügte 10 $ extra hinzu. Er investierte dann diese Geldsumme, die sich in einem Jahr verdreifachte. Wie viel Geld hatte er nach einem Jahr?
+Model Prediction / Ground Truth: 90 / 90
+Correct Predictions / Total Tests: 106 / 237
+Current Accuracy: 44.73%
+----------------------
+----------------------
+Problem 238: Mary ist zwei Jahre jünger als Joan, die fünf Jahre älter ist als Jessa. Wenn Jessa 20 Jahre alt ist, was ergibt dann die Summe des Alters der drei Mädchen?
+Model Prediction / Ground Truth: 65 / 68
+Correct Predictions / Total Tests: 106 / 238
+Current Accuracy: 44.54%
+----------------------
+----------------------
+Problem 239: Die Anzahl Schüler in einer Aula betrug 1000. Die Aula hatte 3 Eingänge, A, B und C, die auch als Ausgänge dienten. Berechnen Sie die Anzahl Schüler, die durch Ausgang C hinausgingen, wenn 30 % der Schüler nach einem Treffen durch Ausgang A aus dem Gebäude gingen, 3/5 der verbleibenden durch Ausgang B hinausgingen und der Rest durch Ausgang C hinausging.
+Model Prediction / Ground Truth: 280 / 280
+Correct Predictions / Total Tests: 107 / 239
+Current Accuracy: 44.77%
+----------------------
+----------------------
+Problem 240: James hat 6 Bonbons mehr als Robert. John hat doppelt so viele Bonbons wie Robert. Wenn John 54 Bonbons hat, wie viele Bonbons hat John dann mehr als James?
+Model Prediction / Ground Truth: 42 / 21
+Correct Predictions / Total Tests: 107 / 240
+Current Accuracy: 44.58%
+----------------------
+----------------------
+Problem 241: Dolly hat zwei Bücher. Pandora hat eines. Wenn Dolly und Pandora beide die Bücher voneinander und ihre eigenen lesen, wie viele Bücher werden sie dann insgesamt lesen?
+Model Prediction / Ground Truth: 6 / 6
+Correct Predictions / Total Tests: 108 / 241
+Current Accuracy: 44.81%
+----------------------
+----------------------
+Problem 242: Mike war von 5 Personen Brieffreund. Er hörte mit 2 von ihnen auf, Brieffreunde zu sein. Sie senden ihm jeweils 2 Briefe pro Woche, die 5 Seiten lang sind. Er antwortet auf die gleiche Weise. Er kann alle 6 Minuten eine Seite schreiben. Wie viele Stunden verbringt er pro Woche mit Schreiben?
+Model Prediction / Ground Truth: 6 / 3
+Correct Predictions / Total Tests: 108 / 242
+Current Accuracy: 44.63%
+----------------------
+----------------------
+Problem 243: Jason hat einen Telefontarif mit 1000 Minuten pro Monat. Jeden Tag führt er ein 15-minütiges Telefonat mit seinem Chef und hat diesen Monat 300 Anrufminuten extra mit anderen Personen. Wie viele Minuten hat Jason übrig, wenn dieser Monat 30 Tage hat?
+Model Prediction / Ground Truth: 550 / 250
+Correct Predictions / Total Tests: 108 / 243
+Current Accuracy: 44.44%
+----------------------
+----------------------
+Problem 244: Griffin hatte 24 Pommes frites, aber Kyle nahm 5 davon. Billy nahm doppelt so viele wie Kyle. Ginger gab Griffin eine Handvoll ihrer Pommes frites, und dann nahm Colby von Griffin 3 Pommes frites weniger als die Anzahl, die Kyle genommen hatte. Wenn Griffin am Ende 27 Pommes frites hatte, wie viele Pommes frites gab Ginger dann Griffin?
+Model Prediction / Ground Truth: 17 / 20
+Correct Predictions / Total Tests: 108 / 244
+Current Accuracy: 44.26%
+----------------------
+----------------------
+Problem 245: Es gibt 4 Schnecken in einem Aquarium und 32 Schnecken in einem anderen Aquarium. Der Unterschied zwischen der Anzahl Schnecken in den zwei Aquarien entspricht dem Doppelten der Anzahl Fische in beiden Aquarien. Wenn beide Aquarien die gleiche Anzahl Fische darin haben, wie viele Fische sind dann in jedem Aquarium?
+Model Prediction / Ground Truth: 14 / 7
+Correct Predictions / Total Tests: 108 / 245
+Current Accuracy: 44.08%
+----------------------
+----------------------
+Problem 246: Jeans Maskenbildner berechnet ihr 250 $ pro Stunde. Sie benötigt sehr teures Make-up für einen Film, in dem sie mitspielt, und es dauert jeden Tag 6 Stunden, es zu tun, und pro Woche muss sie es 4 Mal machen lassen. Es dauert 5 Wochen, um den Film zu beenden. Nachdem der Film fertig ist, gibt der Maskenbildner Jean 10 % Rabatt wegen der Menge der getanen Arbeit. Wie viel bezahlte Jean?
+Model Prediction / Ground Truth: 27000 / 27000
+Correct Predictions / Total Tests: 109 / 246
+Current Accuracy: 44.31%
+----------------------
+----------------------
+Problem 247: Isabelle kaufte Partyzubehör für die Geburtstagsparty ihrer kleinen Schwester. Sie gab 12 $ für Kuchenzutaten, 43 $ für Geburtstagsgeschenke, 15 $ für Dekorationen, 4 $ für Einladungen und 22 $ für Tüten mit Leckereien für die Partygäste aus. Sie teilt die Kosten zu gleichen Teilen mit ihren beiden Eltern durch drei. Wie viel Dollar zahlte jede Person?
+Model Prediction / Ground Truth: 32 / 32
+Correct Predictions / Total Tests: 110 / 247
+Current Accuracy: 44.53%
+----------------------
+----------------------
+Problem 248: Ein Koch kaufte 4 Säcke Zwiebeln. Jeder Sack wiegt 50 Pfund. Ein Pfund Zwiebeln kostet 1,50 $. Wie viel gab der Koch aus?
+Model Prediction / Ground Truth: 300 / 300
+Correct Predictions / Total Tests: 111 / 248
+Current Accuracy: 44.76%
+----------------------
+
+--- FINAL TEST SUMMARY ---
+Total Samples Tested: 249
+Correct Predictions: 111
+Final Accuracy: 44.76%
+----------------------
