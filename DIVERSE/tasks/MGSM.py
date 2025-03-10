@@ -243,7 +243,7 @@ class MgsmTask(Task):
 
 
     @staticmethod
-    def compute_final_answer(self, model_output, model_question, verifier, error_log_path=None):
+    def compute_final_answer(self, model_output, model_question, verifier, selection_method, error_log_path=None):
         """
         For each generated answer (which may be a multi-line chain-of-thought),
         compute its verifier probability and then choose the final answer that has the highest
@@ -252,6 +252,10 @@ class MgsmTask(Task):
         """
         answer_probabilities = {}
         raw_probability = {}
+        highest_probability = 0
+        highest_probability_answer = 0
+        most_popular_count = 0
+        most_popular_answer = 0
 
         # Loop over each group of answers in model_output
         for answer_group in model_output:
@@ -262,7 +266,7 @@ class MgsmTask(Task):
                 
                 # Get the probability that the reasoning is correct.
                 probability = verifier.get_verifier_probability(model_answer_question)
-
+       
                 # Extract the final answer using our extraction function.
                 extracted = self.extract_final_answer(self, answer_text, lang='en')
                 if extracted is None:
@@ -288,9 +292,13 @@ class MgsmTask(Task):
                         with open(error_log_path, "a") as ef:
                             ef.write(error_message)
                     continue  # Skip this answer
-
+                    
                 final_ans = rounded_answer
 
+                if highest_probability < probability:
+                    highest_probability = probability
+                    highest_probability_answer = final_ans
+                    
                 # Record the probability values for this final answer.
                 if final_ans not in raw_probability:
                     raw_probability[final_ans] = []
@@ -298,7 +306,19 @@ class MgsmTask(Task):
                 answer_probabilities[final_ans] = answer_probabilities.get(final_ans, 0) + probability
 
         if answer_probabilities:
-            selected_answer = max(answer_probabilities.items(), key=lambda x: x[1])[0]
+
+            if selection_method == 'verifier':
+                selected_answer = highest_probability_answer
+            elif selection_method == 'voting_verifier':
+                selected_answer = max(answer_probabilities.items(), key=lambda x: x[1])[0]
+            elif selection_method == 'voting':
+                selected_answer = max(raw_probability, key=lambda k: len(raw_probability[k]))
+
+
+
+
+            # selected_answer = max(answer_probabilities.items(), key=lambda x: x[1])[0]
+            # selected_answer = highest_probability_answer
             return selected_answer, answer_probabilities, raw_probability
         else:
             return None, None, {}

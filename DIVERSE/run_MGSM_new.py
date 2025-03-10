@@ -16,6 +16,7 @@ args = argparse.Namespace(
     generate_method='cot', 
     number_generate_sample=1, 
     prompt_used=[0,1,2,3,4],
+    selection_method = 'voting',
     checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565',
     tokenizer_name='microsoft/deberta-v3-large',
     generator_model='gpt-4o'
@@ -37,7 +38,7 @@ if args.generate_method == "cot":
 languages = ['te']
 
 # prompts_to_use = [[0,1,2,3,4], [0,1,2,3], [0,1,2], [0,1]]
-prompts_to_use = [[0,1,2]]
+prompts_to_use = [[0,1,2,3,4],[0,1,2]]
 
 for lang in languages:
     for pr in prompts_to_use:
@@ -50,7 +51,7 @@ for lang in languages:
         task = MgsmTask(args)
 
         # 1. Create a time-stamped subfolder for this run under logs/MGSM/{args.lang}
-        run_folder = os.path.join("logs", "MGSM", args.lang, args.generator_model, "oak", str(len(pr)))
+        run_folder = os.path.join("logs", "MGSM", args.lang, args.generator_model, "kiwi", str(len(pr)))
         os.makedirs(run_folder, exist_ok=True)
 
         # 2. Prepare your three log files
@@ -88,7 +89,7 @@ for lang in languages:
             # Extract final answer
             if args.generate_method == "cot":
                 final_answer, weighted_probs, raw_probability = task.compute_final_answer(
-                    task, model_output, english_question, verifier, error_log_path
+                    task, model_output, english_question, verifier, args.selection_method, error_log_path
                 )
                 # Probability formatting
                 total_prob = sum(weighted_probs.values())
