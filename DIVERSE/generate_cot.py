@@ -38,7 +38,7 @@ if args.generate_method == "cot":
 
 # languages = ['de'], 204
 # chinese not sure where
-languages = ['en']
+languages = ['zh']
 prompts_to_use = [[0,1,2,3,4]]
 
 for lang in languages:
@@ -67,7 +67,7 @@ for lang in languages:
         os.makedirs(os.path.dirname(json_filename), exist_ok=True)
 
         # Main loop over test instances
-        for idx in range(1, num_samples):
+        for idx in range(227, num_samples):
             print(f"\n--- Running Test {idx} ---")
 
             # Run the solver to get the model output and questions.

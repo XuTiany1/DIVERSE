@@ -27,10 +27,10 @@ exact_match_metric = evaluate.load("exact_match")
 
 # You can test multiple languages here if you want
 # languages = ['es', 'fr', 'de', 'ru', 'zh', 'ja', 'th', 'sw', 'bn']
-languages = ['te']
+languages = ['es', 'fr', 'de', 'ru', 'zh', 'ja', 'th', 'sw', 'bn']
 
 # prompts_to_use = [[0,1,2,3,4], [0,1,2,3], [0,1,2], [0,1]]
-prompts_to_use = [[0,1,2,3,4]]
+prompts_to_use = [[0,1,2,3,4], [0,1,2,3], [0,1,2], [0,1]]
 
 for lang in languages:
     for pr in prompts_to_use:
