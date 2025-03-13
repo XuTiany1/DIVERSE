@@ -38,7 +38,7 @@ if args.generate_method == "cot":
 
 # languages = ['de'], 204
 # chinese not sure where
-languages = ['es']
+languages = ['en']
 prompts_to_use = [[0,1,2,3,4]]
 
 for lang in languages:
