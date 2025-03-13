@@ -31,9 +31,15 @@ correct_count = 0
 if args.generate_method == "cot":
     verifier = Verifier(args)
 
-# For example, testing on one language ('te')
-languages = ['te']
-prompts_to_use = [[0,1,2,3,4],[0,1,2]]
+# de is incomplete, chinese has some repeted stuff (around 5-6 at the start)
+# languages = ['es', 'fr', 'de', 'ru', 'zh', 'ja', 'th', 'sw', 'bn']
+# CHINESE IS ON 227
+# SWAHILI REPEATED UP AND INCLUDING LINE 7
+
+# languages = ['de'], 204
+# chinese not sure where
+languages = ['es']
+prompts_to_use = [[0,1,2,3,4]]
 
 for lang in languages:
     for pr in prompts_to_use:
@@ -46,7 +52,7 @@ for lang in languages:
         task = MgsmTask(args)
 
         # Create a run folder (using a timestamp) under logs/MGSM/{lang}/{generator_model}/debug/{len(prompt_used)}
-        run_folder = os.path.join("logs", "MGSM", args.lang, args.generator_model, "debug", str(len(pr)))
+        run_folder = os.path.join("logs", "MGSM-cot-dataset", args.lang, "susu", str(len(pr)))
         os.makedirs(run_folder, exist_ok=True)
 
         # Prepare the hyperparameter log file
@@ -58,9 +64,7 @@ for lang in languages:
 
         # Instead of accumulating all records in memory, open a JSON Lines file in append mode.
         json_filename = os.path.join(run_folder, "chain_of_thought_records.jsonl")
-        # (Optionally, you can write a header comment at the top if you wish.)
-        with open(json_filename, "w") as fp:
-            fp.write("# Chain-of-thought records (JSON Lines format)\n")
+        os.makedirs(os.path.dirname(json_filename), exist_ok=True)
 
         # Main loop over test instances
         for idx in range(1, num_samples):
@@ -91,10 +95,6 @@ for lang in languages:
                     "chain": reasoning_path,
                     "probability": probability
                 })
-
-            # Optionally, add the final answer if computed:
-            # final_answer, answer_probabilities, raw_probability = task.compute_final_answer(task, model_output, english_question, verifier)
-            # record["final_answer"] = final_answer
 
             # Append the record to the JSON Lines file.
             with open(json_filename, "a") as fp:

@@ -324,13 +324,24 @@ class MgsmTask(Task):
             return None, None, {}
 
 
+    @staticmethod
+    def compute_probability(self, model_output, model_question, verifier):
 
+        reasoning_path_probability = {}
 
+        # Loop over each group of answers in model_output
+        for answer_group in model_output:
+            # Loop over every answer variant in the group
+            for answer_text in answer_group:
+                # Combine with the question for the verifier.
+                model_answer_question = answer_text + "\n" + model_question
+                
+                # Get the probability that the reasoning is correct.
+                reasoning_probability = verifier.get_verifier_probability(model_answer_question)
 
-
-
-
-
+                reasoning_path_probability[answer_text] = reasoning_probability
+       
+        return reasoning_path_probability
 
 
 
