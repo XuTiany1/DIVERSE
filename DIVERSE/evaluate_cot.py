@@ -46,8 +46,8 @@ args = argparse.Namespace(
 num_samples = 250
 
 # Languages and prompt sets to try.
-languages = ['ru']
-prompts_to_use = [[0, 1, 2, 3, 4], [0, 1, 2]]
+languages = ['bn', 'de', 'es', 'fr', 'ja', 'ru','sw', 'th', 'zh']
+prompts_to_use = [[0]]
 
 for lang in languages:
     for pr in prompts_to_use:
@@ -65,10 +65,10 @@ for lang in languages:
         task = MgsmTask(args)
 
         # Data file (update path as needed).
-        data_file_path = f"DIVERSE/logs/MGSM-cot-dataset/{lang}/susu/5/chain_of_thought_records.jsonl"
+        data_file_path = f"logs/MGSM-cot-dataset/{lang}/susu/5/chain_of_thought_records.jsonl"
 
         # Create a run folder.
-        run_folder = os.path.join("logs", "MGSM-cot-test-dataset", lang)
+        run_folder = os.path.join("logs", "MGSM-cot-test-dataset", lang, str(len(pr)))
         os.makedirs(run_folder, exist_ok=True)
 
         # Combined log file that logs every instance.
