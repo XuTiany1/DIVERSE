@@ -1,0 +1,11 @@
+--- Hyperparameters / Args ---
+task: MGSM
+lang: sna
+naive_run: False
+generate_method: cot
+number_generate_sample: 1
+prompt_used: [0, 1, 2, 3, 4]
+selection_method: voting
+checkpoint_path: /home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565
+tokenizer_name: microsoft/deberta-v3-large
+generator_model: gpt-4o
