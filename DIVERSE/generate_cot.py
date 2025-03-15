@@ -2,7 +2,7 @@ import argparse
 import os
 from datetime import datetime
 from methods.naive_solve import naive_solve
-from tasks.MGSM import MgsmTask
+from tasks.AFRI_MGSM import AfriMgsmTask
 import re
 import sys
 import evaluate
@@ -38,7 +38,10 @@ if args.generate_method == "cot":
 
 # languages = ['de'], 204
 # chinese not sure where
-languages = ['zh']
+# languages = ['zh']
+
+# 'amh', 'hao
+languages = ['kin', 'lin', 'lug', 'orm', 'sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul']
 prompts_to_use = [[0,1,2,3,4]]
 
 for lang in languages:
@@ -49,12 +52,15 @@ for lang in languages:
         args.prompt_used = pr
 
         # Create your MGSM task instance
-        task = MgsmTask(args)
+        task = AfriMgsmTask(args)
 
         # Create a run folder (using a timestamp) under logs/MGSM/{lang}/{generator_model}/debug/{len(prompt_used)}
-        run_folder = os.path.join("logs", "MGSM-cot-dataset", args.lang, "susu", str(len(pr)))
+        run_folder = os.path.join("logs", "AFRI_MGSM-cot-dataset", args.lang, "koko", str(len(pr)))
         os.makedirs(run_folder, exist_ok=True)
 
+        # List to log questions that cause errors.
+        error_questions = []
+        
         # Prepare the hyperparameter log file
         hyperparams_path = os.path.join(run_folder, "hyperparams.log")
         with open(hyperparams_path, "w") as hp:
@@ -66,20 +72,34 @@ for lang in languages:
         json_filename = os.path.join(run_folder, "chain_of_thought_records.jsonl")
         os.makedirs(os.path.dirname(json_filename), exist_ok=True)
 
+        remove_count = 0
+
         # Main loop over test instances
-        for idx in range(227, num_samples):
+        for idx in range(1, num_samples):
+            proper_idx = idx - remove_count
+
             print(f"\n--- Running Test {idx} ---")
 
             # Run the solver to get the model output and questions.
             model_output = naive_solve(args, task, idx, to_print=False)
             model_question = task.get_input(idx)
-            english_question = task.get_english_input(idx)
+            english_question = task.get_english_input(proper_idx)
 
 
-            # Ground truth
-            ground_truth_answer = task.ground_truth_answer(idx)
-            # Convert to Python int in case it's a numpy.int64
-            ground_truth_answer = int(ground_truth_answer)
+            try:
+                # Ground truth
+                ground_truth_answer = task.ground_truth_answer(idx)
+                # Convert to Python int in case it's a numpy.int64
+                ground_truth_answer = int(ground_truth_answer)
+            except Exception as e:
+                print(f"Error converting ground truth for test {idx}: {e}")
+                error_questions.append(english_question)
+
+            # Skipping over empty questions
+            if model_question == '"':
+                num_samples = num_samples + 1
+                remove_count = remove_count + 1
+                continue
 
             # Compute a dictionary mapping each reasoning path to its verifier probability.
             reasoning_path_probability = task.compute_probability(task, model_output, english_question, verifier)
@@ -101,5 +121,16 @@ for lang in languages:
                 fp.write(json.dumps(record) + "\n")
 
             print(f"Recorded instance {idx}")
+
+        # After processing all instances for this language-prompt experiment,
+        # log the questions that caused errors.
+        if error_questions:
+            error_log_path = os.path.join(run_folder, "error_questions.log")
+            with open(error_log_path, "w") as ef:
+                for q in error_questions:
+                    ef.write(q + "\n")
+            print(f"Error log saved to {error_log_path}")
+
+
 
         print(f"Chain of thought records saved to {json_filename}")

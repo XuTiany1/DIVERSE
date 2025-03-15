@@ -2,6 +2,7 @@ import argparse
 import os
 import json
 from tasks.MGSM import MgsmTask
+from tasks.AFRI_MGSM import AfriMgsmTask
 
 def safe_extract_answer(task, chain, error_log):
     """
@@ -46,8 +47,9 @@ args = argparse.Namespace(
 num_samples = 250
 
 # Languages and prompt sets to try.
-languages = ['bn', 'de', 'es', 'fr', 'ja', 'ru','sw', 'th', 'zh']
-prompts_to_use = [[0]]
+# languages = ['bn', 'de', 'es', 'fr', 'ja', 'ru','sw', 'th', 'zh']
+languages = ['ibo']
+prompts_to_use = [[0],[0, 1],[0, 1, 2],[0, 1, 2, 3],[0, 1, 2, 3, 4]]
 
 for lang in languages:
     for pr in prompts_to_use:
@@ -62,13 +64,18 @@ for lang in languages:
         args.prompt_used = pr
 
         # Create MGSM task.
-        task = MgsmTask(args)
+        #task = MgsmTask(args)
+
+        task = AfriMgsmTask(args)
 
         # Data file (update path as needed).
-        data_file_path = f"logs/MGSM-cot-dataset/{lang}/susu/5/chain_of_thought_records.jsonl"
+        #data_file_path = f"logs/MGSM-cot-dataset/{lang}/susu/5/chain_of_thought_records.jsonl"
+        data_file_path = f"logs/AFRI_MGSM-cot-dataset/{lang}/koko/5/chain_of_thought_records.jsonl"
 
         # Create a run folder.
-        run_folder = os.path.join("logs", "MGSM-cot-test-dataset", lang, str(len(pr)))
+        run_folder = os.path.join("logs", "AFRI_MGSM-cot-test-dataset", lang, str(len(pr)))
+
+        # run_folder = os.path.join("logs", "MGSM-cot-test-dataset", lang, str(len(pr)))
         os.makedirs(run_folder, exist_ok=True)
 
         # Combined log file that logs every instance.
@@ -92,7 +99,7 @@ for lang in languages:
             total_count += 1
             record = json.loads(line)
             ground_truth = record.get("ground_truth")
-            english_question = task.get_english_input(idx)
+            english_question = record.get("question", "No question found")
             reasoning_paths = record.get("reasoning_paths", [])
 
             # Filter allowed reasoning paths.
