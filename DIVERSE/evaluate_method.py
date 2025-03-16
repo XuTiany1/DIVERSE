@@ -41,7 +41,8 @@ for lang in languages:
         task = MgsmTask(args)
 
 
-        run_folder = os.path.join("logs", "MGSM-eval", args.lang, "evalaution", str(len(pr)))
+        # run_folder = os.path.join("logs", "MGSM-eval", args.lang, "evalaution", str(len(pr)))
+        run_folder = os.path.join("debug", "MGSM-eval", args.lang, "evalaution", str(len(pr)))
         os.makedirs(run_folder, exist_ok=True)
 
         evaluation_path = os.path.join(run_folder, args.selection_method, "evaluation.log")

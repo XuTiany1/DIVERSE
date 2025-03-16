@@ -73,7 +73,7 @@ for lang in languages:
         data_file_path = f"logs/AFRI_MGSM-cot-dataset/{lang}/koko/5/chain_of_thought_records.jsonl"
 
         # Create a run folder.
-        run_folder = os.path.join("logs", "AFRI_MGSM-cot-test-dataset", lang, str(len(pr)))
+        run_folder = os.path.join("up-log", "AFRI_MGSM-cot-test-dataset", lang, str(len(pr)))
 
         # run_folder = os.path.join("logs", "MGSM-cot-test-dataset", lang, str(len(pr)))
         os.makedirs(run_folder, exist_ok=True)
@@ -109,6 +109,7 @@ for lang in languages:
             # Build a dictionary mapping each extracted answer to a list of probabilities.
             answer_probs = {}
             counts = {}  # for self-consistency counts
+            path_answer = {}
             for path in allowed_paths:
                 # Use safe extraction; log errors to verifier's error log.
                 norm_ans = safe_extract_answer(task, path.get("chain", ""), error_log_verifier)
@@ -116,6 +117,7 @@ for lang in languages:
                 if norm_ans is not None:
                     answer_probs.setdefault(norm_ans, []).append(prob)
                     counts[norm_ans] = counts.get(norm_ans, 0) + 1
+                    path_answer[path["chain"]] = norm_ans
 
             total_prob = sum(sum(probs) for probs in answer_probs.values())
             if str(ground_truth) in answer_probs and total_prob > 0:
@@ -162,7 +164,11 @@ for lang in languages:
             log_entry = (
                 "----------------------\n"
                 f"Problem: {english_question}\n"
-                f"Reasoning step: {combined_reasoning}\n"
+                # f"Reasoning step: {combined_reasoning}\n"
+                f"Record: {record}\n"
+                "Path Answer Mappings:\n"
+                + "\n".join(f"  {path}: {answer}" for path, answer in path_answer.items()) + "\n"
+                f"Verifier probability: {answer_probs}\n"
                 f"Verifier method prediction / Ground Truth: {final_answer_verifier} / {ground_truth}\n"
                 f"Voting Verifier Method Prediction / Ground Truth: {final_answer_voting_verifier} / {ground_truth}\n"
                 f"Voting (Self-Consistency) Method Prediction / Ground Truth: {final_answer_self} / {ground_truth}\n"

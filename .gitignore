@@ -34,3 +34,5 @@ config.json
 /DIVERSE/data
 /data
 /logs
+
+/up-log
