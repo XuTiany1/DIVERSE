@@ -47,6 +47,16 @@
                 "--random_seed", "233",
                 "--dataset_name", "GSM8K"
             ]
-        }
+        },
+        {
+            "name": "homemade",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "/home/mila/x/xut/github/DIVERSE/DIVERSE",
+            "python": "/Users/tianyixu/Documents/github_projects/DIVERSE/verifier_env/bin/python",
+        }  
     ]
+
 }

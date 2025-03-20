@@ -36,3 +36,7 @@ config.json
 /logs
 
 /up-log
+
+
+# Useless stuff
+/not_used

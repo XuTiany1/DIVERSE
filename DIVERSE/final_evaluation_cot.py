@@ -3,6 +3,7 @@ import os
 import json
 from tasks.MGSM import MgsmTask
 from tasks.AFRI_MGSM import AfriMgsmTask
+import evaluate
 
 
 def safe_extract_answer(task, chain, error_log):
@@ -78,37 +79,44 @@ def convert_pretty_printed_to_jsonl(input_path, output_path):
             json_line = json.dumps(obj, ensure_ascii=False)
             outfile.write(json_line + "\n")
 
-
+# ===================================================================
+# ====================Main Logic STARTS HERE ========================
+# ===================================================================
 
 # Set up arguments.
 args = argparse.Namespace(
     task='MGSM',
-    lang='en', 
-    prompt_used=[0, 1, 2, 3, 4],
-    selection_method='voting'
+    languages = ['ibo'],
+    # languages = ['bn', 'de', 'es', 'fr', 'ja', 'ru', 'sw', 'th', 'zh'],
+    prompts_to_use = [[0,1,2,3,4]],
+    post_process_dataset=False
 )
 
 num_samples = 250
-
-# languages = ['bn', 'de', 'es', 'fr', 'ja', 'ru','sw', 'th', 'zh']
-languages = ['ibo']
-prompts_to_use = [[0],[0, 1],[0, 1, 2],[0, 1, 2, 3],[0, 1, 2, 3, 4]]
+exact_match_metric = evaluate.load("exact_match")
 
 
-skip = True
-if (skip == False):
+# ===================================================================
+# =======================Set up Dataset Loop=========================
+# ===================================================================
+
+# Process dataset only if required
+if (args.post_process_dataset == True):
     # Set up prompt and probability info
-    for lang in languages:
+    for lang in args.languages:
 
         args.lang = lang
         task = AfriMgsmTask(args)
+        # task = MgsmTask(args)
 
-        data_file_path = f"logs/AFRI_MGSM-cot-dataset/{lang}/koko/5/chain_of_thought_records.jsonl"
+        data_file_path = f"DIVERSE/logs/AFRI_MGSM-cot-dataset/{lang}/koko/5/chain_of_thought_records.jsonl"
+        #data_file_path = f"DIVERSE/logs/MGSM-cot-dataset/{lang}/susu/5/chain_of_thought_records.jsonl"
 
-        run_folder = os.path.join("debug-log", "AFRI_MGSM-cot-test-dataset", lang)
+        run_folder = os.path.join("results", "AFRI_MGSM-cot-test-dataset", lang)
+        # run_folder = os.path.join("results", "MGSM-cot-test-dataset", lang)
         os.makedirs(run_folder, exist_ok=True)
 
-        reasoning_with_prob_info_path = os.path.join(run_folder, "overall_experiment.log")
+        reasoning_with_prob_info_path = os.path.join(run_folder, "overall_experiment.jsonl")
         reasoning_with_prob_info_log = open(reasoning_with_prob_info_path, "w", encoding="utf-8")
 
         error_extraction_path = os.path.join(run_folder, "error_verifier.log")
@@ -127,9 +135,7 @@ if (skip == False):
             english_question = record.get("question", "No question found")
             all_reasoning_paths = record.get("reasoning_paths", [])
 
-
             answer_probs = {}
-            #every_path_answer = {}
 
             for path in all_reasoning_paths:
 
@@ -138,7 +144,6 @@ if (skip == False):
 
                 if norm_ans is not None:
                     answer_probs.setdefault(norm_ans, []).append(prob)
-                    #every_path_answer[path["chain"]] = norm_ans
             
             log_entry = {
                 "problem": english_question,
@@ -154,14 +159,12 @@ if (skip == False):
 
 
 # ===================================================================
-# ===================================================================
+# ==========================Evaluation Loop==========================
 # ===================================================================
 
 # Set up evaluation loop
-languages = ['ibo']
-prompts_to_use = [[0, 1, 2, 3, 4]]
-for lang in languages:
-    for pr in prompts_to_use:
+for lang in args.languages:
+    for pr in args.prompts_to_use:
 
         total_count = 0
 
@@ -170,12 +173,20 @@ for lang in languages:
         voting_verifier_correct_count = 0
         self_consistency_correct_count = 0
 
+        # Lists to accumulate predictions and references for exact match evaluation.
+        verifier_preds = []
+        voting_verifier_preds = []
+        voting_only_preds = []
+        ground_truth_refs = []
+
         args.lang = lang
         args.prompt_used = pr
 
-        data_file_path = f"debug-log/AFRI_MGSM-cot-test-dataset/{lang}/overall_experiment.jsonl"
+        data_file_path = f"results/AFRI_MGSM-cot-test-dataset/{lang}/overall_experiment.jsonl"
+        #data_file_path = f"results/MGSM-cot-test-dataset/{lang}/overall_experiment.jsonl"
 
-        run_folder = os.path.join("debug-2-log", "AFRI_MGSM-cot-test-dataset", lang, str(len(pr)))
+        run_folder = os.path.join("results", "AFRI_MGSM-cot-test-dataset", lang, str(len(pr)))
+        # run_folder = os.path.join("results", "MGSM-cot-test-dataset", lang, str(len(pr)))
         os.makedirs(run_folder, exist_ok=True)
 
 
@@ -191,60 +202,14 @@ for lang in languages:
         error_log_voting_verifier = open(error_log_voting_verifier_path, "w", encoding="utf-8")
         error_log_self_consistency = open(error_log_self_consistency_path, "w", encoding="utf-8")
 
-        with open(data_file_path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
+        processing_error_log_path = os.path.join(run_folder, "reading_error.log")
+        processing_error_log = open(processing_error_log_path, "w", encoding="utf-8")
 
+        input_file_path =  f"results/AFRI_MGSM-cot-test-dataset/{lang}/overall_experiment.jsonl"   
+        output_file_path =  f"results/AFRI_MGSM-cot-test-dataset/{lang}/cleaned_output.jsonl"     
+        # input_file_path =  f"results/MGSM-cot-test-dataset/{lang}/overall_experiment.jsonl"   
+        # output_file_path =  f"results/MGSM-cot-test-dataset/{lang}/cleaned_output.jsonl"     
 
-        # Prepare data for evaluation:
-        # prepare data for evaluation loop
-        data_file_path = "debug-log/AFRI_MGSM-cot-test-dataset/ibo/overall_experiment.jsonl"
-
-        with open(data_file_path, "r", encoding="utf-8") as f:
-            content = f.read().strip()
-
-        # Convert the concatenated objects into a JSON array.
-
-
-
-
-
-        #def read_pretty_printed_jsonl(filepath):
-        #    records = []
-        #    with open(filepath, "r", encoding="utf-8") as f:
-        #        current_lines = []
-        #        brace_count = 0
-        #        
-        #        for line in f:
-        #            # Skip empty lines to avoid counting them.
-        #            if not line.strip():
-        #                continue
-        #            
-        #            # Add the current line to our buffer.
-        #            current_lines.append(line)
-        #            # Increase count for every '{' and decrease for every '}'.
-        #            # (This simple count assumes no curly braces occur within string literals.)
-        #            brace_count += line.count("{")
-        #            brace_count -= line.count("}")
-        #            
-        #            # When our counter reaches 0, we assume the object is complete.
-        #            if brace_count == 0 and current_lines:
-        #                try:
-        #                    obj_str = "".join(current_lines)
-        #                    records.append(json.loads(obj_str))
-        #                except json.JSONDecodeError as e:
-        #                    print("Error decoding JSON:", e)
-        #                # Reset for the next object.
-        #                current_lines = []
-        #                
-        #    return records
-
-
-
-
-
-
-        input_file_path =  f"debug-log/AFRI_MGSM-cot-test-dataset/{lang}/overall_experiment.jsonl"   # file containing the pretty-printed JSON objects
-        output_file_path =  f"debug-log/AFRI_MGSM-cot-test-dataset/{lang}/output.jsonl"      # destination JSONL file
 
         convert_pretty_printed_to_jsonl(input_file_path, output_file_path)
 
@@ -255,13 +220,11 @@ for lang in languages:
 
         for idx, line in enumerate(lines[:num_samples], start=1):
 
-
             total_count += 1
 
             record = json.loads(line)
             
             question = record["problem"]
-            #ground_truth = record["ground_truth"]
             ground_truth = record.get("record", {}).get("ground_truth")
             verifier_probability = record["verifier_probability"]
 
@@ -272,16 +235,29 @@ for lang in languages:
 
 
             # Extract prediction
-            # Verifier: key with the highest single probability
-            verifier_only = max(verifier_probability, key=lambda k: max(verifier_probability[k]))
-                
-            # Voting Verifier: key with the highest sum of probabilities
-            voting_verifier = max(verifier_probability, key=lambda k: sum(verifier_probability[k]))
+            try:
+                # Verifier: key with the highest single probability
+                verifier_only = max(verifier_probability, key=lambda k: max(verifier_probability[k]))
+                # Voting Verifier: key with the highest sum of probabilities
+                voting_verifier = max(verifier_probability, key=lambda k: sum(verifier_probability[k]))
+                # Voting: key with the highest number of entries
+                voting_only = max(verifier_probability, key=lambda k: len(verifier_probability[k]))
 
-            # Voting: key with the highest number of entries
-            voting_only = max(verifier_probability, key=lambda k: len(verifier_probability[k]))
+            except Exception as e:
+                error_log_entry = (
+                    "----------------------\n"
+                    f"Exception: {e}\n"
+                    f"Problem: {question}\n"
+                    f"Record: {record}\n"
+                    f"Verifier probability: {verifier_probability}\n"
+                    "----------------------\n"
+
+                )
+                processing_error_log.write(error_log_entry)
+                processing_error_log.flush()   
 
 
+            # Increament count if answer matches ground truth
             if verifier_only is not None and gt_val is not None and float(verifier_only)==gt_val:
                 verifier_correct_count += 1
             if voting_verifier is not None and gt_val is not None and float(voting_verifier)==gt_val:
@@ -293,7 +269,6 @@ for lang in languages:
             voting_verifier_acc = voting_verifier_correct_count / total_count
             self_consistency_acc = self_consistency_correct_count / total_count
 
-
             total_prob_sum = sum(sum(probs) for probs in verifier_probability.values())
             if str(ground_truth) in verifier_probability and total_prob_sum > 0:
                 weighted_prob_correct = sum(verifier_probability[str(ground_truth)]) / total_prob_sum
@@ -301,17 +276,44 @@ for lang in languages:
                 weighted_prob_correct = 0
 
 
+            # ----- Exact Match Evaluation using evaluate library -----
+            # Convert predictions to strings (or empty string if None)
+            verifier_pred_str = str(verifier_only) if verifier_only is not None else ""
+            voting_verifier_pred_str = str(voting_verifier) if voting_verifier is not None else ""
+            voting_only_pred_str = str(voting_only) if voting_only is not None else ""
+            gt_str = str(ground_truth)
+
+            # Append to lists for the metric evaluation
+            verifier_preds.append(verifier_pred_str)
+            voting_only_preds.append(voting_only_pred_str)
+            voting_verifier_preds.append(voting_verifier_pred_str)
+            ground_truth_refs.append(gt_str)
+
+            # Compute current exact match accuracy for each method
+            current_em_verifier = exact_match_metric.compute(
+                predictions=verifier_preds, references=ground_truth_refs
+            )["exact_match"]
+            current_em_voting_verifier = exact_match_metric.compute(
+                predictions=voting_verifier_preds, references=ground_truth_refs
+            )["exact_match"]
+            current_em_voting_only = exact_match_metric.compute(
+                predictions=voting_only_preds, references=ground_truth_refs
+            )["exact_match"]
+
+
             log_entry = (
                 "----------------------\n"
                 f"Problem: {question}\n"
-                # f"Reasoning step: {combined_reasoning}\n"
                 f"Record: {record}\n"
                 f"Verifier probability: {verifier_probability}\n"
                 f"Verifier method prediction / Ground Truth: {verifier_only} / {ground_truth}\n"
                 f"Voting Verifier Method Prediction / Ground Truth: {voting_verifier} / {ground_truth}\n"
                 f"Voting (Self-Consistency) Method Prediction / Ground Truth: {voting_only} / {ground_truth}\n"
                 f"Weighted Verifier Probability: {weighted_prob_correct:.2%}\n"
-                f"Current Accuracy: Verifier: {verifier_acc:.2%}, Voting Verifier: {voting_verifier_acc:.2%}, Self-Consistency: {self_consistency_acc:.2%}\n"
+                f"Cumulative correct answer numbers: Verifier: {verifier_correct_count}/{total_count}, Voting Verifier: {voting_verifier_correct_count}/{total_count}, Self-Consistency: {self_consistency_correct_count}/{total_count}\n"
+                f"Current Manual Accuracy: Verifier: {verifier_acc:.2%}, Voting Verifier: {voting_verifier_acc:.2%}, Self-Consistency: {self_consistency_acc:.2%}\n"
+                
+                f"Exact Match Accuracy: Verifier: {current_em_verifier:.2%}, Voting Verifier: {current_em_voting_verifier:.2%}, Self-Consistency: {current_em_voting_only:.2%}\n"
                 "----------------------\n"
             )
 
@@ -326,6 +328,7 @@ for lang in languages:
                 error_log_voting_verifier.write(log_entry)
             if voting_only is None or (gt_val is not None and float(voting_only) != gt_val):
                 error_log_self_consistency.write(log_entry)
+
 
         # Close all log files.
         combined_log.close()
