@@ -1,0 +1,64 @@
+
+  0%|                                                                                                                     | 0/6565 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "run_ner.py", line 443, in <module>
+    main()
+  File "run_ner.py", line 378, in main
+    trainer.train(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1272, in train
+    tr_loss += self.training_step(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1734, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1766, in compute_loss
+    outputs = model(**inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 157, in forward
+    inputs, kwargs = self.scatter(inputs, kwargs, self.device_ids)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 168, in scatter
+    return scatter_kwargs(inputs, kwargs, device_ids, dim=self.dim)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 37, in scatter_kwargs
+    kwargs = scatter(kwargs, target_gpus, dim) if kwargs else []
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 28, in scatter
+    res = scatter_map(inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 19, in scatter_map
+    return list(map(type(obj), zip(*map(scatter_map, obj.items()))))
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 15, in scatter_map
+    return list(zip(*map(scatter_map, obj)))
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 13, in scatter_map
+    return Scatter.apply(target_gpus, None, dim, obj)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/_functions.py", line 92, in forward
+    outputs = comm.scatter(input, target_gpus, chunk_sizes, ctx.dim, streams)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/comm.py", line 186, in scatter
+    return tuple(torch._C._scatter(tensor, devices, chunk_sizes, dim, streams))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "run_ner.py", line 443, in <module>
+    main()
+  File "run_ner.py", line 378, in main
+    trainer.train(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1272, in train
+    tr_loss += self.training_step(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1734, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1766, in compute_loss
+    outputs = model(**inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 157, in forward
+    inputs, kwargs = self.scatter(inputs, kwargs, self.device_ids)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 168, in scatter
+    return scatter_kwargs(inputs, kwargs, device_ids, dim=self.dim)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 37, in scatter_kwargs
+    kwargs = scatter(kwargs, target_gpus, dim) if kwargs else []
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 28, in scatter
+    res = scatter_map(inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 19, in scatter_map
+    return list(map(type(obj), zip(*map(scatter_map, obj.items()))))
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 15, in scatter_map
+    return list(zip(*map(scatter_map, obj)))
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/scatter_gather.py", line 13, in scatter_map
+    return Scatter.apply(target_gpus, None, dim, obj)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/_functions.py", line 92, in forward
+    outputs = comm.scatter(input, target_gpus, chunk_sizes, ctx.dim, streams)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/comm.py", line 186, in scatter
+    return tuple(torch._C._scatter(tensor, devices, chunk_sizes, dim, streams))

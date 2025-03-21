@@ -52,7 +52,7 @@ async def generate_dataset(task,
             generate_text_async(
                 messages=[{"role": "user", "content": prompt}],
                 model=model,
-                temperature=0.0,
+                temperature=0.7,
                 max_tokens=1000,
                 n=1
             )

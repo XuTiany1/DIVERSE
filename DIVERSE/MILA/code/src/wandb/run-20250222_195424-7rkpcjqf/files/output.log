@@ -1,0 +1,114 @@
+
+  0%|                                                                        | 0/6565 [00:00<?, ?it/s]libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': libhns-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': libsiw-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': librxe-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libcxgb4-rdmav34.so': libcxgb4-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libmlx4-rdmav34.so': libmlx4-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libirdma-rdmav34.so': libirdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libhfi1verbs-rdmav34.so': libhfi1verbs-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libqedr-rdmav34.so': libqedr-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libbnxt_re-rdmav34.so': libbnxt_re-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libmthca-rdmav34.so': libmthca-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libipathverbs-rdmav34.so': libipathverbs-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libocrdma-rdmav34.so': libocrdma-rdmav34.so: cannot open shared object file: No such file or directory
+/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:64: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+
+  0%|                                                                | 7/6565 [00:05<50:52,  2.15it/s]
+Attempted to log scalar metric loss:
+1.294
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.01
+
+  0%|▏                                                              | 16/6565 [00:08<39:34,  2.76it/s]Traceback (most recent call last):
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 71, in <module>
+    cli.main()
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 501, in main
+    run()
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 458, in <module>
+    main()
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 393, in main
+    trainer.train(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1272, in train
+    tr_loss += self.training_step(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1734, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1766, in compute_loss
+    outputs = model(**inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 160, in forward
+    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 165, in replicate
+    return replicate(module, device_ids, not torch.is_grad_enabled())
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/replicate.py", line 140, in replicate
+    param_idx = param_indices[param]
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/tensor.py", line 599, in __hash__
+    if type(self) is not Tensor and has_torch_function(relevant_args):
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/overrides.py", line 1086, in has_torch_function
+    return _is_torch_function_enabled() and any(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/overrides.py", line 1086, in <genexpr>
+    return _is_torch_function_enabled() and any(
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_trace_dispatch_regular.py", line 354, in __call__
+    def __call__(self, frame, event, arg):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 71, in <module>
+    cli.main()
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 501, in main
+    run()
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 458, in <module>
+    main()
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 393, in main
+    trainer.train(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1272, in train
+    tr_loss += self.training_step(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1734, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1766, in compute_loss
+    outputs = model(**inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 160, in forward
+    replicas = self.replicate(self.module, self.device_ids[:len(inputs)])
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 165, in replicate
+    return replicate(module, device_ids, not torch.is_grad_enabled())
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/replicate.py", line 140, in replicate
+    param_idx = param_indices[param]
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/tensor.py", line 599, in __hash__
+    if type(self) is not Tensor and has_torch_function(relevant_args):
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/overrides.py", line 1086, in has_torch_function
+    return _is_torch_function_enabled() and any(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/overrides.py", line 1086, in <genexpr>
+    return _is_torch_function_enabled() and any(
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_trace_dispatch_regular.py", line 354, in __call__
+    def __call__(self, frame, event, arg):
+KeyboardInterrupt

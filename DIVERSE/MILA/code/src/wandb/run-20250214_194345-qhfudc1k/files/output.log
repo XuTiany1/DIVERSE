@@ -1,0 +1,6706 @@
+
+  0%|                                                                      | 0/26250 [00:00<?, ?it/s]/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:64: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+
+
+  0%|                                                            | 7/26250 [00:09<6:48:41,  1.07it/s]
+Attempted to log scalar metric loss:
+1.3603
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.0
+
+
+
+
+  0%|                                                           | 17/26250 [00:17<5:52:27,  1.24it/s]
+Attempted to log scalar metric loss:
+0.9288
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.0
+
+
+
+
+  0%|                                                           | 27/26250 [00:25<5:50:06,  1.25it/s]
+Attempted to log scalar metric loss:
+0.9069
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.01
+
+
+
+
+  0%|                                                           | 37/26250 [00:33<5:52:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.81
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.01
+
+
+
+
+
+  0%|                                                           | 50/26250 [00:43<5:52:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7448
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.01
+
+
+
+
+  0%|▏                                                          | 59/26250 [00:50<5:51:47,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7805
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.01
+
+
+
+
+  0%|▏                                                          | 69/26250 [00:58<5:51:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.8085
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.01
+
+
+
+  0%|▏                                                          | 77/26250 [01:05<5:49:24,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7608
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.02
+
+
+
+
+  0%|▏                                                          | 87/26250 [01:13<5:48:26,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6093
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.02
+
+
+
+
+
+  0%|▏                                                          | 99/26250 [01:22<5:49:49,  1.25it/s]
+Attempted to log scalar metric loss:
+0.782
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.02
+
+
+
+
+  0%|▏                                                         | 109/26250 [01:31<5:49:26,  1.25it/s]
+Attempted to log scalar metric loss:
+0.707
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.02
+
+
+
+
+  0%|▎                                                         | 119/26250 [01:39<5:47:01,  1.26it/s]
+Attempted to log scalar metric loss:
+0.6502
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.02
+
+
+
+
+  0%|▎                                                         | 129/26250 [01:47<5:46:56,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7108
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.02
+
+
+
+
+  1%|▎                                                         | 139/26250 [01:55<5:46:39,  1.26it/s]
+Attempted to log scalar metric loss:
+0.7239
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.03
+
+
+
+
+  1%|▎                                                         | 149/26250 [02:03<5:47:25,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6021
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.03
+
+
+
+
+  1%|▎                                                         | 159/26250 [02:11<5:47:35,  1.25it/s]
+Attempted to log scalar metric loss:
+0.637
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.03
+
+
+
+
+  1%|▎                                                         | 167/26250 [02:17<5:47:46,  1.25it/s]
+Attempted to log scalar metric loss:
+0.8022
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.03
+
+
+
+
+
+  1%|▍                                                         | 180/26250 [02:31<5:59:16,  1.21it/s]
+Attempted to log scalar metric loss:
+0.732
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.03
+
+
+
+
+  1%|▍                                                         | 189/26250 [02:38<5:49:43,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6531
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.04
+
+
+
+
+  1%|▍                                                         | 199/26250 [02:46<5:50:36,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6975
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.04
+
+
+
+
+  1%|▍                                                         | 209/26250 [02:55<5:50:26,  1.24it/s]
+Attempted to log scalar metric loss:
+0.8098
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.04
+
+
+
+
+  1%|▍                                                         | 219/26250 [03:03<5:50:16,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7129
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.04
+
+
+
+
+  1%|▌                                                         | 229/26250 [03:11<5:51:50,  1.23it/s]
+Attempted to log scalar metric loss:
+0.8286
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.04
+
+
+
+
+  1%|▌                                                         | 238/26250 [03:18<5:46:06,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6549
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.05
+
+
+
+
+  1%|▌                                                         | 248/26250 [03:26<5:49:31,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7147
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.05
+
+
+
+
+  1%|▌                                                         | 258/26250 [03:35<5:47:55,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6674
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.05
+
+
+
+
+  1%|▌                                                         | 268/26250 [03:43<5:46:47,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7584
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.05
+
+
+
+
+  1%|▌                                                         | 278/26250 [03:51<5:49:16,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6586
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.05
+
+
+
+
+  1%|▋                                                         | 288/26250 [03:59<5:49:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6097
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.06
+
+
+
+
+  1%|▋                                                         | 298/26250 [04:07<5:49:12,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7916
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.06
+
+
+
+
+  1%|▋                                                         | 308/26250 [04:15<5:49:02,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6267
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.06
+
+
+
+
+  1%|▋                                                         | 318/26250 [04:23<5:49:00,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6203
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.06
+
+
+
+
+  1%|▋                                                         | 328/26250 [04:31<5:45:11,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7189
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.06
+
+
+
+
+
+  1%|▋                                                         | 339/26250 [04:40<5:45:05,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6762
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.06
+
+
+
+
+  1%|▊                                                         | 350/26250 [04:52<6:00:45,  1.20it/s]
+Attempted to log scalar metric loss:
+0.6066
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.07
+
+
+
+
+  1%|▊                                                         | 360/26250 [05:00<5:47:59,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7374
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.07
+
+
+
+
+  1%|▊                                                         | 369/26250 [05:07<5:47:26,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7177
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.07
+
+
+
+
+  1%|▊                                                         | 379/26250 [05:15<5:47:52,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6598
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.07
+
+
+
+
+  1%|▊                                                         | 389/26250 [05:23<5:44:30,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5886
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.07
+
+
+
+
+  2%|▉                                                         | 399/26250 [05:31<5:46:03,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6563
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.08
+
+
+
+
+  2%|▉                                                         | 408/26250 [05:39<5:49:57,  1.23it/s]
+Attempted to log scalar metric loss:
+0.668
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.08
+
+
+
+
+  2%|▉                                                         | 418/26250 [05:47<5:55:46,  1.21it/s]
+Attempted to log scalar metric loss:
+0.5742
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.08
+
+
+
+
+  2%|▉                                                         | 428/26250 [05:55<5:45:26,  1.25it/s]
+Attempted to log scalar metric loss:
+0.724
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.08
+
+
+
+
+  2%|▉                                                         | 438/26250 [06:03<5:44:35,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6529
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.08
+
+
+
+
+  2%|▉                                                         | 448/26250 [06:11<5:44:10,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6879
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.09
+
+
+
+
+  2%|█                                                         | 458/26250 [06:19<5:44:54,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7356
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.09
+
+
+
+
+  2%|█                                                         | 468/26250 [06:27<5:46:09,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6273
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.09
+
+
+
+
+  2%|█                                                         | 478/26250 [06:35<5:45:37,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6321
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.09
+
+
+
+
+  2%|█                                                         | 488/26250 [06:44<5:47:42,  1.23it/s]
+Attempted to log scalar metric loss:
+0.6483
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.09
+
+
+
+
+  2%|█                                                         | 498/26250 [06:52<5:45:42,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6143
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.1
+
+
+
+
+  2%|█                                                         | 508/26250 [07:03<7:24:50,  1.04s/it]
+Attempted to log scalar metric loss:
+0.6677
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.1
+
+
+
+
+  2%|█▏                                                        | 518/26250 [07:11<5:47:33,  1.23it/s]
+Attempted to log scalar metric loss:
+0.6701
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.1
+
+
+
+
+  2%|█▏                                                        | 527/26250 [07:19<5:42:19,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5093
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.1
+
+
+
+
+  2%|█▏                                                        | 537/26250 [07:27<5:43:30,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6399
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.1
+
+
+
+
+  2%|█▏                                                        | 547/26250 [07:35<5:46:04,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6815
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.1
+
+
+
+
+  2%|█▏                                                        | 557/26250 [07:43<5:43:06,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6542
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.11
+
+
+
+
+
+  2%|█▎                                                        | 569/26250 [07:52<5:44:15,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7002
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.11
+
+
+
+
+  2%|█▎                                                        | 579/26250 [08:00<5:43:04,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6369
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.11
+
+
+
+
+  2%|█▎                                                        | 590/26250 [08:09<5:41:27,  1.25it/s]
+Attempted to log scalar metric loss:
+0.541
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.11
+
+
+
+
+  2%|█▎                                                        | 599/26250 [08:16<5:44:07,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5414
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.11
+
+
+
+
+  2%|█▎                                                        | 609/26250 [08:25<5:43:06,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5743
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.12
+
+
+
+
+  2%|█▎                                                        | 619/26250 [08:33<5:43:10,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4938
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.12
+
+
+
+
+  2%|█▍                                                        | 629/26250 [08:41<5:42:42,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6487
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.12
+
+
+
+
+  2%|█▍                                                        | 639/26250 [08:49<5:40:24,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5576
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.12
+
+
+
+
+  2%|█▍                                                        | 649/26250 [08:57<5:40:07,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5895
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.12
+
+
+
+
+  3%|█▍                                                        | 659/26250 [09:05<5:41:36,  1.25it/s]
+Attempted to log scalar metric loss:
+0.676
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.13
+
+
+
+
+  3%|█▍                                                        | 669/26250 [09:13<5:38:46,  1.26it/s]
+Attempted to log scalar metric loss:
+0.5181
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.13
+
+
+
+
+  3%|█▍                                                        | 678/26250 [09:23<8:05:11,  1.14s/it]
+Attempted to log scalar metric loss:
+0.5423
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.13
+
+
+
+
+  3%|█▌                                                        | 688/26250 [09:31<5:47:07,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4668
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.13
+
+
+
+
+  3%|█▌                                                        | 698/26250 [09:39<5:42:31,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5461
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.13
+
+
+
+
+  3%|█▌                                                        | 707/26250 [09:47<5:46:45,  1.23it/s]
+Attempted to log scalar metric loss:
+0.8503
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.14
+
+
+
+
+  3%|█▌                                                        | 717/26250 [09:55<5:38:52,  1.26it/s]
+Attempted to log scalar metric loss:
+0.5955
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.14
+
+
+
+
+
+  3%|█▌                                                        | 730/26250 [10:05<5:42:01,  1.24it/s]
+Attempted to log scalar metric loss:
+0.787
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.14
+
+
+
+
+  3%|█▋                                                        | 740/26250 [10:13<5:43:16,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6173
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.14
+
+
+
+
+  3%|█▋                                                        | 750/26250 [10:22<5:41:18,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5283
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.14
+
+
+
+
+  3%|█▋                                                        | 760/26250 [10:30<5:41:45,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5827
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.14
+
+
+
+
+  3%|█▋                                                        | 770/26250 [10:38<5:38:21,  1.26it/s]
+Attempted to log scalar metric loss:
+0.5863
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.15
+
+
+
+  3%|█▋                                                        | 777/26250 [10:43<5:40:48,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6129
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.15
+
+
+
+
+  3%|█▋                                                        | 787/26250 [10:51<5:40:30,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5984
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.15
+
+
+
+
+
+  3%|█▊                                                        | 799/26250 [11:01<5:37:54,  1.26it/s]
+Attempted to log scalar metric loss:
+0.6055
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.15
+
+
+
+
+  3%|█▊                                                        | 809/26250 [11:09<5:43:26,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4189
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.15
+
+
+
+
+  3%|█▊                                                        | 819/26250 [11:18<5:41:22,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6856
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.16
+
+
+
+
+  3%|█▊                                                        | 829/26250 [11:26<5:41:14,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4887
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.16
+
+
+
+
+  3%|█▊                                                        | 838/26250 [11:33<5:41:49,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7433
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.16
+
+
+
+
+  3%|█▉                                                        | 849/26250 [11:45<5:56:10,  1.19it/s]
+Attempted to log scalar metric loss:
+0.5832
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.16
+
+
+
+
+  3%|█▉                                                        | 858/26250 [11:52<5:40:53,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5781
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.16
+
+
+
+
+  3%|█▉                                                        | 868/26250 [12:00<5:40:24,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7392
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.17
+
+
+
+
+  3%|█▉                                                        | 878/26250 [12:08<5:39:24,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5116
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.17
+
+
+
+
+  3%|█▉                                                        | 888/26250 [12:16<5:39:26,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6305
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.17
+
+
+
+
+  3%|█▉                                                        | 898/26250 [12:24<5:41:26,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5902
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.17
+
+
+
+
+  3%|██                                                        | 907/26250 [12:32<5:43:54,  1.23it/s]
+Attempted to log scalar metric loss:
+0.5287
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.17
+
+
+
+
+  3%|██                                                        | 917/26250 [12:40<5:38:45,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5566
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.18
+
+
+
+
+  4%|██                                                        | 927/26250 [12:48<5:39:02,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5776
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.18
+
+
+
+
+  4%|██                                                        | 937/26250 [12:56<5:37:57,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6258
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.18
+
+
+
+
+  4%|██                                                        | 947/26250 [13:04<5:38:10,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5618
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.18
+
+
+
+
+  4%|██                                                        | 957/26250 [13:12<5:39:14,  1.24it/s]
+Attempted to log scalar metric loss:
+0.556
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.18
+
+
+
+
+  4%|██▏                                                       | 967/26250 [13:20<5:38:49,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6313
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.18
+
+
+
+
+  4%|██▏                                                       | 977/26250 [13:28<5:38:24,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5235
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.19
+
+
+
+
+  4%|██▏                                                       | 987/26250 [13:36<5:37:20,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6681
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.19
+
+
+
+
+
+  4%|██▏                                                       | 999/26250 [13:46<5:37:54,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6454
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.19
+
+
+
+
+  4%|██▏                                                      | 1009/26250 [13:54<5:38:54,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5377
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.19
+
+
+
+
+  4%|██▏                                                      | 1019/26250 [14:02<5:38:26,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5876
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.19
+
+
+
+
+
+
+  4%|██▏                                                      | 1032/26250 [14:16<6:02:22,  1.16it/s]
+Attempted to log scalar metric loss:
+0.5001
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.2
+
+
+
+
+  4%|██▎                                                      | 1042/26250 [14:24<5:38:51,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6747
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.2
+
+
+
+  4%|██▎                                                      | 1049/26250 [14:30<5:37:21,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6032
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.2
+
+
+
+
+  4%|██▎                                                      | 1059/26250 [14:38<5:35:53,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6088
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.2
+
+
+
+
+  4%|██▎                                                      | 1069/26250 [14:46<5:37:18,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4812
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.2
+
+
+
+
+  4%|██▎                                                      | 1079/26250 [14:54<5:37:23,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4526
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.21
+
+
+
+
+  4%|██▎                                                      | 1089/26250 [15:02<5:38:31,  1.24it/s]
+Attempted to log scalar metric loss:
+0.756
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.21
+
+
+
+
+  4%|██▍                                                      | 1099/26250 [15:10<5:36:30,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6331
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.21
+
+
+
+
+  4%|██▍                                                      | 1109/26250 [15:19<5:42:59,  1.22it/s]
+Attempted to log scalar metric loss:
+0.6768
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.21
+
+
+
+
+  4%|██▍                                                      | 1119/26250 [15:27<5:36:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5491
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.21
+
+
+
+
+  4%|██▍                                                      | 1129/26250 [15:35<5:36:41,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6046
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.22
+
+
+
+
+  4%|██▍                                                      | 1138/26250 [15:42<5:38:28,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5817
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.22
+
+
+
+
+  4%|██▍                                                      | 1148/26250 [15:50<5:36:03,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6983
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.22
+
+
+
+
+  4%|██▌                                                      | 1158/26250 [15:58<5:36:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6644
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.22
+
+
+
+
+  4%|██▌                                                      | 1168/26250 [16:06<5:39:15,  1.23it/s]
+Attempted to log scalar metric loss:
+0.6504
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.22
+
+
+
+
+  4%|██▌                                                      | 1178/26250 [16:14<5:35:04,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5776
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.22
+
+
+
+
+  5%|██▌                                                      | 1188/26250 [16:22<5:41:49,  1.22it/s]
+Attempted to log scalar metric loss:
+0.5422
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.23
+
+
+
+
+  5%|██▌                                                      | 1198/26250 [16:30<5:36:04,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4637
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.23
+
+
+
+
+  5%|██▌                                                      | 1207/26250 [16:41<6:13:26,  1.12it/s]
+Attempted to log scalar metric loss:
+0.5136
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.23
+
+
+
+
+  5%|██▋                                                      | 1217/26250 [16:49<5:36:33,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6805
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.23
+
+
+
+
+  5%|██▋                                                      | 1227/26250 [16:57<5:35:38,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3986
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.23
+
+
+
+
+  5%|██▋                                                      | 1237/26250 [17:05<5:32:04,  1.26it/s]
+Attempted to log scalar metric loss:
+0.5986
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.24
+
+
+
+
+  5%|██▋                                                      | 1248/26250 [17:14<5:32:54,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4179
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.24
+
+
+
+
+  5%|██▋                                                      | 1258/26250 [17:22<5:31:26,  1.26it/s]
+Attempted to log scalar metric loss:
+0.5574
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.24
+
+
+
+
+  5%|██▊                                                      | 1267/26250 [17:29<5:36:21,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4011
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.24
+
+
+
+
+  5%|██▊                                                      | 1277/26250 [17:38<5:36:34,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5046
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.24
+
+
+
+
+  5%|██▊                                                      | 1287/26250 [17:46<5:35:54,  1.24it/s]
+Attempted to log scalar metric loss:
+0.515
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.25
+
+
+
+
+
+  5%|██▊                                                      | 1299/26250 [17:55<5:35:47,  1.24it/s]
+Attempted to log scalar metric loss:
+0.578
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.25
+
+
+
+
+
+  5%|██▊                                                      | 1312/26250 [18:06<5:33:22,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4154
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.25
+
+
+
+  5%|██▊                                                      | 1319/26250 [18:12<5:33:17,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7126
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.25
+
+
+
+
+  5%|██▉                                                      | 1329/26250 [18:20<5:34:00,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5368
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.25
+
+
+
+
+  5%|██▉                                                      | 1339/26250 [18:28<5:33:08,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6178
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.26
+
+
+
+
+  5%|██▉                                                      | 1349/26250 [18:36<5:31:37,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5561
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.26
+
+
+
+
+  5%|██▉                                                      | 1359/26250 [18:44<5:34:20,  1.24it/s]
+Attempted to log scalar metric loss:
+0.452
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.26
+
+
+
+
+
+  5%|██▉                                                      | 1369/26250 [18:55<6:18:31,  1.10it/s]
+Attempted to log scalar metric loss:
+0.8066
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.26
+
+
+
+
+  5%|██▉                                                      | 1379/26250 [19:03<5:35:11,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4645
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.26
+
+
+
+
+  5%|███                                                      | 1389/26250 [19:11<5:33:11,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5168
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.26
+
+
+
+
+  5%|███                                                      | 1399/26250 [19:19<5:32:09,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6182
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.27
+
+
+
+
+  5%|███                                                      | 1408/26250 [19:27<5:35:49,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4615
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.27
+
+
+
+
+  5%|███                                                      | 1418/26250 [19:35<5:32:49,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4899
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.27
+
+
+
+
+  5%|███                                                      | 1428/26250 [19:43<5:33:09,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4009
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.27
+
+
+
+
+  5%|███                                                      | 1438/26250 [19:51<5:33:36,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4993
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.27
+
+
+
+
+
+  6%|███▏                                                     | 1451/26250 [20:02<5:33:21,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5902
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.28
+
+
+
+  6%|███▏                                                     | 1458/26250 [20:07<5:32:27,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4246
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.28
+
+
+
+
+  6%|███▏                                                     | 1468/26250 [20:15<5:30:51,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5758
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.28
+
+
+
+
+  6%|███▏                                                     | 1478/26250 [20:23<5:33:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7311
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.28
+
+
+
+
+  6%|███▏                                                     | 1488/26250 [20:32<5:31:29,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3951
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.28
+
+
+
+
+  6%|███▎                                                     | 1498/26250 [20:40<5:31:08,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7432
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.29
+
+
+
+
+  6%|███▎                                                     | 1507/26250 [20:47<5:36:04,  1.23it/s]
+Attempted to log scalar metric loss:
+0.5763
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.29
+
+
+
+
+
+  6%|███▎                                                     | 1520/26250 [20:58<5:33:06,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5282
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.29
+
+
+
+
+  6%|███▎                                                    | 1529/26250 [21:08<10:01:03,  1.46s/it]
+Attempted to log scalar metric loss:
+0.5375
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.29
+
+
+
+
+  6%|███▎                                                     | 1538/26250 [21:15<5:42:17,  1.20it/s]
+Attempted to log scalar metric loss:
+0.476
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.29
+
+
+
+
+  6%|███▎                                                     | 1548/26250 [21:23<5:31:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6287
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.3
+
+
+
+
+  6%|███▍                                                     | 1558/26250 [21:32<5:33:02,  1.24it/s]
+Attempted to log scalar metric loss:
+0.596
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.3
+
+
+
+
+  6%|███▍                                                     | 1568/26250 [21:40<5:30:29,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5425
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.3
+
+
+
+
+  6%|███▍                                                     | 1578/26250 [21:48<5:30:25,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4938
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.3
+
+
+
+
+  6%|███▍                                                     | 1588/26250 [21:56<5:31:22,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4621
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.3
+
+
+
+
+  6%|███▍                                                     | 1598/26250 [22:04<5:30:47,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4409
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.3
+
+
+
+
+  6%|███▍                                                     | 1607/26250 [22:11<5:37:21,  1.22it/s]
+Attempted to log scalar metric loss:
+0.6443
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.31
+
+
+
+
+  6%|███▌                                                     | 1617/26250 [22:20<5:30:36,  1.24it/s]
+Attempted to log scalar metric loss:
+0.471
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.31
+
+
+
+
+  6%|███▌                                                     | 1627/26250 [22:28<5:29:24,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4173
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.31
+
+
+
+
+  6%|███▌                                                     | 1637/26250 [22:36<5:31:17,  1.24it/s]
+Attempted to log scalar metric loss:
+0.9751
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.31
+
+
+
+
+  6%|███▌                                                     | 1647/26250 [22:44<5:30:04,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5699
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.31
+
+
+
+
+  6%|███▌                                                     | 1657/26250 [22:52<5:31:05,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7684
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.32
+
+
+
+
+  6%|███▌                                                     | 1667/26250 [23:00<5:29:31,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6199
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.32
+
+
+
+
+
+  6%|███▋                                                     | 1680/26250 [23:10<5:29:47,  1.24it/s]
+Attempted to log scalar metric loss:
+0.686
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.32
+
+
+
+
+  6%|███▋                                                     | 1690/26250 [23:18<5:28:43,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5942
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.32
+
+
+
+
+
+  6%|███▋                                                    | 1702/26250 [23:32<10:26:28,  1.53s/it]
+Attempted to log scalar metric loss:
+0.5554
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.32
+
+
+
+  7%|███▋                                                     | 1709/26250 [23:37<5:53:17,  1.16it/s]
+Attempted to log scalar metric loss:
+0.6466
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.33
+
+
+
+
+  7%|███▋                                                     | 1719/26250 [23:45<5:29:36,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4269
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.33
+
+
+
+
+  7%|███▊                                                     | 1729/26250 [23:53<5:28:14,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3204
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.33
+
+
+
+
+  7%|███▊                                                     | 1739/26250 [24:01<5:28:27,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5749
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.33
+
+
+
+
+  7%|███▊                                                     | 1749/26250 [24:09<5:29:32,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4784
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.33
+
+
+
+
+  7%|███▊                                                     | 1759/26250 [24:17<5:27:59,  1.24it/s]
+Attempted to log scalar metric loss:
+0.8349
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.34
+
+
+
+
+  7%|███▊                                                     | 1769/26250 [24:26<5:28:32,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4916
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.34
+
+
+
+
+  7%|███▊                                                     | 1779/26250 [24:34<5:28:21,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3501
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.34
+
+
+
+
+  7%|███▉                                                     | 1789/26250 [24:42<5:27:30,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7449
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.34
+
+
+
+
+  7%|███▉                                                     | 1799/26250 [24:50<5:27:25,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4394
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.34
+
+
+
+
+  7%|███▉                                                     | 1808/26250 [24:57<5:32:57,  1.22it/s]
+Attempted to log scalar metric loss:
+0.9277
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.34
+
+
+
+
+  7%|███▉                                                     | 1818/26250 [25:05<5:24:57,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7375
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.35
+
+
+
+
+  7%|███▉                                                     | 1828/26250 [25:13<5:27:20,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5518
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.35
+
+
+
+
+  7%|███▉                                                     | 1838/26250 [25:21<5:30:24,  1.23it/s]
+Attempted to log scalar metric loss:
+0.3107
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.35
+
+
+
+
+  7%|████                                                     | 1848/26250 [25:30<5:26:52,  1.24it/s]
+Attempted to log scalar metric loss:
+0.571
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.35
+
+
+
+
+  7%|████                                                     | 1858/26250 [25:38<5:26:23,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5757
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.35
+
+
+
+
+
+  7%|████                                                     | 1869/26250 [25:50<9:53:25,  1.46s/it]
+Attempted to log scalar metric loss:
+0.6582
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.36
+
+
+
+
+
+  7%|████                                                     | 1881/26250 [25:59<5:30:24,  1.23it/s]
+Attempted to log scalar metric loss:
+0.6515
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.36
+
+
+
+
+  7%|████                                                     | 1891/26250 [26:07<5:25:20,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3301
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.36
+
+
+
+  7%|████                                                     | 1898/26250 [26:13<5:26:51,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3837
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.36
+
+
+
+
+  7%|████▏                                                    | 1908/26250 [26:21<5:29:12,  1.23it/s]
+Attempted to log scalar metric loss:
+0.3783
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.36
+
+
+
+
+
+  7%|████▏                                                    | 1920/26250 [26:31<5:26:06,  1.24it/s]
+Attempted to log scalar metric loss:
+0.8651
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.37
+
+
+
+  7%|████▏                                                    | 1928/26250 [26:37<5:25:23,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4109
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.37
+
+
+
+
+  7%|████▏                                                    | 1938/26250 [26:45<5:25:53,  1.24it/s]
+Attempted to log scalar metric loss:
+0.576
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.37
+
+
+
+
+  7%|████▏                                                    | 1948/26250 [26:54<5:23:25,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6219
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.37
+
+
+
+
+  7%|████▎                                                    | 1958/26250 [27:02<5:23:36,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6342
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.37
+
+
+
+
+  7%|████▎                                                    | 1968/26250 [27:10<5:24:27,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6432
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.38
+
+
+
+
+  8%|████▎                                                    | 1978/26250 [27:18<5:25:50,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5527
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.38
+
+
+
+
+
+  8%|████▎                                                    | 1990/26250 [27:27<5:25:46,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5269
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.38
+
+
+
+
+
+  8%|████▎                                                    | 2002/26250 [27:37<5:56:34,  1.13it/s]
+Attempted to log scalar metric loss:
+0.3587
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.38
+
+
+
+
+  8%|████▎                                                    | 2012/26250 [27:46<5:23:42,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4482
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.38
+
+
+
+
+  8%|████▍                                                    | 2022/26250 [27:54<5:26:42,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3865
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.38
+
+
+
+  8%|████▍                                                    | 2029/26250 [27:59<5:24:44,  1.24it/s]
+Attempted to log scalar metric loss:
+0.453
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.39
+
+
+
+
+  8%|████▍                                                    | 2040/26250 [28:11<6:12:13,  1.08it/s]
+Attempted to log scalar metric loss:
+0.5564
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.39
+
+
+
+  8%|████▍                                                    | 2047/26250 [28:17<5:28:53,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4412
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.39
+
+
+
+
+
+  8%|████▍                                                    | 2059/26250 [28:27<5:24:59,  1.24it/s]
+Attempted to log scalar metric loss:
+0.8161
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.39
+
+
+
+
+  8%|████▍                                                    | 2069/26250 [28:35<5:24:38,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5117
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.39
+
+
+
+  8%|████▌                                                    | 2077/26250 [28:41<5:24:49,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5674
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.4
+
+
+
+
+  8%|████▌                                                    | 2087/26250 [28:49<5:25:09,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5208
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.4
+
+
+
+
+
+  8%|████▌                                                    | 2099/26250 [28:59<5:25:01,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5697
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.4
+
+
+
+
+  8%|████▌                                                    | 2109/26250 [29:07<5:26:22,  1.23it/s]
+Attempted to log scalar metric loss:
+0.6832
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.4
+
+
+
+
+  8%|████▌                                                    | 2119/26250 [29:16<5:21:33,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3764
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.4
+
+
+
+
+  8%|████▌                                                    | 2129/26250 [29:24<5:23:10,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5005
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.41
+
+
+
+
+  8%|████▋                                                    | 2139/26250 [29:32<5:21:54,  1.25it/s]
+Attempted to log scalar metric loss:
+0.614
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.41
+
+
+
+
+  8%|████▋                                                    | 2149/26250 [29:40<5:19:54,  1.26it/s]
+Attempted to log scalar metric loss:
+0.4692
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.41
+
+
+
+
+
+  8%|████▋                                                    | 2161/26250 [29:49<5:24:14,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5796
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.41
+
+
+
+
+  8%|████▋                                                    | 2171/26250 [29:57<5:19:41,  1.26it/s]
+Attempted to log scalar metric loss:
+0.3928
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.41
+
+
+
+  8%|████▋                                                    | 2179/26250 [30:04<5:18:47,  1.26it/s]
+Attempted to log scalar metric loss:
+0.6198
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.42
+
+
+
+
+  8%|████▊                                                    | 2189/26250 [30:12<5:21:37,  1.25it/s]
+Attempted to log scalar metric loss:
+0.633
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.42
+
+
+
+
+
+  8%|████▊                                                    | 2199/26250 [30:23<7:36:09,  1.14s/it]
+Attempted to log scalar metric loss:
+0.549
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.42
+
+
+
+
+  8%|████▊                                                    | 2209/26250 [30:31<5:27:16,  1.22it/s]
+Attempted to log scalar metric loss:
+0.6062
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.42
+
+
+
+
+  8%|████▊                                                    | 2218/26250 [30:39<5:23:55,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4812
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.42
+
+
+
+
+  8%|████▊                                                    | 2229/26250 [30:47<5:22:07,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6543
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.42
+
+
+
+
+  9%|████▊                                                    | 2238/26250 [30:55<5:22:10,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6289
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.43
+
+
+
+
+  9%|████▉                                                    | 2248/26250 [31:03<5:22:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4088
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.43
+
+
+
+
+  9%|████▉                                                    | 2258/26250 [31:11<5:23:27,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6399
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.43
+
+
+
+
+  9%|████▉                                                    | 2268/26250 [31:19<5:20:47,  1.25it/s]
+Attempted to log scalar metric loss:
+0.386
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.43
+
+
+
+
+  9%|████▉                                                    | 2278/26250 [31:27<5:22:03,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4854
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.43
+
+
+
+
+  9%|████▉                                                    | 2288/26250 [31:35<5:22:51,  1.24it/s]
+Attempted to log scalar metric loss:
+0.439
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.44
+
+
+
+
+  9%|████▉                                                    | 2298/26250 [31:43<5:21:44,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4091
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.44
+
+
+
+
+  9%|█████                                                    | 2307/26250 [31:51<5:27:50,  1.22it/s]
+Attempted to log scalar metric loss:
+0.4562
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.44
+
+
+
+
+  9%|█████                                                    | 2317/26250 [31:59<5:24:37,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4509
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.44
+
+
+
+
+  9%|█████                                                    | 2327/26250 [32:07<5:22:18,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2879
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.44
+
+
+
+
+  9%|█████                                                    | 2337/26250 [32:15<5:21:10,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4739
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.45
+
+
+
+
+
+  9%|█████                                                    | 2350/26250 [32:25<5:21:48,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6224
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.45
+
+
+
+
+  9%|█████                                                    | 2360/26250 [32:34<5:19:31,  1.25it/s]
+Attempted to log scalar metric loss:
+0.2569
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.45
+
+
+
+
+  9%|█████▏                                                   | 2368/26250 [32:43<7:33:17,  1.14s/it]
+Attempted to log scalar metric loss:
+0.5064
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.45
+
+
+
+
+  9%|█████▏                                                   | 2378/26250 [32:51<5:23:51,  1.23it/s]
+Attempted to log scalar metric loss:
+0.5895
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.45
+
+
+
+
+  9%|█████▏                                                   | 2388/26250 [32:59<5:18:24,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5842
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.46
+
+
+
+
+  9%|█████▏                                                   | 2398/26250 [33:07<5:20:15,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6323
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.46
+
+
+
+
+  9%|█████▏                                                   | 2407/26250 [33:15<5:22:26,  1.23it/s]
+Attempted to log scalar metric loss:
+0.6458
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.46
+
+
+
+
+  9%|█████▏                                                   | 2417/26250 [33:23<5:20:41,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4479
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.46
+
+
+
+
+  9%|█████▎                                                   | 2427/26250 [33:31<5:20:14,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3306
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.46
+
+
+
+
+  9%|█████▎                                                   | 2437/26250 [33:39<5:18:45,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3311
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.46
+
+
+
+
+  9%|█████▎                                                   | 2447/26250 [33:47<5:17:15,  1.25it/s]
+Attempted to log scalar metric loss:
+0.541
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.47
+
+
+
+
+  9%|█████▎                                                   | 2457/26250 [33:55<5:18:04,  1.25it/s]
+Attempted to log scalar metric loss:
+0.498
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.47
+
+
+
+
+  9%|█████▎                                                   | 2467/26250 [34:03<5:18:51,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5252
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.47
+
+
+
+
+  9%|█████▍                                                   | 2477/26250 [34:11<5:18:17,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3438
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.47
+
+
+
+
+  9%|█████▍                                                   | 2487/26250 [34:19<5:17:54,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6164
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.47
+
+
+
+
+
+ 10%|█████▍                                                   | 2499/26250 [34:29<5:17:44,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5185
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.48
+
+
+
+
+ 10%|█████▍                                                   | 2509/26250 [34:37<5:19:15,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5191
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.48
+
+
+
+
+ 10%|█████▍                                                   | 2519/26250 [34:45<5:15:56,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5853
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.48
+
+
+
+ 10%|█████▍                                                   | 2527/26250 [34:52<5:16:06,  1.25it/s]
+Attempted to log scalar metric loss:
+0.442
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.48
+
+
+
+
+ 10%|█████▌                                                   | 2537/26250 [35:03<5:58:39,  1.10it/s]
+Attempted to log scalar metric loss:
+0.4463
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.48
+
+
+
+
+ 10%|█████▌                                                   | 2547/26250 [35:11<5:17:50,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6701
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.49
+
+
+
+
+ 10%|█████▌                                                   | 2556/26250 [35:18<5:18:05,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6346
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.49
+
+
+
+
+
+ 10%|█████▌                                                   | 2569/26250 [35:29<5:18:22,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4616
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.49
+
+
+
+
+ 10%|█████▌                                                   | 2579/26250 [35:37<5:18:13,  1.24it/s]
+Attempted to log scalar metric loss:
+0.38
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.49
+
+
+
+
+ 10%|█████▌                                                   | 2589/26250 [35:45<5:18:01,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3431
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.49
+
+
+
+
+ 10%|█████▋                                                   | 2599/26250 [35:53<5:15:48,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3122
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.5
+
+
+
+
+ 10%|█████▋                                                   | 2608/26250 [36:01<5:20:56,  1.23it/s]
+Attempted to log scalar metric loss:
+0.3974
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.5
+
+
+
+
+ 10%|█████▋                                                   | 2618/26250 [36:09<5:14:54,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6417
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.5
+
+
+
+
+ 10%|█████▋                                                   | 2628/26250 [36:17<5:16:05,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4546
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.5
+
+
+
+
+ 10%|█████▋                                                   | 2638/26250 [36:25<5:17:42,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4392
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.5
+
+
+
+
+ 10%|█████▋                                                   | 2648/26250 [36:33<5:17:06,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2847
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.5
+
+
+
+
+ 10%|█████▊                                                   | 2658/26250 [36:41<5:17:11,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6484
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.51
+
+
+
+
+ 10%|█████▊                                                   | 2668/26250 [36:49<5:15:03,  1.25it/s]
+Attempted to log scalar metric loss:
+0.9007
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.51
+
+
+
+
+ 10%|█████▊                                                   | 2678/26250 [36:57<5:14:16,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6109
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.51
+
+
+
+
+
+ 10%|█████▊                                                   | 2689/26250 [37:06<5:15:45,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3909
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.51
+
+
+
+
+ 10%|█████▊                                                   | 2699/26250 [37:17<5:36:39,  1.17it/s]
+Attempted to log scalar metric loss:
+0.6354
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.51
+
+
+
+
+ 10%|█████▉                                                   | 2709/26250 [37:25<5:14:56,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7145
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.52
+
+
+
+
+ 10%|█████▉                                                   | 2719/26250 [37:33<5:14:11,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4392
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.52
+
+
+
+
+ 10%|█████▉                                                   | 2729/26250 [37:41<5:14:17,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3118
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.52
+
+
+
+
+ 10%|█████▉                                                   | 2739/26250 [37:49<5:15:56,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2015
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.52
+
+
+
+
+ 10%|█████▉                                                   | 2748/26250 [37:56<5:15:23,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5049
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.52
+
+
+
+
+ 11%|█████▉                                                   | 2758/26250 [38:05<5:16:15,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6561
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.53
+
+
+
+
+ 11%|██████                                                   | 2768/26250 [38:13<5:18:12,  1.23it/s]
+Attempted to log scalar metric loss:
+0.2652
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.53
+
+
+
+
+ 11%|██████                                                   | 2778/26250 [38:21<5:15:47,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7249
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.53
+
+
+
+
+ 11%|██████                                                   | 2788/26250 [38:29<5:16:15,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4243
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.53
+
+
+
+
+ 11%|██████                                                   | 2798/26250 [38:37<5:13:51,  1.25it/s]
+Attempted to log scalar metric loss:
+0.2449
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.53
+
+
+
+
+ 11%|██████                                                   | 2807/26250 [38:45<5:22:11,  1.21it/s]
+Attempted to log scalar metric loss:
+0.6922
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.54
+
+
+
+
+ 11%|██████                                                   | 2817/26250 [38:53<5:14:30,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2689
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.54
+
+
+
+
+ 11%|██████▏                                                  | 2827/26250 [39:01<5:14:50,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4851
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.54
+
+
+
+
+ 11%|██████▏                                                  | 2837/26250 [39:09<5:12:13,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6573
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.54
+
+
+
+
+ 11%|██████▏                                                  | 2847/26250 [39:17<5:14:09,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5901
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.54
+
+
+
+
+
+ 11%|██████▏                                                  | 2860/26250 [39:27<5:11:53,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6259
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.54
+
+
+
+
+ 11%|██████▏                                                  | 2869/26250 [39:38<5:33:38,  1.17it/s]
+Attempted to log scalar metric loss:
+0.4933
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.55
+
+
+
+
+ 11%|██████▎                                                  | 2879/26250 [39:46<5:14:48,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4657
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.55
+
+
+
+
+ 11%|██████▎                                                  | 2889/26250 [39:54<5:14:11,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6777
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.55
+
+
+
+
+ 11%|██████▎                                                  | 2899/26250 [40:02<5:13:17,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3976
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.55
+
+
+
+
+ 11%|██████▎                                                  | 2908/26250 [40:09<5:16:59,  1.23it/s]
+Attempted to log scalar metric loss:
+0.3186
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.55
+
+
+
+
+ 11%|██████▎                                                  | 2918/26250 [40:18<5:13:01,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3561
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.56
+
+
+
+
+ 11%|██████▎                                                  | 2928/26250 [40:26<5:14:17,  1.24it/s]
+Attempted to log scalar metric loss:
+0.9293
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.56
+
+
+
+
+ 11%|██████▍                                                  | 2938/26250 [40:34<5:12:10,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5339
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.56
+
+
+
+
+ 11%|██████▍                                                  | 2948/26250 [40:42<5:13:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5726
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.56
+
+
+
+
+ 11%|██████▍                                                  | 2958/26250 [40:50<5:14:11,  1.24it/s]
+Attempted to log scalar metric loss:
+0.467
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.56
+
+
+
+
+ 11%|██████▍                                                  | 2968/26250 [40:58<5:14:43,  1.23it/s]
+Attempted to log scalar metric loss:
+0.8359
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.57
+
+
+
+
+ 11%|██████▍                                                  | 2978/26250 [41:06<5:12:33,  1.24it/s]
+Attempted to log scalar metric loss:
+0.502
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.57
+
+
+
+
+ 11%|██████▍                                                  | 2988/26250 [41:14<5:11:21,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5375
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.57
+
+
+
+
+
+ 11%|██████▌                                                  | 3000/26250 [41:24<5:59:23,  1.08it/s]
+Attempted to log scalar metric loss:
+0.7275
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.57
+
+
+
+
+ 11%|██████▌                                                  | 3009/26250 [41:31<5:12:35,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2203
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.57
+
+
+
+
+ 12%|██████▌                                                  | 3019/26250 [41:40<5:13:24,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6381
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.58
+
+
+
+
+ 12%|██████▌                                                  | 3029/26250 [41:48<5:14:36,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4042
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.58
+
+
+
+
+ 12%|██████▌                                                  | 3038/26250 [41:58<9:36:03,  1.49s/it]
+Attempted to log scalar metric loss:
+0.3905
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.58
+
+
+
+
+ 12%|██████▌                                                  | 3047/26250 [42:05<5:21:29,  1.20it/s]
+Attempted to log scalar metric loss:
+0.5391
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.58
+
+
+
+
+ 12%|██████▋                                                  | 3057/26250 [42:13<5:11:38,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5169
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.58
+
+
+
+
+ 12%|██████▋                                                  | 3067/26250 [42:21<5:12:07,  1.24it/s]
+Attempted to log scalar metric loss:
+0.271
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.58
+
+
+
+
+ 12%|██████▋                                                  | 3077/26250 [42:29<5:10:16,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4664
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.59
+
+
+
+
+ 12%|██████▋                                                  | 3087/26250 [42:38<5:11:41,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4577
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.59
+
+
+
+
+
+ 12%|██████▋                                                  | 3099/26250 [42:47<5:08:54,  1.25it/s]
+Attempted to log scalar metric loss:
+0.2721
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.59
+
+
+
+
+ 12%|██████▊                                                  | 3109/26250 [42:56<5:11:30,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6389
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.59
+
+
+
+
+ 12%|██████▊                                                  | 3119/26250 [43:04<5:10:17,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5154
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.59
+
+
+
+
+ 12%|██████▊                                                  | 3129/26250 [43:12<5:08:11,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5432
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.6
+
+
+
+
+ 12%|██████▊                                                  | 3139/26250 [43:20<5:07:55,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3439
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.6
+
+
+
+
+ 12%|██████▊                                                  | 3149/26250 [43:28<5:09:13,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3281
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.6
+
+
+
+
+ 12%|██████▊                                                  | 3159/26250 [43:36<5:15:49,  1.22it/s]
+Attempted to log scalar metric loss:
+0.5741
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.6
+
+
+
+
+ 12%|██████▉                                                  | 3169/26250 [43:44<5:11:13,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4336
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.6
+
+
+
+
+ 12%|██████▉                                                  | 3179/26250 [43:52<5:09:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6575
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.61
+
+
+
+
+ 12%|██████▉                                                  | 3189/26250 [44:00<5:06:26,  1.25it/s]
+Attempted to log scalar metric loss:
+0.521
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.61
+
+
+
+
+ 12%|██████▉                                                  | 3199/26250 [44:08<5:06:54,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3739
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.61
+
+
+
+
+ 12%|██████▉                                                  | 3209/26250 [44:20<5:31:10,  1.16it/s]
+Attempted to log scalar metric loss:
+0.7304
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.61
+
+
+
+
+ 12%|██████▉                                                  | 3219/26250 [44:28<5:10:46,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3449
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.61
+
+
+
+
+ 12%|███████                                                  | 3229/26250 [44:36<5:10:31,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4561
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.62
+
+
+
+
+ 12%|███████                                                  | 3239/26250 [44:44<5:10:05,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2863
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.62
+
+
+
+
+ 12%|███████                                                  | 3249/26250 [44:52<5:08:16,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6161
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.62
+
+
+
+
+ 12%|███████                                                  | 3259/26250 [45:00<5:09:44,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4702
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.62
+
+
+
+
+ 12%|███████                                                  | 3269/26250 [45:08<5:09:11,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5028
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.62
+
+
+
+
+ 12%|███████                                                  | 3279/26250 [45:16<5:06:35,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5174
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.62
+
+
+
+
+ 13%|███████▏                                                 | 3289/26250 [45:24<5:07:38,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4602
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.63
+
+
+
+
+ 13%|███████▏                                                 | 3298/26250 [45:32<5:09:26,  1.24it/s]
+Attempted to log scalar metric loss:
+0.8645
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.63
+
+
+
+
+ 13%|███████▏                                                 | 3308/26250 [45:40<5:10:07,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4529
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.63
+
+
+
+
+ 13%|███████▏                                                 | 3318/26250 [45:48<5:07:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6033
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.63
+
+
+
+
+ 13%|███████▏                                                 | 3328/26250 [45:56<5:07:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4252
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.63
+
+
+
+
+ 13%|███████▏                                                 | 3338/26250 [46:04<5:08:05,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6934
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.64
+
+
+
+
+ 13%|███████▎                                                 | 3348/26250 [46:12<5:05:10,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5612
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.64
+
+
+
+
+ 13%|███████▎                                                 | 3358/26250 [46:20<5:08:02,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5302
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.64
+
+
+
+
+ 13%|███████▎                                                 | 3368/26250 [46:28<5:05:04,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6643
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.64
+
+
+
+
+
+ 13%|███████▎                                                 | 3379/26250 [46:40<6:11:14,  1.03it/s]
+Attempted to log scalar metric loss:
+0.6131
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.64
+
+
+
+
+ 13%|███████▎                                                 | 3389/26250 [46:48<5:08:58,  1.23it/s]
+Attempted to log scalar metric loss:
+0.5217
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.65
+
+
+
+
+ 13%|███████▍                                                 | 3399/26250 [46:56<5:07:10,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3988
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.65
+
+
+
+
+ 13%|███████▍                                                 | 3409/26250 [47:05<5:07:54,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2462
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.65
+
+
+
+
+ 13%|███████▍                                                 | 3419/26250 [47:13<5:05:13,  1.25it/s]
+Attempted to log scalar metric loss:
+0.1681
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.65
+
+
+
+
+ 13%|███████▍                                                 | 3429/26250 [47:21<5:03:10,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7738
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.65
+
+
+
+
+ 13%|███████▍                                                 | 3439/26250 [47:29<5:07:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6329
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.66
+
+
+
+
+ 13%|███████▍                                                 | 3449/26250 [47:37<5:05:35,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3704
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.66
+
+
+
+
+ 13%|███████▌                                                 | 3459/26250 [47:45<5:04:57,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4632
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.66
+
+
+
+
+ 13%|███████▌                                                 | 3469/26250 [47:53<5:05:05,  1.24it/s]
+Attempted to log scalar metric loss:
+0.625
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.66
+
+
+
+
+ 13%|███████▌                                                 | 3479/26250 [48:01<5:05:18,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7682
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.66
+
+
+
+
+ 13%|███████▌                                                 | 3489/26250 [48:09<5:05:46,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4462
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.66
+
+
+
+
+ 13%|███████▌                                                 | 3499/26250 [48:17<5:05:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6832
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.67
+
+
+
+
+ 13%|███████▌                                                 | 3508/26250 [48:25<5:08:37,  1.23it/s]
+Attempted to log scalar metric loss:
+0.5212
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.67
+
+
+
+
+ 13%|███████▋                                                 | 3518/26250 [48:33<5:03:03,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4512
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.67
+
+
+
+
+ 13%|███████▋                                                 | 3528/26250 [48:41<5:04:46,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3005
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.67
+
+
+
+
+ 13%|███████▋                                                 | 3538/26250 [48:49<5:05:00,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5113
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.67
+
+
+
+
+ 14%|███████▋                                                 | 3548/26250 [49:00<9:24:35,  1.49s/it]
+Attempted to log scalar metric loss:
+0.3583
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.68
+
+
+
+
+ 14%|███████▋                                                 | 3558/26250 [49:08<5:12:31,  1.21it/s]
+Attempted to log scalar metric loss:
+0.3307
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.68
+
+
+
+
+ 14%|███████▋                                                 | 3568/26250 [49:17<5:04:03,  1.24it/s]
+Attempted to log scalar metric loss:
+0.666
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.68
+
+
+
+
+ 14%|███████▊                                                 | 3577/26250 [49:24<5:06:27,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4762
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.68
+
+
+
+
+ 14%|███████▊                                                 | 3587/26250 [49:32<5:05:00,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3861
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.68
+
+
+
+
+
+ 14%|███████▊                                                 | 3599/26250 [49:42<5:02:43,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5547
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.69
+
+
+
+
+ 14%|███████▊                                                 | 3609/26250 [49:50<5:06:29,  1.23it/s]
+Attempted to log scalar metric loss:
+0.3261
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.69
+
+
+
+
+ 14%|███████▊                                                 | 3619/26250 [49:58<5:04:11,  1.24it/s]
+Attempted to log scalar metric loss:
+0.1819
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.69
+
+
+
+
+ 14%|███████▉                                                 | 3629/26250 [50:06<5:03:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5828
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.69
+
+
+
+
+ 14%|███████▉                                                 | 3639/26250 [50:14<5:10:40,  1.21it/s]
+Attempted to log scalar metric loss:
+0.4284
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.69
+
+
+
+
+ 14%|███████▉                                                 | 3649/26250 [50:23<5:04:58,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7277
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.7
+
+
+
+
+ 14%|███████▉                                                 | 3659/26250 [50:31<5:01:46,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3611
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.7
+
+
+
+
+ 14%|███████▉                                                 | 3669/26250 [50:39<5:05:06,  1.23it/s]
+Attempted to log scalar metric loss:
+0.8036
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.7
+
+
+
+
+ 14%|███████▉                                                 | 3678/26250 [50:46<5:06:15,  1.23it/s]
+Attempted to log scalar metric loss:
+0.2408
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.7
+
+
+
+
+ 14%|████████                                                 | 3688/26250 [50:54<5:06:05,  1.23it/s]
+Attempted to log scalar metric loss:
+0.6419
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.7
+
+
+
+
+ 14%|████████                                                 | 3698/26250 [51:02<5:02:05,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6797
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.7
+
+
+
+
+ 14%|████████                                                 | 3707/26250 [51:10<5:07:57,  1.22it/s]
+Attempted to log scalar metric loss:
+0.4687
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.71
+
+
+
+
+
+ 14%|████████                                                 | 3718/26250 [51:22<9:10:38,  1.47s/it]
+Attempted to log scalar metric loss:
+0.6216
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.71
+
+
+
+
+ 14%|████████                                                 | 3728/26250 [51:30<5:07:25,  1.22it/s]
+Attempted to log scalar metric loss:
+0.5424
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.71
+
+
+
+
+ 14%|████████                                                 | 3738/26250 [51:38<5:01:22,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6237
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.71
+
+
+
+
+ 14%|████████▏                                                | 3748/26250 [51:46<5:02:48,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7507
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.71
+
+
+
+
+ 14%|████████▏                                                | 3757/26250 [51:53<5:00:21,  1.25it/s]
+Attempted to log scalar metric loss:
+0.569
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.72
+
+
+
+
+ 14%|████████▏                                                | 3767/26250 [52:01<4:59:26,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5042
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.72
+
+
+
+
+ 14%|████████▏                                                | 3777/26250 [52:09<5:01:54,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3959
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.72
+
+
+
+
+ 14%|████████▏                                                | 3787/26250 [52:18<5:07:24,  1.22it/s]
+Attempted to log scalar metric loss:
+0.5513
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.72
+
+
+
+
+
+ 14%|████████▏                                                | 3799/26250 [52:27<5:03:50,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4425
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.72
+
+
+
+
+ 15%|████████▎                                                | 3809/26250 [52:36<5:06:03,  1.22it/s]
+Attempted to log scalar metric loss:
+0.4216
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.73
+
+
+
+
+ 15%|████████▎                                                | 3819/26250 [52:44<5:00:55,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4649
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.73
+
+
+
+
+ 15%|████████▎                                                | 3829/26250 [52:52<4:57:27,  1.26it/s]
+Attempted to log scalar metric loss:
+0.4063
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.73
+
+
+
+
+ 15%|████████▎                                                | 3839/26250 [53:00<5:01:46,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2463
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.73
+
+
+
+
+ 15%|████████▎                                                | 3849/26250 [53:08<5:06:02,  1.22it/s]
+Attempted to log scalar metric loss:
+0.3799
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.73
+
+
+
+
+ 15%|████████▍                                                | 3859/26250 [53:16<5:03:35,  1.23it/s]
+Attempted to log scalar metric loss:
+0.3011
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.74
+
+
+
+
+ 15%|████████▍                                                | 3869/26250 [53:24<5:02:51,  1.23it/s]
+Attempted to log scalar metric loss:
+0.454
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.74
+
+
+
+
+ 15%|████████▍                                                | 3878/26250 [53:32<5:00:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5835
+Attempted to log scalar metric learning_rate:
+
+
+
+
+
+ 15%|████████▍                                                | 3889/26250 [53:44<5:22:06,  1.16it/s]
+0.74
+{'loss': 0.5835, 'learning_rate': 1e-05, 'epoch': 0.74}
+Attempted to log scalar metric loss:
+0.6625
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.74
+
+
+
+
+ 15%|████████▍                                                | 3899/26250 [53:52<5:04:08,  1.22it/s]
+Attempted to log scalar metric loss:
+0.3989
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.74
+
+
+
+
+ 15%|████████▍                                                | 3908/26250 [53:59<5:02:51,  1.23it/s]
+Attempted to log scalar metric loss:
+0.697
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.74
+
+
+
+
+ 15%|████████▌                                                | 3918/26250 [54:08<5:05:51,  1.22it/s]
+Attempted to log scalar metric loss:
+0.5474
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.75
+
+
+
+
+ 15%|████████▌                                                | 3928/26250 [54:16<5:01:06,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3815
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.75
+
+
+
+
+ 15%|████████▌                                                | 3938/26250 [54:24<4:59:21,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6113
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.75
+
+
+
+
+ 15%|████████▌                                                | 3948/26250 [54:32<4:57:13,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5576
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.75
+
+
+
+
+ 15%|████████▌                                                | 3958/26250 [54:40<5:01:59,  1.23it/s]
+Attempted to log scalar metric loss:
+0.204
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.75
+
+
+
+
+ 15%|████████▌                                                | 3968/26250 [54:48<5:05:28,  1.22it/s]
+Attempted to log scalar metric loss:
+0.2727
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.76
+
+
+
+
+ 15%|████████▋                                                | 3978/26250 [54:56<4:56:39,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5831
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.76
+
+
+
+
+ 15%|████████▋                                                | 3988/26250 [55:04<4:59:04,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3608
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.76
+
+
+
+
+
+ 15%|████████▋                                                | 4000/26250 [55:14<5:41:11,  1.09it/s]
+Attempted to log scalar metric loss:
+0.308
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.76
+
+
+
+
+ 15%|████████▋                                                | 4009/26250 [55:22<5:02:58,  1.22it/s]
+Attempted to log scalar metric loss:
+0.3156
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.76
+
+
+
+
+ 15%|████████▋                                                | 4019/26250 [55:30<4:58:45,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6355
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.77
+
+
+
+
+ 15%|████████▋                                                | 4029/26250 [55:38<4:59:43,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4812
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.77
+
+
+
+
+ 15%|████████▊                                                | 4039/26250 [55:46<4:57:32,  1.24it/s]
+Attempted to log scalar metric loss:
+0.467
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.77
+
+
+
+
+ 15%|████████▊                                                | 4049/26250 [55:57<9:00:14,  1.46s/it]
+Attempted to log scalar metric loss:
+0.434
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.77
+
+
+
+
+ 15%|████████▊                                                | 4059/26250 [56:05<5:03:44,  1.22it/s]
+Attempted to log scalar metric loss:
+0.6954
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.77
+
+
+
+
+ 15%|████████▊                                                | 4068/26250 [56:12<4:57:07,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5763
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.78
+
+
+
+
+ 16%|████████▊                                                | 4078/26250 [56:20<4:57:51,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7577
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.78
+
+
+
+
+ 16%|████████▉                                                | 4088/26250 [56:28<4:57:14,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3274
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.78
+
+
+
+
+ 16%|████████▉                                                | 4098/26250 [56:36<4:58:04,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4652
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.78
+
+
+
+
+ 16%|████████▉                                                | 4108/26250 [56:45<5:00:16,  1.23it/s]
+Attempted to log scalar metric loss:
+0.3987
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.78
+
+
+
+
+ 16%|████████▉                                                | 4118/26250 [56:53<4:56:35,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6202
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.78
+
+
+
+
+ 16%|████████▉                                                | 4128/26250 [57:01<4:55:44,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6529
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.79
+
+
+
+
+ 16%|████████▉                                                | 4138/26250 [57:09<4:55:47,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3558
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.79
+
+
+
+
+ 16%|█████████                                                | 4147/26250 [57:16<4:57:39,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5141
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.79
+
+
+
+
+ 16%|█████████                                                | 4157/26250 [57:24<4:57:25,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5558
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.79
+
+
+
+
+ 16%|█████████                                                | 4167/26250 [57:32<4:56:25,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7073
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.79
+
+
+
+
+ 16%|█████████                                                | 4177/26250 [57:40<4:56:54,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5858
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.8
+
+
+
+
+ 16%|█████████                                                | 4187/26250 [57:48<4:55:43,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3101
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.8
+
+
+
+
+
+ 16%|█████████                                                | 4199/26250 [57:58<4:56:13,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4654
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.8
+
+
+
+
+ 16%|█████████▏                                               | 4209/26250 [58:07<4:59:12,  1.23it/s]
+Attempted to log scalar metric loss:
+0.6455
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.8
+
+
+
+
+ 16%|█████████▏                                               | 4218/26250 [58:17<8:56:34,  1.46s/it]
+Attempted to log scalar metric loss:
+0.3974
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.8
+
+
+
+
+ 16%|█████████▏                                               | 4228/26250 [58:25<5:01:18,  1.22it/s]
+Attempted to log scalar metric loss:
+0.4599
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.81
+
+
+
+
+ 16%|█████████▏                                               | 4237/26250 [58:32<4:55:31,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4473
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.81
+
+
+
+
+ 16%|█████████▏                                               | 4247/26250 [58:40<4:56:01,  1.24it/s]
+Attempted to log scalar metric loss:
+0.8262
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.81
+
+
+
+
+ 16%|█████████▏                                               | 4257/26250 [58:48<4:56:30,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5231
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.81
+
+
+
+
+ 16%|█████████▎                                               | 4267/26250 [58:56<4:52:47,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3794
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.81
+
+
+
+
+ 16%|█████████▎                                               | 4277/26250 [59:05<4:54:24,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5866
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.82
+
+
+
+
+ 16%|█████████▎                                               | 4287/26250 [59:13<4:53:23,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7823
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.82
+
+
+
+
+
+ 16%|█████████▎                                               | 4299/26250 [59:22<4:54:40,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7012
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.82
+
+
+
+
+ 16%|█████████▎                                               | 4309/26250 [59:31<4:56:21,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4175
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.82
+
+
+
+
+ 16%|█████████▍                                               | 4319/26250 [59:39<4:54:10,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4143
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.82
+
+
+
+
+ 16%|█████████▍                                               | 4329/26250 [59:47<4:53:18,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5042
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.82
+
+
+
+
+ 17%|█████████▍                                               | 4339/26250 [59:55<4:55:03,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5376
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.83
+
+
+
+
+ 17%|█████████                                              | 4349/26250 [1:00:03<4:53:46,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4343
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.83
+
+
+
+
+ 17%|█████████▏                                             | 4359/26250 [1:00:11<4:54:15,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4555
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.83
+
+
+
+
+ 17%|█████████▏                                             | 4369/26250 [1:00:19<4:53:45,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4737
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.83
+
+
+
+
+ 17%|█████████▏                                             | 4379/26250 [1:00:30<9:12:57,  1.52s/it]
+Attempted to log scalar metric loss:
+0.5399
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.83
+
+
+
+
+ 17%|█████████▏                                             | 4389/26250 [1:00:38<4:58:59,  1.22it/s]
+Attempted to log scalar metric loss:
+0.5183
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.84
+
+
+
+
+ 17%|█████████▏                                             | 4398/26250 [1:00:46<4:53:20,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4923
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.84
+
+
+
+
+ 17%|█████████▏                                             | 4408/26250 [1:00:54<4:56:13,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4644
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.84
+
+
+
+
+ 17%|█████████▎                                             | 4418/26250 [1:01:02<4:49:52,  1.26it/s]
+Attempted to log scalar metric loss:
+0.6453
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.84
+
+
+
+
+ 17%|█████████▎                                             | 4428/26250 [1:01:10<4:49:35,  1.26it/s]
+Attempted to log scalar metric loss:
+0.4459
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.84
+
+
+
+
+ 17%|█████████▎                                             | 4438/26250 [1:01:18<4:53:01,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5722
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.85
+
+
+
+
+ 17%|█████████▎                                             | 4448/26250 [1:01:26<4:50:19,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4629
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.85
+
+
+
+
+ 17%|█████████▎                                             | 4458/26250 [1:01:34<4:49:59,  1.25it/s]
+Attempted to log scalar metric loss:
+0.2078
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.85
+
+
+
+
+ 17%|█████████▎                                             | 4468/26250 [1:01:42<4:53:27,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5922
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.85
+
+
+
+
+ 17%|█████████▍                                             | 4478/26250 [1:01:50<4:51:13,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6255
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.85
+
+
+
+
+ 17%|█████████▍                                             | 4488/26250 [1:01:58<4:56:02,  1.23it/s]
+Attempted to log scalar metric loss:
+0.5134
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.86
+
+
+
+
+ 17%|█████████▍                                             | 4498/26250 [1:02:06<4:49:14,  1.25it/s]
+Attempted to log scalar metric loss:
+0.526
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.86
+
+
+
+
+ 17%|█████████▍                                             | 4507/26250 [1:02:14<4:54:21,  1.23it/s]
+Attempted to log scalar metric loss:
+0.7396
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.86
+
+
+
+
+ 17%|█████████▍                                             | 4517/26250 [1:02:22<4:49:22,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4993
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.86
+
+
+
+
+ 17%|█████████▍                                             | 4527/26250 [1:02:30<4:48:59,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4823
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.86
+
+
+
+
+
+
+ 17%|█████████▌                                             | 4541/26250 [1:02:45<9:00:22,  1.49s/it]
+Attempted to log scalar metric loss:
+0.5327
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.86
+
+
+
+ 17%|█████████▌                                             | 4548/26250 [1:02:50<5:11:52,  1.16it/s]
+Attempted to log scalar metric loss:
+0.33
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.87
+
+
+
+
+ 17%|█████████▌                                             | 4558/26250 [1:02:58<4:50:33,  1.24it/s]
+Attempted to log scalar metric loss:
+0.8461
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.87
+
+
+
+
+ 17%|█████████▌                                             | 4568/26250 [1:03:06<4:50:54,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2625
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.87
+
+
+
+
+ 17%|█████████▌                                             | 4578/26250 [1:03:14<4:49:28,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5978
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.87
+
+
+
+
+ 17%|█████████▌                                             | 4588/26250 [1:03:22<4:51:33,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6789
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.87
+
+
+
+
+ 18%|█████████▋                                             | 4598/26250 [1:03:30<4:52:32,  1.23it/s]
+Attempted to log scalar metric loss:
+0.435
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.88
+
+
+
+
+ 18%|█████████▋                                             | 4607/26250 [1:03:38<4:55:09,  1.22it/s]
+Attempted to log scalar metric loss:
+0.3781
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.88
+
+
+
+
+ 18%|█████████▋                                             | 4617/26250 [1:03:46<4:49:59,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3651
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.88
+
+
+
+
+ 18%|█████████▋                                             | 4627/26250 [1:03:54<4:48:56,  1.25it/s]
+Attempted to log scalar metric loss:
+0.2501
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.88
+
+
+
+
+ 18%|█████████▋                                             | 4637/26250 [1:04:02<4:47:40,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5263
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.88
+
+
+
+
+
+ 18%|█████████▋                                             | 4649/26250 [1:04:12<4:56:01,  1.22it/s]
+Attempted to log scalar metric loss:
+0.5776
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.89
+
+
+
+
+ 18%|█████████▊                                             | 4659/26250 [1:04:20<4:50:17,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2328
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.89
+
+
+
+
+ 18%|█████████▊                                             | 4669/26250 [1:04:28<4:50:14,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5498
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.89
+
+
+
+
+ 18%|█████████▊                                             | 4679/26250 [1:04:36<4:49:28,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7359
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.89
+
+
+
+
+ 18%|█████████▊                                             | 4689/26250 [1:04:44<4:47:06,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3765
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.89
+
+
+
+
+ 18%|█████████▊                                             | 4699/26250 [1:04:52<4:51:29,  1.23it/s]
+Attempted to log scalar metric loss:
+0.5965
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.9
+
+
+
+
+
+ 18%|█████████▊                                             | 4711/26250 [1:05:03<4:53:44,  1.22it/s]
+Attempted to log scalar metric loss:
+1.1446
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.9
+
+
+
+ 18%|█████████▉                                             | 4718/26250 [1:05:11<5:30:58,  1.08it/s]
+Attempted to log scalar metric loss:
+0.3276
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.9
+
+
+
+
+
+ 18%|█████████▉                                             | 4730/26250 [1:05:21<4:50:14,  1.24it/s]
+Attempted to log scalar metric loss:
+0.1777
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.9
+
+
+
+
+ 18%|█████████▉                                             | 4740/26250 [1:05:29<4:48:31,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3976
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.9
+
+
+
+ 18%|█████████▉                                             | 4748/26250 [1:05:36<4:46:12,  1.25it/s]
+Attempted to log scalar metric loss:
+0.3888
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.9
+
+
+
+
+ 18%|█████████▉                                             | 4758/26250 [1:05:44<4:47:07,  1.25it/s]
+Attempted to log scalar metric loss:
+0.6993
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.91
+
+
+
+
+ 18%|█████████▉                                             | 4768/26250 [1:05:52<4:43:54,  1.26it/s]
+Attempted to log scalar metric loss:
+0.6723
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.91
+
+
+
+
+ 18%|██████████                                             | 4778/26250 [1:06:00<4:45:18,  1.25it/s]
+Attempted to log scalar metric loss:
+0.7709
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.91
+
+
+
+
+ 18%|██████████                                             | 4788/26250 [1:06:08<4:47:15,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4596
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.91
+
+
+
+
+ 18%|██████████                                             | 4798/26250 [1:06:16<4:45:11,  1.25it/s]
+Attempted to log scalar metric loss:
+0.9026
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.91
+
+
+
+
+ 18%|██████████                                             | 4808/26250 [1:06:24<4:47:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3224
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.92
+
+
+
+
+ 18%|██████████                                             | 4818/26250 [1:06:32<4:47:42,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4541
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.92
+
+
+
+
+ 18%|██████████                                             | 4828/26250 [1:06:40<4:47:53,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3214
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.92
+
+
+
+
+ 18%|██████████▏                                            | 4837/26250 [1:06:47<4:48:51,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3194
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.92
+
+
+
+
+ 18%|██████████▏                                            | 4847/26250 [1:06:55<4:46:48,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5556
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.92
+
+
+
+
+ 19%|██████████▏                                            | 4857/26250 [1:07:03<4:46:27,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3328
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.93
+
+
+
+
+ 19%|██████████▏                                            | 4867/26250 [1:07:11<4:47:12,  1.24it/s]
+Attempted to log scalar metric loss:
+0.7133
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.93
+
+
+
+
+ 19%|██████████▏                                            | 4877/26250 [1:07:19<4:45:00,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4787
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.93
+
+
+
+
+ 19%|██████████▏                                            | 4887/26250 [1:07:27<4:44:07,  1.25it/s]
+Attempted to log scalar metric loss:
+0.2602
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.93
+
+
+
+
+
+ 19%|██████████▎                                            | 4899/26250 [1:07:40<5:13:35,  1.13it/s]
+Attempted to log scalar metric loss:
+0.5462
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.93
+
+
+
+
+ 19%|██████████▎                                            | 4909/26250 [1:07:49<4:46:31,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3752
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.94
+
+
+
+ 19%|██████████▎                                            | 4917/26250 [1:07:55<4:43:41,  1.25it/s]
+Attempted to log scalar metric loss:
+0.9013
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.94
+
+
+
+
+ 19%|██████████▎                                            | 4927/26250 [1:08:03<4:45:17,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4403
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.94
+
+
+
+
+
+ 19%|██████████▎                                            | 4939/26250 [1:08:13<4:50:41,  1.22it/s]
+Attempted to log scalar metric loss:
+0.4338
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.94
+
+
+
+
+ 19%|██████████▎                                            | 4949/26250 [1:08:21<4:46:25,  1.24it/s]
+Attempted to log scalar metric loss:
+0.2892
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.94
+
+
+
+
+ 19%|██████████▍                                            | 4959/26250 [1:08:29<4:45:10,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4101
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.94
+
+
+
+
+ 19%|██████████▍                                            | 4969/26250 [1:08:37<4:46:23,  1.24it/s]
+Attempted to log scalar metric loss:
+0.438
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.95
+
+
+
+
+ 19%|██████████▍                                            | 4979/26250 [1:08:45<4:45:49,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6769
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.95
+
+
+
+
+ 19%|██████████▍                                            | 4989/26250 [1:08:53<4:44:17,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4088
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.95
+
+
+
+
+ 19%|██████████▍                                            | 4999/26250 [1:09:01<4:46:02,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3966
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.95
+
+
+
+
+ 19%|██████████▍                                            | 5008/26250 [1:09:09<4:48:28,  1.23it/s]
+Attempted to log scalar metric loss:
+0.3806
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.95
+
+
+
+
+ 19%|██████████▌                                            | 5018/26250 [1:09:17<4:43:20,  1.25it/s]
+Attempted to log scalar metric loss:
+0.4456
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.96
+
+
+
+
+ 19%|██████████▌                                            | 5028/26250 [1:09:25<4:42:58,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5321
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.96
+
+
+
+
+ 19%|██████████▌                                            | 5038/26250 [1:09:33<4:44:08,  1.24it/s]
+Attempted to log scalar metric loss:
+0.326
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.96
+
+
+
+
+ 19%|██████████▌                                            | 5048/26250 [1:09:41<4:44:57,  1.24it/s]
+Attempted to log scalar metric loss:
+0.3073
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.96
+
+
+
+
+ 19%|██████████▌                                            | 5058/26250 [1:09:52<4:56:15,  1.19it/s]
+Attempted to log scalar metric loss:
+0.7727
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.96
+
+
+
+
+ 19%|██████████▌                                            | 5068/26250 [1:10:00<4:46:21,  1.23it/s]
+Attempted to log scalar metric loss:
+0.4385
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.97
+
+
+
+
+ 19%|██████████▋                                            | 5077/26250 [1:10:07<4:43:23,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5575
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.97
+
+
+
+
+ 19%|██████████▋                                            | 5087/26250 [1:10:15<4:43:15,  1.25it/s]
+Attempted to log scalar metric loss:
+0.2852
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.97
+
+
+
+
+
+ 19%|██████████▋                                            | 5099/26250 [1:10:25<4:44:25,  1.24it/s]
+Attempted to log scalar metric loss:
+0.4758
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.97
+
+
+
+
+ 19%|██████████▋                                            | 5109/26250 [1:10:34<4:46:27,  1.23it/s]
+Attempted to log scalar metric loss:
+0.18
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.97
+
+
+
+
+ 20%|██████████▋                                            | 5119/26250 [1:10:42<4:43:36,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5165
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.98
+
+
+
+
+ 20%|██████████▋                                            | 5129/26250 [1:10:50<4:43:39,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6151
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.98
+
+
+
+
+ 20%|██████████▊                                            | 5139/26250 [1:10:58<4:41:45,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5456
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.98
+
+
+
+
+ 20%|██████████▊                                            | 5149/26250 [1:11:06<4:41:41,  1.25it/s]
+Attempted to log scalar metric loss:
+0.5907
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.98
+
+
+
+
+ 20%|██████████▊                                            | 5159/26250 [1:11:14<4:42:32,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5699
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.98
+
+
+
+
+ 20%|██████████▊                                            | 5169/26250 [1:11:22<4:42:51,  1.24it/s]
+Attempted to log scalar metric loss:
+0.6878
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.98
+
+
+
+
+ 20%|██████████▊                                            | 5179/26250 [1:11:30<4:38:58,  1.26it/s]
+Attempted to log scalar metric loss:
+0.3495
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.99
+
+
+
+
+ 20%|██████████▊                                            | 5189/26250 [1:11:38<4:41:34,  1.25it/s]
+Attempted to log scalar metric loss:
+0.2448
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.99
+
+
+
+
+ 20%|██████████▉                                            | 5199/26250 [1:11:46<4:41:59,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5071
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.99
+
+
+
+
+
+ 20%|██████████▉                                            | 5211/26250 [1:11:59<8:39:57,  1.48s/it]
+Attempted to log scalar metric loss:
+0.523
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.99
+
+
+
+
+ 20%|██████████▉                                            | 5221/26250 [1:12:07<4:48:39,  1.21it/s]
+Attempted to log scalar metric loss:
+0.5779
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.99
+
+
+
+ 20%|██████████▉                                            | 5228/26250 [1:12:13<4:42:17,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5013
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+1.0
+
+
+
+
+ 20%|██████████▉                                            | 5238/26250 [1:12:21<4:41:21,  1.24it/s]
+Attempted to log scalar metric loss:
+0.5077
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+1.0
+
+
+
+
+ 20%|███████████                                            | 5250/26250 [1:12:31<4:40:29,  1.25it/s][INFO|trainer.py:2107] 2025-02-14 20:56:22,124 >> ***** Running Evaluation *****
+[INFO|trainer.py:2109] 2025-02-14 20:56:22,124 >>   Num examples = 133219
+[INFO|trainer.py:2112] 2025-02-14 20:56:22,124 >>   Batch size = 4
+  0%|                                     | 3/33305 [00:00<1:57:44,  4.71it/s]
+Attempted to log scalar metric loss:
+0.4583
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

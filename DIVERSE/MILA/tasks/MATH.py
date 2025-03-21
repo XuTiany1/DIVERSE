@@ -194,6 +194,43 @@ class MATH(Task):
         """
 
         return None
+    
+
+
+    @staticmethod
+    def extract_final_number(self, response: str):
+        """
+        Extracts the final numerical value from the response string.
+        This function looks for numbers that may include commas, a dollar sign,
+        a sign (+/-), and an optional decimal part.
+        
+        If a number is found, it returns it as an int or float.
+        If no number is found, it returns 0.
+        """
+        # This regex pattern matches:
+        # - An optional sign (- or +)
+        # - An optional dollar sign ($)
+        # - A digit (with possible commas in the middle)
+        # - An optional decimal part
+        pattern = re.compile(r'[-+]?\$?\d[\d,]*(?:\.\d+)?')
+        matches = pattern.findall(response)
+        
+        if not matches:
+            return 0
+
+        # Grab the last match
+        final_number_str = matches[-1]
+        
+        # Remove common extraneous symbols like '$' and commas
+        final_number_str = final_number_str.replace('$', '').replace(',', '')
+        
+        try:
+            # Convert to float first, then to int (truncates any decimals)
+            return int(float(final_number_str))
+        except ValueError:
+            return 0
+
+
 
 
     @staticmethod

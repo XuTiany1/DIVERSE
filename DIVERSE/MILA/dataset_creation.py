@@ -1,9 +1,10 @@
 import argparse
 import os
 import json
+import sys
 from methods.naive_solve import naive_solve
 from tasks.MATH import MATH
-#from model.deberta_v3.deberta_verifier import Verifier
+from model.deberta_v3.deberta_verifier import Verifier
 
 
     
@@ -49,6 +50,12 @@ def convert_pretty_printed_to_jsonl(input_path, output_path):
 # ====================Main Logic STARTS HERE=========================
 # ===================================================================
 
+print("Python executable:", sys.executable)
+print("PYTHONPATH:", os.getenv("PYTHONPATH"))
+print("sys.path:")
+for p in sys.path:
+    print("  ", p)
+
 # Define argparse namespace
 args = argparse.Namespace( 
     task='MGSM', 
@@ -56,7 +63,8 @@ args = argparse.Namespace(
     naive_run=False, 
     number_generate_sample=1, 
     total_dataset_sample = 250,
-    languages = ['orm', 'sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul'],
+    # 'sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul', 'amh', 'ewe', 'hau', 'ibo', 
+    languages = ['kin', 'lin', 'lug'],
     prompt_used=[0,1,2,3,4,5],
     selection_method='voting',
     checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565',
@@ -71,7 +79,7 @@ args = argparse.Namespace(
 correct_count = 0
 
 # Load verifier only if using chain-of-thought generation
-#verifier = Verifier(args)
+verifier = Verifier(args)
 
 run_folder = os.path.join("multilingual_reasoning_dataset")
 os.makedirs(run_folder, exist_ok=True)
@@ -121,87 +129,37 @@ for lang in args.languages:
 
         # Compute a dictionary mapping each reasoning path to its verifier probability.
         reasoning_path_probability = task.compute_probability(task, 
-                                                              model_output, 
+                                                              model_output[1:], 
                                                               english_question, 
                                                               verifier)
-
-
-
-
-        # Second, get the straight up model answer
-        args.generate_method ='cot'
-        model_output = naive_solve(args, task, idx, to_print=False)
 
 
         record = {
             "question": english_question,
             "ground_truth": ground_truth_answer,
+            "direct_answer": model_output[0][0],
             "reasoning_paths": []
         }
 
+        for reasoning_path, probability in reasoning_path_probability.items():
+            record["reasoning_paths"].append({
+                "chain": reasoning_path,
+                "answer": task.extract_final_number(task, reasoning_path),
+                "probability": probability
+            })
+        # Append the record to the JSON Lines file.
+        with open(json_filename, "a") as fp:
+            fp.write(json.dumps(record) + "\n")
+
+        print(f"Recorded instance {idx}")
+
+    # After processing all instances for this language-prompt experiment,
+    # log the questions that caused errors.
+    if error_questions:
+        error_log_path = os.path.join(run_folder, f"{lang}_error_questions.log")
+        with open(error_log_path, "w") as ef:
+            for q in error_questions:
+                ef.write(q + "\n")
+        print(f"Error log saved to {error_log_path}")
 
 
-
-
-# ===================================================================
-# =======================Set up Dataset Loop=========================
-# ===================================================================
-
-# Process dataset only if required
-if (args.post_process_dataset == True):
-
-    # Set up prompt and probability info
-    for lang in args.languages:
-
-        args.lang = lang
-        task = MATH(args)
-        # task = MgsmTask(args)
-
-        data_file_path = f"DIVERSE/logs/AFRI_MGSM-cot-dataset/{lang}/koko/5/chain_of_thought_records.jsonl"
-        #data_file_path = f"DIVERSE/logs/MGSM-cot-dataset/{lang}/susu/5/chain_of_thought_records.jsonl"
-
-        run_folder = os.path.join("results", "AFRI_MGSM-cot-test-dataset", lang)
-        # run_folder = os.path.join("results", "MGSM-cot-test-dataset", lang)
-        os.makedirs(run_folder, exist_ok=True)
-
-        reasoning_with_prob_info_path = os.path.join(run_folder, "overall_experiment.jsonl")
-        reasoning_with_prob_info_log = open(reasoning_with_prob_info_path, "w", encoding="utf-8")
-
-        error_extraction_path = os.path.join(run_folder, "error_verifier.log")
-        error_extraction_log = open(error_extraction_path, "w", encoding="utf-8")
-
-
-        with open(data_file_path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-
-        # Loop through the entire file
-        for idx, line in enumerate(0, start=1):
-            
-            # Extract from jsonl
-            record = json.loads(line)
-            ground_truth = record.get("ground_truth")
-            english_question = record.get("question", "No question found")
-            all_reasoning_paths = record.get("reasoning_paths", [])
-
-            answer_probs = {}
-
-            for path in all_reasoning_paths:
-
-                #norm_ans = safe_extract_answer(task, path.get("chain", ""), error_extraction_log)
-                norm_ans = None
-                prob = path.get("probability", 0)
-
-                if norm_ans is not None:
-                    answer_probs.setdefault(norm_ans, []).append(prob)
-            
-            log_entry = {
-                "problem": english_question,
-                "record": record,
-                "verifier_probability": answer_probs
-            }
-
-            # Write the combined log entry as pretty-printed JSON.
-            reasoning_with_prob_info_log.write(json.dumps(log_entry, indent=2) + "\n")
-
-        reasoning_with_prob_info_log.close()
-        error_extraction_log.close()

@@ -1,0 +1,90 @@
+  0%|                                                                                  | 0/5 [00:00<?, ?it/s]/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:64: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 20%|██████████████▊                                                           | 1/5 [00:01<00:06,  1.64s/it][INFO|trainer.py:2107] 2025-02-23 21:14:22,054 >> ***** Running Evaluation *****
+[INFO|trainer.py:2109] 2025-02-23 21:14:22,054 >>   Num examples = 1
+[INFO|trainer.py:2112] 2025-02-23 21:14:22,054 >>   Batch size = 16
+  0%|                                                                                 | 0/10 [00:00<?, ?it/s]
+  0%|                                                                                  | 0/1 [00:00<?, ?it/s]
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/runpy.py", line 194, in _run_module_as_mains]
+    return _run_code(code, main_globals, None,
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 71, in <module>
+    cli.main()
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 501, in main
+    run()
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 460, in <module>
+    main()
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 395, in main
+    trainer.train(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1334, in train
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1405, in _maybe_log_save_evaluate
+    metrics = self.evaluate()
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1993, in evaluate
+    output = eval_loop(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 2213, in evaluation_loop
+    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 378, in compute_metrics
+    return metric.compute(predictions=scores, references=scores)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/datasets/metric.py", line 402, in compute
+    output = self._compute(predictions=predictions, references=references, **kwargs)
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/verifier_metrics.py", line 78, in _compute
+    result.update(compute_results_avg(self.cases, rand_k=100, repeat_time=10))
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/utils.py", line 772, in compute_results_avg
+    result_dict = compute_results(data, rand_k=rand_k)
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/utils.py", line 745, in compute_results
+    slice = x.preds if rand_k == len(x.preds) else random.sample(x.preds, rand_k)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/random.py", line 363, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+Traceback (most recent call last):
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 71, in <module>
+    cli.main()
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 501, in main
+    run()
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+  File "/home/mila/x/xut/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 460, in <module>
+    main()
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 395, in main
+    trainer.train(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1334, in train
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1405, in _maybe_log_save_evaluate
+    metrics = self.evaluate()
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1993, in evaluate
+    output = eval_loop(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 2213, in evaluation_loop
+    metrics = self.compute_metrics(EvalPrediction(predictions=all_preds, label_ids=all_labels))
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/run_ner.py", line 378, in compute_metrics
+    return metric.compute(predictions=scores, references=scores)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/datasets/metric.py", line 402, in compute
+    output = self._compute(predictions=predictions, references=references, **kwargs)
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/verifier_metrics.py", line 78, in _compute
+    result.update(compute_results_avg(self.cases, rand_k=100, repeat_time=10))
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/utils.py", line 772, in compute_results_avg
+    result_dict = compute_results(data, rand_k=rand_k)
+  File "/home/mila/x/xut/github/DIVERSE/DIVERSE/code/src/utils.py", line 745, in compute_results
+    slice = x.preds if rand_k == len(x.preds) else random.sample(x.preds, rand_k)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/random.py", line 363, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative

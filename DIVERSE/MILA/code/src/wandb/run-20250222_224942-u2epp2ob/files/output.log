@@ -1,0 +1,429 @@
+
+  0%|                                                             | 0/6565 [00:00<?, ?it/s]libibverbs: Warning: couldn't load driver 'libmlx4-rdmav34.so': libmlx4-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libvmw_pvrdma-rdmav34.so': libvmw_pvrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': libhns-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libirdma-rdmav34.so': libirdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libmthca-rdmav34.so': libmthca-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libqedr-rdmav34.so': libqedr-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': libsiw-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libocrdma-rdmav34.so': libocrdma-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libhfi1verbs-rdmav34.so': libhfi1verbs-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libcxgb4-rdmav34.so': libcxgb4-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libipathverbs-rdmav34.so': libipathverbs-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libbnxt_re-rdmav34.so': libbnxt_re-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': librxe-rdmav34.so: cannot open shared object file: No such file or directory
+/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/nn/parallel/_functions.py:64: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+
+
+  0%|                                                   | 7/6565 [00:08<1:34:46,  1.15it/s]
+Attempted to log scalar metric loss:
+1.2985
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.01
+
+
+
+
+  0%|▏                                                 | 19/6565 [00:17<1:18:14,  1.39it/s]
+Attempted to log scalar metric loss:
+1.1784
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.02
+
+
+
+  0%|▏                                                 | 27/6565 [00:23<1:18:04,  1.40it/s]
+Attempted to log scalar metric loss:
+0.99
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.02
+
+
+
+
+  1%|▎                                                 | 39/6565 [00:31<1:18:49,  1.38it/s]
+Attempted to log scalar metric loss:
+0.8827
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.03
+
+
+
+
+  1%|▎                                                 | 49/6565 [00:39<1:18:38,  1.38it/s]
+Attempted to log scalar metric loss:
+0.8489
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.04
+
+
+
+  1%|▍                                                 | 57/6565 [00:45<1:19:58,  1.36it/s]
+Attempted to log scalar metric loss:
+0.7394
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.05
+
+
+
+
+  1%|▌                                                 | 68/6565 [00:53<1:18:52,  1.37it/s]
+Attempted to log scalar metric loss:
+0.7447
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.05
+
+
+
+
+  1%|▌                                                 | 79/6565 [01:01<1:18:48,  1.37it/s]
+Attempted to log scalar metric loss:
+0.7252
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.06
+
+
+
+  1%|▋                                                 | 87/6565 [01:07<1:18:57,  1.37it/s]
+Attempted to log scalar metric loss:
+0.691
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.07
+
+
+
+
+  1%|▋                                                 | 98/6565 [01:15<1:19:11,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6828
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.08
+
+
+
+
+  2%|▊                                                | 109/6565 [01:23<1:18:51,  1.36it/s]
+Attempted to log scalar metric loss:
+0.7416
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.08
+
+
+
+  2%|▊                                                | 117/6565 [01:29<1:18:52,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6781
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.09
+
+
+
+
+  2%|▉                                                | 128/6565 [01:37<1:18:37,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6947
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.1
+
+
+
+
+  2%|█                                                | 139/6565 [01:45<1:18:05,  1.37it/s]
+Attempted to log scalar metric loss:
+0.7122
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.11
+
+
+
+
+  2%|█                                                | 150/6565 [01:53<1:28:05,  1.21it/s]
+Attempted to log scalar metric loss:
+0.7053
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.11
+
+
+
+
+  2%|█▏                                               | 161/6565 [02:01<1:18:30,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6823
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.12
+
+
+
+  3%|█▎                                               | 169/6565 [02:07<1:18:12,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6842
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.13
+
+
+
+  3%|█▎                                               | 177/6565 [02:13<1:17:38,  1.37it/s]
+Attempted to log scalar metric loss:
+0.6449
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.14
+
+
+
+
+  3%|█▍                                               | 188/6565 [02:21<1:18:08,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6453
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.14
+
+
+
+
+  3%|█▍                                               | 199/6565 [02:29<1:17:31,  1.37it/s]
+Attempted to log scalar metric loss:
+0.6484
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.15
+
+
+
+
+  3%|█▌                                               | 209/6565 [02:37<1:17:52,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6675
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.16
+
+
+
+  3%|█▋                                               | 218/6565 [02:43<1:17:53,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6527
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.17
+
+
+
+
+  3%|█▋                                               | 229/6565 [02:52<1:17:27,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6028
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.18
+
+
+
+
+
+  4%|█▊                                               | 242/6565 [03:01<1:17:27,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6199
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.18
+
+
+
+  4%|█▊                                               | 250/6565 [03:07<1:16:49,  1.37it/s]
+Attempted to log scalar metric loss:
+0.6816
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.19
+
+
+
+  4%|█▉                                               | 259/6565 [03:13<1:16:21,  1.38it/s]
+Attempted to log scalar metric loss:
+0.6833
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.2
+
+
+
+  4%|█▉                                               | 267/6565 [03:19<1:16:20,  1.38it/s]
+Attempted to log scalar metric loss:
+0.6121
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.21
+
+
+
+
+  4%|██                                               | 278/6565 [03:27<1:16:55,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6747
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.21
+
+
+
+
+  4%|██▏                                              | 289/6565 [03:35<1:16:31,  1.37it/s]
+Attempted to log scalar metric loss:
+0.6525
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.22
+
+
+
+
+  5%|██▏                                              | 299/6565 [03:43<1:16:31,  1.36it/s]
+Attempted to log scalar metric loss:
+0.642
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.23
+
+
+
+
+  5%|██▎                                              | 310/6565 [03:51<1:16:33,  1.36it/s]
+Attempted to log scalar metric loss:
+0.6018
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.24
+
+
+
+  5%|██▎                                              | 318/6565 [03:57<1:18:26,  1.33it/s]
+Attempted to log scalar metric loss:
+0.5964
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.24
+
+
+
+
+  5%|██▍                                              | 329/6565 [04:06<1:15:55,  1.37it/s]
+Attempted to log scalar metric loss:
+0.589
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.25
+
+
+
+  5%|██▌                                              | 337/6565 [04:11<1:15:59,  1.37it/s]
+Attempted to log scalar metric loss:
+0.6082
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.26
+
+
+
+
+  5%|██▌                                              | 348/6565 [04:19<1:15:31,  1.37it/s]
+Attempted to log scalar metric loss:
+0.6249
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.27
+
+
+
+  5%|██▋                                              | 356/6565 [04:25<1:15:49,  1.36it/s]
+Attempted to log scalar metric loss:
+0.5591
+Attempted to log scalar metric learning_rate:
+1e-05
+Attempted to log scalar metric epoch:
+0.27
+
+
+  6%|██▋                                              | 363/6565 [04:30<1:16:13,  1.36it/s]Traceback (most recent call last):
+  File "run_ner.py", line 458, in <module>
+    main()
+  File "run_ner.py", line 393, in main
+    trainer.train(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1272, in train
+    tr_loss += self.training_step(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1752, in training_step
+    loss.backward()
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/tensor.py", line 221, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/autograd/__init__.py", line 130, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "run_ner.py", line 458, in <module>
+    main()
+  File "run_ner.py", line 393, in main
+    trainer.train(
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1272, in train
+    tr_loss += self.training_step(model, inputs)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/transformers/trainer.py", line 1752, in training_step
+    loss.backward()
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/tensor.py", line 221, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/mila/x/xut/.conda/envs/verifier_env/lib/python3.8/site-packages/torch/autograd/__init__.py", line 130, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
