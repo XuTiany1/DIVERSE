@@ -54,7 +54,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "cwd": "/home/mila/x/xut/github/DIVERSE/DIVERSE",
+            "cwd": "/home/mila/x/xut/github/DIVERSE/DIVERSE/MILA",
             "python": "/Users/tianyixu/Documents/github_projects/DIVERSE/verifier_env/bin/python",
         }  
     ]
