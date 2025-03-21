@@ -1,6 +1,6 @@
 --- Hyperparameters / Args ---
 task: MGSM
-lang: kin
+lang: lug
 naive_run: False
 number_generate_sample: 1
 total_dataset_sample: 250
@@ -11,3 +11,4 @@ checkpoint_path: /home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkp
 tokenizer_name: microsoft/deberta-v3-large
 generator_model: gpt-4o
 post_process_dataset: True
+generate_method: cot
