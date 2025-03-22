@@ -5,13 +5,16 @@ from tasks.MATH import MATH
 import evaluate
 
 
-
-
 # Set up arguments
 args = argparse.Namespace(
-    languages = ['sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul', 'amh', 'ewe', 'hau', 'ibo', 'kin', 'lin', 'lug']
+    #languages = ['sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul', 'amh', 'ewe', 'hau', 'ibo', 'kin', 'lin', 'lug']
+    #languages = ['bn', 'de', 'en', 'es', 'ja', 'ru', 'sw', 'te', 'th', 'zh']
+    languages = ['ibo']
 )
+
+
 exact_match_metric = evaluate.load("exact_match")
+
 
 for lang in args.languages:
 
@@ -249,9 +252,11 @@ for lang in args.languages:
             "----------------------\n"
         )
 
+
         # Write the combined log entry.
         overall_result_log.write(log_entry)
-        overall_result_log.flush()  # Force immediate write to file
+        overall_result_log.flush() 
+
 
         # If a method's prediction is wrong, append the entry to its corresponding error log.
         if verifier_only_ans is None or (gt_val is not None and float(verifier_only_ans) != gt_val):
@@ -260,6 +265,7 @@ for lang in args.languages:
             voting_verifier_error_log.write(log_entry)
         if voting_only_ans is None or (gt_val is not None and float(voting_only_ans) != gt_val):
             voting_error_log.write(log_entry)
+
 
     # Close all log files.
     overall_result_log.close()

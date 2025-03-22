@@ -64,7 +64,9 @@ args = argparse.Namespace(
     number_generate_sample=1, 
     total_dataset_sample = 250,
     # 'sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul', 'amh', 'ewe', 'hau', 'ibo', 
-    languages = ['sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul', 'amh', 'ewe', 'hau', 'ibo', 'kin', 'lin', 'lug'],
+    #languages = ['sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul', 'amh', 'ewe', 'hau', 'ibo', 'kin', 'lin', 'lug'],
+    # need to finish spanish
+    languages = ['ja', 'ru', 'sw', 'te', 'th', 'zh'],
     prompt_used=[0,1,2,3,4,5],
     selection_method='voting',
     checkpoint_path='/home/mila/x/xut/github/DIVERSE/DIVERSE/model/deberta_v3/checkpoint-6565',
