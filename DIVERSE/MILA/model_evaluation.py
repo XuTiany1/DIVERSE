@@ -9,7 +9,7 @@ import evaluate
 args = argparse.Namespace(
     #languages = ['sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul', 'amh', 'ewe', 'hau', 'ibo', 'kin', 'lin', 'lug']
     #languages = ['bn', 'de', 'en', 'es', 'ja', 'ru', 'sw', 'te', 'th', 'zh']
-    languages = ['ibo']
+    languages = ['fr']
 )
 
 
