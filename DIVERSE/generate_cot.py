@@ -41,8 +41,7 @@ if args.generate_method == "cot":
 # languages = ['zh']
 
 # 'amh', 'hau'
-languages = ['orm', 'sna', 'sot', 'swa', 'twi', 'vai', 'wol', 'xho', 'yor', 'zul']
-languages = ['hau']
+languages = ['twi', 'vai', 'wol', 'xho', 'yor', 'zul']
 prompts_to_use = [[0,1,2,3,4]]
 
 for lang in languages:
@@ -76,7 +75,7 @@ for lang in languages:
         remove_count = 0
 
         # Main loop over test instances
-        for idx in range(249, num_samples):
+        for idx in range(0, num_samples):
             proper_idx = idx - remove_count
 
             print(f"\n--- Running Test {idx} ---")
